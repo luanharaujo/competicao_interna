@@ -136,14 +136,17 @@ task  main()
   switch(estado_rodas) //switch da máquina de estados principal
   {
    case inicializar :    //estado de inicialização para a primeira iteração
+        //inicializando as variáveias para o robo andar para frente
         andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
         pote = -POTMAX;  //sentando as potências iniciais como as máximas
         potd = -POTMAX;  //as potencias são negativas pois os motores estão invertidos
+        ResetTachoCount(MD);//resetando o contador de giro do motor direiro
+        ResetTachoCount(MD);//resetando o contador de giro do motor esquerdo
         
         for(i=0; i<200; i++)//for para zerar o vetor de clibragem dos sensores
         {
-         vetor_calibragem[0][2][i];//zerando somatório do sensor da direita
-         voter_calibragem[1][2][i];//zerando somatório do sensor da esquerda
+         vetor_calibragem[0][2][i]=0;//zerando somatório do sensor da direita
+         voter_calibragem[1][2][i]=0;//zerando somatório do sensor da esquerda
         }
         
         i=0;//iniciando o contador para preencher o vetor vet_calibragem
@@ -162,8 +165,8 @@ task  main()
    break;  //fim do estado
    case inicializar2 : //estado de inicialização para as demais iterações
        temp_angulo = MotorTachoCount(MD);
-       temp_l_d =
-       temp_l_e =
+       temp_l_d =  Sensor(LSD);
+       temp_l_e =  Sensor(LSE);
    
    break; //fim do estado
   }
