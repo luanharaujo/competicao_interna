@@ -86,7 +86,7 @@ Máquina de estado
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
      inicializar, inicializar2,         //andar para frente até passar as linhas e regular os sensores
-     ir_centro                          //
+     ir_centro                          //função para
 };
 enum type_andar {          //possíveis movimentos do robo
      nao,                  //ficar parado
@@ -141,7 +141,7 @@ task  main()
         pote = -POTMAX;  //sentando as potências iniciais como as máximas
         potd = -POTMAX;  //as potencias são negativas pois os motores estão invertidos
         ResetTachoCount(MD);//resetando o contador de giro do motor direiro
-        ResetTachoCount(MD);//resetando o contador de giro do motor esquerdo
+        ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
         
         for(i=0; i<200; i++)//for para zerar o vetor de clibragem dos sensores
         {
