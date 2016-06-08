@@ -1,0 +1,21 @@
+/*teste do sendor de luminosidade*/
+
+#define CLEARLINE(L) TextOut(0,L,"                   ")
+
+
+task main()
+{
+     SetSensorLight(IN_2);
+     SetSensorLight(IN_3);
+
+     while(1)//void loop
+     {
+          CLEARLINE(LCD_LINE2);
+          CLEARLINE(LCD_LINE3);
+          NumOut(0,LCD_LINE2, Sensor(IN_2));
+          NumOut(0,LCD_LINE3, Sensor(IN_3));
+          
+          Wait(700);
+     }
+
+}

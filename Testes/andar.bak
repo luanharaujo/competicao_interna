@@ -1,0 +1,85 @@
+/*teste apenas para andar para frente e parar com o sensor de distancia*/
+
+/*definições*/
+//motores
+#define ME OUT_A
+#define MD OUT_C
+#define MDE OUT_AC
+
+//sensores
+#define US IN_4
+
+//variaveis globais
+int potd, pote;// potencia do motor direito e do motor esquerdo respectivamente
+
+//Flags
+int andar;
+
+//função principal
+task main()
+{
+ /*setando sensores*/
+ SetSensorLowspeed(US);
+
+ //inicializando as postências
+ potd = -80;
+ pote= -80;
+ 
+ //zerando os contadores
+ ResetTachoCount(MD);
+ ResetTachoCount(ME);
+
+ while(1)//void loop
+ {
+
+  if(SensorUS(US)>=15)//condição para parar robo de forma fácil nos testes
+  {
+   //andar
+   andar = 1;
+   }
+  else
+  {
+   //parar
+   andar = 0;
+  }
+
+
+  if(andar)
+  {
+    if(!(MotorTachoCount(MD) == MotorTachoCount(ME)))
+    {
+      if(MotorTachoCount(MD) < MotorTachoCount(ME))
+      {
+        if(pote > -85)
+        {
+         pote--;
+        }
+        else
+        {
+         potd++;
+        }
+      }
+      else if(MotorTachoCount(ME) < MotorTachoCount(MD))
+      {
+        if(potd > -85)
+        {
+         potd--;
+        }
+        else
+        {
+         pote++;
+        }
+      }
+    }
+
+
+    OnFwd(ME,pote);
+    OnFwd(MD,potd);
+  }
+  else
+  {
+   Off(MDE);
+  }
+  
+ }
+}

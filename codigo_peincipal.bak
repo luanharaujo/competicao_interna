@@ -1,0 +1,234 @@
+/*
+  Código do robo para competição interna da droid
+  Luan Haickel Araujo - 2016
+  
+  Competição: Seguir linhas
+              Pegar e selecionar bolinhas
+              Chegar no centro rápido
+              pegar bolinhas fora da linha
+              tempo total 3mim
+              limite de um cerebro
+                     4 sensores
+                     3 motores
+*/
+
+/*
+Máquina de estado
+
+                                                                           BRAÇO
+        MOTOR
+
+ +-----------------+                                                       +----------------+       +------------------+
+ |                 |                                                       |    Inicializa  |       |     Parado       | <-----------------+
+ |   Inicializar   |                                                       |                +-----> |                  |                   |
+ |                 |                                                       +----------------+       +----+-------------+                   |
+ +--------+--------+                                                                                     |                                 |
+          |                                                                                              +---------------------+           |
+          |                                                                                              V                     V           |
+          v                                                                                     +--------------+       +----------------+  |
+ +--------+--------+                                                                            |              |       |                |  |
+ |                 |                                                                            |   Aceita     |       |   Recusar      |  |
+ | ir para o centro|                                                                            |              |       |                |  |
+ |                 |                                                                            +-----+--------+       +----------------+  |
+ +--------+--------+                                                                                  |                                    |
+          |                                                                                           |                                    |
+          |                                                                                           +------------------------------------+
+          v
+ +--------+--------+
+ |                 |
+ |  Voltar para a  |
+ |      trilha     |
+ +--------+--------+
+          |
+          |
+          v                                                          +-----------------------+
++---------+-------------------------------------------------+        |                       |
+|                   SEGUIR A LINHA                          |        |  Procurar bolinha     |
+|      +------+                                             |  +---+ |                       | <---+
+|      |Frente+<----+---------------------------------+     |  |     |                       |     |
+|      +--+---+     |                                 |     |  |     +-----------------------+     |
+|         |         |                                 |     |  |                                   |
+| +-------+         |                                 |     |  |                                   |
+| |       v         |                                 |     |  |                                   |
+| |  +----+---------++       +----------------+       |     |  |  +--------------------+           |
+| |  | Direita leve  +------>+Direita brusco  +-------+     |  +> |                    |           |
+| |  +---------------+       +----------------+       |     |     |  Decidir caminho   |           |
+| |                                                   |     +---->+                    +-----------+
+| |                                                   |     |     |                    |
+| |  +---------------+       +----------------+       |     |     +--------------------+
+| +> | Esquerda leve +------>+Esquerda brusco +-------+     |
+|    +-----+---------+       +----------------+       |     |
+|          |                                          |     |
+|          |                                          |     |
+|          +------------------------------------------+     |
+|                                                           |
++-----------------------------------------------------------+
+
+
+
+
+
+*/
+
+/*Definicições*/
+//moteore
+#define ME OUT_A
+#define MD OUT_C
+#define MDE OUT_AC
+//sensores
+#define US IN_4
+#define LSD IN_2
+#define LSE IN_3
+#define RGB IN_1
+//parametros
+#define POTMAX 85
+
+/*Definições de Variáveis*/
+enum type_estado_rodas{                 //maquina de estado principal das rodas
+     inicializar, inicializar2,         //andar para frente até passar as linhas e regular os sensores
+     ir_centro                          //
+};
+enum type_andar {          //possíveis movimentos do robo
+     nao,                  //ficar parado
+     frente,               //ir para frente o mais rápido possível
+     direita_leve,         //virar levemente para a direita
+     direita_brusco,       //virar para a direita de forma bruca
+     esquerda_leve,        //virar levemente para a esquerda
+     esquerda_brusco       //virar para a esquerda de forma bruca
+
+/*Declaração de Variáveis Globais*/
+//estados
+type_estado_rodas estado_rodas;
+
+
+//flags
+type_andar andar;
+
+//potencias e parametros
+int potd, pote; //potencia do motor da esquerda e do motor da direita respectivamente
+
+//dados
+int vetor_calibragem[2][3][200];//vetor para mapear a resposta dos sensores de luz à resposta a 10cm de capitação de medição
+
+/*Declaração das funções*/
+int mm2degrees(float mm);//função que recebe uma distancia em milimetros e retornar
+void frente(void);//função que regula as potencias dos motores para eles andarem em linha reta
+
+/*Função Princiapal*/
+task  main()
+{
+ /*variáveis locais*/
+ int i;//contador
+ int temp_angulo, temp_l_d, temp_l_e;//variaveis temporárias para capitar dados dos sensores;
+
+ /*inicializando os estados*/
+ estado_rodas = inicializar;//maquina de estados principal
+ andar = nao;//inicializando parado por segurança
+ 
+ /*setando os sensores*/
+ SetSensorLight(LSD);//sensor de luz direito
+ SetSensorLight(LSE);//sensor de luz direito
+
+ while(true)//void loop
+ {
+
+  /*maquina estado do bloco de locamoção*/
+  switch(estado_rodas) //switch da máquina de estados principal
+  {
+   case inicializar :    //estado de inicialização para a primeira iteração
+        andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
+        pote = -POTMAX;  //sentando as potências iniciais como as máximas
+        potd = -POTMAX;  //as potencias são negativas pois os motores estão invertidos
+        
+        for(i=0; i<200; i++)//for para zerar o vetor de clibragem dos sensores
+        {
+         vetor_calibragem[0][2][i];//zerando somatório do sensor da direita
+         voter_calibragem[1][2][i];//zerando somatório do sensor da esquerda
+        }
+        
+        i=0;//iniciando o contador para preencher o vetor vet_calibragem
+        
+        //medição inicial
+        //sensor da direita
+        vetor_calibragem[0][0][0]=0;
+        vetor_calibragem[0][1][0]=Sensor(LSD);
+        vetor_calibragem[0][2][0]++;
+        //sensor da esquerda
+        vetor_calibragem[1][0][0]=0;
+        vetor_calibragem[1][1][0]=Sensor(LSE);
+        vetor_calibragem[1][2][0]++;
+
+        estado_rodas = inicializar2;//levando para o próximo estado
+   break;  //fim do estado
+   case inicializar2 : //estado de inicialização para as demais iterações
+       temp_angulo = MotorTachoCount(MD);
+       temp_l_d =
+       temp_l_e =
+   
+   break; //fim do estado
+  }
+  
+  /*Maquina de estado do braço*/
+  
+  /*saida dos motores das esteiras*/
+  
+  /*saida do motor do braço*/
+  switch(andar)
+  {
+   case nao: //caso seja para parar
+        OnFwd(ME,0);
+        OnFwd(MD,0);
+   break;//fim do caso
+   case frente://caso o robo deva andar para frente
+       frente();//regulando os motores para andarem para frente
+   break;//fim do caso
+  }
+  
+  //atualizando a saida dos motores
+  OnFwd(ME,pote);
+  OnFwd(MD,potd);
+  
+ }
+}
+
+/*Assinaturas das funções*/
+int
+
+void frente(void)//função que regula as potencias dos motores para eles andarem em linha reta
+{
+ if(!(MotorTachoCount(MD) == MotorTachoCount(ME)))
+ {
+  if(MotorTachoCount(MD) < MotorTachoCount(ME))
+  {
+   if(pote > POTMAX)
+   {
+    pote--;
+   }
+   else
+   {
+    potd++;
+   }
+  }
+  else if(MotorTachoCount(ME) < MotorTachoCount(MD))
+  {
+   if(potd > POTMAX)
+   {
+    potd--;
+   }
+   else
+   {
+    pote++;
+   }
+  }
+ }
+}
+
+
+
+
+
+
+
+
+
+

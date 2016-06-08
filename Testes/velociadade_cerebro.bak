@@ -1,0 +1,21 @@
+/*teste de velocidade do crebro*/
+
+#define CLEARLINE(L) TextOut(0,L,"                   ")
+
+
+task main()
+{
+     int i;
+     int vet[10000];
+
+     for(i=0;i<10000;i++)
+     {
+         vet[i]=i;
+     }
+
+     TextOut(0,L,"FIM")
+
+
+     //Wait(700);
+
+}
