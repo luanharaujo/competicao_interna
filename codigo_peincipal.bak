@@ -86,7 +86,7 @@ Máquina de estado
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
      inicializar, inicializar2,         //andar para frente até passar as linhas e regular os sensores
-     ir_centro                          //função para
+     ir_centro                          //função para ir para o centro o mais rápido possível
 };
 enum type_andar {          //possíveis movimentos do robo
      nao,                  //ficar parado
