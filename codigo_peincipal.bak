@@ -111,7 +111,7 @@ int potd, pote; //potencia do motor da esquerda e do motor da direita respectiva
 int vetor_calibragem[2][3][200];//vetor para mapear a resposta dos sensores de luz à resposta a 10cm de capitação de medição
 
 /*Declaração das funções*/
-int mm2degrees(float mm);//função que recebe uma distancia em milimetros e retornar
+int ang2line(float ang);//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
 void frente(void);//função que regula as potencias dos motores para eles andarem em linha reta
 
 /*Função Princiapal*/
@@ -167,6 +167,41 @@ task  main()
        temp_angulo = MotorTachoCount(MD);
        temp_l_d =  Sensor(LSD);
        temp_l_e =  Sensor(LSE);
+       ang2line(temp_angulo);
+       
+       if(ang2line(temp_angulo) < 5*(i+1))//caso ainda estaja na mesma medida
+       {
+        //sensor da direita
+        vetor_calibragem[0][1][i]+=Sensor(LSD);
+        vetor_calibragem[0][2][i]++;
+        //sensor da esquerda
+        vetor_calibragem[1][1][i]+=Sensor(LSE);
+        vetor_calibragem[1][2][i]++;
+       }
+       else//caso não esteja
+       {
+        //calcular a media anterior
+        //sensor da direita
+        vetor_calibragem[0][1][i] /= vetor_calibragem[0][2][i];
+
+        //sensor da esquerda
+        vetor_calibragem[1][1][i] /= vetor_calibragem[1][2][i];
+
+        //andando uma posição
+        i++;
+        
+        //checando se não é a ultima posição do vetor foi a ultima posição do vetor
+
+        //salvar a primeira medida da nova posição
+        //sensor da direita
+        vetor_calibragem[0][0][i]=i*5;
+        vetor_calibragem[0][1][0]=Sensor(LSD);
+        vetor_calibragem[0][2][0]=1;
+        //sensor da esquerda
+        vetor_calibragem[1][0][i]=i*5;
+        vetor_calibragem[1][1][0]=Sensor(LSE);
+        vetor_calibragem[1][2][0]=1;
+       }
    
    break; //fim do estado
   }
@@ -195,7 +230,10 @@ task  main()
 }
 
 /*Assinaturas das funções*/
-int
+int ang2line(float ang)//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
+{
+ return ((1142*ang)/360);
+}
 
 void frente(void)//função que regula as potencias dos motores para eles andarem em linha reta
 {

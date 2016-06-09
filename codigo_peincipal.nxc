@@ -172,20 +172,51 @@ task  main()
        if(ang2line(temp_angulo) < 5*(i+1))//caso ainda estaja na mesma medida
        {
         //sensor da direita
-        vetor_calibragem[0][1][0]+=Sensor(LSD);
-        vetor_calibragem[0][2][0]++;
+        vetor_calibragem[0][1][i]+=Sensor(LSD);
+        vetor_calibragem[0][2][i]++;
         //sensor da esquerda
-        vetor_calibragem[1][1][0]+=Sensor(LSE);
-        vetor_calibragem[1][2][0]++;
+        vetor_calibragem[1][1][i]+=Sensor(LSE);
+        vetor_calibragem[1][2][i]++;
        }
        else//caso não esteja
        {
         //calcular a media anterior
+        //sensor da direita
+        vetor_calibragem[0][1][i] /= vetor_calibragem[0][2][i];
+
+        //sensor da esquerda
+        vetor_calibragem[1][1][i] /= vetor_calibragem[1][2][i];
+
+        //andando uma posição
+        i++;
         
-        //salvar a primeira medida da nova posição
+        //checando se não é a ultima posição do vetor
+        if(i<200)//continua fazendo medições
+        {
+         //salvar a primeira medida da nova posição
+         //sensor da direita
+         vetor_calibragem[0][0][i]=i*5;
+         vetor_calibragem[0][1][0]=Sensor(LSD);
+         vetor_calibragem[0][2][0]=1;
+         //sensor da esquerda
+         vetor_calibragem[1][0][i]=i*5;
+         vetor_calibragem[1][1][0]=Sensor(LSE);
+         vetor_calibragem[1][2][0]=1;
+        }
+        else//sai do estado
+        {
+         andar = nao;//prando o robo para para passar para o estado de calibração
+         estado_rodas = calibrando; /******************************   MUDANÇA DE ESTADO   ***************************************/
+        }
        }
    
    break; //fim do estado
+   
+   case calibrando : //estado para escolher os valores de claro e escuro dos sensores de luz do rubo
+
+
+   break;  //fim do estado
+
   }
   
   /*Maquina de estado do braço*/
