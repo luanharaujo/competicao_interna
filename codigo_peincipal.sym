@@ -1,0 +1,1474 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001ang2line	6	1	0	4	2
+1	__DU0SetSensorLight_inline_main	5	1	4	4	10
+2	__signed_stack_001Frente	6	1	8	4	10
+3	__float_stack_001ang2line	10	1	12	4	2
+4	__D0main	6	1	16	4	140
+5	__D0Frente	6	1	20	4	24
+6	__D0SetSensorLight_inline_main	6	1	24	4	4
+7	__DU0main	5	1	28	4	7
+8	__signed_stack_006main	6	1	32	4	4
+9	__signed_stack_005main	6	1	36	4	4
+10	__ang2line_7qG2_ang_7qG2_000	10	1	40	4	3
+11	__signed_stack_007main	6	1	44	4	4
+12	__signed_stack_002main	6	1	48	4	82
+13	__signed_stack_001main	6	1	52	4	114
+14	__signed_stack_004main	6	1	56	4	44
+15	__signed_stack_003main	6	1	60	4	70
+16	__DF0ang2line	10	1	64	4	2
+17	__D0ang2line	6	1	68	4	2
+18	__main_7qG2_i_preto_e_7qG2_000	4	1	72	2	3
+19	potd	4	1	74	2	7
+20	pote	4	1	76	2	7
+21	__main_7qG2_i_7qG2_000	4	1	78	2	58
+22	__main_7qG2_temp_preto_d_7qG2_000	4	1	80	2	5
+23	__main_7qG2_temp_angulo_7qG2_000	4	1	82	2	3
+24	__main_7qG2_j_7qG2_000	4	1	84	2	7
+25	__main_7qG2_i_preto_d_7qG2_000	4	1	86	2	3
+26	branco_e	4	1	88	2	9
+27	preto_e	4	1	90	2	10
+28	__main_7qG2_temp_preto_e_7qG2_000	4	1	92	2	5
+29	preto_d	4	1	94	2	10
+30	__constVal360	4	0	96	2	1
+31	branco_d	4	1	98	2	9
+32	__constVal200	4	0	100	2	1
+33	__Frente_return	1	1	102	1	3
+34	____initialize_global_data_return	1	1	103	1	3
+35	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	104	1	4
+36	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	105	1	4
+37	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	106	1	4
+38	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	107	1	10
+39	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	108	1	4
+40	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	109	1	4
+41	__constVal96	2	0	110	1	4
+42	__constVal63	2	0	111	1	4
+43	__ang2line_return	1	1	112	1	5
+44	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	113	1	2
+45	__constValNeg85	2	0	114	1	2
+46	__constVal1	2	0	115	1	25
+47	__constVal0	2	1	116	1	21
+48	__ResetSensorPort	1	1	117	1	4
+49	__constVal32	2	0	118	1	12
+50	____ResetSensorSubroutine_return	1	1	119	1	4
+51	__ResetSensorTmp	1	1	120	1	2
+52	__constVal8	2	0	121	1	2
+53	__constVal2	2	0	122	1	12
+54	estado_rodas	1	1	123	1	4
+55	frente	1	0	124	1	1
+56	__constVal3	2	0	125	1	5
+57	andar	1	1	126	1	4
+58	inicializar2	1	0	127	1	1
+59	inicializar	1	1	128	1	1
+60	nao	1	1	129	1	2
+61	calibrando	1	0	130	1	1
+62	____vetor_calibragem_3_2	7	0	132	4	2
+63	____vetor_calibragem_3_2.____vetor_calibragem_3_2_type	4	0	0	2	0
+64	__vetor_calibragem_3	7	0	134	4	2
+65	__vetor_calibragem_3.__vetor_calibragem_3_type	7	0	0	4	0
+66	__vetor_calibragem_3.__vetor_calibragem_3_type.__vetor_calibragem_3_type_type	4	0	0	2	0
+67	__ArrHelper__main_236_1	7	0	136	4	4
+68	__ArrHelper__main_236_1.__ArrHelper__main_236_1_type	4	0	0	2	0
+69	vetor_calibragem	7	0	138	4	73
+70	vetor_calibragem.vetor_calibragem_type	7	0	0	4	0
+71	vetor_calibragem.vetor_calibragem_type.vetor_calibragem_type_type	7	0	0	4	0
+72	vetor_calibragem.vetor_calibragem_type.vetor_calibragem_type_type.vetor_calibragem_type_type_type	4	0	0	2	0
+73	__ArrHelper__main_237_1	7	0	140	4	4
+74	__ArrHelper__main_237_1.__ArrHelper__main_237_1_type	7	0	0	4	0
+75	__ArrHelper__main_237_1.__ArrHelper__main_237_1_type.__ArrHelper__main_237_1_type_type	4	0	0	2	0
+76	__ArrHelper__main_237_0	7	0	142	4	120
+77	__ArrHelper__main_237_0.__ArrHelper__main_237_0_type	7	0	0	4	0
+78	__ArrHelper__main_237_0.__ArrHelper__main_237_0_type.__ArrHelper__main_237_0_type_type	4	0	0	2	0
+79	__ArrHelper__main_236_0	7	0	144	4	108
+80	__ArrHelper__main_236_0.__ArrHelper__main_236_0_type	4	0	0	2	0
+#SOURCES
+Clump	Line	PC	Source
+0	122	0	#line 122 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	123	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	122	2	#line 122 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	129	2	#line 129 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	130	2		mov estado_rodas, inicializar
+0	129	4	#line 129 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	129	4	#line 129 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	132	4	#line 132 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	133	4		mov andar, nao
+0	132	6	#line 132 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	132	6	#line 132 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	132	6	#line 132 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	133	6		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	132	9	#line 132 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	133	9	#line 133 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	134	9		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	11	#line 4313 "NXCDefs.h"
+0	4314	11		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	13	#line 4313 "NXCDefs.h"
+0	4313	13	#line 4313 "NXCDefs.h"
+0	4314	13		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	15	#line 4313 "NXCDefs.h"
+0	4314	15		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	18	#line 4313 "NXCDefs.h"
+0	4314	18		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	21	#line 4313 "NXCDefs.h"
+0	4314	21		set __DU0SetSensorLight_inline_main, 5
+0	4313	24	#line 4313 "NXCDefs.h"
+0	4313	24	#line 4313 "NXCDefs.h"
+0	4314	24		jmp __001__ASM_Label_5
+0	4313	26	#line 4313 "NXCDefs.h"
+0	4314	26		set __DU0SetSensorLight_inline_main, 6
+0	4313	29	#line 4313 "NXCDefs.h"
+0	4313	29	#line 4313 "NXCDefs.h"
+0	4314	29		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4248	31		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	35	#line 4247 "NXCDefs.h"
+0	4314	35	#line 4314 "NXCDefs.h"
+0	4314	35	#line 4314 "NXCDefs.h"
+0	4315	35		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	37	#line 4314 "NXCDefs.h"
+0	4314	37	#line 4314 "NXCDefs.h"
+0	4315	37		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	40	#line 4314 "NXCDefs.h"
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4261	40		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	44	#line 4260 "NXCDefs.h"
+0	4315	44	#line 4315 "NXCDefs.h"
+0	4315	44	#line 4315 "NXCDefs.h"
+0	4316	44		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	46	#line 4315 "NXCDefs.h"
+0	4278	46	#line 4278 "NXCDefs.h"
+0	4279	46	#pragma macro 4
+0	4279	46		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	48		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6199	50	#line 6199 "NXCDefs.h"
+0	4278	50	#line 4278 "NXCDefs.h"
+0	4316	50	#line 4316 "NXCDefs.h"
+0	133	50	#line 133 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	133	50	#line 133 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	134	50		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	133	53	#line 133 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	135	53	#line 135 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	136	53		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	55	#line 4313 "NXCDefs.h"
+0	4314	55		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	57	#line 4313 "NXCDefs.h"
+0	4313	57	#line 4313 "NXCDefs.h"
+0	4314	57		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	59	#line 4313 "NXCDefs.h"
+0	4314	59		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	62	#line 4313 "NXCDefs.h"
+0	4314	62		brtst 4, __002__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	65	#line 4313 "NXCDefs.h"
+0	4314	65		set __DU0SetSensorLight_inline_main, 5
+0	4313	68	#line 4313 "NXCDefs.h"
+0	4313	68	#line 4313 "NXCDefs.h"
+0	4314	68		jmp __002__ASM_Label_5
+0	4313	70	#line 4313 "NXCDefs.h"
+0	4314	70		set __DU0SetSensorLight_inline_main, 6
+0	4313	73	#line 4313 "NXCDefs.h"
+0	4313	73	#line 4313 "NXCDefs.h"
+0	4314	73		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	75	#line 4247 "NXCDefs.h"
+0	4248	75		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	79	#line 4247 "NXCDefs.h"
+0	4314	79	#line 4314 "NXCDefs.h"
+0	4314	79	#line 4314 "NXCDefs.h"
+0	4315	79		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	81	#line 4314 "NXCDefs.h"
+0	4314	81	#line 4314 "NXCDefs.h"
+0	4315	81		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	84	#line 4314 "NXCDefs.h"
+0	4260	84	#line 4260 "NXCDefs.h"
+0	4261	84		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	88	#line 4260 "NXCDefs.h"
+0	4315	88	#line 4315 "NXCDefs.h"
+0	4315	88	#line 4315 "NXCDefs.h"
+0	4316	88		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	90	#line 4315 "NXCDefs.h"
+0	4278	90	#line 4278 "NXCDefs.h"
+0	4279	90	#pragma macro 4
+0	4279	90		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	92		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6262	94	#line 6262 "NXCDefs.h"
+0	4278	94	#line 4278 "NXCDefs.h"
+0	4316	94	#line 4316 "NXCDefs.h"
+0	135	94	#line 135 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	136	94	#line 136 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	137	94		set __D0main, 1
+0	139	97	#line 139 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	140	97		tst 5, __D0main, __D0main
+0	139	100	#line 139 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	140	100		brtst 4, __ASM_Label_613, __D0main
+0	140	103	#line 140 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	141	103		mov __DU0main, estado_rodas
+0	144	105		brcmp 4, __ASM_Label_619, __constVal0, __DU0main
+0	145	109		brcmp 4, __ASM_Label_698, __constVal1, __DU0main
+0	146	113		brcmp 4, __ASM_Label_827, __constVal2, __DU0main
+0	147	117		jmp __ASM_Label_618
+0	143	119	#line 143 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	144	119	#line 144 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	145	119		mov andar, frente
+0	144	121	#line 144 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	144	121	#line 144 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	145	121	#line 145 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	146	121		mov pote, __constValNeg85
+0	145	123	#line 145 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	145	123	#line 145 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	146	123	#line 146 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	147	123		mov potd, __constValNeg85
+0	146	125	#line 146 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	146	125	#line 146 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	147	125	#line 147 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	148	125	#pragma macro 7
+0	148	125		setout __constVal2, 0, __constVal8
+0	6301	130	#line 6301 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	147	130	#line 147 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	149	130	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	150	130	#pragma macro 7
+0	150	130		setout __constVal0, 0, __constVal8
+0	6304	135	#line 6304 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	149	135	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	149	135	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	150	135		set __main_7qG2_i_7qG2_000, 0
+0	149	138	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	149	138	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	150	138		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	149	140	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	149	140	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	150	140		set __D0main, 200
+0	149	143	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	150	143		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	149	147	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	150	147		brtst 4, __ASM_Label_627, __D0main
+0	149	150	#line 149 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	150	150		jmp __ASM_Label_628
+0	150	152	#line 150 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	151	152		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	151	156	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	156		jmp __ASM_Label_626
+0	151	158	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	158		set __signed_stack_001main, 0
+0	151	161	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	151	161	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	161		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	151	165	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	165		set __signed_stack_002main, 2
+0	151	168	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	151	168	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	168		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	151	172	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	172		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	151	174	#line 151 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	174	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	174		set __D0main, 0
+0	152	177	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	177		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	152	182	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	182		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	152	187	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	187		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	152	192	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	192	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	192		set __signed_stack_001main, 1
+0	152	195	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	195	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	195		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	152	199	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	199		set __signed_stack_002main, 2
+0	152	202	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	152	202	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	202		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	152	206	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	206		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	152	208	#line 152 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	153	208	#line 153 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	154	208		set __D0main, 0
+0	153	211	#line 153 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	154	211		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	153	216	#line 153 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	154	216		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	153	221	#line 153 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	154	221		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	153	226	#line 153 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	155	226	#line 155 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	156	226		jmp __ASM_Label_629
+0	155	228	#line 155 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	159	228	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	228		set __main_7qG2_i_7qG2_000, 0
+0	159	231	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	159	231	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	159	231	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	231		set __signed_stack_001main, 0
+0	159	234	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	159	234	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	234		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	159	238	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	238		set __signed_stack_002main, 0
+0	159	241	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	159	241	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	241		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	159	245	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	245		set __signed_stack_003main, 0
+0	159	248	#line 159 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	248	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	248		set __D0main, 0
+0	160	251	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	251		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	160	256	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	256		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	160	261	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	261		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	160	266	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	266	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	266		set __signed_stack_001main, 0
+0	160	269	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	269	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	269		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	160	273	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	273		set __signed_stack_002main, 1
+0	160	276	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	276	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	276		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	160	280	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	280		set __signed_stack_003main, 0
+0	160	283	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	283	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	283		getin __D0main, __constVal1, 4
+0	160	287	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	287		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	160	292	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	292		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	160	297	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	297		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	160	302	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	160	302	#line 160 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	302	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	162	302		set __signed_stack_001main, 0
+0	161	305	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	305	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	162	305		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	161	309	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	162	309		set __signed_stack_002main, 2
+0	161	312	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	312	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	162	312		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	161	316	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	162	316		set __signed_stack_003main, 0
+0	161	319	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	161	319	#line 161 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	162	319		index __signed_stack_004main, __ArrHelper__main_236_0, __signed_stack_003main
+0	163	323	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	323		add __signed_stack_004main, __signed_stack_004main, __constVal1
+0	163	327	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	327		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __signed_stack_004main
+0	163	332	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	332		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	163	337	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	337		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	163	342	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	163	342	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	342		set __signed_stack_001main, 1
+0	163	345	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	163	345	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	345		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	163	349	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	349		set __signed_stack_002main, 0
+0	163	352	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	163	352	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	352		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	163	356	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	356		set __signed_stack_003main, 0
+0	163	359	#line 163 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	359	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	359		set __D0main, 0
+0	164	362	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	362		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	164	367	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	367		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	164	372	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	372		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	164	377	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	377	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	377		set __signed_stack_001main, 1
+0	164	380	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	380	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	380		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	164	384	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	384		set __signed_stack_002main, 1
+0	164	387	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	387	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	387		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	164	391	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	391		set __signed_stack_003main, 0
+0	164	394	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	394	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	394		getin __D0main, __constVal2, 4
+0	164	398	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	398		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	164	403	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	403		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	164	408	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	408		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	164	413	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	164	413	#line 164 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	413	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	166	413		set __signed_stack_001main, 1
+0	165	416	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	416	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	166	416		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	165	420	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	166	420		set __signed_stack_002main, 2
+0	165	423	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	423	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	166	423		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	165	427	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	166	427		set __signed_stack_003main, 0
+0	165	430	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	165	430	#line 165 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	166	430		index __signed_stack_004main, __ArrHelper__main_236_0, __signed_stack_003main
+0	167	434	#line 167 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	168	434		add __signed_stack_004main, __signed_stack_004main, __constVal1
+0	167	438	#line 167 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	168	438		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __signed_stack_004main
+0	167	443	#line 167 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	168	443		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	167	448	#line 167 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	168	448		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	167	453	#line 167 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	168	453	#line 168 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	169	453		mov estado_rodas, inicializar2
+0	168	455	#line 168 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	168	455	#line 168 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	169	455	#line 169 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	170	455		jmp __ASM_Label_618
+0	169	457	#line 169 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	170	457	#line 170 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	171	457	#line 171 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	172	457		getout __main_7qG2_temp_angulo_7qG2_000, __constVal2, 4
+0	171	461	#line 171 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	171	461	#line 171 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	171	461	#line 171 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	171	461	#line 171 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	171	461	#line 171 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	171	461	#line 171 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	172	461	#line 172 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	172	461	#line 172 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	172	461	#line 172 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	172	461	#line 172 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	173	461	#line 173 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	174	461		mov __ang2line_7qG2_ang_7qG2_000, __main_7qG2_temp_angulo_7qG2_000
+0	173	463	#line 173 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	175	463	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	176	463		subcall ang2line, __ang2line_return
+0	175	465	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	175	465	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	175	465	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	176	465		mov __ang2line_7qG2_ang_7qG2_000, __main_7qG2_temp_angulo_7qG2_000
+0	175	467	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	175	467	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	176	467		subcall ang2line, __ang2line_return
+0	175	469	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	176	469		mov __signed_stack_001main, __D0ang2line
+0	175	471	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	175	471	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	176	471		set __signed_stack_002main, 5
+0	175	474	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	175	474	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	176	474		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	175	476	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	175	476	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	176	476		set __D0main, 1
+0	175	479	#line 175 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	176	479		add __D0main, __signed_stack_003main, __D0main
+0	176	483	#line 176 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	177	483		mul __D0main, __signed_stack_002main, __D0main
+0	176	487	#line 176 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	177	487		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	178	491	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	491		brtst 4, __ASM_Label_713, __D0main
+0	178	494	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	494		set __signed_stack_001main, 0
+0	178	497	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	178	497	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	497		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	178	501	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	501		set __signed_stack_002main, 1
+0	178	504	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	178	504	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	504		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	178	508	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	508		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	178	510	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	178	510	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	510		index __signed_stack_004main, __ArrHelper__main_236_0, __signed_stack_003main
+0	178	514	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	514		getin __D0main, __constVal1, 4
+0	178	518	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	518		add __signed_stack_004main, __signed_stack_004main, __D0main
+0	178	522	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	522		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __signed_stack_004main
+0	178	527	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	527		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	178	532	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	532		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	178	537	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	178	537	#line 178 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	537	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	180	537		set __signed_stack_001main, 0
+0	179	540	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	540	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	180	540		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	179	544	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	180	544		set __signed_stack_002main, 2
+0	179	547	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	547	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	180	547		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	179	551	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	180	551		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	179	553	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	179	553	#line 179 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	180	553		index __signed_stack_004main, __ArrHelper__main_236_0, __signed_stack_003main
+0	181	557	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	557		add __signed_stack_004main, __signed_stack_004main, __constVal1
+0	181	561	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	561		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __signed_stack_004main
+0	181	566	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	566		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	181	571	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	571		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	181	576	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	181	576	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	576		set __signed_stack_001main, 1
+0	181	579	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	181	579	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	579		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	181	583	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	583		set __signed_stack_002main, 1
+0	181	586	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	181	586	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	586		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	181	590	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	590		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	181	592	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	181	592	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	592		index __signed_stack_004main, __ArrHelper__main_236_0, __signed_stack_003main
+0	181	596	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	596		getin __D0main, __constVal2, 4
+0	181	600	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	600		add __signed_stack_004main, __signed_stack_004main, __D0main
+0	181	604	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	604		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __signed_stack_004main
+0	181	609	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	609		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	181	614	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	614		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	181	619	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	181	619	#line 181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	619	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	183	619		set __signed_stack_001main, 1
+0	182	622	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	622	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	183	622		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	182	626	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	183	626		set __signed_stack_002main, 2
+0	182	629	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	629	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	183	629		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	182	633	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	183	633		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	182	635	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	182	635	#line 182 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	183	635		index __signed_stack_004main, __ArrHelper__main_236_0, __signed_stack_003main
+0	183	639	#line 183 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	184	639		add __signed_stack_004main, __signed_stack_004main, __constVal1
+0	183	643	#line 183 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	184	643		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __signed_stack_004main
+0	183	648	#line 183 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	184	648		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	183	653	#line 183 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	184	653		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	183	658	#line 183 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	188	658	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	658		jmp __ASM_Label_742
+0	188	660	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	660		set __signed_stack_001main, 0
+0	188	663	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	188	663	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	663		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	188	667	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	667		set __signed_stack_002main, 1
+0	188	670	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	188	670	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	670		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	188	674	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	674		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	188	676	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	188	676	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	676		index __signed_stack_004main, __ArrHelper__main_236_0, __signed_stack_003main
+0	188	680	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	680		set __signed_stack_005main, 0
+0	188	683	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	188	683	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	683		index __ArrHelper__main_237_1, vetor_calibragem, __signed_stack_005main
+0	188	687	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	687		set __signed_stack_006main, 2
+0	188	690	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	188	690	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	690		index __ArrHelper__main_236_1, __ArrHelper__main_237_1, __signed_stack_006main
+0	188	694	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	694		mov __signed_stack_007main, __main_7qG2_i_7qG2_000
+0	188	696	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	188	696	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	189	696		index __D0main, __ArrHelper__main_236_1, __signed_stack_007main
+0	188	700	#line 188 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	191	700	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	700		div __signed_stack_004main, __signed_stack_004main, __D0main
+0	191	704	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	704		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __signed_stack_004main
+0	191	709	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	709		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	191	714	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	714		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	191	719	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	191	719	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	719		set __signed_stack_001main, 1
+0	191	722	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	191	722	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	722		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	191	726	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	726		set __signed_stack_002main, 1
+0	191	729	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	191	729	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	729		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	191	733	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	733		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	191	735	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	191	735	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	735		index __signed_stack_004main, __ArrHelper__main_236_0, __signed_stack_003main
+0	191	739	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	739		set __signed_stack_005main, 1
+0	191	742	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	191	742	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	742		index __ArrHelper__main_237_1, vetor_calibragem, __signed_stack_005main
+0	191	746	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	746		set __signed_stack_006main, 2
+0	191	749	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	191	749	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	749		index __ArrHelper__main_236_1, __ArrHelper__main_237_1, __signed_stack_006main
+0	191	753	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	753		mov __signed_stack_007main, __main_7qG2_i_7qG2_000
+0	191	755	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	191	755	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	192	755		index __D0main, __ArrHelper__main_236_1, __signed_stack_007main
+0	191	759	#line 191 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	194	759	#line 194 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	195	759		div __signed_stack_004main, __signed_stack_004main, __D0main
+0	194	763	#line 194 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	195	763		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __signed_stack_004main
+0	194	768	#line 194 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	195	768		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	194	773	#line 194 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	195	773		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	194	778	#line 194 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	197	778	#line 197 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	198	778		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	197	782	#line 197 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	197	782	#line 197 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	198	782		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	197	784	#line 197 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	198	784	#line 198 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	199	784		set __D0main, 200
+0	198	787	#line 198 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	199	787		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	201	791	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	791		brtst 4, __ASM_Label_773, __D0main
+0	201	794	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	794		set __signed_stack_001main, 0
+0	201	797	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	201	797	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	797		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	201	801	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	801		set __signed_stack_002main, 0
+0	201	804	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	201	804	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	804		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	201	808	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	808		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	201	810	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	201	810	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	810		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	201	812	#line 201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	812	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	812		set __D0main, 5
+0	202	815	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	815		mul __D0main, __signed_stack_004main, __D0main
+0	202	819	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	819		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	202	824	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	824		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	202	829	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	829		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	202	834	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	834	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	834		set __signed_stack_001main, 0
+0	202	837	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	837	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	837		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	202	841	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	841		set __signed_stack_002main, 1
+0	202	844	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	844	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	844		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	202	848	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	848		set __signed_stack_003main, 0
+0	202	851	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	851	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	851		getin __D0main, __constVal1, 4
+0	202	855	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	855		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	202	860	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	860		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	202	865	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	865		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	202	870	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	202	870	#line 202 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	870	#line 203 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	204	870		set __signed_stack_001main, 0
+0	203	873	#line 203 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	873	#line 203 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	204	873		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	203	877	#line 203 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	204	877		set __signed_stack_002main, 2
+0	203	880	#line 203 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	203	880	#line 203 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	204	880		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	203	884	#line 203 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	204	884		set __signed_stack_003main, 0
+0	203	887	#line 203 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	205	887	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	887		set __D0main, 1
+0	205	890	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	890		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	205	895	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	895		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	205	900	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	900		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	205	905	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	205	905	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	905		set __signed_stack_001main, 1
+0	205	908	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	205	908	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	908		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	205	912	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	912		set __signed_stack_002main, 0
+0	205	915	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	205	915	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	915		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	205	919	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	919		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	205	921	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	205	921	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	921		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	205	923	#line 205 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	923	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	923		set __D0main, 5
+0	206	926	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	926		mul __D0main, __signed_stack_004main, __D0main
+0	206	930	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	930		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	206	935	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	935		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	206	940	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	940		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	206	945	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	945	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	945		set __signed_stack_001main, 1
+0	206	948	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	948	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	948		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	206	952	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	952		set __signed_stack_002main, 1
+0	206	955	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	955	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	955		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	206	959	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	959		set __signed_stack_003main, 0
+0	206	962	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	962	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	962		getin __D0main, __constVal2, 4
+0	206	966	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	966		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	206	971	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	971		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	206	976	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	976		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	206	981	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	206	981	#line 206 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	981	#line 207 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	208	981		set __signed_stack_001main, 1
+0	207	984	#line 207 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	984	#line 207 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	208	984		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	207	988	#line 207 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	208	988		set __signed_stack_002main, 2
+0	207	991	#line 207 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	207	991	#line 207 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	208	991		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	207	995	#line 207 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	208	995		set __signed_stack_003main, 0
+0	207	998	#line 207 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	208	998	#line 208 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	209	998		set __D0main, 1
+0	208	1001	#line 208 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	209	1001		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_003main, __D0main
+0	208	1006	#line 208 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	209	1006		replace __ArrHelper__main_237_0, __ArrHelper__main_237_0, __signed_stack_002main, __ArrHelper__main_236_0
+0	208	1011	#line 208 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	209	1011		replace vetor_calibragem, vetor_calibragem, __signed_stack_001main, __ArrHelper__main_237_0
+0	208	1016	#line 208 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	211	1016	#line 211 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	212	1016		jmp __ASM_Label_822
+0	212	1018	#line 212 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	213	1018		mov andar, nao
+0	212	1020	#line 212 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	212	1020	#line 212 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	213	1020	#line 213 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	214	1020		mov estado_rodas, calibrando
+0	213	1022	#line 213 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	213	1022	#line 213 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	216	1022	#line 216 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	216	1022	#line 216 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	218	1022	#line 218 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	219	1022		jmp __ASM_Label_618
+0	218	1024	#line 218 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	220	1024	#line 220 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	221	1024	#line 221 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	222	1024		set preto_d, 0
+0	221	1027	#line 221 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	221	1027	#line 221 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	223	1027	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	224	1027		set preto_e, 0
+0	223	1030	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	223	1030	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	223	1030	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	224	1030		set __main_7qG2_i_7qG2_000, 0
+0	223	1033	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	223	1033	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	224	1033		set __main_7qG2_j_7qG2_000, 34
+0	223	1036	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	223	1036	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	224	1036		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	223	1038	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	223	1038	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	224	1038		mov __D0main, __main_7qG2_j_7qG2_000
+0	223	1040	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	224	1040		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	223	1044	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	224	1044		brtst 4, __ASM_Label_833, __D0main
+0	223	1047	#line 223 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	224	1047		jmp __ASM_Label_834
+0	224	1049	#line 224 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	225	1049		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	225	1053	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1053		jmp __ASM_Label_832
+0	225	1055	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1055		set __signed_stack_001main, 0
+0	225	1058	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	225	1058	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1058		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	225	1062	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1062		set __signed_stack_002main, 1
+0	225	1065	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	225	1065	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1065		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	225	1069	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1069		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	225	1071	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	225	1071	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1071		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	225	1075	#line 225 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1075	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	227	1075		add preto_d, preto_d, __D0main
+0	226	1079	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1079	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	227	1079		set __signed_stack_001main, 1
+0	226	1082	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1082	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	227	1082		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	226	1086	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	227	1086		set __signed_stack_002main, 1
+0	226	1089	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1089	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	227	1089		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	226	1093	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	227	1093		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	226	1095	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	226	1095	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	227	1095		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	226	1099	#line 226 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	227	1099	#line 227 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	228	1099		add preto_e, preto_e, __D0main
+0	227	1103	#line 227 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	228	1103	#line 228 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	229	1103		jmp __ASM_Label_835
+0	228	1105	#line 228 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	229	1105	#line 229 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	230	1105		set __main_7qG2_i_7qG2_000, 0
+0	229	1108	#line 229 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	229	1108	#line 229 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	230	1108	#line 230 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	231	1108		set __main_7qG2_i_preto_e_7qG2_000, 0
+0	230	1111	#line 230 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	230	1111	#line 230 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	231	1111	#line 231 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	232	1111		set __main_7qG2_i_preto_d_7qG2_000, 0
+0	231	1114	#line 231 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	231	1114	#line 231 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	232	1114	#line 232 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	233	1114		mov __main_7qG2_temp_preto_d_7qG2_000, preto_d
+0	232	1116	#line 232 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	232	1116	#line 232 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	233	1116	#line 233 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	234	1116		mov __main_7qG2_temp_preto_e_7qG2_000, preto_e
+0	233	1118	#line 233 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	233	1118	#line 233 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	233	1118	#line 233 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	234	1118		mov __signed_stack_001main, __main_7qG2_j_7qG2_000
+0	233	1120	#line 233 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	234	1120	#line 234 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	235	1120		set __D0main, 200
+0	234	1123	#line 234 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	235	1123		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	236	1127	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1127		brtst 4, __ASM_Label_869, __D0main
+0	236	1130	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1130		mov __signed_stack_001main, __main_7qG2_temp_preto_d_7qG2_000
+0	236	1132	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1132	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1132		set __signed_stack_002main, 0
+0	236	1135	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1135	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1135		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_002main
+0	236	1139	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1139		set __signed_stack_003main, 1
+0	236	1142	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1142	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1142		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_003main
+0	236	1146	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1146		mov __signed_stack_004main, __main_7qG2_j_7qG2_000
+0	236	1148	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1148	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1148		index __D0main, __ArrHelper__main_236_0, __signed_stack_004main
+0	236	1152	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1152	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1152		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	236	1156	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1156	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1156		set __signed_stack_002main, 0
+0	236	1159	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1159	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1159		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_002main
+0	236	1163	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1163		set __signed_stack_003main, 1
+0	236	1166	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1166	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1166		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_003main
+0	236	1170	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1170		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	236	1172	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	236	1172	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1172		index __D0main, __ArrHelper__main_236_0, __signed_stack_004main
+0	236	1176	#line 236 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1176	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1176		sub __main_7qG2_temp_preto_d_7qG2_000, __signed_stack_001main, __D0main
+0	237	1180	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1180	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1180	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1180		mov __signed_stack_001main, __main_7qG2_temp_preto_e_7qG2_000
+0	237	1182	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1182	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1182		set __signed_stack_002main, 1
+0	237	1185	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1185	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1185		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_002main
+0	237	1189	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1189		set __signed_stack_003main, 1
+0	237	1192	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1192	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1192		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_003main
+0	237	1196	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1196		mov __signed_stack_004main, __main_7qG2_j_7qG2_000
+0	237	1198	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1198	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1198		index __D0main, __ArrHelper__main_236_0, __signed_stack_004main
+0	237	1202	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1202	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1202		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	237	1206	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1206	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1206		set __signed_stack_002main, 1
+0	237	1209	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1209	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1209		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_002main
+0	237	1213	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1213		set __signed_stack_003main, 1
+0	237	1216	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1216	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1216		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_003main
+0	237	1220	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1220		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	237	1222	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	237	1222	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	238	1222		index __D0main, __ArrHelper__main_236_0, __signed_stack_004main
+0	237	1226	#line 237 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	239	1226	#line 239 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	240	1226		sub __main_7qG2_temp_preto_e_7qG2_000, __signed_stack_001main, __D0main
+0	239	1230	#line 239 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	239	1230	#line 239 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	239	1230	#line 239 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	240	1230		mov __signed_stack_001main, __main_7qG2_temp_preto_d_7qG2_000
+0	239	1232	#line 239 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	240	1232	#line 240 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	241	1232		mov __D0main, preto_d
+0	240	1234	#line 240 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	241	1234		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	241	1238	#line 241 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	242	1238		brtst 4, __ASM_Label_902, __D0main
+0	242	1241	#line 242 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	243	1241		mov preto_d, __main_7qG2_temp_preto_d_7qG2_000
+0	242	1243	#line 242 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	242	1243	#line 242 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	243	1243	#line 243 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	244	1243		mov __main_7qG2_i_preto_d_7qG2_000, __main_7qG2_i_7qG2_000
+0	243	1245	#line 243 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	243	1245	#line 243 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	245	1245	#line 245 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	245	1245	#line 245 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	246	1245		mov __signed_stack_001main, __main_7qG2_temp_preto_e_7qG2_000
+0	245	1247	#line 245 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	246	1247	#line 246 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	247	1247		mov __D0main, preto_e
+0	246	1249	#line 246 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	247	1249		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	247	1253	#line 247 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	248	1253		brtst 4, __ASM_Label_909, __D0main
+0	248	1256	#line 248 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	249	1256		mov preto_e, __main_7qG2_temp_preto_e_7qG2_000
+0	248	1258	#line 248 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	248	1258	#line 248 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	249	1258	#line 249 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	250	1258		mov __main_7qG2_i_preto_e_7qG2_000, __main_7qG2_i_7qG2_000
+0	249	1260	#line 249 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	249	1260	#line 249 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	251	1260	#line 251 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	252	1260	#line 252 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	253	1260		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	252	1264	#line 252 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	253	1264	#line 253 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	254	1264		add __main_7qG2_j_7qG2_000, __main_7qG2_j_7qG2_000, __constVal1
+0	253	1268	#line 253 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	256	1268	#line 256 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	257	1268		jmp __ASM_Label_868
+0	256	1270	#line 256 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	257	1270	#line 257 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	258	1270		set __D0main, 34
+0	257	1273	#line 257 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	258	1273		div preto_d, preto_d, __D0main
+0	257	1277	#line 257 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	262	1277	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1277		set __D0main, 34
+0	262	1280	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1280		div preto_e, preto_e, __D0main
+0	262	1284	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	262	1284	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1284		set __main_7qG2_i_7qG2_000, 0
+0	262	1287	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	262	1287	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1287		set branco_d, 0
+0	262	1290	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	262	1290	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1290		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	262	1292	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	262	1292	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1292		mov __D0main, __main_7qG2_i_preto_d_7qG2_000
+0	262	1294	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1294		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	262	1298	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1298		brtst 4, __ASM_Label_919, __D0main
+0	262	1301	#line 262 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	263	1301		jmp __ASM_Label_920
+0	263	1303	#line 263 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	264	1303		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	264	1307	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	265	1307		jmp __ASM_Label_918
+0	264	1309	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	265	1309		set __signed_stack_001main, 0
+0	264	1312	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	264	1312	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	265	1312		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	264	1316	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	265	1316		set __signed_stack_002main, 1
+0	264	1319	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	264	1319	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	265	1319		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	264	1323	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	265	1323		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	264	1325	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	264	1325	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	265	1325		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	264	1329	#line 264 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	265	1329	#line 265 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	266	1329		add branco_d, branco_d, __D0main
+0	265	1333	#line 265 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	266	1333	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	267	1333		jmp __ASM_Label_921
+0	266	1335	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	266	1335	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	267	1335		set __D0main, 34
+0	266	1338	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	267	1338		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __D0main
+0	266	1342	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	267	1342		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	266	1344	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	266	1344	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	267	1344		set __D0main, 200
+0	266	1347	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	267	1347		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	266	1351	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	267	1351		brtst 4, __ASM_Label_937, __D0main
+0	266	1354	#line 266 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	267	1354		jmp __ASM_Label_938
+0	267	1356	#line 267 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	268	1356		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	268	1360	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	269	1360		jmp __ASM_Label_936
+0	268	1362	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	269	1362		set __signed_stack_001main, 0
+0	268	1365	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	268	1365	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	269	1365		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	268	1369	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	269	1369		set __signed_stack_002main, 1
+0	268	1372	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	268	1372	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	269	1372		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	268	1376	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	269	1376		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	268	1378	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	268	1378	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	269	1378		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	268	1382	#line 268 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	269	1382	#line 269 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	270	1382		add branco_d, branco_d, __D0main
+0	269	1386	#line 269 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	272	1386	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	273	1386		jmp __ASM_Label_939
+0	272	1388	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	272	1388	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	273	1388		set __main_7qG2_i_7qG2_000, 0
+0	272	1391	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	272	1391	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	273	1391		set branco_e, 0
+0	272	1394	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	272	1394	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	273	1394		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	272	1396	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	272	1396	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	273	1396		mov __D0main, __main_7qG2_i_preto_e_7qG2_000
+0	272	1398	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	273	1398		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	272	1402	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	273	1402		brtst 4, __ASM_Label_953, __D0main
+0	272	1405	#line 272 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	273	1405		jmp __ASM_Label_954
+0	273	1407	#line 273 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	274	1407		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	274	1411	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	275	1411		jmp __ASM_Label_952
+0	274	1413	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	275	1413		set __signed_stack_001main, 1
+0	274	1416	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	274	1416	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	275	1416		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	274	1420	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	275	1420		set __signed_stack_002main, 1
+0	274	1423	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	274	1423	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	275	1423		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	274	1427	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	275	1427		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	274	1429	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	274	1429	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	275	1429		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	274	1433	#line 274 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	275	1433	#line 275 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	276	1433		add branco_e, branco_e, __D0main
+0	275	1437	#line 275 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	276	1437	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	277	1437		jmp __ASM_Label_955
+0	276	1439	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	276	1439	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	277	1439		set __D0main, 34
+0	276	1442	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	277	1442		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __D0main
+0	276	1446	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	277	1446		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	276	1448	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	276	1448	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	277	1448		set __D0main, 200
+0	276	1451	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	277	1451		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	276	1455	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	277	1455		brtst 4, __ASM_Label_971, __D0main
+0	276	1458	#line 276 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	277	1458		jmp __ASM_Label_972
+0	277	1460	#line 277 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	278	1460		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	278	1464	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	279	1464		jmp __ASM_Label_970
+0	278	1466	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	279	1466		set __signed_stack_001main, 1
+0	278	1469	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	278	1469	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	279	1469		index __ArrHelper__main_237_0, vetor_calibragem, __signed_stack_001main
+0	278	1473	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	279	1473		set __signed_stack_002main, 1
+0	278	1476	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	278	1476	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	279	1476		index __ArrHelper__main_236_0, __ArrHelper__main_237_0, __signed_stack_002main
+0	278	1480	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	279	1480		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	278	1482	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	278	1482	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	279	1482		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	278	1486	#line 278 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	279	1486	#line 279 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	280	1486		add branco_e, branco_e, __D0main
+0	279	1490	#line 279 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	282	1490	#line 282 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	283	1490		jmp __ASM_Label_973
+0	282	1492	#line 282 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	283	1492	#line 283 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	284	1492		set __D0main, 166
+0	283	1495	#line 283 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	284	1495		div branco_d, branco_d, __D0main
+0	283	1499	#line 283 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	286	1499	#line 286 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1499		set __D0main, 166
+0	286	1502	#line 286 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1502		div branco_e, branco_e, __D0main
+0	286	1506	#line 286 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	286	1506	#line 286 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1506		mov __signed_stack_001main, preto_d
+0	286	1508	#line 286 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	286	1508	#line 286 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1508		mov __D0main, branco_d
+0	286	1510	#line 286 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1510		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	286	1514	#line 286 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1514	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	288	1514		set __D0main, 2
+0	287	1517	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1517	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1517	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1517	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	288	1517		mov __signed_stack_001main, preto_e
+0	287	1519	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	287	1519	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	288	1519		mov __D0main, branco_e
+0	287	1521	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	288	1521		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	287	1525	#line 287 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	290	1525	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1525		set __D0main, 2
+0	290	1528	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	290	1528	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	290	1528	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	290	1528	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1528		mov __signed_stack_001main, branco_d
+0	290	1530	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	290	1530	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1530		mov __D0main, preto_d
+0	290	1532	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1532		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	290	1536	#line 290 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1536	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	292	1536		set __D0main, 5
+0	291	1539	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1539	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1539	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1539	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	292	1539		mov __signed_stack_001main, branco_e
+0	291	1541	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	291	1541	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	292	1541		mov __D0main, preto_e
+0	291	1543	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	292	1543		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	291	1547	#line 291 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	294	1547	#line 294 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	295	1547		set __D0main, 5
+0	294	1550	#line 294 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	294	1550	#line 294 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	294	1550	#line 294 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	296	1550	#line 296 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	296	1550	#line 296 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	303	1550	#line 303 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	304	1550	#line 304 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	305	1550		mov __DU0main, andar
+0	308	1552		brcmp 4, __ASM_Label_1009, __constVal0, __DU0main
+0	309	1556		brcmp 4, __ASM_Label_1014, __constVal1, __DU0main
+0	310	1560		jmp __ASM_Label_1008
+0	306	1562	#line 306 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	306	1562	#line 306 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	307	1562		set __D0main, 0
+0	307	1565	#line 307 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	308	1565	#pragma macro 7
+0	308	1565		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8176	1588	#line 8176 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	307	1588	#line 307 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	307	1588	#line 307 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	308	1588		set __D0main, 0
+0	308	1591	#line 308 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	309	1591	#pragma macro 7
+0	309	1591		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8181	1614	#line 8181 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	308	1614	#line 308 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	309	1614	#line 309 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	310	1614		jmp __ASM_Label_1008
+0	309	1616	#line 309 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	310	1616	#line 310 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	311	1616	#line 311 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	312	1616		subcall Frente, __Frente_return
+0	311	1618	#line 311 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	312	1618	#line 312 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	312	1618	#line 312 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	315	1618	#line 315 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	315	1618	#line 315 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	316	1618		mov __D0main, pote
+0	316	1620	#line 316 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	317	1620	#pragma macro 7
+0	317	1620		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8201	1643	#line 8201 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	316	1643	#line 316 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	316	1643	#line 316 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	317	1643		mov __D0main, potd
+0	318	1645	#line 318 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	319	1645	#pragma macro 7
+0	319	1645		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8208	1668	#line 8208 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	318	1668	#line 318 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	322	1668	#line 322 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	323	1668		jmp __ASM_Label_612
+0	322	1670	#line 322 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	323	1670		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	324	0	#line 324 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	325	0		set __signed_stack_001ang2line, 1142
+2	324	3	#line 324 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	324	3	#line 324 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	324	3	#line 324 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	325	3		mul __float_stack_001ang2line, __signed_stack_001ang2line, __ang2line_7qG2_ang_7qG2_000
+2	324	7	#line 324 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	324	7	#line 324 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	325	7		mov __DF0ang2line, __constVal360
+2	324	9	#line 324 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	325	9		div __D0ang2line, __float_stack_001ang2line, __DF0ang2line
+2	325	13	#line 325 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	325	13	#line 325 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	326	13		subret __ang2line_return
+2	325	15	#line 325 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	327	15	#line 327 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+2	328	15		subret __ang2line_return
+3	329	0	#line 329 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	330	0		getout __signed_stack_001Frente, __constVal2, 4
+3	329	4	#line 329 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	329	4	#line 329 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	330	4		getout __D0Frente, __constVal0, 4
+3	329	8	#line 329 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	330	8		cmp 4, __D0Frente, __signed_stack_001Frente, __D0Frente
+3	330	12	#line 330 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	331	12		not __D0Frente, __D0Frente
+3	331	15	#line 331 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	332	15		tst 5, __D0Frente, __D0Frente
+3	331	18	#line 331 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	332	18		brtst 4, __ASM_Label_1029, __D0Frente
+3	331	21	#line 331 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	332	21		getout __signed_stack_001Frente, __constVal2, 4
+3	331	25	#line 331 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	332	25	#line 332 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	333	25		getout __D0Frente, __constVal0, 4
+3	332	29	#line 332 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	333	29		cmp 0, __D0Frente, __signed_stack_001Frente, __D0Frente
+3	333	33	#line 333 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	334	33		brtst 4, __ASM_Label_1032, __D0Frente
+3	333	36	#line 333 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	334	36		mov __signed_stack_001Frente, pote
+3	333	38	#line 333 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	334	38	#line 334 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	335	38		set __D0Frente, 85
+3	334	41	#line 334 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	335	41		cmp 1, __D0Frente, __signed_stack_001Frente, __D0Frente
+3	335	45	#line 335 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	336	45		brtst 4, __ASM_Label_1035, __D0Frente
+3	336	48	#line 336 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	337	48		sub pote, pote, __constVal1
+3	336	52	#line 336 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	339	52	#line 339 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	340	52		jmp __ASM_Label_1036
+3	340	54	#line 340 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	341	54		add potd, potd, __constVal1
+3	340	58	#line 340 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	342	58	#line 342 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	342	58	#line 342 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	343	58		jmp __ASM_Label_1037
+3	342	60	#line 342 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	343	60		getout __signed_stack_001Frente, __constVal0, 4
+3	342	64	#line 342 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	343	64	#line 343 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	344	64		getout __D0Frente, __constVal2, 4
+3	343	68	#line 343 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	344	68		cmp 0, __D0Frente, __signed_stack_001Frente, __D0Frente
+3	344	72	#line 344 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	345	72		brtst 4, __ASM_Label_1040, __D0Frente
+3	344	75	#line 344 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	345	75		mov __signed_stack_001Frente, potd
+3	344	77	#line 344 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	345	77	#line 345 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	346	77		set __D0Frente, 85
+3	345	80	#line 345 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	346	80		cmp 1, __D0Frente, __signed_stack_001Frente, __D0Frente
+3	346	84	#line 346 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	347	84		brtst 4, __ASM_Label_1043, __D0Frente
+3	347	87	#line 347 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	348	87		sub potd, potd, __constVal1
+3	347	91	#line 347 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	350	91	#line 350 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	351	91		jmp __ASM_Label_1044
+3	351	93	#line 351 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	352	93		add pote, pote, __constVal1
+3	351	97	#line 351 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	353	97	#line 353 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	354	97	#line 354 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	354	97	#line 354 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	365	97	#line 365 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	365	97	#line 365 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+3	366	97		subret __Frente_return
+4	366	0	#line 366 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+4	366	0	#line 366 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+4	366	0	#line 366 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+4	367	0		arrinit ____vetor_calibragem_3_2, __constVal0, __constVal200
+4	366	4	#line 366 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+4	367	4		arrinit __vetor_calibragem_3, ____vetor_calibragem_3_2, __constVal3
+4	366	8	#line 366 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+4	367	8		arrinit vetor_calibragem, __vetor_calibragem_3, __constVal2
+4	366	12	#line 366 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+4	367	12		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\luan\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	1673	NXTDefs.h
+2	ang2line	1686	C:\Users\luan\AppData\Local\Temp\temp.nxc
+3	Frente	1703	C:\Users\luan\AppData\Local\Temp\temp.nxc
+4	__initialize_global_data	1802	C:\Users\luan\AppData\Local\Temp\temp.nxc

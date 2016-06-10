@@ -86,6 +86,7 @@ Máquina de estado
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
      inicializar, inicializar2,         //andar para frente até passar as linhas e regular os sensores
+     calibrando,
      ir_centro                          //função para ir para o centro o mais rápido possível
 };
 enum type_andar {          //possíveis movimentos do robo
@@ -95,7 +96,7 @@ enum type_andar {          //possíveis movimentos do robo
      direita_brusco,       //virar para a direita de forma bruca
      esquerda_leve,        //virar levemente para a esquerda
      esquerda_brusco       //virar para a esquerda de forma bruca
-
+};
 /*Declaração de Variáveis Globais*/
 //estados
 type_estado_rodas estado_rodas;
@@ -104,7 +105,7 @@ type_estado_rodas estado_rodas;
 //flags
 type_andar andar;
 
-//potencias e parametros
+//potências e parametros
 int potd, pote; //potencia do motor da esquerda e do motor da direita respectivamente
 
 //dados
@@ -113,7 +114,7 @@ int branco_d, preto_d, cinza_d, branco_e, preto_e, cinza_e, faixa_d, faixa_e;//v
 
 /*Declaração das funções*/
 int ang2line(float ang);//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
-void frente(void);//função que regula as potencias dos motores para eles andarem em linha reta
+void Frente(void);//função que regula as potencias dos motores para eles andarem em linha reta
 
 /*Função Princiapal*/
 task  main()
@@ -121,7 +122,7 @@ task  main()
  /*variáveis locais*/
  int i, j;//contador
  int temp_angulo, temp_l_d, temp_l_e;//variaveis temporárias para capitar dados dos sensores;
- int i_preto_d, i_preto_esquerda;//variaveis usadas no estado de calibragem para saber onde começa o preto
+ int i_preto_d, i_preto_e;//variaveis usadas no estado de calibragem para saber onde começa o preto
  int temp_preto_d, temp_preto_e;
 
  /*inicializando os estados*/
@@ -149,7 +150,7 @@ task  main()
         for(i=0; i<200; i++)//for para zerar o vetor de clibragem dos sensores
         {
          vetor_calibragem[0][2][i]=0;//zerando somatório do sensor da direita
-         voter_calibragem[1][2][i]=0;//zerando somatório do sensor da esquerda
+         vetor_calibragem[1][2][i]=0;//zerando somatório do sensor da esquerda
         }
         
         i=0;//iniciando o contador para preencher o vetor vet_calibragem
@@ -236,13 +237,13 @@ task  main()
          temp_preto_d = temp_preto_d + vetor_calibragem[0][1][j] - vetor_calibragem[0][1][i];
          temp_preto_e = temp_preto_e + vetor_calibragem[1][1][j] - vetor_calibragem[1][1][i];
          
-         if(temp_preto_d < preto_direta)//checando a média atual para o caso da direta
+         if(temp_preto_d < preto_d)//checando a média atual para o caso da direta
          {
           preto_d = temp_preto_d;
           i_preto_d = i;
          }
          
-         if(temp_preto_d < preto_direta)//checando a média atual para o caso da esquerda
+         if(temp_preto_e < preto_e)//checando a média atual para o caso da esquerda
          {
           preto_e = temp_preto_e;
           i_preto_e = i;
@@ -287,6 +288,8 @@ task  main()
         cinza_e = (preto_e + branco_e)/2;
         
         //achando a faixa
+        faixa_d = (branco_d - preto_d)/5;
+        faixa_e = (branco_e - preto_e)/5;
         
 
    break;  //fim do estado
@@ -322,7 +325,7 @@ int ang2line(float ang)//função que recebe uma variação angular das rodas e reto
  return ((1142*ang)/360);
 }
 
-void frente(void)//função que regula as potencias dos motores para eles andarem em linha reta
+void Frente(void)//função que regula as potencias dos motores para eles andarem em linha reta
 {
  if(!(MotorTachoCount(MD) == MotorTachoCount(ME)))
  {
