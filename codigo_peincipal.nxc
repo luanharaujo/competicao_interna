@@ -122,7 +122,7 @@ int vetor_calibragem1[3][200];//vetor para mapear a resposta dos sensores de luz
 int branco_d, preto_d, cinza_d, branco_e, preto_e, cinza_e, faixa_d, faixa_e;//variáveis para guardar o valor retornado pelo sensores de  para
 
 /*Declaração das funções*/
-int ang2line(float ang);//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
+int ang2line(int ang);//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
 void Frente(void);//função que regula as potencias dos motores para eles andarem em linha reta
 
 /*Função Princiapal*/
@@ -455,7 +455,7 @@ task  main()
 }
 
 /*Assinaturas das funções*/
-int ang2line(float ang)//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
+int ang2line(int ang)//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
 {
  return ((1142*ang)/360);
 }
