@@ -117,7 +117,8 @@ type_andar andar;
 int potd, pote; //potencia do motor da esquerda e do motor da direita respectivamente
 
 //dados
-int vetor_calibragem[2][3][200];//vetor para mapear a resposta dos sensores de luz à resposta a 10cm de capitação de medição
+int vetor_calibragem0[3][200];//vetor para mapear a resposta dos sensores de luz à resposta a 10cm de capitação de medição
+int vetor_calibragem1[3][200];//vetor para mapear a resposta dos sensores de luz à resposta a 10cm de capitação de medição
 int branco_d, preto_d, cinza_d, branco_e, preto_e, cinza_e, faixa_d, faixa_e;//variáveis para guardar o valor retornado pelo sensores de  para
 
 /*Declaração das funções*/
@@ -127,8 +128,12 @@ void Frente(void);//função que regula as potencias dos motores para eles andarem
 /*Função Princiapal*/
 task  main()
 {
+
+ //TextOut(0,LCD_LINE2,"cheguei aqui       ");
+ //Wait(1000);
+
  /*variáveis locais*/
- int i, j;//contador
+ int i, j, dbug = 0;//contador
  int temp_angulo, temp_l_d, temp_l_e;//variaveis temporárias para capitar dados dos sensores;
  int i_preto_d, i_preto_e;//variaveis usadas no estado de calibragem para saber onde começa o preto
  int temp_preto_d, temp_preto_e;
@@ -143,11 +148,18 @@ task  main()
 
  while(true)//void loop
  {
-
+  NumOut(0,LCD_LINE2,estado_rodas);
+  NumOut(0,LCD_LINE3,i);
+  NumOut(0,LCD_LINE4,ang2line(temp_angulo));
+  //Wait(1000);
   /*maquina estado do bloco de locamoção*/
   switch(estado_rodas) //switch da máquina de estados principal
   {
    case inicializar :    //estado de inicialização para a primeira iteração
+
+        //TextOut(0,LCD_LINE2,"cheguei aqui       ");
+        //Wait(1000);
+
         //inicializando as variáveias para o robo andar para frente
         andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
         pote = -POTMAX;  //sentando as potências iniciais como as máximas
@@ -155,49 +167,71 @@ task  main()
         ResetTachoCount(MD);//resetando o contador de giro do motor direiro
         ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
         
+        TextOut(0,LCD_LINE5,"resetei    ");
+        NumOut(0,LCD_LINE6,dbug++);
+        //Wait(500);
+        
+        //TextOut(0,LCD_LINE2,"cheguei aqui       ");
+        //Wait(1000);
+        
         for(i=0; i<200; i++)//for para zerar o vetor de clibragem dos sensores
         {
-         vetor_calibragem[0][2][i]=0;//zerando somatório do sensor da direita
-         vetor_calibragem[1][2][i]=0;//zerando somatório do sensor da esquerda
+         //NumOut(0,LCD_LINE2,i);
+         //Wait(1000);
+         vetor_calibragem0[2][i]=0;//zerando somatório do sensor da direita
+         //TextOut(1,LCD_LINE2,"cheguei aqui1       ");
+         //Wait(1000);
+         vetor_calibragem1[2][i]=0;//zerando somatório do sensor da esquerda
+         //TextOut(1,LCD_LINE2,"cheguei aqui2       ");
+         //Wait(1000);
         }
         
+         //TextOut(0,LCD_LINE2,"cheguei aqui       ");
+         //Wait(1000);
+
         i=0;//iniciando o contador para preencher o vetor vet_calibragem
         
         //medição inicial
         //sensor da direita
-        vetor_calibragem[0][0][0]=0;
-        vetor_calibragem[0][1][0]=Sensor(LSD);
-        vetor_calibragem[0][2][0]++;
+        vetor_calibragem0[0][0]=0;
+        vetor_calibragem0[1][0]=Sensor(LSD);
+        vetor_calibragem0[2][0]++;
         //sensor da esquerda
-        vetor_calibragem[1][0][0]=0;
-        vetor_calibragem[1][1][0]=Sensor(LSE);
-        vetor_calibragem[1][2][0]++;
+        vetor_calibragem1[0][0]=0;
+        vetor_calibragem1[1][0]=Sensor(LSE);
+        vetor_calibragem1[2][0]++;
 
         estado_rodas = inicializar2;//levando para o próximo estado
    break;  //fim do estado
    case inicializar2 : //estado de inicialização para as demais iterações
-       temp_angulo = MotorTachoCount(MD);
+       andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
+       temp_angulo = -MotorTachoCount(MD);//invertendo o sinal da entrada pois o motor esta girando para "trás"
        temp_l_d =  Sensor(LSD);
        temp_l_e =  Sensor(LSE);
-       ang2line(temp_angulo);
        
        if(ang2line(temp_angulo) < 5*(i+1))//caso ainda estaja na mesma medida
        {
+        //TextOut(0,LCD_LINE5,"cheguei aqui       ");
+        //NumOut(0,LCD_LINE6,dbug++);
+        //Wait(500);
         //sensor da direita
-        vetor_calibragem[0][1][i]+=Sensor(LSD);
-        vetor_calibragem[0][2][i]++;
+        vetor_calibragem0[1][i]+=Sensor(LSD);
+        vetor_calibragem0[2][i]++;
         //sensor da esquerda
-        vetor_calibragem[1][1][i]+=Sensor(LSE);
-        vetor_calibragem[1][2][i]++;
+        vetor_calibragem1[1][i]+=Sensor(LSE);
+        vetor_calibragem1[2][i]++;
        }
        else//caso não esteja
        {
         //calcular a media anterior
         //sensor da direita
-        vetor_calibragem[0][1][i] /= vetor_calibragem[0][2][i];
+        vetor_calibragem0[1][i] /= vetor_calibragem0[2][i];
 
         //sensor da esquerda
-        vetor_calibragem[1][1][i] /= vetor_calibragem[1][2][i];
+        vetor_calibragem1[1][i] /= vetor_calibragem1[2][i];
+
+        TextOut(0,LCD_LINE2,"cheguei aqui       ");
+        Wait(1000);
 
         //andando uma posição
         i++;
@@ -207,13 +241,13 @@ task  main()
         {
          //salvar a primeira medida da nova posição
          //sensor da direita
-         vetor_calibragem[0][0][i]=i*5;
-         vetor_calibragem[0][1][0]=Sensor(LSD);
-         vetor_calibragem[0][2][0]=1;
+         vetor_calibragem0[0][i]=i*5;
+         vetor_calibragem0[1][0]=Sensor(LSD);
+         vetor_calibragem0[2][0]=1;
          //sensor da esquerda
-         vetor_calibragem[1][0][i]=i*5;
-         vetor_calibragem[1][1][0]=Sensor(LSE);
-         vetor_calibragem[1][2][0]=1;
+         vetor_calibragem1[0][i]=i*5;
+         vetor_calibragem1[1][0]=Sensor(LSE);
+         vetor_calibragem1[2][0]=1;
         }
         else//sai do estado
         {
@@ -231,8 +265,8 @@ task  main()
 
         for(i=0, j=34; i<j; i++)//for para calcular a primeira média dos valores para preto
         {
-         preto_d += vetor_calibragem[0][1][i];
-         preto_e += vetor_calibragem[1][1][i];
+         preto_d += vetor_calibragem0[1][i];
+         preto_e += vetor_calibragem1[1][i];
         }
         i=0;
         i_preto_e = 0;
@@ -242,8 +276,8 @@ task  main()
         while(j<200)
         {
          //andando com as médias
-         temp_preto_d = temp_preto_d + vetor_calibragem[0][1][j] - vetor_calibragem[0][1][i];
-         temp_preto_e = temp_preto_e + vetor_calibragem[1][1][j] - vetor_calibragem[1][1][i];
+         temp_preto_d = temp_preto_d + vetor_calibragem0[1][j] - vetor_calibragem0[1][i];
+         temp_preto_e = temp_preto_e + vetor_calibragem1[1][j] - vetor_calibragem1[1][i];
          
          if(temp_preto_d < preto_d)//checando a média atual para o caso da direta
          {
@@ -270,21 +304,21 @@ task  main()
         //direita
         for(i=0, branco_d=0; i<i_preto_d; i++)
         {
-         branco_d += vetor_calibragem[0][1][i];
+         branco_d += vetor_calibragem0[1][i];
         }
         for(i+=34; i<200; i++)
         {
-         branco_d += vetor_calibragem[0][1][i];
+         branco_d += vetor_calibragem0[1][i];
         }
         
         //esquerda
         for(i=0, branco_e=0; i<i_preto_e; i++)
         {
-         branco_e += vetor_calibragem[1][1][i];
+         branco_e += vetor_calibragem1[1][i];
         }
         for(i+=34; i<200; i++)
         {
-         branco_e += vetor_calibragem[1][1][i];
+         branco_e += vetor_calibragem1[1][i];
         }
         
         //regulando a média
@@ -357,6 +391,10 @@ task  main()
             potd = -POTMAX;  //as potencias são negativas pois os motores estão invertidos
             ResetTachoCount(MD);//resetando o contador de giro do motor direiro
             ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
+            
+            TextOut(0,LCD_LINE5,"resetei2    ");
+            NumOut(0,LCD_LINE6,dbug++);
+            
          break;//fim do subestado
          case fr2:
             andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente

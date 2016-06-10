@@ -1,0 +1,11 @@
+#define ME OUT_A
+#define MD OUT_C
+task main()
+{
+
+     OnFwd(MD,-85);
+     while(1)
+     {
+      NumOut(0,LCD_LINE6,-MotorTachoCount(MD));
+     }
+}
