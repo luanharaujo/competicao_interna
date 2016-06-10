@@ -86,8 +86,15 @@ Máquina de estado
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
      inicializar, inicializar2,         //andar para frente até passar as linhas e regular os sensores
-     calibrando,
-     ir_centro                          //função para ir para o centro o mais rápido possível
+     calibrando,                        //estado para calibrar os valores dos sensores
+     ir_centro,                         //função para ir para o centro o mais rápido possível
+     linha                              //estado para seguir a linha
+};
+enum type_estado_linha{                 //sub maquina de estado para seguir a linha
+     fr, fr2,                             //frente
+     dl,                                //direta leve
+     el,                                //esquerda leve
+     db, eb                             //direita e esquerda bruso
 };
 enum type_andar {          //possíveis movimentos do robo
      nao,                  //ficar parado
@@ -100,6 +107,7 @@ enum type_andar {          //possíveis movimentos do robo
 /*Declaração de Variáveis Globais*/
 //estados
 type_estado_rodas estado_rodas;
+type_estado_linha estado_linha;
 
 
 //flags
@@ -291,9 +299,82 @@ task  main()
         faixa_d = (branco_d - preto_d)/5;
         faixa_e = (branco_e - preto_e)/5;
         
-
+        estado_rodas = linha; /******************************   MUDANÇA DE ESTADO   ***************************************/
+        
    break;  //fim do estado
 
+   case linha : //estado para seguir a linha
+
+        //escolhendo sub estado basedo na leitura dos sensores
+
+        temp_l_d =  Sensor(LSD);
+        temp_l_e =  Sensor(LSE);
+
+        //começando pelo sensor direito
+        if(temp_l_d > cinza_d+faixa_d)//sensor da direta branco
+        {
+          if(temp_l_e > cinza_d+faixa_e)//sensor da esquerda branco
+          {
+            if((estado_linha == fr) || (estado_linha == fr2))
+            {
+             estado_linha = fr2;
+            }
+            else
+            {
+             estado_linha = fr;
+            }
+          }
+          else//sensor da esquerda não esta branco
+          {
+            if(temp_l_e < cinza_d-faixa_e)//caso seja preto
+            {
+             estado_linha = db;
+            }
+            else//sensor direta cinza
+            {
+             estado_linha = dl;
+            }
+          }
+        }
+        else//sensor da direta não branco
+        {
+         if(temp_l_d < cinza_d-faixa_d)//caso seja preto
+         {
+          estado_linha = eb;
+         }
+         else//sensor direta cinza
+         {
+          estado_linha = el;
+         }
+        }
+        
+        switch(estado_linha)//sub_maquina de estado para seguir a linha
+        {
+         case fr:
+            //inicializando as variáveias para o robo andar para frente
+            andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
+            pote = -POTMAX;  //sentando as potências iniciais como as máximas
+            potd = -POTMAX;  //as potencias são negativas pois os motores estão invertidos
+            ResetTachoCount(MD);//resetando o contador de giro do motor direiro
+            ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
+         break;//fim do subestado
+         case fr2:
+            andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
+         break;//fim do subestado
+         case dl:
+            andar = direita_leve;
+         break;//fim do subestado
+         case db:
+            andar = direita_brusco;
+         break;//fim do subestado
+         case el:
+            andar = esquerda_leve;
+         break;//fim do subestado
+         case eb:
+            andar = esquerda_brusco;
+         break;//fim do subestado
+        }
+   break; //fim do estado
   }
   
   /*Maquina de estado do braço*/
@@ -309,6 +390,22 @@ task  main()
    break;//fim do caso
    case frente://caso o robo deva andar para frente
        Frente();//regulando os motores para andarem para frente
+   break;//fim do caso
+   case direita_leve://caso o robo fazer uma curva leve a direta
+        pote = -POTMAX;
+        potd = 0;
+   break;//fim do caso
+   case direita_brusco://caso o robo deva fazer uma curva brusca a direta
+        pote = -POTMAX;
+        potd = POTMAX;
+   break;//fim do caso
+   case esquerda_leve://caso o robo fazer uma curva leve a esquerda
+        pote = 0;
+        potd = -POTMAX;
+   break;//fim do caso
+   case esquerda_brusco://caso o robo fazer uma curva brusca a esquerda
+        pote = POTMAX;
+        potd = -POTMAX;
    break;//fim do caso
   }
   
@@ -331,7 +428,7 @@ void Frente(void)//função que regula as potencias dos motores para eles andarem 
  {
   if(MotorTachoCount(MD) < MotorTachoCount(ME))
   {
-   if(pote > POTMAX)
+   if(pote > -POTMAX)
    {
     pote--;
    }
@@ -342,7 +439,7 @@ void Frente(void)//função que regula as potencias dos motores para eles andarem 
   }
   else if(MotorTachoCount(ME) < MotorTachoCount(MD))
   {
-   if(potd > POTMAX)
+   if(potd > -POTMAX)
    {
     potd--;
    }
