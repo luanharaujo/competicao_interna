@@ -8,12 +8,18 @@
 
 //sensores
 #define US IN_4
+#define LSD IN_2
+#define LSE IN_3
+#define RGB IN_1
 
 //variaveis globais
 int potd, pote;// potencia do motor direito e do motor esquerdo respectivamente
 
 //Flags
 int andar;
+
+int my_tc_d;
+int my_tc_e;
 
 //função principal
 task main()
@@ -24,10 +30,12 @@ task main()
  //inicializando as postências
  potd = -80;
  pote= -80;
- 
+
  //zerando os contadores
  ResetTachoCount(MD);
  ResetTachoCount(ME);
+ my_tc_d = 0;
+ my_tc_e = 0;
 
  while(1)//void loop
  {
@@ -43,12 +51,19 @@ task main()
    andar = 0;
   }
 
+  my_tc_d += MotorTachoCount(MD);
+  my_tc_e += MotorTachoCount(ME);
+  ResetTachoCount(MD);
+  ResetTachoCount(ME);
+  NumOut(1,LCD_LINE1,-my_tc_d);
+  NumOut(2,LCD_LINE1,-my_tc_e);
+  
 
   if(andar)
   {
-    if(!(MotorTachoCount(MD) == MotorTachoCount(ME)))
+    if(!(my_tc_d == my_tc_e))
     {
-      if(MotorTachoCount(MD) < MotorTachoCount(ME))
+      if(my_tc_d < my_tc_e)
       {
         if(pote > -85)
         {
@@ -59,7 +74,7 @@ task main()
          potd++;
         }
       }
-      else if(MotorTachoCount(ME) < MotorTachoCount(MD))
+      else if(my_tc_e < my_tc_d)
       {
         if(potd > -85)
         {
@@ -72,7 +87,8 @@ task main()
       }
     }
 
-
+    my_tc_d += MotorTachoCount(MD);
+    my_tc_e += MotorTachoCount(ME);
     OnFwd(ME,pote);
     OnFwd(MD,potd);
   }
@@ -80,6 +96,6 @@ task main()
   {
    Off(MDE);
   }
-  
+
  }
 }
