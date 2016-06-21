@@ -52,8 +52,8 @@ task main()
   }
 
   my_tc_d += MotorTachoCount(MD);
-  my_tc_e += MotorTachoCount(ME);
   ResetTachoCount(MD);
+  my_tc_e += MotorTachoCount(ME);
   ResetTachoCount(ME);
   NumOut(0,LCD_LINE1,-my_tc_d);
   NumOut(0,LCD_LINE2,-my_tc_e);
@@ -61,7 +61,7 @@ task main()
 
   if(andar)
   {
-    if(!(my_tc_d == my_tc_e))
+    if(abs(my_tc_d - my_tc_e)>5)
     {
       if(my_tc_d < my_tc_e)
       {
@@ -71,7 +71,8 @@ task main()
         }
         else
         {
-         potd++;
+         //if(potd<-84)
+             potd++;
         }
       }
       else if(my_tc_e < my_tc_d)
@@ -82,15 +83,26 @@ task main()
         }
         else
         {
-         pote++;
+         //if(pote<-84)
+            pote++;
         }
       }
-    }
 
-    my_tc_d += MotorTachoCount(MD);
+     my_tc_d = 0;
+     ResetTachoCount(MD);
+     my_tc_e = 0;
+     ResetTachoCount(ME);
+    }
+    
+
+
     my_tc_e += MotorTachoCount(ME);
     OnFwd(ME,pote);
+    my_tc_d += MotorTachoCount(MD);
     OnFwd(MD,potd);
+    Wait(500);
+
+
   }
   else
   {
