@@ -2,59 +2,59 @@
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__signed_stack_003main	6	1	0	4	4
 1	__signed_stack_002main	6	1	4	4	4
-2	__CLSCSMutex3	9	0	8	4	2
+2	__CLSWMutex3	9	0	8	4	2
 3	__CLSRMutex3	9	0	12	4	2
-4	__CLSWMutex3	9	0	16	4	2
-5	__RLSBmutex3	9	0	20	4	2
-6	__D0SetSensorLowspeed_inline_main	6	1	24	4	2
-7	__D0main	6	1	28	4	60
-8	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	32	4	2
-9	__DU0SetSensorLowspeed_inline_main	5	1	36	4	5
-10	__signed_stack_001main	6	1	40	4	18
-11	potd	4	1	44	2	7
-12	andar	4	1	46	2	3
-13	pote	4	1	48	2	7
-14	my_tc_e	4	1	50	2	10
-15	my_tc_d	4	1	52	2	10
-16	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	54	1	2
-17	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	55	1	2
-18	__constVal8	2	0	56	1	6
-19	__constValNeg80	2	0	57	1	2
-20	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	58	1	2
-21	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	59	1	4
-22	____initialize_global_data_return	1	1	60	1	3
-23	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	61	1	2
-24	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	62	1	2
-25	__ResetSensorTmp	1	1	63	1	2
-26	__ResetSensorPort	1	1	64	1	3
-27	__LSWriteOptions3	1	1	65	1	1
-28	____ResetSensorSubroutine_return	1	1	66	1	3
-29	__constVal1	2	0	67	1	7
-30	__constVal32	2	0	68	1	9
-31	__constVal3	2	0	69	1	4
-32	__constVal0	2	1	70	1	17
-33	__RLSBResult3	2	1	71	1	7
-34	__constVal96	2	0	72	1	3
-35	____ReadLSBytes3_return	1	1	73	1	3
-36	__constValNeg85	2	0	74	1	2
-37	__RLSBIterations3	1	1	75	1	4
-38	__RLSBytesCount3	1	1	76	1	7
-39	__constVal63	2	0	77	1	3
-40	__constVal2	2	0	78	1	6
-41	__TextOutArgs	8	0	4	16	12
-42	__TextOutArgs.Result	2	1	80	1	12
-43	__TextOutArgs.Location	8	0	2	4	12
-44	__TextOutArgs.Location.X	4	1	84	2	12
-45	__TextOutArgs.Location.Y	4	1	86	2	12
-46	__TextOutArgs.Text	7	0	88	4	12
-47	__TextOutArgs.Text.Text_type	1	0	0	1	0
-48	__TextOutArgs.Options	5	1	92	4	12
-49	__CLSRArgs3	8	0	4	12	5
-50	__CLSRArgs3.Result	2	1	96	1	5
-51	__CLSRArgs3.Port	1	1	97	1	5
-52	__CLSRArgs3.Buffer	7	0	98	4	5
-53	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
-54	__CLSRArgs3.BufferLen	1	1	100	1	5
+4	__signed_stack_001main	6	1	16	4	20
+5	__D0SetSensorLowspeed_inline_main	6	1	20	4	2
+6	__D0main	6	1	24	4	64
+7	__RLSBmutex3	9	0	28	4	2
+8	__DU0SetSensorLowspeed_inline_main	5	1	32	4	5
+9	__CLSCSMutex3	9	0	36	4	2
+10	my_tc_e	4	1	40	2	10
+11	potd	4	1	42	2	7
+12	cont	4	1	44	2	5
+13	andar	4	1	46	2	3
+14	my_tc_d	4	1	48	2	10
+15	pote	4	1	50	2	7
+16	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	52	1	2
+17	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	53	1	2
+18	__constVal8	2	0	54	1	6
+19	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	55	1	2
+20	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	56	1	4
+21	____initialize_global_data_return	1	1	57	1	3
+22	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	58	1	2
+23	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	59	1	2
+24	__constValNeg80	2	0	60	1	2
+25	__constVal1	2	0	61	1	8
+26	__constVal0	2	1	62	1	17
+27	__LSWriteOptions3	1	1	63	1	1
+28	__constVal32	2	0	64	1	9
+29	__ResetSensorPort	1	1	65	1	3
+30	__constVal3	2	0	66	1	4
+31	____ResetSensorSubroutine_return	1	1	67	1	3
+32	__ResetSensorTmp	1	1	68	1	2
+33	__RLSBResult3	2	1	69	1	7
+34	__constValNeg85	2	0	70	1	2
+35	__RLSBIterations3	1	1	71	1	4
+36	__RLSBytesCount3	1	1	72	1	7
+37	__constVal96	2	0	73	1	3
+38	__constVal63	2	0	74	1	3
+39	____ReadLSBytes3_return	1	1	75	1	3
+40	__constVal2	2	0	76	1	6
+41	__CLSRArgs3	8	0	4	12	5
+42	__CLSRArgs3.Result	2	1	80	1	5
+43	__CLSRArgs3.Port	1	1	81	1	5
+44	__CLSRArgs3.Buffer	7	0	82	4	5
+45	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+46	__CLSRArgs3.BufferLen	1	1	84	1	5
+47	__TextOutArgs	8	0	4	16	12
+48	__TextOutArgs.Result	2	1	88	1	12
+49	__TextOutArgs.Location	8	0	2	4	12
+50	__TextOutArgs.Location.X	4	1	92	2	12
+51	__TextOutArgs.Location.Y	4	1	94	2	12
+52	__TextOutArgs.Text	7	0	96	4	12
+53	__TextOutArgs.Text.Text_type	1	0	0	1	0
+54	__TextOutArgs.Options	5	1	100	4	12
 55	__CLSCSArgs3	8	0	3	4	4
 56	__CLSCSArgs3.Result	2	1	104	1	4
 57	__CLSCSArgs3.Port	1	1	105	1	4
@@ -75,336 +75,350 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 72	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	27	0	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	28	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	27	2	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	27	2	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	28	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
-0	27	5	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	30	5	#line 30 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	31	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
-0	4342	7	#line 4342 "NXCDefs.h"
-0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	4342	9	#line 4342 "NXCDefs.h"
-0	4342	9	#line 4342 "NXCDefs.h"
-0	4343	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
-0	4342	11	#line 4342 "NXCDefs.h"
-0	4343	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	28	0	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	29	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	28	2	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	31	2	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	32	2		set cont, 0
+0	31	5	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	31	5	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	31	5	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	32	5		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	31	8	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	34	8	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	35	8		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	10	#line 4342 "NXCDefs.h"
+0	4343	10		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	12	#line 4342 "NXCDefs.h"
+0	4342	12	#line 4342 "NXCDefs.h"
+0	4343	12		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
 0	4342	14	#line 4342 "NXCDefs.h"
-0	4343	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4343	14		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
 0	4342	17	#line 4342 "NXCDefs.h"
-0	4343	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4343	17		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
 0	4342	20	#line 4342 "NXCDefs.h"
-0	4342	20	#line 4342 "NXCDefs.h"
-0	4343	20		jmp __004__ASM_Label_37
-0	4342	22	#line 4342 "NXCDefs.h"
-0	4343	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4343	20		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	23	#line 4342 "NXCDefs.h"
+0	4342	23	#line 4342 "NXCDefs.h"
+0	4343	23		jmp __004__ASM_Label_37
 0	4342	25	#line 4342 "NXCDefs.h"
-0	4342	25	#line 4342 "NXCDefs.h"
-0	4343	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
-0	4247	27	#line 4247 "NXCDefs.h"
-0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
-0	4247	31	#line 4247 "NXCDefs.h"
-0	4343	31	#line 4343 "NXCDefs.h"
-0	4343	31	#line 4343 "NXCDefs.h"
-0	4344	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	4343	33	#line 4343 "NXCDefs.h"
-0	4343	33	#line 4343 "NXCDefs.h"
-0	4344	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	25		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	28	#line 4342 "NXCDefs.h"
+0	4342	28	#line 4342 "NXCDefs.h"
+0	4343	28		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	30	#line 4247 "NXCDefs.h"
+0	4248	30		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	34	#line 4247 "NXCDefs.h"
+0	4343	34	#line 4343 "NXCDefs.h"
+0	4343	34	#line 4343 "NXCDefs.h"
+0	4344	34		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
 0	4343	36	#line 4343 "NXCDefs.h"
-0	4260	36	#line 4260 "NXCDefs.h"
-0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
-0	4260	40	#line 4260 "NXCDefs.h"
-0	4344	40	#line 4344 "NXCDefs.h"
-0	4344	40	#line 4344 "NXCDefs.h"
-0	4344	40	#line 4344 "NXCDefs.h"
-0	4278	40	#line 4278 "NXCDefs.h"
-0	4279	40	#pragma macro 4
-0	4279	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
-0	4279	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	5985	44	#line 5985 "NXCDefs.h"
-0	4278	44	#line 4278 "NXCDefs.h"
-0	4345	44	#line 4345 "NXCDefs.h"
-0	30	44	#line 30 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	31	44	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	32	44		mov potd, __constValNeg80
-0	31	46	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	31	46	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	34	46	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	35	46		mov pote, __constValNeg80
-0	34	48	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	34	48	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	35	48	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	36	48	#pragma macro 7
-0	36	48		setout __constVal2, 0, __constVal8
-0	6000	53	#line 6000 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	35	53	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	36	53	#line 36 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	37	53	#pragma macro 7
-0	37	53		setout __constVal0, 0, __constVal8
-0	6003	58	#line 6003 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	36	58	#line 36 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	37	58	#line 37 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	38	58		set my_tc_d, 0
-0	37	61	#line 37 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	37	61	#line 37 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	39	61	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	40	61		set my_tc_e, 0
-0	39	64	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	39	64	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	40	64	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	41	64		set __D0main, 1
-0	42	67	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	43	67		tst 5, __D0main, __D0main
-0	42	70	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	43	70		brtst 4, __ASM_Label_615, __D0main
-0	42	73	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	43	73	#pragma macro 26
-0	43	73		acquire __RLSBmutex3
-0	43	74		mov __RLSReadBuf3, __RLSBbufLSWrite1
-0	43	76		set __RLSBytesCount3, 1
-0	43	79		wait 15
-0	43	81		subcall __ReadLSBytes3, ____ReadLSBytes3_return
-0	43	83		index __D0main, __RLSReadBuf3, 65535
-0	43	87		release __RLSBmutex3
-0	6023	88	#line 6023 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	42	88	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	43	88		mov __signed_stack_001main, __D0main
-0	43	90	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	44	90		set __D0main, 15
-0	43	93	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	44	93		cmp 3, __D0main, __signed_stack_001main, __D0main
-0	45	97	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	46	97		brtst 4, __ASM_Label_620, __D0main
-0	46	100	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	47	100		set andar, 1
-0	46	103	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	46	103	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	50	103	#line 50 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	51	103		jmp __ASM_Label_623
-0	51	105	#line 51 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	52	105		set andar, 0
-0	51	108	#line 51 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	51	108	#line 51 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	53	108	#line 53 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	54	108	#line 54 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	55	108		getout __D0main, __constVal2, 4
-0	54	112	#line 54 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	55	112		add my_tc_d, my_tc_d, __D0main
-0	54	116	#line 54 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	55	116	#line 55 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	56	116	#pragma macro 7
-0	56	116		setout __constVal2, 0, __constVal8
-0	6059	121	#line 6059 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	55	121	#line 55 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	56	121	#line 56 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	57	121		getout __D0main, __constVal0, 4
-0	56	125	#line 56 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	57	125		add my_tc_e, my_tc_e, __D0main
-0	56	129	#line 56 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	57	129	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	129	#pragma macro 7
-0	58	129		setout __constVal0, 0, __constVal8
-0	6069	134	#line 6069 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	57	134	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	57	134	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	134		set __signed_stack_001main, 0
-0	57	137	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	57	137	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	137		set __signed_stack_002main, 56
-0	57	140	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	57	140	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	140		set __signed_stack_003main, 0
-0	57	143	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	57	143	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	143		mov __D0main, my_tc_d
-0	57	145	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	145		sub __D0main, __signed_stack_003main, __D0main
-0	58	149	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	149	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	149		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	58	151	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	151		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	58	153	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	153		set __TextOutArgs.Options, 0
-0	58	156	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	156		numtostr __TextOutArgs.Text, __D0main
-0	58	159	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	159		syscall 13, __TextOutArgs
-0	58	162	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	162		mov __D0main, __TextOutArgs.Result
-0	58	164	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	164	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	164	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	164		set __signed_stack_001main, 0
-0	58	167	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	167	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	167		set __signed_stack_002main, 48
-0	58	170	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	170	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	170		set __signed_stack_003main, 0
-0	58	173	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	58	173	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	173		mov __D0main, my_tc_e
-0	58	175	#line 58 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	59	175		sub __D0main, __signed_stack_003main, __D0main
-0	61	179	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	61	179	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	62	179		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	61	181	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	62	181		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	61	183	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	62	183		set __TextOutArgs.Options, 0
-0	61	186	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	62	186		numtostr __TextOutArgs.Text, __D0main
-0	61	189	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	62	189		syscall 13, __TextOutArgs
-0	61	192	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	62	192		mov __D0main, __TextOutArgs.Result
-0	61	194	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	61	194	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	62	194	#line 62 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	63	194		mov __D0main, andar
-0	63	196	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	64	196		tst 5, __D0main, __D0main
-0	63	199	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	64	199		brtst 4, __ASM_Label_644, __D0main
-0	63	202	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	64	202		mov __signed_stack_001main, my_tc_d
-0	63	204	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	63	204	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	64	204		mov __D0main, my_tc_e
-0	63	206	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	64	206		sub __D0main, __signed_stack_001main, __D0main
-0	63	210	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	64	210		abs __signed_stack_001main, __D0main
-0	63	213	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	64	213	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	65	213		set __D0main, 5
-0	64	216	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	65	216		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	65	220	#line 65 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	66	220		brtst 4, __ASM_Label_649, __D0main
-0	65	223	#line 65 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	66	223		mov __signed_stack_001main, my_tc_d
-0	65	225	#line 65 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	66	225	#line 66 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	67	225		mov __D0main, my_tc_e
-0	66	227	#line 66 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	67	227		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	67	231	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	68	231		brtst 4, __ASM_Label_652, __D0main
-0	67	234	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	68	234		mov __signed_stack_001main, pote
-0	67	236	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	68	236	#line 68 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	69	236		mov __D0main, __constValNeg85
-0	68	238	#line 68 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	69	238		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	69	242	#line 69 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	70	242		brtst 4, __ASM_Label_655, __D0main
-0	70	245	#line 70 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	71	245		sub pote, pote, __constVal1
-0	70	249	#line 70 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	74	249	#line 74 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	75	249		jmp __ASM_Label_656
-0	75	251	#line 75 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	76	251		add potd, potd, __constVal1
-0	75	255	#line 75 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	77	255	#line 77 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	77	255	#line 77 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	78	255		jmp __ASM_Label_657
-0	77	257	#line 77 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	78	257		mov __signed_stack_001main, my_tc_e
-0	77	259	#line 77 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	78	259	#line 78 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	79	259		mov __D0main, my_tc_d
-0	78	261	#line 78 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	79	261		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	79	265	#line 79 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	80	265		brtst 4, __ASM_Label_660, __D0main
-0	79	268	#line 79 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	80	268		mov __signed_stack_001main, potd
-0	79	270	#line 79 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	80	270	#line 80 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	81	270		mov __D0main, __constValNeg85
-0	80	272	#line 80 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	81	272		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	81	276	#line 81 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	82	276		brtst 4, __ASM_Label_663, __D0main
-0	82	279	#line 82 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	83	279		sub potd, potd, __constVal1
-0	82	283	#line 82 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	86	283	#line 86 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	87	283		jmp __ASM_Label_664
-0	87	285	#line 87 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	88	285		add pote, pote, __constVal1
-0	87	289	#line 87 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	90	289	#line 90 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	90	289	#line 90 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	90	289	#line 90 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	91	289	#line 91 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	92	289		set my_tc_d, 0
-0	91	292	#line 91 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	91	292	#line 91 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	92	292	#line 92 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	93	292	#pragma macro 7
-0	93	292		setout __constVal2, 0, __constVal8
-0	6278	297	#line 6278 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	92	297	#line 92 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	93	297	#line 93 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	94	297		set my_tc_e, 0
-0	93	300	#line 93 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	93	300	#line 93 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	94	300	#line 94 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	95	300	#pragma macro 7
-0	95	300		setout __constVal0, 0, __constVal8
-0	6286	305	#line 6286 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	94	305	#line 94 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	98	305	#line 98 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	99	305	#line 99 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	100	305		getout __D0main, __constVal0, 4
-0	99	309	#line 99 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	100	309		add my_tc_e, my_tc_e, __D0main
-0	99	313	#line 99 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	99	313	#line 99 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	100	313		mov __D0main, pote
-0	100	315	#line 100 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	101	315	#pragma macro 7
-0	101	315		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6302	338	#line 6302 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	100	338	#line 100 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	101	338	#line 101 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	102	338		getout __D0main, __constVal2, 4
-0	101	342	#line 101 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	102	342		add my_tc_d, my_tc_d, __D0main
-0	101	346	#line 101 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	101	346	#line 101 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	102	346		mov __D0main, potd
-0	102	348	#line 102 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	103	348	#pragma macro 7
-0	103	348		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6316	371	#line 6316 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	102	371	#line 102 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	102	371	#line 102 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	103	371		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	102	374	#line 102 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	8551	374	#line 8551 "NXCDefs.h"
-0	8552	374		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	376	#line 8551 "NXCDefs.h"
-0	105	376	#line 105 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	108	376	#line 108 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	109	376		jmp __ASM_Label_679
-0	109	378	#line 109 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	110	378	#pragma macro 7
-0	110	378		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6334	401	#line 6334 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	109	401	#line 109 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	112	401	#line 112 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	114	401	#line 114 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	115	401		jmp __ASM_Label_614
-0	114	403	#line 114 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-0	115	403		exit -1, -1
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4344	36		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	39	#line 4343 "NXCDefs.h"
+0	4260	39	#line 4260 "NXCDefs.h"
+0	4261	39		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	43	#line 4260 "NXCDefs.h"
+0	4344	43	#line 4344 "NXCDefs.h"
+0	4344	43	#line 4344 "NXCDefs.h"
+0	4344	43	#line 4344 "NXCDefs.h"
+0	4278	43	#line 4278 "NXCDefs.h"
+0	4279	43	#pragma macro 4
+0	4279	43		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	45		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5916	47	#line 5916 "NXCDefs.h"
+0	4278	47	#line 4278 "NXCDefs.h"
+0	4345	47	#line 4345 "NXCDefs.h"
+0	34	47	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	35	47	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	36	47		mov potd, __constValNeg80
+0	35	49	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	35	49	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	38	49	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	39	49		mov pote, __constValNeg80
+0	38	51	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	38	51	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	39	51	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	40	51	#pragma macro 7
+0	40	51		setout __constVal2, 0, __constVal8
+0	5931	56	#line 5931 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	39	56	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	40	56	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	41	56	#pragma macro 7
+0	41	56		setout __constVal0, 0, __constVal8
+0	5934	61	#line 5934 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	40	61	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	41	61	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	42	61		set my_tc_d, 0
+0	41	64	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	41	64	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	43	64	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	44	64		set my_tc_e, 0
+0	43	67	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	43	67	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	44	67	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	45	67		set __D0main, 1
+0	48	70	#line 48 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	49	70		tst 5, __D0main, __D0main
+0	48	73	#line 48 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	49	73		brtst 4, __ASM_Label_617, __D0main
+0	48	76	#line 48 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	49	76	#pragma macro 26
+0	49	76		acquire __RLSBmutex3
+0	49	77		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	49	79		set __RLSBytesCount3, 1
+0	49	82		wait 15
+0	49	84		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	49	86		index __D0main, __RLSReadBuf3, 65535
+0	49	90		release __RLSBmutex3
+0	5954	91	#line 5954 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	48	91	#line 48 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	49	91		mov __signed_stack_001main, __D0main
+0	49	93	#line 49 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	50	93		set __D0main, 15
+0	49	96	#line 49 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	50	96		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	51	100	#line 51 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	52	100		brtst 4, __ASM_Label_622, __D0main
+0	52	103	#line 52 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	53	103		set andar, 1
+0	52	106	#line 52 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	52	106	#line 52 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	56	106	#line 56 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	57	106		jmp __ASM_Label_625
+0	57	108	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	58	108		set andar, 0
+0	57	111	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	57	111	#line 57 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	59	111	#line 59 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	60	111	#line 60 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	61	111		getout __D0main, __constVal2, 4
+0	60	115	#line 60 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	61	115		add my_tc_d, my_tc_d, __D0main
+0	60	119	#line 60 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	61	119	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	62	119	#pragma macro 7
+0	62	119		setout __constVal2, 0, __constVal8
+0	5990	124	#line 5990 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	61	124	#line 61 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	62	124	#line 62 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	63	124		getout __D0main, __constVal0, 4
+0	62	128	#line 62 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	63	128		add my_tc_e, my_tc_e, __D0main
+0	62	132	#line 62 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	63	132	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	132	#pragma macro 7
+0	64	132		setout __constVal0, 0, __constVal8
+0	6000	137	#line 6000 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	63	137	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	63	137	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	137		set __signed_stack_001main, 0
+0	63	140	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	63	140	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	140		set __signed_stack_002main, 56
+0	63	143	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	63	143	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	143		set __signed_stack_003main, 0
+0	63	146	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	63	146	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	146		mov __D0main, my_tc_d
+0	63	148	#line 63 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	148		sub __D0main, __signed_stack_003main, __D0main
+0	64	152	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	152	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	152		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	64	154	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	154		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	64	156	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	156		set __TextOutArgs.Options, 0
+0	64	159	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	159		numtostr __TextOutArgs.Text, __D0main
+0	64	162	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	162		syscall 13, __TextOutArgs
+0	64	165	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	165		mov __D0main, __TextOutArgs.Result
+0	64	167	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	167	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	167	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	167		set __signed_stack_001main, 0
+0	64	170	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	170	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	170		set __signed_stack_002main, 48
+0	64	173	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	173	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	173		set __signed_stack_003main, 0
+0	64	176	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	64	176	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	176		mov __D0main, my_tc_e
+0	64	178	#line 64 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	65	178		sub __D0main, __signed_stack_003main, __D0main
+0	67	182	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	67	182	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	68	182		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	67	184	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	68	184		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	67	186	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	68	186		set __TextOutArgs.Options, 0
+0	67	189	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	68	189		numtostr __TextOutArgs.Text, __D0main
+0	67	192	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	68	192		syscall 13, __TextOutArgs
+0	67	195	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	68	195		mov __D0main, __TextOutArgs.Result
+0	67	197	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	67	197	#line 67 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	68	197	#line 68 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	69	197		mov __D0main, andar
+0	69	199	#line 69 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	70	199		tst 5, __D0main, __D0main
+0	69	202	#line 69 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	70	202		brtst 4, __ASM_Label_646, __D0main
+0	70	205	#line 70 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	71	205		add cont, cont, __constVal1
+0	70	209	#line 70 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	70	209	#line 70 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	71	209		mov __signed_stack_001main, cont
+0	70	211	#line 70 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	71	211	#line 71 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	72	211		set __D0main, 0
+0	71	214	#line 71 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	72	214		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	72	218	#line 72 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	73	218		brtst 4, __ASM_Label_649, __D0main
+0	73	221	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	74	221		set cont, 0
+0	73	224	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	73	224	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	73	224	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	74	224		mov __signed_stack_001main, my_tc_d
+0	73	226	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	73	226	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	74	226		mov __D0main, my_tc_e
+0	73	228	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	74	228		sub __D0main, __signed_stack_001main, __D0main
+0	73	232	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	74	232		abs __signed_stack_001main, __D0main
+0	73	235	#line 73 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	74	235	#line 74 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	75	235		set __D0main, 5
+0	74	238	#line 74 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	75	238		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	75	242	#line 75 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	76	242		brtst 4, __ASM_Label_656, __D0main
+0	75	245	#line 75 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	76	245		mov __signed_stack_001main, my_tc_d
+0	75	247	#line 75 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	76	247	#line 76 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	77	247		mov __D0main, my_tc_e
+0	76	249	#line 76 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	77	249		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	77	253	#line 77 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	78	253		brtst 4, __ASM_Label_659, __D0main
+0	77	256	#line 77 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	78	256		mov __signed_stack_001main, pote
+0	77	258	#line 77 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	78	258	#line 78 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	79	258		mov __D0main, __constValNeg85
+0	78	260	#line 78 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	79	260		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	79	264	#line 79 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	80	264		brtst 4, __ASM_Label_662, __D0main
+0	80	267	#line 80 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	81	267		sub pote, pote, __constVal1
+0	80	271	#line 80 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	84	271	#line 84 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	85	271		jmp __ASM_Label_663
+0	85	273	#line 85 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	86	273		add potd, potd, __constVal1
+0	85	277	#line 85 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	87	277	#line 87 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	87	277	#line 87 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	88	277		jmp __ASM_Label_664
+0	87	279	#line 87 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	88	279		mov __signed_stack_001main, my_tc_e
+0	87	281	#line 87 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	88	281	#line 88 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	89	281		mov __D0main, my_tc_d
+0	88	283	#line 88 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	89	283		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	89	287	#line 89 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	90	287		brtst 4, __ASM_Label_667, __D0main
+0	89	290	#line 89 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	90	290		mov __signed_stack_001main, potd
+0	89	292	#line 89 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	90	292	#line 90 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	91	292		mov __D0main, __constValNeg85
+0	90	294	#line 90 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	91	294		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	91	298	#line 91 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	92	298		brtst 4, __ASM_Label_670, __D0main
+0	92	301	#line 92 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	93	301		sub potd, potd, __constVal1
+0	92	305	#line 92 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	96	305	#line 96 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	97	305		jmp __ASM_Label_671
+0	97	307	#line 97 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	98	307		add pote, pote, __constVal1
+0	97	311	#line 97 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	100	311	#line 100 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	100	311	#line 100 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	100	311	#line 100 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	101	311	#line 101 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	102	311		set my_tc_d, 0
+0	101	314	#line 101 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	101	314	#line 101 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	102	314	#line 102 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	103	314	#pragma macro 7
+0	103	314		setout __constVal2, 0, __constVal8
+0	6231	319	#line 6231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	102	319	#line 102 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	103	319	#line 103 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	104	319		set my_tc_e, 0
+0	103	322	#line 103 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	103	322	#line 103 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	104	322	#line 104 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	105	322	#pragma macro 7
+0	105	322		setout __constVal0, 0, __constVal8
+0	6239	327	#line 6239 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	104	327	#line 104 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	108	327	#line 108 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	108	327	#line 108 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	110	327	#line 110 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	111	327		getout __D0main, __constVal0, 4
+0	110	331	#line 110 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	111	331		add my_tc_e, my_tc_e, __D0main
+0	110	335	#line 110 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	110	335	#line 110 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	111	335		mov __D0main, pote
+0	111	337	#line 111 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	112	337	#pragma macro 7
+0	112	337		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6257	360	#line 6257 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	111	360	#line 111 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	113	360	#line 113 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	114	360		getout __D0main, __constVal2, 4
+0	113	364	#line 113 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	114	364		add my_tc_d, my_tc_d, __D0main
+0	113	368	#line 113 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	113	368	#line 113 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	114	368		mov __D0main, potd
+0	117	370	#line 117 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	118	370	#pragma macro 7
+0	118	370		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6271	393	#line 6271 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	117	393	#line 117 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	120	393	#line 120 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	121	393		jmp __ASM_Label_684
+0	121	395	#line 121 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	122	395	#pragma macro 7
+0	122	395		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6277	418	#line 6277 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	121	418	#line 121 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	125	418	#line 125 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	127	418	#line 127 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	128	418		jmp __ASM_Label_616
+0	127	420	#line 127 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+0	128	420		exit -1, -1
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -451,11 +465,11 @@ Clump	Line	PC	Source
 2	6414	78		mov __RLSReadBuf3, __RLSLastGoodRead3
 2	6416	80		arrsize __RLSBytesCount3, __RLSReadBuf3
 2	6418	83		subret ____ReadLSBytes3_return
-3	115	0	#line 115 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
-3	116	0		subret ____initialize_global_data_return
+3	128	0	#line 128 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc"
+3	129	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc
-1	__ResetSensorSubroutine	406	NXTDefs.h
-2	__ReadLSBytes3	419	NXTDefs.h
-3	__initialize_global_data	504	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc
+1	__ResetSensorSubroutine	423	NXTDefs.h
+2	__ReadLSBytes3	436	NXTDefs.h
+3	__initialize_global_data	521	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\andar.nxc

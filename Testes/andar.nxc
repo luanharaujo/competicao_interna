@@ -12,6 +12,8 @@
 #define LSE IN_3
 #define RGB IN_1
 
+int cont;
+
 //variaveis globais
 int potd, pote;// potencia do motor direito e do motor esquerdo respectivamente
 
@@ -24,6 +26,8 @@ int my_tc_e;
 //função principal
 task main()
 {
+ cont = 0;
+
  /*setando sensores*/
  SetSensorLowspeed(US);
 
@@ -39,6 +43,8 @@ task main()
 
  while(1)//void loop
  {
+
+
 
   if(SensorUS(US)>=15)//condição para parar robo de forma fácil nos testes
   {
@@ -61,6 +67,10 @@ task main()
 
   if(andar)
   {
+   cont++;
+   if(cont>=0)
+   {
+    cont = 0;
     if(abs(my_tc_d - my_tc_e)>5)
     {
       if(my_tc_d < my_tc_e)
@@ -94,13 +104,15 @@ task main()
      ResetTachoCount(ME);
     }
     
-
+    }//segura ciclos
 
     my_tc_e += MotorTachoCount(ME);
+    //ResetTachoCount(ME);
     OnFwd(ME,pote);
     my_tc_d += MotorTachoCount(MD);
+    //ResetTachoCount(MD);
     OnFwd(MD,potd);
-    Wait(500);
+
 
 
   }
@@ -108,6 +120,7 @@ task main()
   {
    Off(MDE);
   }
+
 
  }
 }
