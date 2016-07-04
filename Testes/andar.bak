@@ -68,10 +68,11 @@ task main()
   if(andar)
   {
    cont++;
-   if(cont>=500)
+   if(cont>=200)
    {
     cont = 0;
-    if(abs(my_tc_d - my_tc_e)>5)
+    //if(abs(my_tc_d - my_tc_e)>15)
+    if(my_tc_d - my_tc_e)
     {
       if(my_tc_d < my_tc_e)
       {
@@ -98,10 +99,10 @@ task main()
         }
       }
 
-     my_tc_d = 0;
-     ResetTachoCount(MD);
-     my_tc_e = 0;
-     ResetTachoCount(ME);
+     //my_tc_d = 0;
+     //ResetTachoCount(MD);
+     //my_tc_e = 0;
+     //ResetTachoCount(ME);
     }
     
     }//segura ciclos
