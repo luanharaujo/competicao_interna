@@ -394,8 +394,6 @@ task  main()
 
             my_tc_d = 0;
             my_tc_e = 0;
-
-
             ResetTachoCount(MD);//resetando o contador de giro do motor direiro
             ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
             
@@ -436,9 +434,9 @@ task  main()
         OnFwd(MD,0);
    break;//fim do caso
    case frente://caso o robo deva andar para frente
-       //Frente();//regulando os motores para andarem para frente
-       pote = -POTMAX;
-       potd = -POTMAX;
+       Frente();//regulando os motores para andarem para frente
+       //pote = -POTMAX;
+       //potd = -POTMAX;
    break;//fim do caso
    case direita_leve://caso o robo fazer uma curva leve a direta
         pote = -POTMAX;
@@ -471,8 +469,16 @@ task  main()
 
  }
 }
+//******************************************************************************************************************************************
+void Frente(void)
+{
+    my_tc_d += MotorTachoCount(MD);
+    ResetTachoCount(MD);
+    my_tc_e += MotorTachoCount(ME);
+    ResetTachoCount(ME);
+}
 
-
+//******************************************************************************************************************************************
 
 /*Assinaturas das funções*/
 int ang2line(int ang)//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros

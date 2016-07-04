@@ -152,6 +152,9 @@ task  main()
  while(true)//void loop
  {
   NumOut(0,LCD_LINE1,estado_rodas);
+  
+  NumOut(0,LCD_LINE6,Sensor(LSD));
+  NumOut(0,LCD_LINE7,Sensor(LSE));
 
   /*maquina estado do bloco de locamoção*/
   switch(estado_rodas) //switch da máquina de estados principal
