@@ -80,7 +80,7 @@ Máquina de estado
 #define LSE IN_3
 #define RGB IN_1
 //parametros
-#define POTMAX 85
+#define POTMAX 60
 
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
@@ -314,8 +314,8 @@ task  main()
         cinza_e = (preto_e + branco_e)/2;
         
         //achando a faixa
-        faixa_d = (branco_d - preto_d)/10;
-        faixa_e = (branco_e - preto_e)/10;
+        faixa_d = (branco_d - preto_d)/4;
+        faixa_e = (branco_e - preto_e)/4;
         
 
         estado_rodas = linha; /******************************   MUDANÇA DE ESTADO   ***************************************/
