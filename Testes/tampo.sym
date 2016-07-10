@@ -1,0 +1,91 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	16
+1	__unsigned_stack_001main	5	1	4	4	8
+2	__main_7qG2_my_time_7qG2_000	5	1	8	4	4
+3	__constValNeg70	2	0	12	1	1
+4	__constVal96	2	0	13	1	2
+5	__constVal63	2	0	14	1	2
+6	____initialize_global_data_return	1	1	15	1	3
+7	__constVal0	2	1	16	1	6
+8	__constVal3	2	0	17	1	2
+9	__constVal32	2	0	18	1	6
+10	__OUT_AC	7	0	20	4	2
+11	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	17	0	#line 17 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	18	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	17	2	#line 17 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	19	2	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	20	2		set __D0main, 1
+0	20	5	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	21	5		tst 5, __D0main, __D0main
+0	20	8	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	21	8		brtst 4, __ASM_Label_605, __D0main
+0	20	11	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	21	11		mov __D0main, __constValNeg70
+0	21	13	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	22	13	#pragma macro 7
+0	22	13		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5736	36	#line 5736 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	21	36	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	21	36	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	22	36		gettick __main_7qG2_my_time_7qG2_000
+0	21	38	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	21	38	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	21	38	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	22	38	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	23	38		gettick __unsigned_stack_001main
+0	22	40	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	22	40	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	22	40	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	23	40		sub __unsigned_stack_001main, __unsigned_stack_001main, __main_7qG2_my_time_7qG2_000
+0	22	44	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	22	44	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	23	44		set __D0main, 500
+0	22	47	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	23	47		cmp 0, __D0main, __unsigned_stack_001main, __D0main
+0	22	51	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	23	51		brtst 4, __ASM_Label_613, __D0main
+0	24	54	#line 24 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	25	54		jmp __ASM_Label_612
+0	24	56	#line 24 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	24	56	#line 24 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	25	56		set __D0main, 70
+0	26	59	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	27	59	#pragma macro 7
+0	27	59		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5776	82	#line 5776 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	26	82	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	26	82	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	27	82		gettick __main_7qG2_my_time_7qG2_000
+0	26	84	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	26	84	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	26	84	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	27	84	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	28	84		gettick __unsigned_stack_001main
+0	27	86	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	27	86	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	27	86	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	28	86		sub __unsigned_stack_001main, __unsigned_stack_001main, __main_7qG2_my_time_7qG2_000
+0	27	90	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	27	90	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	28	90		set __D0main, 500
+0	27	93	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	28	93		cmp 0, __D0main, __unsigned_stack_001main, __D0main
+0	27	97	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	28	97		brtst 4, __ASM_Label_621, __D0main
+0	30	100	#line 30 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	31	100		jmp __ASM_Label_620
+0	30	102	#line 30 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	33	102	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	34	102		jmp __ASM_Label_604
+0	33	104	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+0	34	104		exit -1, -1
+1	34	0	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc"
+1	35	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc
+1	__initialize_global_data	107	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\tampo.nxc

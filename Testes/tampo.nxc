@@ -1,0 +1,33 @@
+                                                                                                                                    /*teste do braço*/
+/*Definicições*/
+//moteore
+#define ME OUT_A
+#define MD OUT_C
+#define MDE OUT_AC
+#define MB OUT_B
+//sensores
+#define US IN_4
+#define LSD IN_2
+#define LSE IN_3
+#define RGB IN_1
+//parametros
+#define POTMAX 75
+
+task main()
+{
+ unsigned long my_time;
+ while(1)
+ {
+  OnFwd(MDE,-70);
+  my_time = CurrentTick();
+  while(CurrentTick() - my_time < 500){}
+  //Wait(500);
+  OnFwd(MDE,70);
+  //Wait(500);
+  my_time = CurrentTick();
+  while(CurrentTick() - my_time < 500){}
+
+ }
+}
+
+
