@@ -32,7 +32,7 @@ task main()
 
  ResetTachoCount(MB);
  ResetTachoCount(MB);
- ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);ResetTachoCount(MB);
+ ResetTachoCount(MB);
  //Wait(200);
  NumOut(0,LCD_LINE8,MotorTachoCount(MB));
 
