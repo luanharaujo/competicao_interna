@@ -1,297 +1,167 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001main	6	1	0	4	20
-1	__D0main	6	1	4	4	42
-2	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	8	4	4
-3	__signed_stack_002main	6	1	12	4	12
-4	__main_7qG2_tc_7qG2_000	4	1	16	2	5
-5	__main_7qG2_old_tc_7qG2_000	4	1	18	2	2
-6	__constVal63	2	0	20	1	4
-7	__constVal8	2	0	21	1	1
-8	__constVal96	2	0	22	1	4
-9	__constValNeg70	2	0	23	1	1
-10	____initialize_global_data_return	1	1	24	1	3
-11	__constVal32	2	0	25	1	12
-12	__constVal3	2	0	26	1	4
-13	__constVal1	2	0	27	1	14
-14	__constVal0	2	1	28	1	12
-15	__TextOutArgs	8	0	4	16	36
-16	__TextOutArgs.Result	2	1	32	1	36
-17	__TextOutArgs.Location	8	0	2	4	36
-18	__TextOutArgs.Location.X	4	1	36	2	36
-19	__TextOutArgs.Location.Y	4	1	38	2	36
-20	__TextOutArgs.Text	7	0	40	4	36
-21	__TextOutArgs.Text.Text_type	1	0	0	1	0
-22	__TextOutArgs.Options	5	1	44	4	36
-23	__constStr0010	7	0	48	4	1
-24	__constStr0010.__constStr0010_type	1	1	0	1	0
-25	__constStr0009	7	0	50	4	1
-26	__constStr0009.__constStr0009_type	1	1	0	1	0
-27	__strbufmain	7	0	52	4	4
-28	__strbufmain.__strbufmain_type	1	0	0	1	0
+0	__D0main	6	1	0	4	32
+1	__signed_stack_001main	6	1	4	4	10
+2	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	8	4	6
+3	__main_7qG2_tc_7qG2_000	4	1	12	2	5
+4	__main_7qG2_old_tc_7qG2_000	4	1	14	2	2
+5	__constVal96	2	0	16	1	4
+6	__constValNeg70	2	0	17	1	1
+7	__constVal32	2	0	18	1	12
+8	__constVal63	2	0	19	1	4
+9	__constVal3	2	0	20	1	4
+10	__constVal1	2	0	21	1	11
+11	__constVal0	2	1	22	1	13
+12	__constVal8	2	0	23	1	1
+13	____initialize_global_data_return	1	1	24	1	3
 #SOURCES
 Clump	Line	PC	Source
-0	17	0	#line 17 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
+0	17	0	#line 17 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
 0	18	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	17	2	#line 17 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	18	2	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	19	2		mov __D0main, __constValNeg70
-0	19	4	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	20	4	#pragma macro 7
-0	20	4		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5811	27	#line 5811 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	19	27	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	20	27	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	21	27		getout __main_7qG2_tc_7qG2_000, __constVal1, 4
-0	20	31	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	20	31	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	20	31	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	21	31		mov __signed_stack_001main, __main_7qG2_tc_7qG2_000
-0	20	33	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	20	33	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	21	33		getout __D0main, __constVal1, 4
-0	20	37	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	21	37		cmp 4, __D0main, __signed_stack_001main, __D0main
-0	20	41	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	21	41		brtst 4, __ASM_Label_609, __D0main
-0	21	44	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	22	44		jmp __ASM_Label_608
-0	21	46	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	23	46	#line 23 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	24	46		mov __main_7qG2_old_tc_7qG2_000, __main_7qG2_tc_7qG2_000
-0	23	48	#line 23 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	23	48	#line 23 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	24	48	#line 24 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	25	48		getout __main_7qG2_tc_7qG2_000, __constVal1, 4
-0	24	52	#line 24 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	24	52	#line 24 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	24	52	#line 24 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	25	52		set __Wait_7qG2_ms_7qG2_000_inline_main, 15
-0	24	55	#line 24 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
+0	17	2	#line 17 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	18	2	#line 18 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	18	2	#line 18 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	19	2	#line 19 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	19	2	#line 19 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	20	2		mov __D0main, __constValNeg70
+0	20	4	#line 20 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	21	4	#pragma macro 7
+0	21	4		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5821	27	#line 5821 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	20	27	#line 20 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	21	27	#line 21 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	22	27		getout __main_7qG2_tc_7qG2_000, __constVal1, 4
+0	21	31	#line 21 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	21	31	#line 21 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	21	31	#line 21 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	22	31		mov __signed_stack_001main, __main_7qG2_tc_7qG2_000
+0	21	33	#line 21 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	21	33	#line 21 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	22	33		getout __D0main, __constVal1, 4
+0	21	37	#line 21 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	22	37		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	21	41	#line 21 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	22	41		brtst 4, __ASM_Label_611, __D0main
+0	22	44	#line 22 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	23	44		jmp __ASM_Label_610
+0	22	46	#line 22 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	24	46	#line 24 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	25	46		mov __main_7qG2_old_tc_7qG2_000, __main_7qG2_tc_7qG2_000
+0	24	48	#line 24 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	24	48	#line 24 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	25	48	#line 25 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	26	48		getout __main_7qG2_tc_7qG2_000, __constVal1, 4
+0	25	52	#line 25 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	25	52	#line 25 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	25	52	#line 25 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	26	52		set __Wait_7qG2_ms_7qG2_000_inline_main, 15
+0	25	55	#line 25 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
 0	8551	55	#line 8551 "NXCDefs.h"
 0	8552	55		waitv __Wait_7qG2_ms_7qG2_000_inline_main
 0	8551	57	#line 8551 "NXCDefs.h"
-0	25	57	#line 25 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	25	57	#line 25 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	26	57		mov __signed_stack_001main, __main_7qG2_old_tc_7qG2_000
-0	25	59	#line 25 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	26	59	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	59		mov __D0main, __main_7qG2_tc_7qG2_000
-0	26	61	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	61		cmp 5, __D0main, __signed_stack_001main, __D0main
-0	26	65	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	65		brtst 4, __ASM_Label_613, __D0main
-0	26	68	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	68		jmp __ASM_Label_612
-0	26	70	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	26	70	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	70		set __D0main, 0
-0	27	73	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	28	73	#pragma macro 7
-0	28	73		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	5887	96	#line 5887 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	96	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	96	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	28	96		set __signed_stack_001main, 0
-0	27	99	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	99	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	28	99		set __signed_stack_002main, 48
-0	27	102	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	27	102	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	28	102		strcat __strbufmain, __constStr0009
-0	28	106	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	28	106	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	106		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	28	108	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	108		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	28	110	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	110		set __TextOutArgs.Options, 0
-0	28	113	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	113		mov __TextOutArgs.Text, __strbufmain
-0	28	115	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	115		syscall 13, __TextOutArgs
-0	28	118	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	118		mov __D0main, __TextOutArgs.Result
-0	28	120	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	28	120	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	28	120	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	120		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
-0	28	123	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	8551	123	#line 8551 "NXCDefs.h"
-0	8552	123		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	125	#line 8551 "NXCDefs.h"
-0	29	125	#line 29 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	125	#line 29 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	30	125		set __signed_stack_001main, 0
-0	29	128	#line 29 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	128	#line 29 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	30	128		set __signed_stack_002main, 40
-0	29	131	#line 29 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	29	131	#line 29 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	30	131		strcat __strbufmain, __constStr0010
-0	31	135	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	31	135	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	32	135		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	31	137	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	32	137		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	31	139	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	32	139		set __TextOutArgs.Options, 0
-0	31	142	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	32	142		mov __TextOutArgs.Text, __strbufmain
-0	31	144	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	32	144		syscall 13, __TextOutArgs
-0	31	147	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	32	147		mov __D0main, __TextOutArgs.Result
-0	31	149	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	31	149	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	31	149	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	32	149		getout __signed_stack_001main, __constVal1, 4
-0	31	153	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	32	153	#line 32 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	33	153		set __D0main, 0
-0	32	156	#line 32 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	33	156		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	33	160	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	34	160		brtst 4, __ASM_Label_635, __D0main
-0	34	163	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	35	163	#pragma macro 7
-0	35	163		setout __constVal1, 0, __constVal8
-0	5975	168	#line 5975 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	34	168	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	35	168	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	36	168		jmp __ASM_Label_634
-0	35	170	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	35	170	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	36	170		set __signed_stack_001main, 0
-0	35	173	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	35	173	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	36	173		set __signed_stack_002main, 0
-0	35	176	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	35	176	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	36	176		getout __D0main, __constVal1, 4
-0	38	180	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	38	180	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	180		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	38	182	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	182		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	38	184	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	184		set __TextOutArgs.Options, 0
-0	38	187	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	187		numtostr __TextOutArgs.Text, __D0main
-0	38	190	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	190		syscall 13, __TextOutArgs
-0	38	193	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	193		mov __D0main, __TextOutArgs.Result
-0	38	195	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	38	195	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	38	195	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	195		set __D0main, 70
-0	39	198	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	40	198	#pragma macro 7
-0	40	198		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6017	221	#line 6017 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	221	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	221	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	40	221		set __signed_stack_001main, 0
-0	39	224	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	224	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	40	224		set __signed_stack_002main, 32
-0	39	227	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	39	227	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	40	227		getout __D0main, __constVal1, 4
-0	40	231	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	40	231	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	231		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	40	233	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	233		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	40	235	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	235		set __TextOutArgs.Options, 0
-0	40	238	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	238		numtostr __TextOutArgs.Text, __D0main
-0	40	241	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	241		syscall 13, __TextOutArgs
-0	40	244	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	244		mov __D0main, __TextOutArgs.Result
-0	40	246	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	40	246	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	40	246	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	246		getout __signed_stack_001main, __constVal1, 4
-0	40	250	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	40	250	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	250		set __D0main, 28
-0	40	253	#line 40 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	253		cmp 0, __D0main, __signed_stack_001main, __D0main
-0	41	257	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	42	257		brtst 4, __ASM_Label_653, __D0main
-0	41	260	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	42	260		set __signed_stack_001main, 0
-0	41	263	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	263	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	42	263		set __signed_stack_002main, 56
-0	41	266	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	41	266	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	42	266		getout __D0main, __constVal1, 4
-0	42	270	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	42	270	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	270		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	42	272	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	272		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	42	274	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	274		set __TextOutArgs.Options, 0
-0	42	277	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	277		numtostr __TextOutArgs.Text, __D0main
-0	42	280	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	280		syscall 13, __TextOutArgs
-0	42	283	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	283		mov __D0main, __TextOutArgs.Result
-0	42	285	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	42	285	#line 42 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	285	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	44	285		jmp __ASM_Label_652
-0	43	287	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	287	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	44	287		set __signed_stack_001main, 0
-0	43	290	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	290	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	44	290		set __signed_stack_002main, 24
-0	43	293	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	43	293	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	44	293		getout __D0main, __constVal1, 4
-0	44	297	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	44	297	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	45	297		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	44	299	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	45	299		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	44	301	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	45	301		set __TextOutArgs.Options, 0
-0	44	304	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	45	304		numtostr __TextOutArgs.Text, __D0main
-0	44	307	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	45	307		syscall 13, __TextOutArgs
-0	44	310	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	45	310		mov __D0main, __TextOutArgs.Result
-0	44	312	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	44	312	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	44	312	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	45	312		set __D0main, 0
-0	46	315	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	47	315	#pragma macro 7
-0	47	315		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	6140	338	#line 6140 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	46	338	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	46	338	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	47	338		set __D0main, 1
-0	46	341	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	47	341		tst 5, __D0main, __D0main
-0	46	344	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	47	344		brtst 4, __ASM_Label_671, __D0main
-0	49	347	#line 49 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	50	347		jmp __ASM_Label_670
-0	49	349	#line 49 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
-0	50	349		exit -1, -1
-1	50	0	#line 50 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc"
+0	26	57	#line 26 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	26	57	#line 26 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	27	57		mov __signed_stack_001main, __main_7qG2_old_tc_7qG2_000
+0	26	59	#line 26 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	27	59	#line 27 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	28	59		mov __D0main, __main_7qG2_tc_7qG2_000
+0	27	61	#line 27 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	28	61		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	27	65	#line 27 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	28	65		brtst 4, __ASM_Label_615, __D0main
+0	27	68	#line 27 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	28	68		jmp __ASM_Label_614
+0	27	70	#line 27 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	27	70	#line 27 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	28	70		set __D0main, 0
+0	29	73	#line 29 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	30	73	#pragma macro 7
+0	30	73		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5897	96	#line 5897 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	29	96	#line 29 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	29	96	#line 29 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	30	96		set __Wait_7qG2_ms_7qG2_000_inline_main, 350
+0	29	99	#line 29 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	8551	99	#line 8551 "NXCDefs.h"
+0	8552	99		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	101	#line 8551 "NXCDefs.h"
+0	31	101	#line 31 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	31	101	#line 31 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	32	101		getout __signed_stack_001main, __constVal1, 4
+0	31	105	#line 31 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	32	105	#line 32 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	33	105		set __D0main, 0
+0	32	108	#line 32 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	33	108		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	33	112	#line 33 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	34	112		brtst 4, __ASM_Label_629, __D0main
+0	34	115	#line 34 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	35	115	#pragma macro 7
+0	35	115		setout __constVal1, 0, __constVal8
+0	5923	120	#line 5923 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	34	120	#line 34 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	35	120	#line 35 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	36	120		jmp __ASM_Label_628
+0	35	122	#line 35 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	35	122	#line 35 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	36	122		set __D0main, 70
+0	36	125	#line 36 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	37	125	#pragma macro 7
+0	37	125		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5932	148	#line 5932 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	36	148	#line 36 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	36	148	#line 36 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	37	148		getout __signed_stack_001main, __constVal1, 4
+0	36	152	#line 36 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	36	152	#line 36 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	37	152		set __D0main, 18
+0	36	155	#line 36 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	37	155		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	36	159	#line 36 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	37	159		brtst 4, __ASM_Label_635, __D0main
+0	37	162	#line 37 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	38	162		jmp __ASM_Label_634
+0	37	164	#line 37 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	38	164	#line 38 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	39	164	#pragma macro 7
+0	39	164		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5954	187	#line 5954 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	38	187	#line 38 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	38	187	#line 38 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	39	187		set __Wait_7qG2_ms_7qG2_000_inline_main, 350
+0	38	190	#line 38 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	8551	190	#line 8551 "NXCDefs.h"
+0	8552	190		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	192	#line 8551 "NXCDefs.h"
+0	40	192	#line 40 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	41	192	#line 41 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	42	192		set __D0main, 1
+0	42	195	#line 42 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	43	195		tst 5, __D0main, __D0main
+0	42	198	#line 42 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	43	198		brtst 4, __ASM_Label_641, __D0main
+0	42	201	#line 42 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	43	201		getout __D0main, __constVal1, 4
+0	42	205	#line 42 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	43	205		abs __signed_stack_001main, __D0main
+0	42	208	#line 42 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	43	208	#line 43 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	44	208		set __D0main, 10
+0	43	211	#line 43 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	44	211		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	44	215	#line 44 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	45	215		brtst 4, __ASM_Label_648, __D0main
+0	44	218	#line 44 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	45	218		jmp inicio
+0	45	220	#line 45 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	47	220	#line 47 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	49	220	#line 49 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	50	220		jmp __ASM_Label_640
+0	49	222	#line 49 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
+0	50	222		exit -1, -1
+1	50	0	#line 50 "C:\Users\luan\AppData\Local\Temp\temp.nxc"
 1	51	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc
-1	__initialize_global_data	352	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\braco.nxc
+0	main	0	C:\Users\luan\AppData\Local\Temp\temp.nxc
+1	__initialize_global_data	225	C:\Users\luan\AppData\Local\Temp\temp.nxc

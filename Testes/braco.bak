@@ -15,7 +15,8 @@
 
 task main()
 {
- int tc, old_tc;
+ int tc, old_tc, mytc = 0;
+ inicio:
  OnFwd(MB,-70);
  tc =  MotorTachoCount(MB);
  while(tc == MotorTachoCount(MB)){}
@@ -25,25 +26,23 @@ task main()
     Wait(15);
  } while(old_tc != tc)
  OnFwd(MB,0);
- TextOut(0,LCD_LINE2,"Hull!!");
- Wait(1000);
- TextOut(0,LCD_LINE3,"Hull!!2");
 
+ Wait(350);
 
- ResetTachoCount(MB);
- ResetTachoCount(MB);
- ResetTachoCount(MB);
- //Wait(200);
- NumOut(0,LCD_LINE8,MotorTachoCount(MB));
-
-
- OnFwd(MB,70);
- NumOut(0,LCD_LINE4,MotorTachoCount(MB));
- while(MotorTachoCount(MB)<28){
-    NumOut(0,LCD_LINE1,MotorTachoCount(MB));
+ while(MotorTachoCount(MB)>0)
+ {
+  ResetTachoCount(MB);
  }
- NumOut(0,LCD_LINE5,MotorTachoCount(MB));
- OnFwd(MB,0);
- 
- while(1){}
+ OnFwd(MB,70);
+ while(MotorTachoCount(MB)<18){}
+ Off(MB);
+ Wait(350);
+
+ while(1)
+ {
+  if(abs(MotorTachoCount(MB))>20)
+  {
+    goto inicio;
+  }
+ }
 }

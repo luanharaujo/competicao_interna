@@ -1,0 +1,29 @@
+/*teste do braço*/
+/*Definicições*/
+//moteore
+#define ME OUT_A
+#define MD OUT_C
+#define MDE OUT_AC
+#define MB OUT_B
+//sensores
+#define US IN_4
+#define LSD IN_2
+#define LSE IN_3
+#define RGB IN_1
+//parametros
+#define POTMAX 75
+
+task main() {
+     while(MotorTachoCount(MB) != 0)
+     {
+      ResetTachoCount(MB);
+     }
+     
+     while(1)
+     {
+      ClearScreen();
+      NumOut(0,LCD_LINE1,MotorTachoCount(MB));
+      Wait(200);
+     }
+
+}
