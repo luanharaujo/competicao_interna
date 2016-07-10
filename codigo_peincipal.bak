@@ -80,7 +80,7 @@ Máquina de estado
 #define LSE IN_3
 #define RGB IN_1
 //parametros
-#define POTMAX 85
+#define POTMAX 93
 
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
@@ -130,8 +130,13 @@ int ang2line(int ang);//função que recebe uma variação angular das rodas e retor
 task  main()
 {
 
- OnFwd(ME,-85);
- OnFwd(MD,-85);
+ //db
+ //int cont_estado = 0;
+// int cont_estado1 = 0;
+ //int cont_estado2 =0;
+
+ //OnFwd(ME,-85);
+ //OnFwd(MD,-85);
  //TextOut(0,LCD_LINE2,"cheguei aqui       ");
  //Wait(1000);
 
@@ -151,10 +156,6 @@ task  main()
 
  while(true)//void loop
  {
-  NumOut(0,LCD_LINE1,estado_rodas);
-  
-  NumOut(0,LCD_LINE6,Sensor(LSD));
-  NumOut(0,LCD_LINE7,Sensor(LSE));
 
   /*maquina estado do bloco de locamoção*/
   switch(estado_rodas) //switch da máquina de estados principal
@@ -196,6 +197,7 @@ task  main()
    case inicializar2 : //estado de inicialização para as demais iterações
        andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
 
+       //cont_estado++;
 
        my_tc_d += MotorTachoCount(MD);
        my_tc_e += MotorTachoCount(ME);
@@ -211,21 +213,26 @@ task  main()
        if(ang2line(temp_angulo) < 5*(i+1))//caso ainda estaja na mesma medida
        {
         //sensor da direita
-        vetor_calibragem0[1][i]+=Sensor(LSD);
+        vetor_calibragem0[1][i]+=temp_l_d;
         vetor_calibragem0[2][i]++;
         //sensor da esquerda
-        vetor_calibragem1[1][i]+=Sensor(LSE);
+        vetor_calibragem1[1][i]+=temp_l_e;
         vetor_calibragem1[2][i]++;
+        
+        //cont_estado1++;
 
        }
        else//caso não esteja
        {
+       
+        //cont_estado2++;
+
         //calcular a media anterior
         //sensor da direita
-        vetor_calibragem0[1][i] /= vetor_calibragem0[2][i];
+        vetor_calibragem0[1][i] = vetor_calibragem0[1][i]/vetor_calibragem0[2][i];
 
         //sensor da esquerda
-        vetor_calibragem1[1][i] /= vetor_calibragem1[2][i];
+        vetor_calibragem1[1][i] = vetor_calibragem1[1][i]/vetor_calibragem1[2][i];
 
         //TextOut(0,LCD_LINE2,"cheguei aqui       ");
         //Wait(1000);
@@ -236,15 +243,18 @@ task  main()
         //checando se não é a ultima posição do vetor
         if(i<200)//continua fazendo medições
         {
+
+         //cont_estado2++;
+
          //salvar a primeira medida da nova posição
          //sensor da direita
          vetor_calibragem0[0][i]=i*5;
-         vetor_calibragem0[1][0]=Sensor(LSD);
-         vetor_calibragem0[2][0]=1;
+         vetor_calibragem0[1][i]=temp_l_d;
+         vetor_calibragem0[2][i]=1;
          //sensor da esquerda
          vetor_calibragem1[0][i]=i*5;
-         vetor_calibragem1[1][0]=Sensor(LSE);
-         vetor_calibragem1[2][0]=1;
+         vetor_calibragem1[1][i]=temp_l_e;
+         vetor_calibragem1[2][i]=1;
         }
         else//sai do estado
         {
@@ -255,6 +265,34 @@ task  main()
    break; //fim do estado
    
    case calibrando : //estado para escolher os valores de claro e escuro dos sensores de luz do rubo
+
+        //db
+       // OnFwd(ME,0);
+       // OnFwd(MD,0);
+        
+       // NumOut(0, LCD_LINE4, cont_estado);
+       // NumOut(0, LCD_LINE5, cont_estado1);
+       // NumOut(0, LCD_LINE6, cont_estado2);
+        
+      //  int db_cont;
+      //  for(db_cont = 0; db_cont < 200; db_cont++)
+      //  {
+       //  NumOut(0, LCD_LINE1, vetor_calibragem0[1][db_cont]);
+        // NumOut(0, LCD_LINE2, vetor_calibragem0[2][db_cont]);
+        // NumOut(0, LCD_LINE3, db_cont);
+        // Wait(300);
+         
+
+        //}
+
+        //while(TRUE){}
+
+        //db
+        //OnFwd(ME,0);
+        //OnFwd(MD,0);
+
+
+
         //zerando os valores de media
         preto_d=0;
         preto_e=0;
@@ -264,6 +302,10 @@ task  main()
          preto_d += vetor_calibragem0[1][i];
          preto_e += vetor_calibragem1[1][i];
         }
+
+        //db
+        //NumOut(0,LCD_LINE1,preto_d);
+
         i=0;
         i_preto_e = 0;
         i_preto_d = 0;
@@ -290,11 +332,16 @@ task  main()
          i++;
          j++;
         }
+        
+         //db
+        //NumOut(0,LCD_LINE1,preto_d);
+
+
 
         //regulando as médias
         preto_d /= 34;
         preto_e /= 34;
-        
+
         //calculando a média do branco
         
         //direita
@@ -326,13 +373,20 @@ task  main()
         cinza_e = (preto_e + branco_e)/2;
         
         //achando a faixa
-        faixa_d = (branco_d - preto_d)/5;
-        faixa_e = (branco_e - preto_e)/5;
+        faixa_d = (branco_d - preto_d)/3;
+        faixa_e = (branco_e - preto_e)/3;
         
-        NumOut(0,LCD_LINE4,cinza_d);
-        NumOut(0,LCD_LINE5,cinza_e);
+        //db
+        //NumOut(0,LCD_LINE4,cinza_d);
+        //NumOut(0,LCD_LINE5,cinza_e);
 
         estado_rodas = linha; /******************************   MUDANÇA DE ESTADO   ***************************************/
+        //db
+        //OnFwd(ME,0);
+        //OnFwd(MD,0);
+        //NumOut(0,LCD_LINE1,preto_d);
+        //NumOut(0,LCD_LINE2,branco_d);
+       // while(TRUE){}
         
    break;  //fim do estado
 
@@ -381,8 +435,8 @@ task  main()
          }
         }
         
-
-        NumOut(0,LCD_LINE2,estado_linha);
+        //db
+        //NumOut(0,LCD_LINE2,estado_linha);
         
         switch(estado_linha)//sub_maquina de estado para seguir a linha
         {
@@ -434,9 +488,9 @@ task  main()
         OnFwd(MD,0);
    break;//fim do caso
    case frente://caso o robo deva andar para frente
-       Frente();//regulando os motores para andarem para frente
-       //pote = -POTMAX;
-       //potd = -POTMAX;
+       //Frente();//regulando os motores para andarem para frente
+       pote = -POTMAX;
+       potd = -POTMAX;
    break;//fim do caso
    case direita_leve://caso o robo fazer uma curva leve a direta
         pote = -POTMAX;
@@ -461,24 +515,11 @@ task  main()
   my_tc_d += MotorTachoCount(MD);
   my_tc_e += MotorTachoCount(ME);
 
-  ResetTachoCount(MD);//resetando o contador de giro do motor direiro
-  ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
-
   OnFwd(ME,pote);
   OnFwd(MD,potd);
 
  }
 }
-//******************************************************************************************************************************************
-void Frente(void)
-{
-    my_tc_d += MotorTachoCount(MD);
-    ResetTachoCount(MD);
-    my_tc_e += MotorTachoCount(ME);
-    ResetTachoCount(ME);
-}
-
-//******************************************************************************************************************************************
 
 /*Assinaturas das funções*/
 int ang2line(int ang)//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
