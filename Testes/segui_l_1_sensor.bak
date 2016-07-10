@@ -138,7 +138,7 @@ task  main()
  /*inicializando os estados*/
  estado_rodas = inicializar;//maquina de estados principal
  andar = nao;//inicializando parado por segurança
- 
+
  /*setando os sensores*/
  SetSensorLight(LSD);//sensor de luz direito
  SetSensorLight(LSE);//sensor de luz direito
@@ -167,10 +167,10 @@ task  main()
          vetor_calibragem0[2][i]=0;//zerando somatório do sensor da direita
          vetor_calibragem1[2][i]=0;//zerando somatório do sensor da esquerda
         }
-        
+
 
         i=0;//iniciando o contador para preencher o vetor vet_calibragem
-        
+
         //medição inicial
         //sensor da direita
         vetor_calibragem0[0][0]=0;
@@ -195,8 +195,8 @@ task  main()
        temp_angulo = -my_tc_d;//invertendo o sinal da entrada pois o motor esta girando para "trás"
        temp_l_d =  Sensor(LSD);
        temp_l_e =  Sensor(LSE);
-       
-       
+
+
        if(ang2line(temp_angulo) < 7*(i+1))//caso ainda estaja na mesma medida
        {
         //sensor da direita
@@ -217,7 +217,7 @@ task  main()
 
         //andando uma posição
         i++;
-        
+
         //checando se não é a ultima posição do vetor
         if(i<200)//continua fazendo medições
         {
@@ -238,7 +238,7 @@ task  main()
         }
        }
    break; //fim do estado
-   
+
    case calibrando : //estado para escolher os valores de claro e escuro dos sensores de luz do rubo
 
         //zerando os valores de media
@@ -250,41 +250,41 @@ task  main()
          preto_d += vetor_calibragem0[1][i];
          preto_e += vetor_calibragem1[1][i];
         }
-        
+
         i=0;
         i_preto_e = 0;
         i_preto_d = 0;
         temp_preto_d = preto_d;
         temp_preto_e = preto_e;
-        
+
         while(j<200)
         {
          //andando com as médias
          temp_preto_d = temp_preto_d + vetor_calibragem0[1][j] - vetor_calibragem0[1][i];
          temp_preto_e = temp_preto_e + vetor_calibragem1[1][j] - vetor_calibragem1[1][i];
-         
+
          if(temp_preto_d < preto_d)//checando a média atual para o caso da direta
          {
           preto_d = temp_preto_d;
           i_preto_d = i;
          }
-         
+
          if(temp_preto_e < preto_e)//checando a média atual para o caso da esquerda
          {
           preto_e = temp_preto_e;
           i_preto_e = i;
          }
-         
+
          i++;
          j++;
         }
-        
+
         //regulando as médias
         preto_d /= 24;
         preto_e /= 24;
 
         //calculando a média do branco
-        
+
         //direita
         for(i=0, branco_d=0; i<i_preto_d; i++)
         {
@@ -294,7 +294,7 @@ task  main()
         {
          branco_d += vetor_calibragem0[1][i];
         }
-        
+
         //esquerda
         for(i=0, branco_e=0; i<i_preto_e; i++)
         {
@@ -304,19 +304,19 @@ task  main()
         {
          branco_e += vetor_calibragem1[1][i];
         }
-        
+
         //regulando a média
         branco_d /= 166;
         branco_e /= 166;
-        
+
         //achando o cinza
         cinza_d = (preto_d + branco_d)/2;
         cinza_e = (preto_e + branco_e)/2;
-        
+
         //achando a faixa
         faixa_d = (branco_d - preto_d)/4;
         faixa_e = (branco_e - preto_e)/4;
-        
+
 
         estado_rodas = linha; /******************************   MUDANÇA DE ESTADO   ***************************************/
 
@@ -366,7 +366,7 @@ task  main()
           estado_linha = el;
          }
         }
-        
+
         switch(estado_linha)//sub_maquina de estado para seguir a linha
         {
          case fr:
@@ -379,7 +379,7 @@ task  main()
             my_tc_e = 0;
             ResetTachoCount(MD);//resetando o contador de giro do motor direiro
             ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
-            
+
          break;//fim do subestado
          case fr2:
             andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
@@ -399,11 +399,11 @@ task  main()
         }
    break; //fim do estado
   }
-  
+
   /*Maquina de estado do braço*/
-  
+
   /*saida dos motores das esteiras*/
-  
+
   /*saida do motor do braço*/
   switch(andar)
   {
@@ -438,7 +438,7 @@ task  main()
         potd = -POTMAX;
    break;//fim do caso
   }
-  
+
   //atualizando a saida dos motores
 
   my_tc_d += MotorTachoCount(MD);

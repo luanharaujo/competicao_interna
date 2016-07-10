@@ -1151,7 +1151,7 @@ Clump	Line	PC	Source
 0	317	1265		sub __signed_stack_001main, __signed_stack_001main, __D0main
 0	316	1269	#line 316 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	317	1269	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	318	1269		set __D0main, 3
+0	318	1269		set __D0main, 10
 0	317	1272	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	318	1272		div faixa_d, __signed_stack_001main, __D0main
 0	317	1276	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
@@ -1165,7 +1165,7 @@ Clump	Line	PC	Source
 0	318	1280		sub __signed_stack_001main, __signed_stack_001main, __D0main
 0	317	1284	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	320	1284	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	321	1284		set __D0main, 3
+0	321	1284		set __D0main, 10
 0	320	1287	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	321	1287		div faixa_e, __signed_stack_001main, __D0main
 0	320	1291	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
