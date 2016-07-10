@@ -1,0 +1,1497 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0SetSensorLight_inline_main	5	1	0	4	10
+1	__signed_stack_001ang2line	6	1	4	4	4
+2	__signed_stack_001main	6	1	8	4	143
+3	__D0SetSensorLight_inline_main	6	1	12	4	4
+4	__D0ang2line	6	1	16	4	6
+5	__D0main	6	1	20	4	195
+6	__DU0main	5	1	24	4	13
+7	__signed_stack_002main	6	1	28	4	76
+8	__signed_stack_005main	6	1	32	4	4
+9	__signed_stack_004main	6	1	36	4	8
+10	__signed_stack_003main	6	1	40	4	46
+11	my_tc_e	4	1	44	2	6
+12	my_tc_d	4	1	46	2	7
+13	pote	4	1	48	2	12
+14	potd	4	1	50	2	12
+15	__main_7qG2_temp_l_e_7qG2_000	4	1	52	2	4
+16	__main_7qG2_temp_l_d_7qG2_000	4	1	54	2	9
+17	__main_7qG2_temp_angulo_7qG2_000	4	1	56	2	2
+18	__main_7qG2_i_preto_d_7qG2_000	4	1	58	2	3
+19	__main_7qG2_temp_preto_e_7qG2_000	4	1	60	2	5
+20	__main_7qG2_temp_preto_d_7qG2_000	4	1	62	2	5
+21	__main_7qG2_i_preto_e_7qG2_000	4	1	64	2	3
+22	__main_7qG2_j_7qG2_000	4	1	66	2	7
+23	cinza_d	4	1	68	2	8
+24	preto_d	4	1	70	2	11
+25	branco_d	4	1	72	2	10
+26	branco_e	4	1	74	2	9
+27	__main_7qG2_i_7qG2_000	4	1	76	2	64
+28	__ang2line_7qG2_ang_7qG2_000	4	1	78	2	2
+29	preto_e	4	1	80	2	10
+30	__constVal200	4	0	82	2	2
+31	__constVal1	2	0	84	1	21
+32	__constVal32	2	0	85	1	12
+33	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	86	1	4
+34	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	87	1	10
+35	__constVal4	2	0	88	1	2
+36	__constVal5	2	0	89	1	1
+37	__constVal6	2	0	90	1	1
+38	__constVal0	2	1	91	1	23
+39	__constVal3	2	0	92	1	7
+40	__ang2line_return	1	1	93	1	4
+41	__constValNeg60	2	0	94	1	8
+42	__constValNeg2	2	0	95	1	2
+43	__constVal63	2	0	96	1	4
+44	__constVal96	2	0	97	1	4
+45	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	98	1	4
+46	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	99	1	4
+47	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	100	1	4
+48	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	101	1	2
+49	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	102	1	4
+50	andar	1	1	103	1	6
+51	calibrando	1	0	104	1	1
+52	inicializar	1	1	105	1	1
+53	inicializar2	1	0	106	1	1
+54	linha	1	0	107	1	1
+55	frente	1	0	108	1	2
+56	nao	1	1	109	1	2
+57	estado_rodas	1	1	110	1	5
+58	fica_como_esta	1	0	111	1	1
+59	____ResetSensorSubroutine_return	1	1	112	1	4
+60	__constVal2	2	0	113	1	12
+61	____initialize_global_data_return	1	1	114	1	3
+62	__ResetSensorPort	1	1	115	1	4
+63	__ResetSensorTmp	1	1	116	1	2
+64	__constVal8	2	0	117	1	6
+65	vetor_calibragem0	7	0	118	4	38
+66	vetor_calibragem0.vetor_calibragem0_type	7	0	0	4	0
+67	vetor_calibragem0.vetor_calibragem0_type.vetor_calibragem0_type_type	4	0	0	2	0
+68	__vetor_calibragem0_2	7	0	120	4	2
+69	__vetor_calibragem0_2.__vetor_calibragem0_2_type	4	0	0	2	0
+70	__vetor_calibragem1_2	7	0	122	4	2
+71	__vetor_calibragem1_2.__vetor_calibragem1_2_type	4	0	0	2	0
+72	__ArrHelper__main_236_0	7	0	124	4	106
+73	__ArrHelper__main_236_0.__ArrHelper__main_236_0_type	4	0	0	2	0
+74	__ArrHelper__main_236_1	7	0	126	4	8
+75	__ArrHelper__main_236_1.__ArrHelper__main_236_1_type	4	0	0	2	0
+76	vetor_calibragem1	7	0	128	4	38
+77	vetor_calibragem1.vetor_calibragem1_type	7	0	0	4	0
+78	vetor_calibragem1.vetor_calibragem1_type.vetor_calibragem1_type_type	4	0	0	2	0
+#SOURCES
+Clump	Line	PC	Source
+0	133	0	#line 133 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	134	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	133	2	#line 133 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	140	2	#line 140 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	141	2		mov estado_rodas, inicializar
+0	140	4	#line 140 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	140	4	#line 140 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	143	4	#line 143 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	144	4		mov andar, nao
+0	143	6	#line 143 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	143	6	#line 143 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	143	6	#line 143 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	144	6		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	143	9	#line 143 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	144	9	#line 144 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	145	9		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	11	#line 4313 "NXCDefs.h"
+0	4314	11		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	13	#line 4313 "NXCDefs.h"
+0	4313	13	#line 4313 "NXCDefs.h"
+0	4314	13		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	15	#line 4313 "NXCDefs.h"
+0	4314	15		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	18	#line 4313 "NXCDefs.h"
+0	4314	18		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	21	#line 4313 "NXCDefs.h"
+0	4314	21		set __DU0SetSensorLight_inline_main, 5
+0	4313	24	#line 4313 "NXCDefs.h"
+0	4313	24	#line 4313 "NXCDefs.h"
+0	4314	24		jmp __001__ASM_Label_5
+0	4313	26	#line 4313 "NXCDefs.h"
+0	4314	26		set __DU0SetSensorLight_inline_main, 6
+0	4313	29	#line 4313 "NXCDefs.h"
+0	4313	29	#line 4313 "NXCDefs.h"
+0	4314	29		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4248	31		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	35	#line 4247 "NXCDefs.h"
+0	4314	35	#line 4314 "NXCDefs.h"
+0	4314	35	#line 4314 "NXCDefs.h"
+0	4315	35		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	37	#line 4314 "NXCDefs.h"
+0	4314	37	#line 4314 "NXCDefs.h"
+0	4315	37		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	40	#line 4314 "NXCDefs.h"
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4261	40		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	44	#line 4260 "NXCDefs.h"
+0	4315	44	#line 4315 "NXCDefs.h"
+0	4315	44	#line 4315 "NXCDefs.h"
+0	4316	44		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	46	#line 4315 "NXCDefs.h"
+0	4278	46	#line 4278 "NXCDefs.h"
+0	4279	46	#pragma macro 4
+0	4279	46		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	48		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6165	50	#line 6165 "NXCDefs.h"
+0	4278	50	#line 4278 "NXCDefs.h"
+0	4316	50	#line 4316 "NXCDefs.h"
+0	144	50	#line 144 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	144	50	#line 144 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	145	50		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	144	53	#line 144 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	146	53	#line 146 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	147	53		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	55	#line 4313 "NXCDefs.h"
+0	4314	55		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	57	#line 4313 "NXCDefs.h"
+0	4313	57	#line 4313 "NXCDefs.h"
+0	4314	57		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	59	#line 4313 "NXCDefs.h"
+0	4314	59		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	62	#line 4313 "NXCDefs.h"
+0	4314	62		brtst 4, __002__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	65	#line 4313 "NXCDefs.h"
+0	4314	65		set __DU0SetSensorLight_inline_main, 5
+0	4313	68	#line 4313 "NXCDefs.h"
+0	4313	68	#line 4313 "NXCDefs.h"
+0	4314	68		jmp __002__ASM_Label_5
+0	4313	70	#line 4313 "NXCDefs.h"
+0	4314	70		set __DU0SetSensorLight_inline_main, 6
+0	4313	73	#line 4313 "NXCDefs.h"
+0	4313	73	#line 4313 "NXCDefs.h"
+0	4314	73		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	75	#line 4247 "NXCDefs.h"
+0	4248	75		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	79	#line 4247 "NXCDefs.h"
+0	4314	79	#line 4314 "NXCDefs.h"
+0	4314	79	#line 4314 "NXCDefs.h"
+0	4315	79		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	81	#line 4314 "NXCDefs.h"
+0	4314	81	#line 4314 "NXCDefs.h"
+0	4315	81		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	84	#line 4314 "NXCDefs.h"
+0	4260	84	#line 4260 "NXCDefs.h"
+0	4261	84		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	88	#line 4260 "NXCDefs.h"
+0	4315	88	#line 4315 "NXCDefs.h"
+0	4315	88	#line 4315 "NXCDefs.h"
+0	4316	88		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	90	#line 4315 "NXCDefs.h"
+0	4278	90	#line 4278 "NXCDefs.h"
+0	4279	90	#pragma macro 4
+0	4279	90		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	92		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6228	94	#line 6228 "NXCDefs.h"
+0	4278	94	#line 4278 "NXCDefs.h"
+0	4316	94	#line 4316 "NXCDefs.h"
+0	146	94	#line 146 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	147	94	#line 147 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	148	94		set __D0main, 1
+0	150	97	#line 150 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	151	97		tst 5, __D0main, __D0main
+0	150	100	#line 150 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	151	100		brtst 4, __ASM_Label_613, __D0main
+0	151	103	#line 151 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	152	103		mov __DU0main, estado_rodas
+0	155	105		brcmp 4, __ASM_Label_619, __constVal0, __DU0main
+0	156	109		brcmp 4, __ASM_Label_686, __constVal1, __DU0main
+0	157	113		brcmp 4, __ASM_Label_799, __constVal2, __DU0main
+0	158	117		brcmp 4, __ASM_Label_960, __constVal4, __DU0main
+0	159	121		jmp __ASM_Label_618
+0	155	123	#line 155 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	156	123	#line 156 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	157	123		mov andar, frente
+0	156	125	#line 156 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	156	125	#line 156 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	157	125	#line 157 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	158	125		mov pote, __constValNeg60
+0	157	127	#line 157 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	157	127	#line 157 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	159	127	#line 159 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	160	127		mov potd, __constValNeg60
+0	159	129	#line 159 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	159	129	#line 159 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	160	129	#line 160 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	161	129		set my_tc_d, 0
+0	160	132	#line 160 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	160	132	#line 160 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	162	132	#line 162 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	163	132		set my_tc_e, 0
+0	162	135	#line 162 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	162	135	#line 162 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	163	135	#line 163 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	164	135	#pragma macro 7
+0	164	135		setout __constVal2, 0, __constVal8
+0	6278	140	#line 6278 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	163	140	#line 163 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	165	140	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	166	140	#pragma macro 7
+0	166	140		setout __constVal0, 0, __constVal8
+0	6281	145	#line 6281 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	165	145	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	165	145	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	166	145		set __main_7qG2_i_7qG2_000, 0
+0	165	148	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	165	148	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	166	148		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	165	150	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	165	150	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	166	150		set __D0main, 200
+0	165	153	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	166	153		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	165	157	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	166	157		brtst 4, __ASM_Label_631, __D0main
+0	165	160	#line 165 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	166	160		jmp __ASM_Label_632
+0	166	162	#line 166 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	167	162		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	167	166	#line 167 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	168	166		jmp __ASM_Label_630
+0	167	168	#line 167 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	168	168		set __signed_stack_001main, 2
+0	167	171	#line 167 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	167	171	#line 167 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	168	171		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	167	175	#line 167 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	168	175		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	167	177	#line 167 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	168	177	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	169	177		set __D0main, 0
+0	168	180	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	169	180		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	168	185	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	169	185		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	168	190	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	168	190	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	169	190		set __signed_stack_001main, 2
+0	168	193	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	168	193	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	169	193		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	168	197	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	169	197		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	168	199	#line 168 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	169	199	#line 169 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	170	199		set __D0main, 0
+0	169	202	#line 169 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	170	202		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	169	207	#line 169 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	170	207		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	169	212	#line 169 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	172	212	#line 172 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	173	212		jmp __ASM_Label_633
+0	172	214	#line 172 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	176	214	#line 176 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	214		set __main_7qG2_i_7qG2_000, 0
+0	176	217	#line 176 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	176	217	#line 176 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	176	217	#line 176 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	217		set __signed_stack_001main, 0
+0	176	220	#line 176 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	176	220	#line 176 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	220		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	176	224	#line 176 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	224		set __signed_stack_002main, 0
+0	176	227	#line 176 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	227	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	227		set __D0main, 0
+0	177	230	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	230		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	177	235	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	235		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	177	240	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	240	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	240		set __signed_stack_001main, 1
+0	177	243	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	243	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	243		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	177	247	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	247		set __signed_stack_002main, 0
+0	177	250	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	250	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	250		getin __D0main, __constVal1, 4
+0	177	254	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	254		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	177	259	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	259		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	177	264	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	177	264	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	264	#line 178 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	179	264		set __signed_stack_001main, 2
+0	178	267	#line 178 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	267	#line 178 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	179	267		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	178	271	#line 178 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	179	271		set __signed_stack_002main, 0
+0	178	274	#line 178 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	178	274	#line 178 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	179	274		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	180	278	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	278		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	180	282	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	282		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	180	287	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	287		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	180	292	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	180	292	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	292		set __signed_stack_001main, 0
+0	180	295	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	180	295	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	295		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	180	299	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	299		set __signed_stack_002main, 0
+0	180	302	#line 180 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	302	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	302		set __D0main, 0
+0	181	305	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	305		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	181	310	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	310		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	181	315	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	315	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	315		set __signed_stack_001main, 1
+0	181	318	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	318	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	318		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	181	322	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	322		set __signed_stack_002main, 0
+0	181	325	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	325	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	325		getin __D0main, __constVal2, 4
+0	181	329	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	329		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	181	334	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	334		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	181	339	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	181	339	#line 181 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	339	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	183	339		set __signed_stack_001main, 2
+0	182	342	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	342	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	183	342		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	182	346	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	183	346		set __signed_stack_002main, 0
+0	182	349	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	182	349	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	183	349		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	184	353	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	185	353		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	184	357	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	185	357		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	184	362	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	185	362		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	184	367	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	185	367	#line 185 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	186	367		mov estado_rodas, inicializar2
+0	185	369	#line 185 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	185	369	#line 185 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	186	369	#line 186 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	187	369		jmp __ASM_Label_618
+0	186	371	#line 186 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	188	371	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	189	371	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	190	371		mov andar, frente
+0	189	373	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	189	373	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	190	373	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	191	373		getout __D0main, __constVal2, 4
+0	190	377	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	191	377		add my_tc_d, my_tc_d, __D0main
+0	190	381	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	191	381	#line 191 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	192	381		getout __D0main, __constVal0, 4
+0	191	385	#line 191 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	192	385		add my_tc_e, my_tc_e, __D0main
+0	191	389	#line 191 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	192	389	#line 192 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	193	389	#pragma macro 7
+0	193	389		setout __constVal2, 0, __constVal8
+0	6555	394	#line 6555 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	192	394	#line 192 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	195	394	#line 195 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	196	394	#pragma macro 7
+0	196	394		setout __constVal0, 0, __constVal8
+0	6558	399	#line 6558 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	195	399	#line 195 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	195	399	#line 195 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	196	399		set __signed_stack_001main, 0
+0	195	402	#line 195 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	196	402	#line 196 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	197	402		mov __D0main, my_tc_d
+0	196	404	#line 196 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	197	404		sub __main_7qG2_temp_angulo_7qG2_000, __signed_stack_001main, __D0main
+0	196	408	#line 196 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	196	408	#line 196 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	196	408	#line 196 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	197	408		getin __main_7qG2_temp_l_d_7qG2_000, __constVal1, 4
+0	196	412	#line 196 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	196	412	#line 196 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	196	412	#line 196 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	197	412	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	198	412		getin __main_7qG2_temp_l_e_7qG2_000, __constVal2, 4
+0	197	416	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	197	416	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	197	416	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	200	416	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	201	416		mov __ang2line_7qG2_ang_7qG2_000, __main_7qG2_temp_angulo_7qG2_000
+0	200	418	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	200	418	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	201	418		subcall ang2line, __ang2line_return
+0	200	420	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	201	420		mov __signed_stack_001main, __D0ang2line
+0	200	422	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	200	422	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	201	422		set __signed_stack_002main, 7
+0	200	425	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	200	425	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	201	425		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	200	427	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	200	427	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	201	427		set __D0main, 1
+0	200	430	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	201	430		add __D0main, __signed_stack_003main, __D0main
+0	201	434	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	202	434		mul __D0main, __signed_stack_002main, __D0main
+0	201	438	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	202	438		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	203	442	#line 203 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	204	442		brtst 4, __ASM_Label_705, __D0main
+0	203	445	#line 203 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	204	445		set __signed_stack_001main, 1
+0	203	448	#line 203 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	203	448	#line 203 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	204	448		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	203	452	#line 203 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	204	452		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	203	454	#line 203 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	203	454	#line 203 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	204	454		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	204	458	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	205	458		mov __D0main, __main_7qG2_temp_l_d_7qG2_000
+0	204	460	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	205	460		add __signed_stack_003main, __signed_stack_003main, __D0main
+0	204	464	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	205	464		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	204	469	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	205	469		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	204	474	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	204	474	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	205	474		set __signed_stack_001main, 2
+0	204	477	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	204	477	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	205	477		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	204	481	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	205	481		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	204	483	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	204	483	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	205	483		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	206	487	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	487		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	206	491	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	491		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	206	496	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	496		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	206	501	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	206	501	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	501		set __signed_stack_001main, 1
+0	206	504	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	206	504	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	504		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	206	508	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	508		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	206	510	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	206	510	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	510		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	207	514	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	208	514		mov __D0main, __main_7qG2_temp_l_e_7qG2_000
+0	207	516	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	208	516		add __signed_stack_003main, __signed_stack_003main, __D0main
+0	207	520	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	208	520		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	207	525	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	208	525		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	207	530	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	530	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	208	530		set __signed_stack_001main, 2
+0	207	533	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	533	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	208	533		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	207	537	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	208	537		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	207	539	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	207	539	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	208	539		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	208	543	#line 208 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	209	543		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	208	547	#line 208 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	209	547		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	208	552	#line 208 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	209	552		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	208	557	#line 208 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	557	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	557		jmp __ASM_Label_726
+0	213	559	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	559		set __signed_stack_001main, 1
+0	213	562	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	562	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	562		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	213	566	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	566		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	213	568	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	568	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	568		set __signed_stack_003main, 1
+0	213	571	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	571	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	571		index __ArrHelper__main_236_1, vetor_calibragem0, __signed_stack_003main
+0	213	575	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	575		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	213	577	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	577	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	577		index __signed_stack_003main, __ArrHelper__main_236_1, __signed_stack_004main
+0	213	581	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	581	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	581	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	581		set __signed_stack_004main, 2
+0	213	584	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	584	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	584		index __ArrHelper__main_236_1, vetor_calibragem0, __signed_stack_004main
+0	213	588	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	588		mov __signed_stack_005main, __main_7qG2_i_7qG2_000
+0	213	590	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	213	590	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	214	590		index __D0main, __ArrHelper__main_236_1, __signed_stack_005main
+0	213	594	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	594	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	594		div __D0main, __signed_stack_003main, __D0main
+0	216	598	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	598		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	216	603	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	603		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	216	608	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	608	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	608		set __signed_stack_001main, 1
+0	216	611	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	611	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	611		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	216	615	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	615		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	216	617	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	617	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	617		set __signed_stack_003main, 1
+0	216	620	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	620	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	620		index __ArrHelper__main_236_1, vetor_calibragem1, __signed_stack_003main
+0	216	624	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	624		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	216	626	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	626	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	626		index __signed_stack_003main, __ArrHelper__main_236_1, __signed_stack_004main
+0	216	630	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	630	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	630	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	630		set __signed_stack_004main, 2
+0	216	633	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	633	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	633		index __ArrHelper__main_236_1, vetor_calibragem1, __signed_stack_004main
+0	216	637	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	637		mov __signed_stack_005main, __main_7qG2_i_7qG2_000
+0	216	639	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	216	639	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	217	639		index __D0main, __ArrHelper__main_236_1, __signed_stack_005main
+0	216	643	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	219	643	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	220	643		div __D0main, __signed_stack_003main, __D0main
+0	219	647	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	220	647		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	219	652	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	220	652		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	219	657	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	222	657	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	223	657		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	222	661	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	222	661	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	223	661		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	222	663	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	223	663	#line 223 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	224	663		set __D0main, 200
+0	223	666	#line 223 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	224	666		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	226	670	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	227	670		brtst 4, __ASM_Label_757, __D0main
+0	226	673	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	227	673		set __signed_stack_001main, 0
+0	226	676	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	226	676	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	227	676		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	226	680	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	227	680		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	226	682	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	226	682	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	227	682		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	226	684	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	227	684	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	684		set __D0main, 7
+0	227	687	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	687		mul __D0main, __signed_stack_003main, __D0main
+0	227	691	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	691		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	227	696	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	696		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	227	701	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	227	701	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	701		set __signed_stack_001main, 1
+0	227	704	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	227	704	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	704		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	227	708	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	708		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	227	710	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	710	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	229	710		mov __D0main, __main_7qG2_temp_l_d_7qG2_000
+0	228	712	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	229	712		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	228	717	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	229	717		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	228	722	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	722	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	229	722		set __signed_stack_001main, 2
+0	228	725	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	228	725	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	229	725		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	228	729	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	229	729		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	228	731	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	230	731	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	731		set __D0main, 1
+0	230	734	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	734		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	230	739	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	739		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	230	744	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	230	744	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	744		set __signed_stack_001main, 0
+0	230	747	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	230	747	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	747		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	230	751	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	751		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	230	753	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	230	753	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	753		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	230	755	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	755	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	755		set __D0main, 7
+0	231	758	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	758		mul __D0main, __signed_stack_003main, __D0main
+0	231	762	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	762		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	231	767	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	767		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	231	772	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	772	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	772		set __signed_stack_001main, 1
+0	231	775	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	231	775	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	775		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	231	779	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	779		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	231	781	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	781	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	233	781		mov __D0main, __main_7qG2_temp_l_e_7qG2_000
+0	232	783	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	233	783		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	232	788	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	233	788		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	232	793	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	793	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	233	793		set __signed_stack_001main, 2
+0	232	796	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	232	796	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	233	796		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	232	800	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	233	800		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	232	802	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	233	802	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	234	802		set __D0main, 1
+0	233	805	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	234	805		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	233	810	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	234	810		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	233	815	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	236	815	#line 236 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	237	815		jmp __ASM_Label_794
+0	237	817	#line 237 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	238	817		mov andar, nao
+0	237	819	#line 237 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	237	819	#line 237 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	238	819	#line 238 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	239	819		mov estado_rodas, calibrando
+0	238	821	#line 238 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	238	821	#line 238 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	240	821	#line 240 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	240	821	#line 240 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	242	821	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	243	821		jmp __ASM_Label_618
+0	242	823	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	245	823	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	246	823	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	247	823		set preto_d, 0
+0	246	826	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	246	826	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	248	826	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	249	826		set preto_e, 0
+0	248	829	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	248	829	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	248	829	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	249	829		set __main_7qG2_i_7qG2_000, 0
+0	248	832	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	248	832	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	249	832		set __main_7qG2_j_7qG2_000, 24
+0	248	835	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	248	835	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	249	835		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	248	837	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	248	837	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	249	837		mov __D0main, __main_7qG2_j_7qG2_000
+0	248	839	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	249	839		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	248	843	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	249	843		brtst 4, __ASM_Label_805, __D0main
+0	248	846	#line 248 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	249	846		jmp __ASM_Label_806
+0	249	848	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	250	848		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	250	852	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	852		jmp __ASM_Label_804
+0	250	854	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	854		set __signed_stack_001main, 1
+0	250	857	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	250	857	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	857		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	250	861	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	861		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	250	863	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	250	863	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	863		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	250	867	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	867	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	252	867		add preto_d, preto_d, __D0main
+0	251	871	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	871	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	252	871		set __signed_stack_001main, 1
+0	251	874	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	874	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	252	874		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	251	878	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	252	878		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	251	880	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	251	880	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	252	880		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	251	884	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	252	884	#line 252 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	253	884		add preto_e, preto_e, __D0main
+0	252	888	#line 252 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	254	888	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	255	888		jmp __ASM_Label_807
+0	254	890	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	255	890	#line 255 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	256	890		set __main_7qG2_i_7qG2_000, 0
+0	255	893	#line 255 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	255	893	#line 255 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	256	893	#line 256 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	257	893		set __main_7qG2_i_preto_e_7qG2_000, 0
+0	256	896	#line 256 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	256	896	#line 256 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	257	896	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	258	896		set __main_7qG2_i_preto_d_7qG2_000, 0
+0	257	899	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	257	899	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	258	899	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	259	899		mov __main_7qG2_temp_preto_d_7qG2_000, preto_d
+0	258	901	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	258	901	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	260	901	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	261	901		mov __main_7qG2_temp_preto_e_7qG2_000, preto_e
+0	260	903	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	260	903	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	260	903	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	261	903		mov __signed_stack_001main, __main_7qG2_j_7qG2_000
+0	260	905	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	261	905	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	262	905		set __D0main, 200
+0	261	908	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	262	908		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	263	912	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	912		brtst 4, __ASM_Label_837, __D0main
+0	263	915	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	915		mov __signed_stack_001main, __main_7qG2_temp_preto_d_7qG2_000
+0	263	917	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	263	917	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	917		set __signed_stack_002main, 1
+0	263	920	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	263	920	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	920		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_002main
+0	263	924	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	924		mov __signed_stack_003main, __main_7qG2_j_7qG2_000
+0	263	926	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	263	926	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	926		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	263	930	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	263	930	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	930		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	263	934	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	263	934	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	934		set __signed_stack_002main, 1
+0	263	937	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	263	937	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	937		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_002main
+0	263	941	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	941		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	263	943	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	263	943	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	943		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	263	947	#line 263 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	947	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	947		sub __main_7qG2_temp_preto_d_7qG2_000, __signed_stack_001main, __D0main
+0	264	951	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	951	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	951	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	951		mov __signed_stack_001main, __main_7qG2_temp_preto_e_7qG2_000
+0	264	953	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	953	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	953		set __signed_stack_002main, 1
+0	264	956	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	956	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	956		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_002main
+0	264	960	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	960		mov __signed_stack_003main, __main_7qG2_j_7qG2_000
+0	264	962	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	962	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	962		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	264	966	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	966	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	966		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	264	970	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	970	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	970		set __signed_stack_002main, 1
+0	264	973	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	973	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	973		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_002main
+0	264	977	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	977		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	264	979	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	264	979	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	265	979		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	264	983	#line 264 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	266	983	#line 266 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	267	983		sub __main_7qG2_temp_preto_e_7qG2_000, __signed_stack_001main, __D0main
+0	266	987	#line 266 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	266	987	#line 266 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	266	987	#line 266 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	267	987		mov __signed_stack_001main, __main_7qG2_temp_preto_d_7qG2_000
+0	266	989	#line 266 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	267	989	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	268	989		mov __D0main, preto_d
+0	267	991	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	268	991		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	268	995	#line 268 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	269	995		brtst 4, __ASM_Label_862, __D0main
+0	269	998	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	270	998		mov preto_d, __main_7qG2_temp_preto_d_7qG2_000
+0	269	1000	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	269	1000	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	270	1000	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	271	1000		mov __main_7qG2_i_preto_d_7qG2_000, __main_7qG2_i_7qG2_000
+0	270	1002	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	270	1002	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	272	1002	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	272	1002	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	273	1002		mov __signed_stack_001main, __main_7qG2_temp_preto_e_7qG2_000
+0	272	1004	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	273	1004	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	274	1004		mov __D0main, preto_e
+0	273	1006	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	274	1006		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	274	1010	#line 274 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	275	1010		brtst 4, __ASM_Label_869, __D0main
+0	275	1013	#line 275 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	276	1013		mov preto_e, __main_7qG2_temp_preto_e_7qG2_000
+0	275	1015	#line 275 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	275	1015	#line 275 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	276	1015	#line 276 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	277	1015		mov __main_7qG2_i_preto_e_7qG2_000, __main_7qG2_i_7qG2_000
+0	276	1017	#line 276 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	276	1017	#line 276 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	278	1017	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	279	1017	#line 279 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	280	1017		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	279	1021	#line 279 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	280	1021	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	281	1021		add __main_7qG2_j_7qG2_000, __main_7qG2_j_7qG2_000, __constVal1
+0	280	1025	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	283	1025	#line 283 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	284	1025		jmp __ASM_Label_836
+0	283	1027	#line 283 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	284	1027	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	285	1027		set __D0main, 24
+0	284	1030	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	285	1030		div preto_d, preto_d, __D0main
+0	284	1034	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	289	1034	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1034		set __D0main, 24
+0	289	1037	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1037		div preto_e, preto_e, __D0main
+0	289	1041	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	289	1041	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1041		set __main_7qG2_i_7qG2_000, 0
+0	289	1044	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	289	1044	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1044		set branco_d, 0
+0	289	1047	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	289	1047	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1047		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	289	1049	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	289	1049	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1049		mov __D0main, __main_7qG2_i_preto_d_7qG2_000
+0	289	1051	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1051		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	289	1055	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1055		brtst 4, __ASM_Label_879, __D0main
+0	289	1058	#line 289 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	290	1058		jmp __ASM_Label_880
+0	290	1060	#line 290 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	291	1060		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	291	1064	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	292	1064		jmp __ASM_Label_878
+0	291	1066	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	292	1066		set __signed_stack_001main, 1
+0	291	1069	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	291	1069	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	292	1069		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	291	1073	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	292	1073		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	291	1075	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	291	1075	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	292	1075		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	291	1079	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	292	1079	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	293	1079		add branco_d, branco_d, __D0main
+0	292	1083	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	293	1083	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	294	1083		jmp __ASM_Label_881
+0	293	1085	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	293	1085	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	294	1085		set __D0main, 24
+0	293	1088	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	294	1088		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __D0main
+0	293	1092	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	294	1092		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	293	1094	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	293	1094	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	294	1094		set __D0main, 200
+0	293	1097	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	294	1097		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	293	1101	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	294	1101		brtst 4, __ASM_Label_895, __D0main
+0	293	1104	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	294	1104		jmp __ASM_Label_896
+0	294	1106	#line 294 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	295	1106		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	295	1110	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	296	1110		jmp __ASM_Label_894
+0	295	1112	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	296	1112		set __signed_stack_001main, 1
+0	295	1115	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	295	1115	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	296	1115		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	295	1119	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	296	1119		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	295	1121	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	295	1121	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	296	1121		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	295	1125	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	296	1125	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	297	1125		add branco_d, branco_d, __D0main
+0	296	1129	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	299	1129	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	300	1129		jmp __ASM_Label_897
+0	299	1131	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	299	1131	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	300	1131		set __main_7qG2_i_7qG2_000, 0
+0	299	1134	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	299	1134	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	300	1134		set branco_e, 0
+0	299	1137	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	299	1137	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	300	1137		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	299	1139	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	299	1139	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	300	1139		mov __D0main, __main_7qG2_i_preto_e_7qG2_000
+0	299	1141	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	300	1141		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	299	1145	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	300	1145		brtst 4, __ASM_Label_909, __D0main
+0	299	1148	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	300	1148		jmp __ASM_Label_910
+0	300	1150	#line 300 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	301	1150		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	301	1154	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	302	1154		jmp __ASM_Label_908
+0	301	1156	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	302	1156		set __signed_stack_001main, 1
+0	301	1159	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	301	1159	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	302	1159		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	301	1163	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	302	1163		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	301	1165	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	301	1165	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	302	1165		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	301	1169	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	302	1169	#line 302 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	303	1169		add branco_e, branco_e, __D0main
+0	302	1173	#line 302 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	303	1173	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	304	1173		jmp __ASM_Label_911
+0	303	1175	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	303	1175	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	304	1175		set __D0main, 24
+0	303	1178	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	304	1178		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __D0main
+0	303	1182	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	304	1182		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	303	1184	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	303	1184	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	304	1184		set __D0main, 200
+0	303	1187	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	304	1187		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	303	1191	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	304	1191		brtst 4, __ASM_Label_925, __D0main
+0	303	1194	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	304	1194		jmp __ASM_Label_926
+0	304	1196	#line 304 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	305	1196		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	305	1200	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	306	1200		jmp __ASM_Label_924
+0	305	1202	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	306	1202		set __signed_stack_001main, 1
+0	305	1205	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	305	1205	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	306	1205		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	305	1209	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	306	1209		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	305	1211	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	305	1211	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	306	1211		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	305	1215	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	306	1215	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	307	1215		add branco_e, branco_e, __D0main
+0	306	1219	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	309	1219	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	310	1219		jmp __ASM_Label_927
+0	309	1221	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	310	1221	#line 310 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	311	1221		set __D0main, 166
+0	310	1224	#line 310 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	311	1224		div branco_d, branco_d, __D0main
+0	310	1228	#line 310 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	313	1228	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1228		set __D0main, 166
+0	313	1231	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1231		div branco_e, branco_e, __D0main
+0	313	1235	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	313	1235	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1235		mov __signed_stack_001main, preto_d
+0	313	1237	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	313	1237	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1237		mov __D0main, branco_d
+0	313	1239	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1239		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	313	1243	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1243	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	315	1243		set __D0main, 2
+0	314	1246	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	315	1246		div cinza_d, __signed_stack_001main, __D0main
+0	314	1250	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1250	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1250	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	315	1250		mov __signed_stack_001main, preto_e
+0	314	1252	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	314	1252	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	315	1252		mov __D0main, branco_e
+0	314	1254	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	315	1254		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	314	1258	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	317	1258	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1258		set __D0main, 2
+0	317	1261	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	317	1261	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	317	1261	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	317	1261	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1261		mov __signed_stack_001main, branco_d
+0	317	1263	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	317	1263	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1263		mov __D0main, preto_d
+0	317	1265	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1265		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	317	1269	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1269	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	319	1269		set __D0main, 4
+0	318	1272	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1272	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1272	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1272	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	319	1272		mov __signed_stack_001main, branco_e
+0	318	1274	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	318	1274	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	319	1274		mov __D0main, preto_e
+0	318	1276	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	319	1276		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	318	1280	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	321	1280	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	322	1280		set __D0main, 4
+0	321	1283	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	321	1283	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	321	1283	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	323	1283	#line 323 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	324	1283		mov estado_rodas, linha
+0	323	1285	#line 323 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	323	1285	#line 323 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	325	1285	#line 325 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	326	1285		jmp __ASM_Label_618
+0	325	1287	#line 325 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	329	1287	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	329	1287	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	330	1287		getin __main_7qG2_temp_l_d_7qG2_000, __constVal1, 4
+0	329	1291	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	329	1291	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	329	1291	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	330	1291	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	331	1291		getin __main_7qG2_temp_l_e_7qG2_000, __constVal2, 4
+0	330	1295	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	330	1295	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	330	1295	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	334	1295	#line 334 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	335	1295		mov andar, fica_como_esta
+0	334	1297	#line 334 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	334	1297	#line 334 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	334	1297	#line 334 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	335	1297		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	334	1299	#line 334 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	335	1299	#line 335 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	336	1299		mov __D0main, cinza_d
+0	335	1301	#line 335 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	336	1301		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	336	1305	#line 336 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	337	1305		brtst 4, __ASM_Label_969, __D0main
+0	337	1308	#line 337 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	338	1308		set potd, 60
+0	337	1311	#line 337 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	337	1311	#line 337 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	338	1311	#line 338 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	339	1311		set pote, 60
+0	338	1314	#line 338 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	338	1314	#line 338 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	339	1314	#line 339 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	340	1314		jmp __ASM_Label_974
+0	339	1316	#line 339 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	340	1316		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	339	1318	#line 339 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	340	1318	#line 340 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	341	1318		mov __D0main, cinza_d
+0	340	1320	#line 340 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	341	1320		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	341	1324	#line 341 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	342	1324		brtst 4, __ASM_Label_977, __D0main
+0	342	1327	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1327		set potd, 60
+0	342	1330	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	342	1330	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	342	1330	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1330		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	342	1332	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	342	1332	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1332		mov __D0main, cinza_d
+0	342	1334	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1334		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	342	1338	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	342	1338	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1338		mov __signed_stack_002main, __constValNeg2
+0	342	1340	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	342	1340	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1340		set __D0main, 60
+0	342	1343	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1343		mul __D0main, __signed_stack_002main, __D0main
+0	342	1347	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1347		mul __signed_stack_001main, __signed_stack_001main, __D0main
+0	342	1351	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	342	1351	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1351		mov __signed_stack_002main, branco_d
+0	342	1353	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	342	1353	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1353		mov __D0main, cinza_d
+0	342	1355	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1355		sub __D0main, __signed_stack_002main, __D0main
+0	342	1359	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1359		div __signed_stack_001main, __signed_stack_001main, __D0main
+0	342	1363	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1363	#line 343 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	344	1363		set __D0main, 60
+0	343	1366	#line 343 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	344	1366		add pote, __signed_stack_001main, __D0main
+0	343	1370	#line 343 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	343	1370	#line 343 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	344	1370	#line 344 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	345	1370		jmp __ASM_Label_992
+0	344	1372	#line 344 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	345	1372		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	344	1374	#line 344 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	345	1374	#line 345 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	346	1374		mov __D0main, cinza_d
+0	345	1376	#line 345 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	346	1376		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	346	1380	#line 346 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	347	1380		brtst 4, __ASM_Label_995, __D0main
+0	347	1383	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1383		set pote, 60
+0	347	1386	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	347	1386	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	347	1386	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1386		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	347	1388	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	347	1388	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1388		mov __D0main, cinza_d
+0	347	1390	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1390		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	347	1394	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	347	1394	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1394		mov __signed_stack_002main, __constValNeg2
+0	347	1396	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	347	1396	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1396		set __D0main, 60
+0	347	1399	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1399		mul __D0main, __signed_stack_002main, __D0main
+0	347	1403	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1403		mul __signed_stack_001main, __signed_stack_001main, __D0main
+0	347	1407	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	347	1407	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1407		mov __signed_stack_002main, preto_d
+0	347	1409	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	347	1409	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1409		mov __D0main, cinza_d
+0	347	1411	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1411		sub __D0main, __signed_stack_002main, __D0main
+0	347	1415	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1415		div __signed_stack_001main, __signed_stack_001main, __D0main
+0	347	1419	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1419	#line 348 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	349	1419		set __D0main, 60
+0	348	1422	#line 348 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	349	1422		add potd, __signed_stack_001main, __D0main
+0	348	1426	#line 348 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	348	1426	#line 348 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	351	1426	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	351	1426	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	351	1426	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	351	1426	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	352	1426		set __signed_stack_001main, 0
+0	351	1429	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	352	1429	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	353	1429		mov __D0main, potd
+0	352	1431	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	353	1431		sub potd, __signed_stack_001main, __D0main
+0	352	1435	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	352	1435	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	352	1435	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	353	1435		set __signed_stack_001main, 0
+0	352	1438	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	354	1438	#line 354 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	355	1438		mov __D0main, pote
+0	354	1440	#line 354 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	355	1440		sub pote, __signed_stack_001main, __D0main
+0	354	1444	#line 354 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	354	1444	#line 354 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	355	1444	#line 355 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	355	1444	#line 355 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	362	1444	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	363	1444	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	364	1444		mov __DU0main, andar
+0	367	1446		brcmp 4, __ASM_Label_1017, __constVal0, __DU0main
+0	368	1450		brcmp 4, __ASM_Label_1026, __constVal1, __DU0main
+0	369	1454		brcmp 4, __ASM_Label_1031, __constVal2, __DU0main
+0	370	1458		brcmp 4, __ASM_Label_1036, __constVal3, __DU0main
+0	371	1462		brcmp 4, __ASM_Label_1041, __constVal4, __DU0main
+0	372	1466		brcmp 4, __ASM_Label_1046, __constVal5, __DU0main
+0	373	1470		brcmp 4, __ASM_Label_1051, __constVal6, __DU0main
+0	374	1474		jmp __ASM_Label_1016
+0	366	1476	#line 366 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	367	1476	#line 367 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	368	1476		set my_tc_d, 0
+0	367	1479	#line 367 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	367	1479	#line 367 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	368	1479	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	369	1479		set my_tc_e, 0
+0	368	1482	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	368	1482	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	369	1482	#line 369 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	370	1482	#pragma macro 7
+0	370	1482		setout __constVal2, 0, __constVal8
+0	8147	1487	#line 8147 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	369	1487	#line 369 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	370	1487	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	371	1487	#pragma macro 7
+0	371	1487		setout __constVal0, 0, __constVal8
+0	8150	1492	#line 8150 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	370	1492	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	370	1492	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	371	1492		set __D0main, 0
+0	371	1495	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	372	1495	#pragma macro 7
+0	372	1495		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8155	1518	#line 8155 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	371	1518	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	371	1518	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	372	1518		set __D0main, 0
+0	372	1521	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	373	1521	#pragma macro 7
+0	373	1521		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8160	1544	#line 8160 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	372	1544	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	373	1544	#line 373 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	374	1544		jmp __ASM_Label_1016
+0	373	1546	#line 373 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	375	1546	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	376	1546	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	377	1546		mov pote, __constValNeg60
+0	376	1548	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	376	1548	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	377	1548	#line 377 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	378	1548		mov potd, __constValNeg60
+0	377	1550	#line 377 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	377	1550	#line 377 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	378	1550	#line 378 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	379	1550		jmp __ASM_Label_1016
+0	378	1552	#line 378 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	379	1552	#line 379 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	380	1552	#line 380 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	381	1552		mov pote, __constValNeg60
+0	380	1554	#line 380 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	380	1554	#line 380 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	381	1554	#line 381 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	382	1554		set potd, 0
+0	381	1557	#line 381 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	381	1557	#line 381 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	382	1557	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	383	1557		jmp __ASM_Label_1016
+0	382	1559	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	383	1559	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	384	1559	#line 384 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	385	1559		mov pote, __constValNeg60
+0	384	1561	#line 384 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	384	1561	#line 384 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	385	1561	#line 385 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	386	1561		set potd, 60
+0	385	1564	#line 385 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	385	1564	#line 385 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	386	1564	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	387	1564		jmp __ASM_Label_1016
+0	386	1566	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	387	1566	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	388	1566	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	389	1566		set pote, 0
+0	388	1569	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	388	1569	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	389	1569	#line 389 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	390	1569		mov potd, __constValNeg60
+0	389	1571	#line 389 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	389	1571	#line 389 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	390	1571	#line 390 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	391	1571		jmp __ASM_Label_1016
+0	390	1573	#line 390 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	391	1573	#line 391 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	392	1573	#line 392 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	393	1573		set pote, 60
+0	392	1576	#line 392 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	392	1576	#line 392 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	393	1576	#line 393 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	394	1576		mov potd, __constValNeg60
+0	393	1578	#line 393 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	393	1578	#line 393 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	394	1578	#line 394 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	395	1578		jmp __ASM_Label_1016
+0	394	1580	#line 394 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	396	1580	#line 396 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	397	1580	#line 397 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	397	1580	#line 397 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	401	1580	#line 401 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	402	1580	#line 402 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	403	1580		getout __D0main, __constVal2, 4
+0	402	1584	#line 402 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	403	1584		add my_tc_d, my_tc_d, __D0main
+0	402	1588	#line 402 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	404	1588	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	405	1588		getout __D0main, __constVal0, 4
+0	404	1592	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	405	1592		add my_tc_e, my_tc_e, __D0main
+0	404	1596	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	404	1596	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	405	1596		mov __D0main, pote
+0	405	1598	#line 405 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	406	1598	#pragma macro 7
+0	406	1598		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8266	1621	#line 8266 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	405	1621	#line 405 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	405	1621	#line 405 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	406	1621		mov __D0main, potd
+0	407	1623	#line 407 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	408	1623	#pragma macro 7
+0	408	1623		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8273	1646	#line 8273 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	407	1646	#line 407 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	411	1646	#line 411 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	412	1646		jmp __ASM_Label_612
+0	411	1648	#line 411 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+0	412	1648		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	413	0	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	414	0		set __signed_stack_001ang2line, 1142
+2	413	3	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	413	3	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	414	3		mov __D0ang2line, __ang2line_7qG2_ang_7qG2_000
+2	413	5	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	414	5		mul __signed_stack_001ang2line, __signed_stack_001ang2line, __D0ang2line
+2	413	9	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	413	9	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	414	9		set __D0ang2line, 360
+2	413	12	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	414	12		div __D0ang2line, __signed_stack_001ang2line, __D0ang2line
+2	414	16	#line 414 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	415	16		subret __ang2line_return
+2	414	18	#line 414 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	417	18	#line 417 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+2	418	18		subret __ang2line_return
+3	418	0	#line 418 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+3	418	0	#line 418 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+3	419	0		arrinit __vetor_calibragem0_2, __constVal0, __constVal200
+3	418	4	#line 418 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+3	419	4		arrinit vetor_calibragem0, __vetor_calibragem0_2, __constVal3
+3	418	8	#line 418 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+3	418	8	#line 418 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+3	419	8		arrinit __vetor_calibragem1_2, __constVal0, __constVal200
+3	418	12	#line 418 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+3	419	12		arrinit vetor_calibragem1, __vetor_calibragem1_2, __constVal3
+3	418	16	#line 418 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc"
+3	419	16		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc
+1	__ResetSensorSubroutine	1651	NXTDefs.h
+2	ang2line	1664	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc
+3	__initialize_global_data	1684	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\segui_l_1_sensor.nxc

@@ -80,7 +80,7 @@ Máquina de estado
 #define LSE IN_3
 #define RGB IN_1
 //parametros
-#define POTMAX 90
+#define POTMAX 60
 
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
@@ -101,7 +101,8 @@ enum type_andar {          //possíveis movimentos do robo
      direita_leve,         //virar levemente para a direita
      direita_brusco,       //virar para a direita de forma bruca
      esquerda_leve,        //virar levemente para a esquerda
-     esquerda_brusco       //virar para a esquerda de forma bruca
+     esquerda_brusco,      //virar para a esquerda de forma bruca
+     fica_como_esta
 };
 /*Declaração de Variáveis Globais*/
 //estados
@@ -329,74 +330,28 @@ task  main()
         temp_l_d =  Sensor(LSD);
         temp_l_e =  Sensor(LSE);
 
+        andar = fica_como_esta;
         //começando pelo sensor direito
-        if(temp_l_d > cinza_d+faixa_d)//sensor da direta branco
+        if(temp_l_d == cinza_d)
         {
-          if(temp_l_e > cinza_d+faixa_e)//sensor da esquerda branco
-          {
-            if((estado_linha == fr) || (estado_linha == fr2))
-            {
-             estado_linha = fr2;
-            }
-            else
-            {
-             estado_linha = fr;
-            }
-          }
-          else//sensor da esquerda não esta branco
-          {
-            if(temp_l_e < cinza_d-faixa_e)//caso seja preto
-            {
-             estado_linha = db;
-            }
-            else//sensor direta cinza
-            {
-             estado_linha = dl;
-            }
-          }
+         potd = POTMAX;
+         pote = POTMAX;
         }
-        else//sensor da direta não branco
+        else if(temp_l_d > cinza_d)
         {
-         if(temp_l_d < cinza_d-faixa_d)//caso seja preto
-         {
-          estado_linha = eb;
-         }
-         else//sensor direta cinza
-         {
-          estado_linha = el;
-         }
+         potd = POTMAX;
+         pote = ((temp_l_d - cinza_d)*((-2)*POTMAX)/(branco_d - cinza_d)) + POTMAX;
+        }
+        else if(temp_l_d < cinza_d)
+        {
+         pote = POTMAX;
+         potd = ((temp_l_d - cinza_d)*((-2)*POTMAX)/(preto_d - cinza_d)) + POTMAX;
         }
 
-        switch(estado_linha)//sub_maquina de estado para seguir a linha
-        {
-         case fr:
-            //inicializando as variáveias para o robo andar para frente
-            andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
-            pote = -POTMAX;  //sentando as potências iniciais como as máximas
-            potd = -POTMAX;  //as potencias são negativas pois os motores estão invertidos
+        //invertendo os cinais por conta do posicionamento dos motores
+        potd = -potd;
+        pote = -pote;
 
-            my_tc_d = 0;
-            my_tc_e = 0;
-            ResetTachoCount(MD);//resetando o contador de giro do motor direiro
-            ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
-
-         break;//fim do subestado
-         case fr2:
-            andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
-         break;//fim do subestado
-         case dl:
-            andar = direita_leve;
-         break;//fim do subestado
-         case db:
-            andar = direita_brusco;
-         break;//fim do subestado
-         case el:
-            andar = esquerda_leve;
-         break;//fim do subestado
-         case eb:
-            andar = esquerda_brusco;
-         break;//fim do subestado
-        }
    break; //fim do estado
   }
 
@@ -437,6 +392,9 @@ task  main()
         pote = POTMAX;
         potd = -POTMAX;
    break;//fim do caso
+   case fica_como_esta:
+   //faz nada
+   break;
   }
 
   //atualizando a saida dos motores
