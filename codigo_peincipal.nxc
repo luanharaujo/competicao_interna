@@ -80,7 +80,7 @@ Máquina de estado
 #define LSE IN_3
 #define RGB IN_1
 //parametros
-#define POTMAX 60
+#define POTMAX 75
 
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
@@ -153,8 +153,6 @@ task  main()
 
         //inicializando as variáveias para o robo andar para frente
         andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
-        pote = -POTMAX;  //sentando as potências iniciais como as máximas
-        potd = -POTMAX;  //as potencias são negativas pois os motores estão invertidos
 
         my_tc_d = 0;
         my_tc_e = 0;
