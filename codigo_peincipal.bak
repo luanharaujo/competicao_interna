@@ -74,13 +74,14 @@ Máquina de estado
 #define ME OUT_A
 #define MD OUT_C
 #define MDE OUT_AC
+#define MB OUT_B
 //sensores
 #define US IN_4
 #define LSD IN_2
 #define LSE IN_3
 #define RGB IN_1
 //parametros
-#define POTMAX 70
+#define POTMAX 90
 
 /*Definições de Variáveis*/
 enum type_estado_rodas{                 //maquina de estado principal das rodas
@@ -103,25 +104,54 @@ enum type_andar {          //possíveis movimentos do robo
      esquerda_leve,        //virar levemente para a esquerda
      esquerda_brusco       //virar para a esquerda de forma bruca
 };
+enum type_estado_braco {   //estado do braço indemendente
+     zerar,                //estado para ir para a posição de zero
+     setar,                //estado para ir para a posição inicial 18 positivos a partir do zero
+     aceitar,              //rotina para aceitar a bilinha
+     recusar,               //estado da rotina de recusar a bolinha
+     parado
+};
+
+/*
+enum type_braco_zera {               //sub estados para retornar o braço ao zero
+     inicia_movimento,               //começa o movimento
+     espera_bater,                   //espera mater
+     desliga_espera                  //deliga e espera 350ms para mudar des estado
+};
+*/
+//****enaum que não deu certo, fazendo na mão;
+#define inicia_movimento 0
+#define espera_bater 1
+#define desliga_espera 2
+
 /*Declaração de Variáveis Globais*/
 //estados
 type_estado_rodas estado_rodas;
 type_estado_linha estado_linha;
+type_estado_braco estado_braco;
+int subestado_braco_zerar;
 
-//variaveis da zueira  infelizmente elas são necessárias
+//variaveis da zueira (infelizmente elas são necessárias)
 int my_tc_d;
 int my_tc_e;
+int my_tc_b;
 
 //flags
 type_andar andar;
 
 //potências e parametros
 int potd, pote; //potencia do motor da esquerda e do motor da direita respectivamente
+int potmax = POTMAX;
+int my_old_tc_b;
 
 //dados
 int vetor_calibragem0[3][200];//vetor para mapear a resposta dos sensores de luz à resposta a 10cm de capitação de medição
 int vetor_calibragem1[3][200];//vetor para mapear a resposta dos sensores de luz à resposta a 10cm de capitação de medição
 int branco_d, preto_d, cinza_d, branco_e, preto_e, cinza_e, faixa_d, faixa_e;//variáveis para guardar o valor retornado pelo sensores de  para
+
+//auxiliares
+unsigned long time_temp;
+int temp_cor;
 
 /*Declaração das funções*/
 int ang2line(int ang);//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
@@ -138,10 +168,12 @@ task  main()
  /*inicializando os estados*/
  estado_rodas = inicializar;//maquina de estados principal
  andar = nao;//inicializando parado por segurança
- 
+ estado_braco = parado;//inicializando a maquina des estados do braço independente
+
  /*setando os sensores*/
  SetSensorLight(LSD);//sensor de luz direito
- SetSensorLight(LSE);//sensor de luz direito
+ SetSensorLight(LSE);//sensor de luz esquerdo
+ SetSensorColorFull(RGB);//sensor de cor RGB
 
  while(true)//void loop
  {
@@ -165,10 +197,10 @@ task  main()
          vetor_calibragem0[2][i]=0;//zerando somatório do sensor da direita
          vetor_calibragem1[2][i]=0;//zerando somatório do sensor da esquerda
         }
-        
+
 
         i=0;//iniciando o contador para preencher o vetor vet_calibragem
-        
+
         //medição inicial
         //sensor da direita
         vetor_calibragem0[0][0]=0;
@@ -193,8 +225,8 @@ task  main()
        temp_angulo = -my_tc_d;//invertendo o sinal da entrada pois o motor esta girando para "trás"
        temp_l_d =  Sensor(LSD);
        temp_l_e =  Sensor(LSE);
-       
-       
+
+
        if(ang2line(temp_angulo) < 5*(i+1))//caso ainda estaja na mesma medida
        {
         //sensor da direita
@@ -215,7 +247,7 @@ task  main()
 
         //andando uma posição
         i++;
-        
+
         //checando se não é a ultima posição do vetor
         if(i<200)//continua fazendo medições
         {
@@ -236,8 +268,12 @@ task  main()
         }
        }
    break; //fim do estado
-   
+
    case calibrando : //estado para escolher os valores de claro e escuro dos sensores de luz do rubo
+
+        //liberando a maquina de estados do braço
+        estado_braco = zerar; //************************INICIO DO MOVIMENTO CO BRACO*********************************
+        subestado_braco_zerar =  inicia_movimento;
 
         //zerando os valores de media
         preto_d=0;
@@ -248,41 +284,41 @@ task  main()
          preto_d += vetor_calibragem0[1][i];
          preto_e += vetor_calibragem1[1][i];
         }
-        
+
         i=0;
         i_preto_e = 0;
         i_preto_d = 0;
         temp_preto_d = preto_d;
         temp_preto_e = preto_e;
-        
+
         while(j<200)
         {
          //andando com as médias
          temp_preto_d = temp_preto_d + vetor_calibragem0[1][j] - vetor_calibragem0[1][i];
          temp_preto_e = temp_preto_e + vetor_calibragem1[1][j] - vetor_calibragem1[1][i];
-         
+
          if(temp_preto_d < preto_d)//checando a média atual para o caso da direta
          {
           preto_d = temp_preto_d;
           i_preto_d = i;
          }
-         
+
          if(temp_preto_e < preto_e)//checando a média atual para o caso da esquerda
          {
           preto_e = temp_preto_e;
           i_preto_e = i;
          }
-         
+
          i++;
          j++;
         }
-        
+
         //regulando as médias
         preto_d /= 34;
         preto_e /= 34;
 
         //calculando a média do branco
-        
+
         //direita
         for(i=0, branco_d=0; i<i_preto_d; i++)
         {
@@ -292,7 +328,7 @@ task  main()
         {
          branco_d += vetor_calibragem0[1][i];
         }
-        
+
         //esquerda
         for(i=0, branco_e=0; i<i_preto_e; i++)
         {
@@ -302,19 +338,19 @@ task  main()
         {
          branco_e += vetor_calibragem1[1][i];
         }
-        
+
         //regulando a média
         branco_d /= 166;
         branco_e /= 166;
-        
+
         //achando o cinza
         cinza_d = (preto_d + branco_d)/2;
         cinza_e = (preto_e + branco_e)/2;
-        
+
         //achando a faixa
         faixa_d = (branco_d - preto_d)/4;
         faixa_e = (branco_e - preto_e)/4;
-        
+
 
         estado_rodas = linha; /******************************   MUDANÇA DE ESTADO   ***************************************/
 
@@ -323,6 +359,7 @@ task  main()
    case linha : //estado para seguir a linha
 
         //escolhendo sub estado basedo na leitura dos sensores
+        potmax = 85;
 
         temp_l_d =  Sensor(LSD);
         temp_l_e =  Sensor(LSE);
@@ -364,20 +401,20 @@ task  main()
           estado_linha = el;
          }
         }
-        
+
         switch(estado_linha)//sub_maquina de estado para seguir a linha
         {
          case fr:
             //inicializando as variáveias para o robo andar para frente
             andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
-            pote = -POTMAX;  //sentando as potências iniciais como as máximas
-            potd = -POTMAX;  //as potencias são negativas pois os motores estão invertidos
+            pote = -potmax;  //sentando as potências iniciais como as máximas
+            potd = -potmax;  //as potencias são negativas pois os motores estão invertidos
 
             my_tc_d = 0;
             my_tc_e = 0;
             ResetTachoCount(MD);//resetando o contador de giro do motor direiro
             ResetTachoCount(ME);//resetando o contador de giro do motor esquerdo
-            
+
          break;//fim do subestado
          case fr2:
             andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
@@ -397,12 +434,111 @@ task  main()
         }
    break; //fim do estado
   }
+  /*checando a cor da bolinha*/
+  /***************************/
+  /***************************/
+  /****** Azul     -> 2  *****/
+  /****** Verde    -> 3  *****/
+  /****** Vermelho -> 5  *****/
+  /***************************/
+  /***************************/
+  /***************************/
+  temp_cor = SensorValue(RGB);
+  NumOut(0,LCD_LINE1,temp_cor);
+  if(temp_cor == 5)//VERMELHO
+  {
+
+  }
+  else if (temp_cor == 3)//VERDE
+  {
+       //aceita
+       estado_braco = zerar;
+       subestado_braco_zerar =  inicia_movimento;
+  }
+  else if(temp_cor == 2)//AZUL
+  {
+       //aceita
+       estado_braco = zerar;
+       subestado_braco_zerar =  inicia_movimento;
+  }
   
+
   /*Maquina de estado do braço*/
-  
-  /*saida dos motores das esteiras*/
-  
-  /*saida do motor do braço*/
+  switch(estado_braco)
+  {
+   break;//fim do estado
+   case zerar:
+       /*submaquina de estados*/
+       switch(subestado_braco_zerar)
+       {
+        case inicia_movimento:
+            while(MotorTachoCount(MB)>0)
+            {
+             ResetTachoCount(MB);
+            }
+            OnFwd(MB,-70);
+            my_tc_b =  MotorTachoCount(MB);
+            while(my_tc_b == MotorTachoCount(MB)){}//espera começa a mexer
+            subestado_braco_zerar = espera_bater; //*********************************************mudança de subestado********************
+            time_temp = CurrentTick();
+            my_old_tc_b = my_tc_b;
+            my_tc_b =  MotorTachoCount(MB);
+        break;
+        case espera_bater:
+             if((CurrentTick() - time_temp) > 15)
+             {
+              my_old_tc_b = my_tc_b;
+              my_tc_b =  MotorTachoCount(MB);
+              if(my_old_tc_b != my_tc_b)//não bateu ainda
+              {
+               time_temp = CurrentTick();
+              }
+              else//bateu!!
+              {
+               //***************************************mudança de sub estado
+               Off(MB);
+               subestado_braco_zerar = desliga_espera;
+               time_temp = CurrentTick();
+              }
+             }
+        break;
+        case desliga_espera:
+             if((CurrentTick() - time_temp) > 300)
+             {
+              //muda de estado *******************************************************
+              while(MotorTachoCount(MB)!=0)//zerando o tachocout com certeza
+              {
+                ResetTachoCount(MB);
+              }
+              OnFwd(MB,70);
+              estado_braco = setar;
+             }
+        break;
+       }
+   break;
+   case setar:
+       if(MotorTachoCount(MB) >= 29)
+       {
+        Off(MB);
+        estado_braco = parado;
+       }
+   break;
+   case aceitar:
+      //não é usado mandar direto para zerar
+   break;
+   case recusar:
+
+   break;
+   case parado:
+        Off(MB);
+   break;
+   
+  }
+
+  /*saida dos motores das braço*/
+
+
+  /*saida do motor do esteiras*/
   switch(andar)
   {
    case nao: //caso seja para parar
@@ -416,27 +552,27 @@ task  main()
    break;//fim do caso
    case frente://caso o robo deva andar para frente
        //Frente();//regulando os motores para andarem para frente
-       pote = -POTMAX;
-       potd = -POTMAX;
+       pote = -potmax;
+       potd = -potmax;
    break;//fim do caso
    case direita_leve://caso o robo fazer uma curva leve a direta
-        pote = -POTMAX;
+        pote = -potmax;
         potd = 0;
    break;//fim do caso
    case direita_brusco://caso o robo deva fazer uma curva brusca a direta
-        pote = -POTMAX;
-        potd = POTMAX;
+        pote = -potmax;
+        potd = potmax;
    break;//fim do caso
    case esquerda_leve://caso o robo fazer uma curva leve a esquerda
         pote = 0;
-        potd = -POTMAX;
+        potd = -potmax;
    break;//fim do caso
    case esquerda_brusco://caso o robo fazer uma curva brusca a esquerda
-        pote = POTMAX;
-        potd = -POTMAX;
+        pote = potmax;
+        potd = -potmax;
    break;//fim do caso
   }
-  
+
   //atualizando a saida dos motores
 
   my_tc_d += MotorTachoCount(MD);

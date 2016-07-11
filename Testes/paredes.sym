@@ -1,0 +1,356 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__CLSCSMutex3	9	0	0	4	2
+1	__signed_stack_002main	6	1	4	4	8
+2	__signed_stack_001main	6	1	8	4	14
+3	__CLSRMutex3	9	0	12	4	2
+4	__signed_stack_003main	6	1	16	4	2
+5	__CLSWMutex3	9	0	20	4	2
+6	__DU0SetSensorLowspeed_inline_main	5	1	24	4	5
+7	__D0main	6	1	28	4	30
+8	__RLSBmutex3	9	0	32	4	2
+9	__D0SetSensorLowspeed_inline_main	6	1	36	4	2
+10	__constVal360	4	0	40	2	1
+11	mytc	4	1	42	2	3
+12	__main_7qG2_i_7qG2_000	4	1	44	2	9
+13	__constVal200	4	0	46	2	2
+14	__constVal8	2	0	48	1	1
+15	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	49	1	2
+16	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	50	1	2
+17	__constVal96	2	0	51	1	3
+18	__constValNeg30	2	0	52	1	1
+19	__constVal63	2	0	53	1	3
+20	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	54	1	4
+21	____initialize_global_data_return	1	1	55	1	3
+22	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	56	1	2
+23	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	57	1	2
+24	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	58	1	2
+25	__ResetSensorTmp	1	1	59	1	2
+26	__ResetSensorPort	1	1	60	1	3
+27	__LSWriteOptions3	1	1	61	1	1
+28	____ResetSensorSubroutine_return	1	1	62	1	3
+29	__constVal1	2	0	63	1	5
+30	__constVal32	2	0	64	1	9
+31	__constVal3	2	0	65	1	4
+32	__constVal0	2	1	66	1	13
+33	____ReadLSBytes3_return	1	1	67	1	3
+34	__constVal2	2	0	68	1	4
+35	__RLSBResult3	2	1	69	1	7
+36	__RLSBIterations3	1	1	70	1	4
+37	__RLSBytesCount3	1	1	71	1	7
+38	__TextOutArgs	8	0	4	16	12
+39	__TextOutArgs.Result	2	1	72	1	12
+40	__TextOutArgs.Location	8	0	2	4	12
+41	__TextOutArgs.Location.X	4	1	76	2	12
+42	__TextOutArgs.Location.Y	4	1	78	2	12
+43	__TextOutArgs.Text	7	0	80	4	12
+44	__TextOutArgs.Text.Text_type	1	0	0	1	0
+45	__TextOutArgs.Options	5	1	84	4	12
+46	__PointOutArgs	8	0	3	12	4
+47	__PointOutArgs.Result	2	1	88	1	4
+48	__PointOutArgs.Location	8	0	2	4	4
+49	__PointOutArgs.Location.X	4	1	92	2	4
+50	__PointOutArgs.Location.Y	4	1	94	2	4
+51	__PointOutArgs.Options	5	1	96	4	4
+52	__CLSRArgs3	8	0	4	12	5
+53	__CLSRArgs3.Result	2	1	100	1	5
+54	__CLSRArgs3.Port	1	1	101	1	5
+55	__CLSRArgs3.Buffer	7	0	102	4	5
+56	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+57	__CLSRArgs3.BufferLen	1	1	104	1	5
+58	__CLSWArgs3	8	0	4	12	5
+59	__CLSWArgs3.Result	2	1	108	1	5
+60	__CLSWArgs3.Port	1	1	109	1	5
+61	__CLSWArgs3.Buffer	7	0	110	4	5
+62	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+63	__CLSWArgs3.ReturnLen	1	1	112	1	5
+64	__CLSCSArgs3	8	0	3	4	4
+65	__CLSCSArgs3.Result	2	1	116	1	4
+66	__CLSCSArgs3.Port	1	1	117	1	4
+67	__CLSCSArgs3.BytesReady	1	1	118	1	4
+68	__OUT_AC	7	0	120	4	1
+69	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+70	__RLSReadBuf3	7	0	122	4	8
+71	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+72	__RLSBbufLSWrite1	7	0	124	4	1
+73	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+74	__RLSLastGoodRead3	7	0	126	4	2
+75	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+76	quadrado	7	0	128	4	6
+77	quadrado.quadrado_type	4	0	0	2	0
+#SOURCES
+Clump	Line	PC	Source
+0	21	0	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	22	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	21	2	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	23	2	#line 23 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	24	2		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	23	5	#line 23 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	25	5	#line 25 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	26	5		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4342	7	#line 4342 "NXCDefs.h"
+0	4343	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4342	9	#line 4342 "NXCDefs.h"
+0	4343	9		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4342	11	#line 4342 "NXCDefs.h"
+0	4343	11		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4342	14	#line 4342 "NXCDefs.h"
+0	4343	14		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4342	17	#line 4342 "NXCDefs.h"
+0	4343	17		set __DU0SetSensorLowspeed_inline_main, 11
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4342	20	#line 4342 "NXCDefs.h"
+0	4343	20		jmp __004__ASM_Label_37
+0	4342	22	#line 4342 "NXCDefs.h"
+0	4343	22		set __DU0SetSensorLowspeed_inline_main, 10
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4342	25	#line 4342 "NXCDefs.h"
+0	4343	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4247	27	#line 4247 "NXCDefs.h"
+0	4248	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4247	31	#line 4247 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4343	31	#line 4343 "NXCDefs.h"
+0	4344	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4343	33	#line 4343 "NXCDefs.h"
+0	4344	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4343	36	#line 4343 "NXCDefs.h"
+0	4260	36	#line 4260 "NXCDefs.h"
+0	4261	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4260	40	#line 4260 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4344	40	#line 4344 "NXCDefs.h"
+0	4278	40	#line 4278 "NXCDefs.h"
+0	4279	40	#pragma macro 4
+0	4279	40		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4279	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5979	44	#line 5979 "NXCDefs.h"
+0	4278	44	#line 4278 "NXCDefs.h"
+0	4345	44	#line 4345 "NXCDefs.h"
+0	25	44	#line 25 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	25	44	#line 25 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	26	44		getout __signed_stack_001main, __constVal2, 4
+0	25	48	#line 25 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	26	48	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	27	48		set __D0main, 0
+0	26	51	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	27	51		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	27	55	#line 27 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	28	55		brtst 4, __ASM_Label_607, __D0main
+0	28	58	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	29	58	#pragma macro 7
+0	29	58		setout __constVal2, 0, __constVal8
+0	5999	63	#line 5999 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	28	63	#line 28 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	30	63	#line 30 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	31	63		jmp __ASM_Label_606
+0	30	65	#line 30 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	30	65	#line 30 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	31	65		set __D0main, 30
+0	31	68	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	32	68	#pragma macro 7
+0	32	68		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6008	91	#line 6008 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	31	91	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	31	91	#line 31 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	32	91		mov __D0main, __constValNeg30
+0	33	93	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	34	93	#pragma macro 7
+0	34	93		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6013	116	#line 6013 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	33	116	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	33	116	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	34	116		set __main_7qG2_i_7qG2_000, 0
+0	33	119	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	33	119	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	34	119		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	33	121	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	33	121	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	34	121		set __D0main, 360
+0	33	124	#line 33 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	34	124		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	34	128	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	35	128		brtst 4, __ASM_Label_615, __D0main
+0	34	131	#line 34 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	35	131		jmp __ASM_Label_616
+0	35	133	#line 35 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	36	133		jmp __ASM_Label_614
+0	38	135	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	39	135		getout mytc, __constVal2, 4
+0	38	139	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	38	139	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	38	139	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	39	139		mov __signed_stack_001main, mytc
+0	38	141	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	38	141	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	39	141		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	38	143	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	38	143	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	39	143		set __D0main, 718
+0	38	146	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	39	146		mul __signed_stack_002main, __signed_stack_002main, __D0main
+0	38	150	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	38	150	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	39	150		set __D0main, 100
+0	38	153	#line 38 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	39	153		div __D0main, __signed_stack_002main, __D0main
+0	39	157	#line 39 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	40	157		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	41	161	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	42	161		brtst 4, __ASM_Label_630, __D0main
+0	41	164	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	42	164		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	41	166	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	41	166	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	42	166	#pragma macro 26
+0	42	166		acquire __RLSBmutex3
+0	42	167		mov __RLSReadBuf3, __RLSBbufLSWrite1
+0	42	169		set __RLSBytesCount3, 1
+0	42	172		wait 15
+0	42	174		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+0	42	176		index __D0main, __RLSReadBuf3, 65535
+0	42	180		release __RLSBmutex3
+0	6089	181	#line 6089 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	41	181	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	42	181		replace quadrado, quadrado, __signed_stack_001main, __D0main
+0	41	186	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	41	186	#line 41 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	6678	186	#line 6678 "NXCDefs.h"
+0	6679	186	#pragma macro 6
+0	6679	186		mov __PointOutArgs.Location.X, __constVal200
+0	6679	188		mov __PointOutArgs.Location.Y, __constVal200
+0	6679	190		mov __PointOutArgs.Options, __constVal1
+0	6679	192		syscall 14, __PointOutArgs
+0	6098	195	#line 6098 "NXCDefs.h"
+0	6678	195	#line 6678 "NXCDefs.h"
+0	43	195	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	43	195	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	195		set __signed_stack_001main, 0
+0	43	198	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	43	198	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	198		set __signed_stack_002main, 56
+0	43	201	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	43	201	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	201		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	43	203	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	43	203	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	203		index __D0main, quadrado, __signed_stack_003main
+0	43	207	#line 43 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	207	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	207	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	207		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	44	209	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	209		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	44	211	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	211		set __TextOutArgs.Options, 0
+0	44	214	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	214		numtostr __TextOutArgs.Text, __D0main
+0	44	217	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	217		syscall 13, __TextOutArgs
+0	44	220	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	220		mov __D0main, __TextOutArgs.Result
+0	44	222	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	222	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	222	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	222		set __signed_stack_001main, 0
+0	44	225	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	225	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	225		set __signed_stack_002main, 48
+0	44	228	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	44	228	#line 44 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	228		mov __D0main, __main_7qG2_i_7qG2_000
+0	45	230	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	230	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	46	230		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	45	232	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	46	232		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	45	234	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	46	234		set __TextOutArgs.Options, 0
+0	45	237	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	46	237		numtostr __TextOutArgs.Text, __D0main
+0	45	240	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	46	240		syscall 13, __TextOutArgs
+0	45	243	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	46	243		mov __D0main, __TextOutArgs.Result
+0	45	245	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	245	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	45	245	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	46	245		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	45	247	#line 45 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	46	247	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	47	247		mov __D0main, mytc
+0	46	249	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	47	249		replace quadrado, quadrado, __signed_stack_001main, __D0main
+0	46	254	#line 46 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	47	254	#line 47 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	48	254		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	47	258	#line 47 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	49	258	#line 49 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	49	258	#line 49 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	50	258		jmp __ASM_Label_617
+0	49	260	#line 49 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	51	260	#line 51 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	52	260	#pragma macro 7
+0	52	260		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6204	283	#line 6204 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	51	283	#line 51 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+0	52	283		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	6393	0	#pragma macro 25
+2	6393	0		acquire __CLSWMutex3
+2	6393	1		or __CLSWArgs3.Port, __constVal3, __LSWriteOptions3
+2	6393	5		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	6393	7		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	6393	9		syscall 21, __CLSWArgs3
+2	6393	12		mov __RLSBResult3, __CLSWArgs3.Result
+2	6393	14		release __CLSWMutex3
+2	6393	15	#line 6393 "NXTDefs.h"
+2	6394	15		brtst 5, __RLSBError3, __RLSBResult3
+2	6395	18		set __RLSBIterations3, 60
+2	6397	21	#pragma macro 23
+2	6397	21		acquire __CLSCSMutex3
+2	6397	22		set __CLSCSArgs3.Port, 3
+2	6397	25		syscall 23, __CLSCSArgs3
+2	6397	28		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	6397	30		mov __RLSBResult3, __CLSCSArgs3.Result
+2	6397	32		release __CLSCSMutex3
+2	6397	33	#line 6397 "NXTDefs.h"
+2	6398	33		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	6399	37		brtst 2, __RLSBError3, __RLSBIterations3
+2	6400	40		brtst 0, __RLSBError3, __RLSBResult3
+2	6401	43		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	6403	46		wait 1
+2	6404	48		jmp __RLSBDoCheckStatus3
+2	6406	50		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	6407	53		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	6409	57	#pragma macro 25
+2	6409	57		acquire __CLSRMutex3
+2	6409	58		set __CLSRArgs3.Port, 3
+2	6409	61		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	6409	63		syscall 22, __CLSRArgs3
+2	6409	66		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	6409	68		mov __RLSBResult3, __CLSRArgs3.Result
+2	6409	70		release __CLSRMutex3
+2	6409	71	#line 6409 "NXTDefs.h"
+2	6410	71		brtst 5, __RLSBError3, __RLSBResult3
+2	6411	74		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	6412	76		jmp __RLSBDone3
+2	6414	78		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	6416	80		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	6418	83		subret ____ReadLSBytes3_return
+3	55	0	#line 55 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+3	56	0		arrinit quadrado, __constVal0, __constVal360
+3	55	4	#line 55 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc"
+3	56	4		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc
+1	__ResetSensorSubroutine	286	NXTDefs.h
+2	__ReadLSBytes3	299	NXTDefs.h
+3	__initialize_global_data	384	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\paredes.nxc

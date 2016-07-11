@@ -1,0 +1,54 @@
+/*teste achar paredes*/
+/*Definicições*/
+//moteore
+#define ME OUT_A
+#define MD OUT_C
+#define MDE OUT_AC
+#define MB OUT_B
+//sensores
+#define US IN_4
+#define LSD IN_2
+#define LSE IN_3
+#define RGB IN_1
+//parametros
+#define POTMAX 90
+
+//variáveis
+int quadrado[360];
+int mytc;
+task main()
+{
+ //variáveis locais
+ int i;
+ 
+ SetSensorLowspeed(US);
+
+ while(MotorTachoCount(MD)!=0)
+ {
+  ResetTachoCount(MD);
+ }
+ 
+ OnFwd(MD,30);
+ OnFwd(ME,-30);
+
+ for(i = 0; i<360;/*condição de andar não é aqui*/)
+ {
+  mytc = MotorTachoCount(MD);
+  //NumOut(0,LCD_LINE1,mytc);
+  //NumOut(0,LCD_LINE2,i);
+  if(mytc > ((i*718)/100))
+  {
+   //faço a leitura e ando com o contador
+   quadrado[i] = SensorUS(US);
+   ClearScreen();
+   NumOut(0,LCD_LINE1,quadrado[i]);
+   NumOut(0,LCD_LINE2,i);
+   quadrado[i] = mytc;
+   i++;
+  }
+ }
+ Off(MDE);
+ //while(1){}
+}
+
+
