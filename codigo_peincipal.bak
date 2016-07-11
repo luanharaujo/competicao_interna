@@ -135,6 +135,11 @@ int subestado_braco_zerar;
 int my_tc_d;
 int my_tc_e;
 int my_tc_b;
+int espera = 0;
+
+//****************************************************************************************************************
+int debug = 0;
+//****************************************************************************************************************
 
 //flags
 type_andar andar;
@@ -444,29 +449,32 @@ task  main()
   /***************************/
   /***************************/
   temp_cor = SensorValue(RGB);
-  NumOut(0,LCD_LINE1,temp_cor);
-  if(temp_cor == 5)//VERMELHO
-  {
-       //recusa
-       estado_braco = recusar;
-       while(MotorTachoCount(MB)!=0)
-       {
-             ResetTachoCount(MB);
-       }
-       OnFwd(MB,80);
 
-  }
-  else if (temp_cor == 253)//VERDE
+  if(!espera)
   {
-       //aceita
-       estado_braco = zerar;
-       subestado_braco_zerar =  inicia_movimento;
-  }
-  else if(temp_cor == 2)//AZUL
-  {
-       //aceita
-       estado_braco = zerar;
-       subestado_braco_zerar =  inicia_movimento;
+    if(temp_cor == 5)//VERMELHO
+    {
+         //recusa
+         estado_braco = recusar;
+         while(MotorTachoCount(MB)!=0)
+         {
+               ResetTachoCount(MB);
+         }
+         OnFwd(MB,80);
+
+    }
+    else if (temp_cor == 253)//VERDE
+    {
+         //aceita
+         estado_braco = zerar;
+         subestado_braco_zerar =  inicia_movimento;
+    }
+    else if(temp_cor == 2)//AZUL
+    {
+         //aceita
+         estado_braco = zerar;
+         subestado_braco_zerar =  inicia_movimento;
+    }
   }
   
 
@@ -475,6 +483,7 @@ task  main()
   {
    break;//fim do estado
    case zerar:
+        espera = 1;
        /*submaquina de estados*/
        switch(subestado_braco_zerar)
        {
@@ -494,6 +503,7 @@ task  main()
         case espera_bater:
              if((CurrentTick() - time_temp) > 50)
              {
+
               my_old_tc_b = my_tc_b;
               my_tc_b =  MotorTachoCount(MB);
               if(my_old_tc_b != my_tc_b)//não bateu ainda
@@ -503,6 +513,7 @@ task  main()
               else//bateu!!
               {
                //***************************************mudança de sub estado
+               NumOut(0,LCD_LINE1,++debug);
                Off(MB);
                subestado_braco_zerar = desliga_espera;
                time_temp = CurrentTick();
@@ -513,10 +524,10 @@ task  main()
              if((CurrentTick() - time_temp) > 300)
              {
               //muda de estado *******************************************************
-              while(MotorTachoCount(MB)!=0)//zerando o tachocout com certeza
-              {
-                ResetTachoCount(MB);
-              }
+              //while(MotorTachoCount(MB)!=0)//zerando o tachocout com certeza
+              //{
+              // ResetTachoCount(MB);
+              //}
               OnFwd(MB,70);
               estado_braco = setar;
              }
@@ -528,6 +539,7 @@ task  main()
        {
         Off(MB);
         estado_braco = parado;
+        espera = 0;
        }
    break;
    case aceitar:
