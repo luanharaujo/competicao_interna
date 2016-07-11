@@ -447,9 +447,16 @@ task  main()
   NumOut(0,LCD_LINE1,temp_cor);
   if(temp_cor == 5)//VERMELHO
   {
+       //recusa
+       estado_braco = recusar;
+       while(MotorTachoCount(MB)!=0)
+       {
+             ResetTachoCount(MB);
+       }
+       OnFwd(MB,80);
 
   }
-  else if (temp_cor == 3)//VERDE
+  else if (temp_cor == 253)//VERDE
   {
        //aceita
        estado_braco = zerar;
@@ -472,7 +479,7 @@ task  main()
        switch(subestado_braco_zerar)
        {
         case inicia_movimento:
-            while(MotorTachoCount(MB)>0)
+            while(MotorTachoCount(MB)!=0)
             {
              ResetTachoCount(MB);
             }
@@ -485,7 +492,7 @@ task  main()
             my_tc_b =  MotorTachoCount(MB);
         break;
         case espera_bater:
-             if((CurrentTick() - time_temp) > 15)
+             if((CurrentTick() - time_temp) > 50)
              {
               my_old_tc_b = my_tc_b;
               my_tc_b =  MotorTachoCount(MB);
@@ -527,7 +534,12 @@ task  main()
       //não é usado mandar direto para zerar
    break;
    case recusar:
-
+        if(MotorTachoCount(MB) >= 30)
+        {
+            estado_braco = zerar;
+            subestado_braco_zerar =  inicia_movimento;
+            Wait(50);
+        }
    break;
    case parado:
         Off(MB);

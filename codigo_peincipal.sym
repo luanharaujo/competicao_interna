@@ -4,112 +4,114 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 1	__DU0SetSensorLight_inline_main	5	1	4	4	10
 2	__signed_stack_001ang2line	6	1	8	4	4
 3	__D0ang2line	6	1	12	4	6
-4	__D0main	6	1	16	4	252
+4	__D0main	6	1	16	4	262
 5	__DU0main	5	1	20	4	29
-6	__signed_stack_001main	6	1	24	4	161
+6	__signed_stack_001main	6	1	24	4	165
 7	__signed_stack_005main	6	1	28	4	4
 8	__unsigned_stack_001main	5	1	32	4	12
 9	time_temp	5	1	36	4	5
 10	__signed_stack_002main	6	1	40	4	78
 11	__signed_stack_003main	6	1	44	4	46
 12	__signed_stack_004main	6	1	48	4	8
-13	preto_e	4	1	52	2	10
-14	faixa_d	4	1	54	2	3
-15	cinza_d	4	1	56	2	5
-16	branco_e	4	1	58	2	9
-17	faixa_e	4	1	60	2	3
-18	__main_7qG2_i_7qG2_000	4	1	62	2	64
-19	__main_7qG2_j_7qG2_000	4	1	64	2	7
-20	temp_cor	4	1	66	2	5
-21	__ang2line_7qG2_ang_7qG2_000	4	1	68	2	2
-22	preto_d	4	1	70	2	10
-23	my_tc_d	4	1	72	2	8
-24	subestado_braco_zerar	4	1	74	2	6
-25	my_tc_b	4	1	76	2	7
-26	my_tc_e	4	1	78	2	7
-27	potd	4	1	80	2	7
-28	my_old_tc_b	4	1	82	2	3
-29	branco_d	4	1	84	2	9
-30	pote	4	1	86	2	7
-31	potmax	4	0	88	2	11
-32	__main_7qG2_temp_preto_d_7qG2_000	4	1	90	2	5
-33	__main_7qG2_i_preto_d_7qG2_000	4	1	92	2	3
-34	__main_7qG2_temp_preto_e_7qG2_000	4	1	94	2	5
-35	__main_7qG2_i_preto_e_7qG2_000	4	1	96	2	3
-36	__main_7qG2_temp_l_d_7qG2_000	4	1	98	2	6
-37	__main_7qG2_temp_angulo_7qG2_000	4	1	100	2	2
-38	__main_7qG2_temp_l_e_7qG2_000	4	1	102	2	6
-39	__constVal200	4	0	104	2	2
-40	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	106	1	4
-41	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	107	1	4
-42	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	108	1	4
-43	andar	1	1	109	1	11
-44	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	110	1	10
-45	__constVal96	2	0	111	1	9
-46	__constValNeg70	2	0	112	1	1
-47	____initialize_global_data_return	1	1	113	1	3
-48	__constVal63	2	0	114	1	9
-49	__ang2line_return	1	1	115	1	4
-50	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	116	1	4
-51	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	117	1	4
-52	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	118	1	4
-53	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	119	1	2
-54	__constVal8	2	0	120	1	10
-55	inicializar	1	1	121	1	1
-56	__constVal2	2	0	122	1	16
-57	__constVal13	2	0	123	1	1
-58	inicializar2	1	0	124	1	1
-59	fr	1	1	125	1	2
-60	fr2	1	0	126	1	2
-61	calibrando	1	0	127	1	1
-62	linha	1	0	128	1	1
-63	__constVal0	2	1	129	1	47
-64	__constVal3	2	0	130	1	14
-65	__constVal32	2	0	131	1	27
-66	__constVal1	2	0	132	1	38
-67	__constVal4	2	0	133	1	4
-68	__ResetSensorTmp	1	1	134	1	2
-69	____ResetSensorSubroutine_return	1	1	135	1	5
-70	__constVal5	2	0	136	1	2
-71	__ResetSensorPort	1	1	137	1	5
-72	esquerda_leve	1	0	138	1	1
-73	estado_rodas	1	1	139	1	5
-74	direita_leve	1	0	140	1	1
-75	direita_brusco	1	0	141	1	1
-76	parado	1	0	142	1	2
-77	setar	1	0	143	1	1
-78	esquerda_brusco	1	0	144	1	1
-79	zerar	1	1	145	1	3
-80	db	1	0	146	1	1
-81	eb	1	0	147	1	1
-82	dl	1	0	148	1	1
-83	el	1	0	149	1	1
-84	estado_braco	1	1	150	1	7
-85	estado_linha	1	1	151	1	9
-86	nao	1	1	152	1	2
-87	frente	1	0	153	1	4
-88	__TextOutArgs	8	0	4	16	6
-89	__TextOutArgs.Result	2	1	156	1	6
-90	__TextOutArgs.Location	8	0	2	4	6
-91	__TextOutArgs.Location.X	4	1	160	2	6
-92	__TextOutArgs.Location.Y	4	1	162	2	6
-93	__TextOutArgs.Text	7	0	164	4	6
-94	__TextOutArgs.Text.Text_type	1	0	0	1	0
-95	__TextOutArgs.Options	5	1	168	4	6
-96	__ArrHelper__main_236_1	7	0	172	4	8
-97	__ArrHelper__main_236_1.__ArrHelper__main_236_1_type	4	0	0	2	0
-98	__vetor_calibragem1_2	7	0	174	4	2
-99	__vetor_calibragem1_2.__vetor_calibragem1_2_type	4	0	0	2	0
-100	__vetor_calibragem0_2	7	0	176	4	2
-101	__vetor_calibragem0_2.__vetor_calibragem0_2_type	4	0	0	2	0
-102	vetor_calibragem0	7	0	178	4	38
-103	vetor_calibragem0.vetor_calibragem0_type	7	0	0	4	0
-104	vetor_calibragem0.vetor_calibragem0_type.vetor_calibragem0_type_type	4	0	0	2	0
-105	vetor_calibragem1	7	0	180	4	38
-106	vetor_calibragem1.vetor_calibragem1_type	7	0	0	4	0
-107	vetor_calibragem1.vetor_calibragem1_type.vetor_calibragem1_type_type	4	0	0	2	0
-108	__ArrHelper__main_236_0	7	0	182	4	106
-109	__ArrHelper__main_236_0.__ArrHelper__main_236_0_type	4	0	0	2	0
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	2
+14	preto_e	4	1	56	2	10
+15	faixa_d	4	1	58	2	3
+16	cinza_d	4	1	60	2	5
+17	branco_e	4	1	62	2	9
+18	faixa_e	4	1	64	2	3
+19	__ang2line_7qG2_ang_7qG2_000	4	1	66	2	2
+20	__main_7qG2_i_7qG2_000	4	1	68	2	64
+21	__main_7qG2_j_7qG2_000	4	1	70	2	7
+22	temp_cor	4	1	72	2	5
+23	subestado_braco_zerar	4	1	74	2	7
+24	potd	4	1	76	2	7
+25	my_tc_d	4	1	78	2	8
+26	my_tc_b	4	1	80	2	7
+27	my_tc_e	4	1	82	2	7
+28	branco_d	4	1	84	2	9
+29	preto_d	4	1	86	2	10
+30	my_old_tc_b	4	1	88	2	3
+31	pote	4	1	90	2	7
+32	potmax	4	0	92	2	11
+33	__main_7qG2_i_preto_e_7qG2_000	4	1	94	2	3
+34	__main_7qG2_i_preto_d_7qG2_000	4	1	96	2	3
+35	__main_7qG2_temp_preto_d_7qG2_000	4	1	98	2	5
+36	__main_7qG2_temp_preto_e_7qG2_000	4	1	100	2	5
+37	__main_7qG2_temp_l_d_7qG2_000	4	1	102	2	6
+38	__main_7qG2_temp_angulo_7qG2_000	4	1	104	2	2
+39	__main_7qG2_temp_l_e_7qG2_000	4	1	106	2	6
+40	__constVal200	4	0	108	2	2
+41	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	110	1	4
+42	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	111	1	4
+43	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	112	1	4
+44	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	113	1	10
+45	andar	1	1	114	1	11
+46	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	115	1	4
+47	__constVal63	2	0	116	1	10
+48	__constVal96	2	0	117	1	10
+49	____initialize_global_data_return	1	1	118	1	3
+50	__constValNeg70	2	0	119	1	1
+51	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	120	1	2
+52	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	121	1	4
+53	__ang2line_return	1	1	122	1	4
+54	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	123	1	4
+55	__constVal8	2	0	124	1	11
+56	inicializar	1	1	125	1	1
+57	__constVal2	2	0	126	1	16
+58	__constVal13	2	0	127	1	1
+59	inicializar2	1	0	128	1	1
+60	fr	1	1	129	1	2
+61	fr2	1	0	130	1	2
+62	calibrando	1	0	131	1	1
+63	linha	1	0	132	1	1
+64	__constVal0	2	1	133	1	50
+65	__constVal3	2	0	134	1	15
+66	__constVal32	2	0	135	1	30
+67	__constVal1	2	0	136	1	42
+68	__constVal4	2	0	137	1	4
+69	__ResetSensorTmp	1	1	138	1	2
+70	____ResetSensorSubroutine_return	1	1	139	1	5
+71	__constVal5	2	0	140	1	2
+72	__ResetSensorPort	1	1	141	1	5
+73	dl	1	0	142	1	1
+74	esquerda_brusco	1	0	143	1	1
+75	estado_rodas	1	1	144	1	5
+76	direita_brusco	1	0	145	1	1
+77	esquerda_leve	1	0	146	1	1
+78	parado	1	0	147	1	2
+79	recusar	1	0	148	1	1
+80	zerar	1	1	149	1	4
+81	setar	1	0	150	1	1
+82	eb	1	0	151	1	1
+83	nao	1	1	152	1	2
+84	el	1	0	153	1	1
+85	db	1	0	154	1	1
+86	estado_braco	1	1	155	1	9
+87	estado_linha	1	1	156	1	9
+88	frente	1	0	157	1	4
+89	direita_leve	1	0	158	1	1
+90	__TextOutArgs	8	0	4	16	6
+91	__TextOutArgs.Result	2	1	160	1	6
+92	__TextOutArgs.Location	8	0	2	4	6
+93	__TextOutArgs.Location.X	4	1	164	2	6
+94	__TextOutArgs.Location.Y	4	1	166	2	6
+95	__TextOutArgs.Text	7	0	168	4	6
+96	__TextOutArgs.Text.Text_type	1	0	0	1	0
+97	__TextOutArgs.Options	5	1	172	4	6
+98	__ArrHelper__main_236_1	7	0	176	4	8
+99	__ArrHelper__main_236_1.__ArrHelper__main_236_1_type	4	0	0	2	0
+100	__vetor_calibragem1_2	7	0	178	4	2
+101	__vetor_calibragem1_2.__vetor_calibragem1_2_type	4	0	0	2	0
+102	__vetor_calibragem0_2	7	0	180	4	2
+103	__vetor_calibragem0_2.__vetor_calibragem0_2_type	4	0	0	2	0
+104	vetor_calibragem0	7	0	182	4	38
+105	vetor_calibragem0.vetor_calibragem0_type	7	0	0	4	0
+106	vetor_calibragem0.vetor_calibragem0_type.vetor_calibragem0_type_type	4	0	0	2	0
+107	vetor_calibragem1	7	0	184	4	38
+108	vetor_calibragem1.vetor_calibragem1_type	7	0	0	4	0
+109	vetor_calibragem1.vetor_calibragem1_type.vetor_calibragem1_type_type	4	0	0	2	0
+110	__ArrHelper__main_236_0	7	0	186	4	106
+111	__ArrHelper__main_236_0.__ArrHelper__main_236_0_type	4	0	0	2	0
 #SOURCES
 Clump	Line	PC	Source
 0	162	0	#line 162 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
@@ -172,7 +174,7 @@ Clump	Line	PC	Source
 0	4279	48	#pragma macro 4
 0	4279	48		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4279	50		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	6294	52	#line 6294 "NXCDefs.h"
+0	6372	52	#line 6372 "NXCDefs.h"
 0	4278	52	#line 4278 "NXCDefs.h"
 0	4316	52	#line 4316 "NXCDefs.h"
 0	174	52	#line 174 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
@@ -221,7 +223,7 @@ Clump	Line	PC	Source
 0	4279	92	#pragma macro 4
 0	4279	92		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	4279	94		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	6357	96	#line 6357 "NXCDefs.h"
+0	6435	96	#line 6435 "NXCDefs.h"
 0	4278	96	#line 4278 "NXCDefs.h"
 0	4316	96	#line 4316 "NXCDefs.h"
 0	175	96	#line 175 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
@@ -234,7 +236,7 @@ Clump	Line	PC	Source
 0	4387	103		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
 0	4387	107		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
 0	4387	109		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	6370	111	#line 6370 "NXCDefs.h"
+0	6448	111	#line 6448 "NXCDefs.h"
 0	4386	111	#line 4386 "NXCDefs.h"
 0	177	111	#line 177 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	178	111	#line 178 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
@@ -266,12 +268,12 @@ Clump	Line	PC	Source
 0	192	148	#line 192 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	193	148	#pragma macro 7
 0	193	148		setout __constVal2, 0, __constVal8
-0	6409	153	#line 6409 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	6487	153	#line 6487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	192	153	#line 192 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	194	153	#line 194 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	195	153	#pragma macro 7
 0	195	153		setout __constVal0, 0, __constVal8
-0	6412	158	#line 6412 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	6490	158	#line 6490 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	194	158	#line 194 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	194	158	#line 194 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	195	158		set __main_7qG2_i_7qG2_000, 0
@@ -449,12 +451,12 @@ Clump	Line	PC	Source
 0	221	402	#line 221 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	222	402	#pragma macro 7
 0	222	402		setout __constVal2, 0, __constVal8
-0	6686	407	#line 6686 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	6764	407	#line 6764 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	221	407	#line 221 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	224	407	#line 224 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	225	407	#pragma macro 7
 0	225	407		setout __constVal0, 0, __constVal8
-0	6689	412	#line 6689 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	6767	412	#line 6767 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	224	412	#line 224 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	224	412	#line 224 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	225	412		set __signed_stack_001main, 0
@@ -1384,12 +1386,12 @@ Clump	Line	PC	Source
 0	415	1490	#line 415 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	416	1490	#pragma macro 7
 0	416	1490		setout __constVal2, 0, __constVal8
-0	8275	1495	#line 8275 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	8353	1495	#line 8353 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	415	1495	#line 415 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	417	1495	#line 417 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	418	1495	#pragma macro 7
 0	418	1495		setout __constVal0, 0, __constVal8
-0	8278	1500	#line 8278 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	8356	1500	#line 8356 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	417	1500	#line 417 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	418	1500	#line 418 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	419	1500		jmp __ASM_Label_1010
@@ -1475,470 +1477,523 @@ Clump	Line	PC	Source
 0	450	1556	#line 450 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
 0	451	1556		brtst 4, __ASM_Label_1047, __D0main
 0	451	1559	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	452	1559		jmp __ASM_Label_1048
+0	452	1559		mov estado_braco, recusar
 0	451	1561	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	452	1561		mov __signed_stack_001main, temp_cor
-0	451	1563	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	452	1563	#line 452 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	453	1563		set __D0main, 253
-0	452	1566	#line 452 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	453	1566		cmp 4, __D0main, __signed_stack_001main, __D0main
-0	454	1570	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	455	1570		brtst 4, __ASM_Label_1051, __D0main
-0	455	1573	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	456	1573		mov estado_braco, zerar
-0	455	1575	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	455	1575	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	456	1575	#line 456 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	457	1575		set subestado_braco_zerar, 0
-0	456	1578	#line 456 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	456	1578	#line 456 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	457	1578	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	458	1578		jmp __ASM_Label_1056
-0	457	1580	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	458	1580		mov __signed_stack_001main, temp_cor
-0	457	1582	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	458	1582	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	459	1582		set __D0main, 2
-0	458	1585	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	459	1585		cmp 4, __D0main, __signed_stack_001main, __D0main
-0	460	1589	#line 460 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	461	1589		brtst 4, __ASM_Label_1059, __D0main
-0	461	1592	#line 461 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	462	1592		mov estado_braco, zerar
-0	461	1594	#line 461 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	461	1594	#line 461 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	462	1594	#line 462 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	463	1594		set subestado_braco_zerar, 0
-0	462	1597	#line 462 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	462	1597	#line 462 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	466	1597	#line 466 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	466	1597	#line 466 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	466	1597	#line 466 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	467	1597	#line 467 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	468	1597		mov __DU0main, estado_braco
-0	471	1599		brcmp 4, __ASM_Label_1067, __constVal0, __DU0main
-0	472	1603		brcmp 4, __ASM_Label_1126, __constVal1, __DU0main
-0	473	1607		brcmp 4, __ASM_Label_1132, __constVal2, __DU0main
-0	474	1611		brcmp 4, __ASM_Label_1133, __constVal3, __DU0main
-0	475	1615		brcmp 4, __ASM_Label_1134, __constVal4, __DU0main
-0	476	1619		jmp __ASM_Label_1066
-0	469	1621	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	470	1621		jmp __ASM_Label_1066
-0	469	1623	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	471	1623	#line 471 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	472	1623	#line 472 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	473	1623		mov __D0main, subestado_braco_zerar
-0	476	1625		brcmp 4, __ASM_Label_1071, __constVal0, __D0main
-0	477	1629		brcmp 4, __ASM_Label_1092, __constVal1, __D0main
-0	478	1633		brcmp 4, __ASM_Label_1112, __constVal2, __D0main
-0	479	1637		jmp __ASM_Label_1070
-0	474	1639	#line 474 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	474	1639	#line 474 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	475	1639		getout __signed_stack_001main, __constVal1, 4
-0	474	1643	#line 474 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	475	1643	#line 475 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	476	1643		set __D0main, 0
-0	475	1646	#line 475 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	476	1646		cmp 1, __D0main, __signed_stack_001main, __D0main
-0	476	1650	#line 476 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	477	1650		brtst 4, __ASM_Label_1073, __D0main
-0	477	1653	#line 477 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	478	1653	#pragma macro 7
-0	478	1653		setout __constVal1, 0, __constVal8
-0	8510	1658	#line 8510 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	477	1658	#line 477 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	478	1658	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	479	1658		jmp __ASM_Label_1072
-0	478	1660	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	478	1660	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	479	1660		mov __D0main, __constValNeg70
-0	479	1662	#line 479 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	480	1662	#pragma macro 7
-0	480	1662		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8519	1685	#line 8519 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	479	1685	#line 479 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	480	1685	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	481	1685		getout my_tc_b, __constVal1, 4
-0	480	1689	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	480	1689	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	480	1689	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	481	1689		mov __signed_stack_001main, my_tc_b
-0	480	1691	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	480	1691	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	481	1691		getout __D0main, __constVal1, 4
-0	480	1695	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	481	1695		cmp 4, __D0main, __signed_stack_001main, __D0main
-0	480	1699	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	481	1699		brtst 4, __ASM_Label_1081, __D0main
-0	481	1702	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	482	1702		jmp __ASM_Label_1080
-0	481	1704	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	482	1704	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	483	1704		set subestado_braco_zerar, 1
-0	482	1707	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	482	1707	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	482	1707	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	483	1707		gettick time_temp
-0	482	1709	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	482	1709	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	482	1709	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	484	1709	#line 484 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	485	1709		mov my_old_tc_b, my_tc_b
-0	484	1711	#line 484 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	484	1711	#line 484 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	485	1711	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	486	1711		getout my_tc_b, __constVal1, 4
-0	485	1715	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	485	1715	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	486	1715	#line 486 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	487	1715		jmp __ASM_Label_1070
-0	486	1717	#line 486 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	487	1717	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	487	1717	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	488	1717		gettick __unsigned_stack_001main
-0	487	1719	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	487	1719	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	487	1719	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	488	1719		sub __unsigned_stack_001main, __unsigned_stack_001main, time_temp
-0	487	1723	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	488	1723	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	489	1723		set __D0main, 15
-0	488	1726	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	489	1726		cmp 1, __D0main, __unsigned_stack_001main, __D0main
-0	489	1730	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	490	1730		brtst 4, __ASM_Label_1097, __D0main
-0	490	1733	#line 490 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	491	1733		mov my_old_tc_b, my_tc_b
-0	490	1735	#line 490 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	490	1735	#line 490 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	491	1735	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	492	1735		getout my_tc_b, __constVal1, 4
-0	491	1739	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	491	1739	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	491	1739	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	492	1739		mov __signed_stack_001main, my_old_tc_b
-0	491	1741	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	492	1741	#line 492 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	493	1741		mov __D0main, my_tc_b
-0	492	1743	#line 492 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	493	1743		cmp 5, __D0main, __signed_stack_001main, __D0main
-0	493	1747	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	494	1747		brtst 4, __ASM_Label_1104, __D0main
-0	493	1750	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	494	1750		gettick time_temp
-0	493	1752	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	493	1752	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	493	1752	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	498	1752	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	499	1752		jmp __ASM_Label_1107
-0	499	1754	#line 499 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	500	1754	#pragma macro 7
-0	500	1754		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8643	1777	#line 8643 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	499	1777	#line 499 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	500	1777	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	501	1777		set subestado_braco_zerar, 2
-0	500	1780	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	500	1780	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	500	1780	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	501	1780		gettick time_temp
-0	500	1782	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	500	1782	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	500	1782	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	503	1782	#line 503 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	503	1782	#line 503 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	504	1782	#line 504 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	505	1782		jmp __ASM_Label_1070
-0	504	1784	#line 504 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	505	1784	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	505	1784	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	506	1784		gettick __unsigned_stack_001main
-0	505	1786	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	505	1786	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	505	1786	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	506	1786		sub __unsigned_stack_001main, __unsigned_stack_001main, time_temp
-0	505	1790	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	506	1790	#line 506 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	507	1790		set __D0main, 300
-0	506	1793	#line 506 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	507	1793		cmp 1, __D0main, __unsigned_stack_001main, __D0main
-0	508	1797	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	509	1797		brtst 4, __ASM_Label_1117, __D0main
-0	508	1800	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	509	1800		getout __signed_stack_001main, __constVal1, 4
-0	508	1804	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	509	1804	#line 509 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	510	1804		set __D0main, 0
-0	509	1807	#line 509 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	510	1807		cmp 5, __D0main, __signed_stack_001main, __D0main
-0	510	1811	#line 510 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	511	1811		brtst 4, __ASM_Label_1119, __D0main
-0	511	1814	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	512	1814	#pragma macro 7
-0	512	1814		setout __constVal1, 0, __constVal8
-0	8707	1819	#line 8707 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	511	1819	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	512	1819	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	513	1819		jmp __ASM_Label_1118
-0	512	1821	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	512	1821	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	513	1821		set __D0main, 70
-0	513	1824	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	514	1824	#pragma macro 7
-0	514	1824		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8716	1847	#line 8716 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	513	1847	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	514	1847	#line 514 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	515	1847		mov estado_braco, setar
-0	514	1849	#line 514 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	514	1849	#line 514 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	451	1561	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	451	1561	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	452	1561		getout __signed_stack_001main, __constVal1, 4
+0	451	1565	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	452	1565	#line 452 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	453	1565		set __D0main, 0
+0	452	1568	#line 452 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	453	1568		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	453	1572	#line 453 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	454	1572		brtst 4, __ASM_Label_1051, __D0main
+0	454	1575	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	455	1575	#pragma macro 7
+0	455	1575		setout __constVal1, 0, __constVal8
+0	8506	1580	#line 8506 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	454	1580	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	455	1580	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	456	1580		jmp __ASM_Label_1050
+0	455	1582	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	455	1582	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	456	1582		set __D0main, 80
+0	457	1585	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	458	1585	#pragma macro 7
+0	458	1585		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8515	1608	#line 8515 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	457	1608	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	458	1608	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	459	1608		jmp __ASM_Label_1056
+0	458	1610	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	459	1610		mov __signed_stack_001main, temp_cor
+0	458	1612	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	459	1612	#line 459 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	460	1612		set __D0main, 253
+0	459	1615	#line 459 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	460	1615		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	461	1619	#line 461 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	462	1619		brtst 4, __ASM_Label_1059, __D0main
+0	462	1622	#line 462 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	463	1622		mov estado_braco, zerar
+0	462	1624	#line 462 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	462	1624	#line 462 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	463	1624	#line 463 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	464	1624		set subestado_braco_zerar, 0
+0	463	1627	#line 463 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	463	1627	#line 463 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	464	1627	#line 464 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	465	1627		jmp __ASM_Label_1064
+0	464	1629	#line 464 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	465	1629		mov __signed_stack_001main, temp_cor
+0	464	1631	#line 464 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	465	1631	#line 465 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	466	1631		set __D0main, 2
+0	465	1634	#line 465 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	466	1634		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	467	1638	#line 467 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	468	1638		brtst 4, __ASM_Label_1067, __D0main
+0	468	1641	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	469	1641		mov estado_braco, zerar
+0	468	1643	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	468	1643	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	469	1643	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	470	1643		set subestado_braco_zerar, 0
+0	469	1646	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	469	1646	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	473	1646	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	473	1646	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	473	1646	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	474	1646	#line 474 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	475	1646		mov __DU0main, estado_braco
+0	478	1648		brcmp 4, __ASM_Label_1075, __constVal0, __DU0main
+0	479	1652		brcmp 4, __ASM_Label_1134, __constVal1, __DU0main
+0	480	1656		brcmp 4, __ASM_Label_1140, __constVal2, __DU0main
+0	481	1660		brcmp 4, __ASM_Label_1141, __constVal3, __DU0main
+0	482	1664		brcmp 4, __ASM_Label_1151, __constVal4, __DU0main
+0	483	1668		jmp __ASM_Label_1074
+0	476	1670	#line 476 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	477	1670		jmp __ASM_Label_1074
+0	476	1672	#line 476 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	478	1672	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	479	1672	#line 479 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	480	1672		mov __D0main, subestado_braco_zerar
+0	483	1674		brcmp 4, __ASM_Label_1079, __constVal0, __D0main
+0	484	1678		brcmp 4, __ASM_Label_1100, __constVal1, __D0main
+0	485	1682		brcmp 4, __ASM_Label_1120, __constVal2, __D0main
+0	486	1686		jmp __ASM_Label_1078
+0	481	1688	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	481	1688	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	482	1688		getout __signed_stack_001main, __constVal1, 4
+0	481	1692	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	482	1692	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	483	1692		set __D0main, 0
+0	482	1695	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	483	1695		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	483	1699	#line 483 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	484	1699		brtst 4, __ASM_Label_1081, __D0main
+0	484	1702	#line 484 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	485	1702	#pragma macro 7
+0	485	1702		setout __constVal1, 0, __constVal8
+0	8622	1707	#line 8622 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	484	1707	#line 484 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	485	1707	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	486	1707		jmp __ASM_Label_1080
+0	485	1709	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	485	1709	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	486	1709		mov __D0main, __constValNeg70
+0	486	1711	#line 486 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	487	1711	#pragma macro 7
+0	487	1711		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8631	1734	#line 8631 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	486	1734	#line 486 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	487	1734	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	488	1734		getout my_tc_b, __constVal1, 4
+0	487	1738	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	487	1738	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	487	1738	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	488	1738		mov __signed_stack_001main, my_tc_b
+0	487	1740	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	487	1740	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	488	1740		getout __D0main, __constVal1, 4
+0	487	1744	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	488	1744		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	487	1748	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	488	1748		brtst 4, __ASM_Label_1089, __D0main
+0	488	1751	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	489	1751		jmp __ASM_Label_1088
+0	488	1753	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	489	1753	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	490	1753		set subestado_braco_zerar, 1
+0	489	1756	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	489	1756	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	489	1756	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	490	1756		gettick time_temp
+0	489	1758	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	489	1758	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	489	1758	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	491	1758	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	492	1758		mov my_old_tc_b, my_tc_b
+0	491	1760	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	491	1760	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	492	1760	#line 492 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	493	1760		getout my_tc_b, __constVal1, 4
+0	492	1764	#line 492 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	492	1764	#line 492 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	493	1764	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	494	1764		jmp __ASM_Label_1078
+0	493	1766	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	494	1766	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	494	1766	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	495	1766		gettick __unsigned_stack_001main
+0	494	1768	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	494	1768	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	494	1768	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	495	1768		sub __unsigned_stack_001main, __unsigned_stack_001main, time_temp
+0	494	1772	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	495	1772	#line 495 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	496	1772		set __D0main, 40
+0	495	1775	#line 495 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	496	1775		cmp 1, __D0main, __unsigned_stack_001main, __D0main
+0	496	1779	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	497	1779		brtst 4, __ASM_Label_1105, __D0main
+0	497	1782	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	498	1782		mov my_old_tc_b, my_tc_b
+0	497	1784	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	497	1784	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	498	1784	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	499	1784		getout my_tc_b, __constVal1, 4
+0	498	1788	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	498	1788	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	498	1788	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	499	1788		mov __signed_stack_001main, my_old_tc_b
+0	498	1790	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	499	1790	#line 499 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	500	1790		mov __D0main, my_tc_b
+0	499	1792	#line 499 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	500	1792		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	500	1796	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	501	1796		brtst 4, __ASM_Label_1112, __D0main
+0	500	1799	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	501	1799		gettick time_temp
+0	500	1801	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	500	1801	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	500	1801	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	505	1801	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	506	1801		jmp __ASM_Label_1115
+0	506	1803	#line 506 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	507	1803	#pragma macro 7
+0	507	1803		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8755	1826	#line 8755 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	506	1826	#line 506 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	507	1826	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	508	1826		set subestado_braco_zerar, 2
+0	507	1829	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	507	1829	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	507	1829	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	508	1829		gettick time_temp
+0	507	1831	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	507	1831	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	507	1831	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	510	1831	#line 510 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	510	1831	#line 510 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	511	1831	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	512	1831		jmp __ASM_Label_1078
+0	511	1833	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	512	1833	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	512	1833	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	513	1833		gettick __unsigned_stack_001main
+0	512	1835	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	512	1835	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	512	1835	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	513	1835		sub __unsigned_stack_001main, __unsigned_stack_001main, time_temp
+0	512	1839	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	513	1839	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	514	1839		set __D0main, 300
+0	513	1842	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	514	1842		cmp 1, __D0main, __unsigned_stack_001main, __D0main
+0	515	1846	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	516	1846		brtst 4, __ASM_Label_1125, __D0main
 0	515	1849	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	516	1849	#line 516 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	516	1849	#line 516 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	517	1849	#line 517 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	518	1849	#line 518 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	519	1849		jmp __ASM_Label_1066
-0	518	1851	#line 518 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	519	1851	#line 519 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	519	1851	#line 519 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	520	1851		getout __signed_stack_001main, __constVal1, 4
-0	519	1855	#line 519 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	520	1855	#line 520 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	521	1855		set __D0main, 29
-0	520	1858	#line 520 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	521	1858		cmp 3, __D0main, __signed_stack_001main, __D0main
-0	521	1862	#line 521 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	522	1862		brtst 4, __ASM_Label_1129, __D0main
-0	522	1865	#line 522 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	523	1865	#pragma macro 7
-0	523	1865		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8752	1888	#line 8752 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	522	1888	#line 522 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	523	1888	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	524	1888		mov estado_braco, parado
-0	523	1890	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	523	1890	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	524	1890	#line 524 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	525	1890	#line 525 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	526	1890		jmp __ASM_Label_1066
-0	525	1892	#line 525 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	527	1892	#line 527 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	528	1892	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	529	1892		jmp __ASM_Label_1066
-0	528	1894	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	530	1894	#line 530 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	531	1894	#line 531 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	532	1894		jmp __ASM_Label_1066
-0	531	1896	#line 531 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	532	1896	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	533	1896	#line 533 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	534	1896	#pragma macro 7
-0	534	1896		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8779	1919	#line 8779 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	533	1919	#line 533 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	535	1919	#line 535 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	535	1919	#line 535 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	541	1919	#line 541 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	542	1919	#line 542 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	543	1919		mov __DU0main, andar
-0	546	1921		brcmp 4, __ASM_Label_1138, __constVal0, __DU0main
-0	547	1925		brcmp 4, __ASM_Label_1147, __constVal1, __DU0main
-0	548	1929		brcmp 4, __ASM_Label_1152, __constVal2, __DU0main
-0	549	1933		brcmp 4, __ASM_Label_1157, __constVal3, __DU0main
-0	550	1937		brcmp 4, __ASM_Label_1162, __constVal4, __DU0main
-0	551	1941		brcmp 4, __ASM_Label_1167, __constVal5, __DU0main
-0	552	1945		jmp __ASM_Label_1137
-0	545	1947	#line 545 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	546	1947	#line 546 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	547	1947		set my_tc_d, 0
-0	546	1950	#line 546 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	546	1950	#line 546 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	547	1950	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	548	1950		set my_tc_e, 0
-0	547	1953	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	547	1953	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	548	1953	#line 548 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	549	1953	#pragma macro 7
-0	549	1953		setout __constVal2, 0, __constVal8
-0	8810	1958	#line 8810 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	548	1958	#line 548 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	549	1958	#line 549 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	550	1958	#pragma macro 7
-0	550	1958		setout __constVal0, 0, __constVal8
-0	8813	1963	#line 8813 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	549	1963	#line 549 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	549	1963	#line 549 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	550	1963		set __D0main, 0
-0	550	1966	#line 550 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	551	1966	#pragma macro 7
-0	551	1966		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8818	1989	#line 8818 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	550	1989	#line 550 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	550	1989	#line 550 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	551	1989		set __D0main, 0
-0	551	1992	#line 551 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	552	1992	#pragma macro 7
-0	552	1992		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8823	2015	#line 8823 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	551	2015	#line 551 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	552	2015	#line 552 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	553	2015		jmp __ASM_Label_1137
-0	552	2017	#line 552 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	554	2017	#line 554 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	554	2017	#line 554 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	555	2017		set __signed_stack_001main, 0
-0	554	2020	#line 554 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	555	2020	#line 555 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	556	2020		mov __D0main, potmax
-0	555	2022	#line 555 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	556	2022		sub pote, __signed_stack_001main, __D0main
-0	555	2026	#line 555 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	555	2026	#line 555 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	555	2026	#line 555 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	556	2026		set __signed_stack_001main, 0
-0	555	2029	#line 555 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	556	2029	#line 556 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	557	2029		mov __D0main, potmax
-0	556	2031	#line 556 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	557	2031		sub potd, __signed_stack_001main, __D0main
-0	556	2035	#line 556 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	556	2035	#line 556 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	557	2035	#line 557 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	558	2035		jmp __ASM_Label_1137
-0	557	2037	#line 557 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	558	2037	#line 558 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	558	2037	#line 558 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	559	2037		set __signed_stack_001main, 0
-0	558	2040	#line 558 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	559	2040	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	560	2040		mov __D0main, potmax
-0	559	2042	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	560	2042		sub pote, __signed_stack_001main, __D0main
-0	559	2046	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	559	2046	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	560	2046	#line 560 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	561	2046		set potd, 0
-0	560	2049	#line 560 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	560	2049	#line 560 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	561	2049	#line 561 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	562	2049		jmp __ASM_Label_1137
-0	561	2051	#line 561 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	562	2051	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	562	2051	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	563	2051		set __signed_stack_001main, 0
-0	562	2054	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	563	2054	#line 563 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	564	2054		mov __D0main, potmax
-0	563	2056	#line 563 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	564	2056		sub pote, __signed_stack_001main, __D0main
-0	563	2060	#line 563 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	563	2060	#line 563 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	564	2060	#line 564 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	565	2060		mov potd, potmax
-0	564	2062	#line 564 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	564	2062	#line 564 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	565	2062	#line 565 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	566	2062		jmp __ASM_Label_1137
-0	565	2064	#line 565 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	566	2064	#line 566 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	567	2064	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	568	2064		set pote, 0
-0	567	2067	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	567	2067	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	567	2067	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	568	2067		set __signed_stack_001main, 0
-0	567	2070	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	568	2070	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	569	2070		mov __D0main, potmax
-0	568	2072	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	569	2072		sub potd, __signed_stack_001main, __D0main
-0	568	2076	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	568	2076	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	569	2076	#line 569 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	570	2076		jmp __ASM_Label_1137
-0	569	2078	#line 569 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	570	2078	#line 570 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	571	2078	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	572	2078		mov pote, potmax
-0	571	2080	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	571	2080	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	571	2080	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	572	2080		set __signed_stack_001main, 0
-0	571	2083	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	572	2083	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	573	2083		mov __D0main, potmax
-0	572	2085	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	573	2085		sub potd, __signed_stack_001main, __D0main
-0	572	2089	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	572	2089	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	573	2089	#line 573 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	573	2089	#line 573 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	577	2089	#line 577 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	578	2089	#line 578 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	579	2089		getout __D0main, __constVal2, 4
-0	578	2093	#line 578 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	579	2093		add my_tc_d, my_tc_d, __D0main
-0	578	2097	#line 578 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	580	2097	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	581	2097		getout __D0main, __constVal0, 4
-0	580	2101	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	581	2101		add my_tc_e, my_tc_e, __D0main
-0	580	2105	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	580	2105	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	581	2105		mov __D0main, pote
-0	581	2107	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	582	2107	#pragma macro 7
-0	582	2107		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8988	2130	#line 8988 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	581	2130	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	581	2130	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	582	2130		mov __D0main, potd
-0	583	2132	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	584	2132	#pragma macro 7
-0	584	2132		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	8995	2155	#line 8995 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	583	2155	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	587	2155	#line 587 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	588	2155		jmp __ASM_Label_616
-0	587	2157	#line 587 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-0	588	2157		exit -1, -1
+0	516	1849		getout __signed_stack_001main, __constVal1, 4
+0	515	1853	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	516	1853	#line 516 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	517	1853		set __D0main, 0
+0	516	1856	#line 516 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	517	1856		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	517	1860	#line 517 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	518	1860		brtst 4, __ASM_Label_1127, __D0main
+0	518	1863	#line 518 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	519	1863	#pragma macro 7
+0	519	1863		setout __constVal1, 0, __constVal8
+0	8819	1868	#line 8819 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	518	1868	#line 518 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	519	1868	#line 519 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	520	1868		jmp __ASM_Label_1126
+0	519	1870	#line 519 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	519	1870	#line 519 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	520	1870		set __D0main, 70
+0	520	1873	#line 520 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	521	1873	#pragma macro 7
+0	521	1873		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8828	1896	#line 8828 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	520	1896	#line 520 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	521	1896	#line 521 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	522	1896		mov estado_braco, setar
+0	521	1898	#line 521 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	521	1898	#line 521 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	522	1898	#line 522 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	523	1898	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	523	1898	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	524	1898	#line 524 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	525	1898	#line 525 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	526	1898		jmp __ASM_Label_1074
+0	525	1900	#line 525 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	526	1900	#line 526 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	526	1900	#line 526 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	527	1900		getout __signed_stack_001main, __constVal1, 4
+0	526	1904	#line 526 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	527	1904	#line 527 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	528	1904		set __D0main, 29
+0	527	1907	#line 527 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	528	1907		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	528	1911	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	529	1911		brtst 4, __ASM_Label_1137, __D0main
+0	529	1914	#line 529 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	530	1914	#pragma macro 7
+0	530	1914		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8864	1937	#line 8864 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	529	1937	#line 529 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	530	1937	#line 530 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	531	1937		mov estado_braco, parado
+0	530	1939	#line 530 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	530	1939	#line 530 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	531	1939	#line 531 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	532	1939	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	533	1939		jmp __ASM_Label_1074
+0	532	1941	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	534	1941	#line 534 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	535	1941	#line 535 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	536	1941		jmp __ASM_Label_1074
+0	535	1943	#line 535 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	536	1943	#line 536 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	536	1943	#line 536 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	537	1943		getout __signed_stack_001main, __constVal1, 4
+0	536	1947	#line 536 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	537	1947	#line 537 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	538	1947		set __D0main, 30
+0	537	1950	#line 537 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	538	1950		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	538	1954	#line 538 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	539	1954		brtst 4, __ASM_Label_1144, __D0main
+0	539	1957	#line 539 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	540	1957		mov estado_braco, zerar
+0	539	1959	#line 539 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	539	1959	#line 539 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	540	1959	#line 540 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	541	1959		set subestado_braco_zerar, 0
+0	540	1962	#line 540 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	540	1962	#line 540 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	540	1962	#line 540 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	541	1962		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	540	1965	#line 540 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	8551	1965	#line 8551 "NXCDefs.h"
+0	8552	1965		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1967	#line 8551 "NXCDefs.h"
+0	541	1967	#line 541 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	542	1967	#line 542 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	543	1967	#line 543 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	544	1967		jmp __ASM_Label_1074
+0	543	1969	#line 543 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	544	1969	#line 544 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	545	1969	#line 545 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	546	1969	#pragma macro 7
+0	546	1969		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8931	1992	#line 8931 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	545	1992	#line 545 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	547	1992	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	547	1992	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	553	1992	#line 553 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	554	1992	#line 554 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	555	1992		mov __DU0main, andar
+0	558	1994		brcmp 4, __ASM_Label_1155, __constVal0, __DU0main
+0	559	1998		brcmp 4, __ASM_Label_1164, __constVal1, __DU0main
+0	560	2002		brcmp 4, __ASM_Label_1169, __constVal2, __DU0main
+0	561	2006		brcmp 4, __ASM_Label_1174, __constVal3, __DU0main
+0	562	2010		brcmp 4, __ASM_Label_1179, __constVal4, __DU0main
+0	563	2014		brcmp 4, __ASM_Label_1184, __constVal5, __DU0main
+0	564	2018		jmp __ASM_Label_1154
+0	557	2020	#line 557 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	558	2020	#line 558 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	559	2020		set my_tc_d, 0
+0	558	2023	#line 558 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	558	2023	#line 558 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	559	2023	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	560	2023		set my_tc_e, 0
+0	559	2026	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	559	2026	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	560	2026	#line 560 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	561	2026	#pragma macro 7
+0	561	2026		setout __constVal2, 0, __constVal8
+0	8962	2031	#line 8962 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	560	2031	#line 560 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	561	2031	#line 561 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	562	2031	#pragma macro 7
+0	562	2031		setout __constVal0, 0, __constVal8
+0	8965	2036	#line 8965 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	561	2036	#line 561 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	561	2036	#line 561 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	562	2036		set __D0main, 0
+0	562	2039	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	563	2039	#pragma macro 7
+0	563	2039		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8970	2062	#line 8970 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	562	2062	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	562	2062	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	563	2062		set __D0main, 0
+0	563	2065	#line 563 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	564	2065	#pragma macro 7
+0	564	2065		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8975	2088	#line 8975 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	563	2088	#line 563 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	564	2088	#line 564 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	565	2088		jmp __ASM_Label_1154
+0	564	2090	#line 564 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	566	2090	#line 566 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	566	2090	#line 566 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	567	2090		set __signed_stack_001main, 0
+0	566	2093	#line 566 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	567	2093	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	568	2093		mov __D0main, potmax
+0	567	2095	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	568	2095		sub pote, __signed_stack_001main, __D0main
+0	567	2099	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	567	2099	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	567	2099	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	568	2099		set __signed_stack_001main, 0
+0	567	2102	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	568	2102	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	569	2102		mov __D0main, potmax
+0	568	2104	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	569	2104		sub potd, __signed_stack_001main, __D0main
+0	568	2108	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	568	2108	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	569	2108	#line 569 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	570	2108		jmp __ASM_Label_1154
+0	569	2110	#line 569 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	570	2110	#line 570 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	570	2110	#line 570 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	571	2110		set __signed_stack_001main, 0
+0	570	2113	#line 570 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	571	2113	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	572	2113		mov __D0main, potmax
+0	571	2115	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	572	2115		sub pote, __signed_stack_001main, __D0main
+0	571	2119	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	571	2119	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	572	2119	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	573	2119		set potd, 0
+0	572	2122	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	572	2122	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	573	2122	#line 573 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	574	2122		jmp __ASM_Label_1154
+0	573	2124	#line 573 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	574	2124	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	574	2124	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	575	2124		set __signed_stack_001main, 0
+0	574	2127	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	575	2127	#line 575 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	576	2127		mov __D0main, potmax
+0	575	2129	#line 575 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	576	2129		sub pote, __signed_stack_001main, __D0main
+0	575	2133	#line 575 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	575	2133	#line 575 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	576	2133	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	577	2133		mov potd, potmax
+0	576	2135	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	576	2135	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	577	2135	#line 577 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	578	2135		jmp __ASM_Label_1154
+0	577	2137	#line 577 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	578	2137	#line 578 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	579	2137	#line 579 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	580	2137		set pote, 0
+0	579	2140	#line 579 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	579	2140	#line 579 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	579	2140	#line 579 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	580	2140		set __signed_stack_001main, 0
+0	579	2143	#line 579 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	580	2143	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	581	2143		mov __D0main, potmax
+0	580	2145	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	581	2145		sub potd, __signed_stack_001main, __D0main
+0	580	2149	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	580	2149	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	581	2149	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	582	2149		jmp __ASM_Label_1154
+0	581	2151	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	582	2151	#line 582 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	583	2151	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	584	2151		mov pote, potmax
+0	583	2153	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	583	2153	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	583	2153	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	584	2153		set __signed_stack_001main, 0
+0	583	2156	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	584	2156	#line 584 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	585	2156		mov __D0main, potmax
+0	584	2158	#line 584 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	585	2158		sub potd, __signed_stack_001main, __D0main
+0	584	2162	#line 584 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	584	2162	#line 584 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	585	2162	#line 585 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	585	2162	#line 585 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	589	2162	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	590	2162	#line 590 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	591	2162		getout __D0main, __constVal2, 4
+0	590	2166	#line 590 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	591	2166		add my_tc_d, my_tc_d, __D0main
+0	590	2170	#line 590 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	592	2170	#line 592 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	593	2170		getout __D0main, __constVal0, 4
+0	592	2174	#line 592 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	593	2174		add my_tc_e, my_tc_e, __D0main
+0	592	2178	#line 592 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	592	2178	#line 592 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	593	2178		mov __D0main, pote
+0	593	2180	#line 593 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	594	2180	#pragma macro 7
+0	594	2180		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9140	2203	#line 9140 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	593	2203	#line 593 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	593	2203	#line 593 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	594	2203		mov __D0main, potd
+0	595	2205	#line 595 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	596	2205	#pragma macro 7
+0	596	2205		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9147	2228	#line 9147 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	595	2228	#line 595 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	599	2228	#line 599 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	600	2228		jmp __ASM_Label_616
+0	599	2230	#line 599 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+0	600	2230		exit -1, -1
 1	5476	0		setin __constVal1, __ResetSensorPort, 5
 1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	5480	11		subret ____ResetSensorSubroutine_return
-2	589	0	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	590	0		set __signed_stack_001ang2line, 1142
-2	589	3	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	589	3	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	590	3		mov __D0ang2line, __ang2line_7qG2_ang_7qG2_000
-2	589	5	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	590	5		mul __signed_stack_001ang2line, __signed_stack_001ang2line, __D0ang2line
-2	589	9	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	589	9	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	590	9		set __D0ang2line, 360
-2	589	12	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	590	12		div __D0ang2line, __signed_stack_001ang2line, __D0ang2line
-2	590	16	#line 590 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	591	16		subret __ang2line_return
-2	590	18	#line 590 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	593	18	#line 593 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-2	594	18		subret __ang2line_return
-3	594	0	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-3	594	0	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-3	595	0		arrinit __vetor_calibragem0_2, __constVal0, __constVal200
-3	594	4	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-3	595	4		arrinit vetor_calibragem0, __vetor_calibragem0_2, __constVal3
-3	594	8	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-3	594	8	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-3	595	8		arrinit __vetor_calibragem1_2, __constVal0, __constVal200
-3	594	12	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-3	595	12		arrinit vetor_calibragem1, __vetor_calibragem1_2, __constVal3
-3	594	16	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
-3	595	16		subret ____initialize_global_data_return
+2	601	0	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	602	0		set __signed_stack_001ang2line, 1142
+2	601	3	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	601	3	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	602	3		mov __D0ang2line, __ang2line_7qG2_ang_7qG2_000
+2	601	5	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	602	5		mul __signed_stack_001ang2line, __signed_stack_001ang2line, __D0ang2line
+2	601	9	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	601	9	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	602	9		set __D0ang2line, 360
+2	601	12	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	602	12		div __D0ang2line, __signed_stack_001ang2line, __D0ang2line
+2	602	16	#line 602 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	603	16		subret __ang2line_return
+2	602	18	#line 602 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	605	18	#line 605 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+2	606	18		subret __ang2line_return
+3	606	0	#line 606 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+3	606	0	#line 606 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+3	607	0		arrinit __vetor_calibragem0_2, __constVal0, __constVal200
+3	606	4	#line 606 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+3	607	4		arrinit vetor_calibragem0, __vetor_calibragem0_2, __constVal3
+3	606	8	#line 606 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+3	606	8	#line 606 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+3	607	8		arrinit __vetor_calibragem1_2, __constVal0, __constVal200
+3	606	12	#line 606 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+3	607	12		arrinit vetor_calibragem1, __vetor_calibragem1_2, __constVal3
+3	606	16	#line 606 "C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc"
+3	607	16		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc
-1	__ResetSensorSubroutine	2160	NXTDefs.h
-2	ang2line	2173	C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc
-3	__initialize_global_data	2193	C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc
+1	__ResetSensorSubroutine	2233	NXTDefs.h
+2	ang2line	2246	C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc
+3	__initialize_global_data	2266	C:\Users\luan\OneDrive\Droid\competicao_interna\codigo_peincipal.nxc
