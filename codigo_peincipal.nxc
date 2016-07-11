@@ -88,7 +88,8 @@ enum type_estado_rodas{                 //maquina de estado principal das rodas
      inicializar, inicializar2,         //andar para frente até passar as linhas e regular os sensores
      calibrando,                        //estado para calibrar os valores dos sensores
      ir_centro,                         //função para ir para o centro o mais rápido possível
-     linha                              //estado para seguir a linha
+     linha,                             //estado para seguir a linha
+     deboa                              //estado adepito do diboísmo
 };
 enum type_estado_linha{                 //sub maquina de estado para seguir a linha
      fr, fr2,                             //frente
@@ -438,6 +439,9 @@ task  main()
          break;//fim do subestado
         }
    break; //fim do estado
+   case deboa:
+        //faz nada, fica só de boa
+   break;
   }
   /*checando a cor da bolinha*/
   /***************************/
@@ -456,6 +460,12 @@ task  main()
     {
          //recusa
          estado_braco = recusar;
+         
+         if(estado_rodas == linha)
+         {
+          estado_rodas = deboa;
+         }
+         
          while(MotorTachoCount(MB)!=0)
          {
                ResetTachoCount(MB);
@@ -540,6 +550,10 @@ task  main()
         Off(MB);
         estado_braco = parado;
         espera = 0;
+        if(estado_rodas == deboa)
+        {
+          estado_rodas = linha;
+        }
        }
    break;
    case aceitar:
