@@ -19,68 +19,11 @@
 
 task main()
 {
-	string sColor;
- SetSensorColorFull(RGB);
+
+  SetSensorColorBlue(RGB);
 	while (true) {
-
-		switch(SensorValue(RGB))
-		{
-			case BLACKCOLOR:
-				sColor = "Black";
-			break;
-
-	case
-
-	BLUECOLOR: sColor =
-	"Blue"
-	;
-	break
-	;
-
-	case
-
-	GREENCOLOR: sColor =
-	"Green"
-	;
-	break
-	;
-
-	case
-
-	YELLOWCOLOR: sColor =
-	"Yellow"
-	;
-	break
-	;
-
-	case
-
-	REDCOLOR: sColor =
-	"Red"
-	;
-	break
-	;
-
-	case
-
-	WHITECOLOR: sColor =
-	"White"
-	;
-	break
-	;
-
-	default
-	: sColor =
-	"???"
-	;
-	break
-	;
-
-	}
-
-	nxtDisplayCenteredTextLine(2, sColor);
-
-	wait1Msec(50);
-
-	}
+    ClearScreen();
+    NumOut(0,LCD_LINE1,SensorRaw(RGB));
+    Wait(50);
+  }
 }

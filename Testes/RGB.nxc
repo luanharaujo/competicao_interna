@@ -20,8 +20,10 @@
 task main()
 {
 
-  SetSensorColorFull(RGB);
+  SetSensorColorRed(RGB);
 	while (true) {
-		NumOut(0,LCD_LINE1,SensorValue(RGB));
+    ClearScreen();
+    NumOut(0,LCD_LINE1,SensorRaw(RGB));
+    Wait(50);
   }
 }
