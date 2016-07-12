@@ -552,7 +552,7 @@ task  main()
         espera = 0;
         if(estado_rodas == deboa)
         {
-          estaso_rodas = linha;
+          estado_rodas = linha;
         }
        }
    break;

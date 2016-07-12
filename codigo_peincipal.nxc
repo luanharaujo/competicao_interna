@@ -441,6 +441,7 @@ task  main()
    break; //fim do estado
    case deboa:
         //faz nada, fica só de boa
+        Off(MDE);
    break;
   }
   /*checando a cor da bolinha*/
