@@ -1,0 +1,13 @@
+task main()
+{
+  byte handle;
+    handle = fopen("test.txt", "r");
+    NumOut(0, LCD_LINE2, handle);
+    if (handle != NULL)
+    {
+      string msg;
+      fgets(msg, 7, handle);
+      TextOut(0, LCD_LINE3, msg);
+    }
+  Wait(SEC_5);
+}

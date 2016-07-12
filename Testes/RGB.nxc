@@ -19,6 +19,7 @@
 
 task main()
 {
+ int fp;
 
   SetSensorColorRed(RGB);
 	while (true) {

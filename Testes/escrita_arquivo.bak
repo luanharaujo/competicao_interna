@@ -1,0 +1,7 @@
+task main()
+{
+ unsigned int fp;
+ 
+ fp = fopen("teste","w");
+ fprintf(fp, "%d", 42);
+}

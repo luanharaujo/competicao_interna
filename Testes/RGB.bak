@@ -19,8 +19,9 @@
 
 task main()
 {
+ int *fp;
 
-  SetSensorColorBlue(RGB);
+  SetSensorColorRed(RGB);
 	while (true) {
     ClearScreen();
     NumOut(0,LCD_LINE1,SensorRaw(RGB));
