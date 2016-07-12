@@ -1,236 +1,234 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_002main	6	1	0	4	4
-1	__unsigned_stack_001main	5	1	4	4	2
-2	__signed_stack_001main	6	1	8	4	4
-3	__D0fputs_inline_main	6	1	12	4	9
-4	__signed_stack_001fopen	6	1	16	4	2
-5	__fopen_7qG2_fsize_7qG2_000	5	1	20	4	4
-6	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	24	4	2
-7	__constVal37632	6	0	28	4	1
-8	__signed_stack_001fputs_inline_main	6	1	32	4	2
-9	__fopen_default_size	5	0	36	4	1
+0	__signed_stack_001main	6	1	0	4	2
+1	__signed_stack_002main	6	1	4	4	2
+2	__D0fputs_inline_main	6	1	8	4	8
+3	__signed_stack_001fopen	6	1	12	4	2
+4	__unsigned_stack_001main	5	1	16	4	2
+5	__constVal37632	6	0	20	4	1
+6	__fopen_7qG2_fsize_7qG2_000	5	1	24	4	4
+7	__signed_stack_001fputs_inline_main	6	1	28	4	2
+8	__fopen_default_size	5	0	32	4	1
+9	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	36	4	2
 10	__DU0fopen	5	1	40	4	3
 11	__D0fopen	6	1	44	4	4
 12	__D0main	6	1	48	4	9
-13	__DU0main	5	1	52	4	4
-14	__fputs_7qG2_cnt_7qG2_000_inline_main	4	1	56	2	2
-15	__fopen_7qG2_result_7qG2_000	4	1	58	2	5
-16	__fopen_7qG2_handle_7qG2_000	1	1	60	1	5
-17	__fopen_return	1	1	61	1	5
-18	____initialize_global_data_return	1	1	62	1	3
-19	__main_7qG2_handle_7qG2_000	1	1	63	1	7
-20	__constValNeg1	2	0	64	1	1
-21	__FOArgs	8	0	4	12	15
-22	__FOArgs.Result	3	1	68	2	15
-23	__FOArgs.FileHandle	1	1	70	1	15
-24	__FOArgs.Filename	7	0	72	4	15
-25	__FOArgs.Filename.Filename_type	1	0	0	1	0
-26	__FOArgs.Length	5	1	76	4	15
-27	__FWriteArgs	8	0	4	12	7
-28	__FWriteArgs.Result	3	1	80	2	7
-29	__FWriteArgs.FileHandle	1	1	82	1	7
-30	__FWriteArgs.Buffer	7	0	84	4	7
-31	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
-32	__FWriteArgs.Length	5	1	88	4	7
-33	__FCArgs	8	0	2	4	3
-34	__FCArgs.Result	3	1	92	2	3
-35	__FCArgs.FileHandle	1	1	94	1	3
-36	__TextOutArgs	8	0	4	16	12
-37	__TextOutArgs.Result	2	1	96	1	12
-38	__TextOutArgs.Location	8	0	2	4	12
-39	__TextOutArgs.Location.X	4	1	100	2	12
-40	__TextOutArgs.Location.Y	4	1	102	2	12
-41	__TextOutArgs.Text	7	0	104	4	12
-42	__TextOutArgs.Text.Text_type	1	0	0	1	0
-43	__TextOutArgs.Options	5	1	108	4	12
+13	__fputs_7qG2_cnt_7qG2_000_inline_main	4	1	52	2	2
+14	__main_7qG2_estado_7qG2_000	4	1	54	2	2
+15	__fopen_7qG2_result_7qG2_000	4	1	56	2	5
+16	__constValNeg1	2	0	58	1	1
+17	__fopen_7qG2_handle_7qG2_000	1	1	59	1	5
+18	__main_7qG2_handle_7qG2_000	1	1	60	1	5
+19	____initialize_global_data_return	1	1	61	1	3
+20	__fopen_return	1	1	62	1	5
+21	__TextOutArgs	8	0	4	16	6
+22	__TextOutArgs.Result	2	1	64	1	6
+23	__TextOutArgs.Location	8	0	2	4	6
+24	__TextOutArgs.Location.X	4	1	68	2	6
+25	__TextOutArgs.Location.Y	4	1	70	2	6
+26	__TextOutArgs.Text	7	0	72	4	6
+27	__TextOutArgs.Text.Text_type	1	0	0	1	0
+28	__TextOutArgs.Options	5	1	76	4	6
+29	__FCArgs	8	0	2	4	3
+30	__FCArgs.Result	3	1	80	2	3
+31	__FCArgs.FileHandle	1	1	82	1	3
+32	__FOArgs	8	0	4	12	15
+33	__FOArgs.Result	3	1	84	2	15
+34	__FOArgs.FileHandle	1	1	86	1	15
+35	__FOArgs.Filename	7	0	88	4	15
+36	__FOArgs.Filename.Filename_type	1	0	0	1	0
+37	__FOArgs.Length	5	1	92	4	15
+38	__FWriteArgs	8	0	4	12	7
+39	__FWriteArgs.Result	3	1	96	2	7
+40	__FWriteArgs.FileHandle	1	1	98	1	7
+41	__FWriteArgs.Buffer	7	0	100	4	7
+42	__FWriteArgs.Buffer.Buffer_type	1	0	0	1	0
+43	__FWriteArgs.Length	5	1	104	4	7
 44	__FDArgs	8	0	2	8	3
-45	__FDArgs.Result	3	1	112	2	3
-46	__FDArgs.Filename	7	0	114	4	3
+45	__FDArgs.Result	3	1	108	2	3
+46	__FDArgs.Filename	7	0	110	4	3
 47	__FDArgs.Filename.Filename_type	1	0	0	1	0
-48	__constStr0009	7	0	116	4	3
-49	__constStr0009.__constStr0009_type	1	1	0	1	0
-50	__constStr0010	7	0	118	4	1
+48	__constStr0011	7	0	112	4	1
+49	__constStr0011.__constStr0011_type	1	1	0	1	0
+50	__constStr0010	7	0	114	4	1
 51	__constStr0010.__constStr0010_type	1	1	0	1	0
-52	__strbufmain	7	0	120	4	12
-53	__strbufmain.__strbufmain_type	1	0	0	1	0
-54	__fputs_7qG2_str_7qG2_000_inline_main	7	0	122	4	2
-55	__fputs_7qG2_str_7qG2_000_inline_main.__fputs_7qG2_str_7qG2_000_inline_main_type	1	0	0	1	0
-56	__strbuffopen	7	0	124	4	4
-57	__strbuffopen.__strbuffopen_type	1	0	0	1	0
-58	__fopen_7qG2_mode_7qG2_000	7	0	126	4	3
-59	__fopen_7qG2_mode_7qG2_000.__fopen_7qG2_mode_7qG2_000_type	1	0	0	1	0
-60	__fopen_7qG2_filename_7qG2_000	7	0	128	4	5
-61	__fopen_7qG2_filename_7qG2_000.__fopen_7qG2_filename_7qG2_000_type	1	0	0	1	0
-62	__constStr0008	7	0	130	4	1
-63	__constStr0008.__constStr0008_type	1	1	0	1	0
-64	__constStr0007	7	0	132	4	2
+52	__fputs_7qG2_str_7qG2_000_inline_main	7	0	116	4	2
+53	__fputs_7qG2_str_7qG2_000_inline_main.__fputs_7qG2_str_7qG2_000_inline_main_type	1	0	0	1	0
+54	__constStr0009	7	0	118	4	3
+55	__constStr0009.__constStr0009_type	1	1	0	1	0
+56	__strretvalmain	7	0	120	4	2
+57	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+58	__fopen_7qG2_filename_7qG2_000	7	0	122	4	5
+59	__fopen_7qG2_filename_7qG2_000.__fopen_7qG2_filename_7qG2_000_type	1	0	0	1	0
+60	__strbuffopen	7	0	124	4	4
+61	__strbuffopen.__strbuffopen_type	1	0	0	1	0
+62	__strbufmain	7	0	126	4	16
+63	__strbufmain.__strbufmain_type	1	0	0	1	0
+64	__constStr0007	7	0	128	4	2
 65	__constStr0007.__constStr0007_type	1	1	0	1	0
-66	__constStr0006	7	0	134	4	2
-67	__constStr0006.__constStr0006_type	1	1	0	1	0
+66	__constStr0008	7	0	130	4	1
+67	__constStr0008.__constStr0008_type	1	1	0	1	0
+68	__fopen_7qG2_mode_7qG2_000	7	0	132	4	3
+69	__fopen_7qG2_mode_7qG2_000.__fopen_7qG2_mode_7qG2_000_type	1	0	0	1	0
+70	__constStr0006	7	0	134	4	2
+71	__constStr0006.__constStr0006_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	2	0	#line 2 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	2	2	#line 2 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	3	2	#line 3 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	4	2		strcat __strbufmain, __constStr0009
-0	3	6	#line 3 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	19206	6	#line 19206 "NXCDefs.h"
-0	19207	6	#pragma macro 5
-0	19207	6		mov __FDArgs.Filename, __strbufmain
-0	19207	8		syscall 8, __FDArgs
-0	19207	11		mov __D0main, __FDArgs.Result
-0	6047	13	#line 6047 "NXCDefs.h"
-0	19206	13	#line 19206 "NXCDefs.h"
-0	19206	13	#line 19206 "NXCDefs.h"
-0	19206	13	#line 19206 "NXCDefs.h"
-0	4	13	#line 4 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	4	13	#line 4 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	4	13	#line 4 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	5	13		strcat __strbufmain, __constStr0009
-0	4	17	#line 4 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	5	17		mov __fopen_7qG2_filename_7qG2_000, __strbufmain
-0	4	19	#line 4 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	5	19		strcat __strbufmain, __constStr0007
-0	4	23	#line 4 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	5	23		mov __fopen_7qG2_mode_7qG2_000, __strbufmain
-0	5	25	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	6	25		subcall fopen, __fopen_return
-0	5	27	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	6	27		mov __main_7qG2_handle_7qG2_000, __DU0fopen
-0	5	29	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	5	29	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	5	29	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	6	29		set __signed_stack_001main, 0
-0	5	32	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	5	32	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	6	32		set __signed_stack_002main, 56
-0	5	35	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	5	35	#line 5 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	6	35		mov __DU0main, __main_7qG2_handle_7qG2_000
-0	6	37	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	6	37	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	7	37		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	6	39	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	7	39		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	6	41	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	7	41		set __TextOutArgs.Options, 0
-0	6	44	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	7	44		numtostr __TextOutArgs.Text, __DU0main
-0	6	47	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	7	47		syscall 13, __TextOutArgs
-0	6	50	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	7	50		mov __D0main, __TextOutArgs.Result
-0	6	52	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	6	52	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	6	52	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	7	52		mov __unsigned_stack_001main, __main_7qG2_handle_7qG2_000
-0	6	54	#line 6 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	7	54	#line 7 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	8	54		set __D0main, 0
-0	7	57	#line 7 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	8	57		cmp 5, __D0main, __unsigned_stack_001main, __D0main
-0	8	61	#line 8 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	9	61		brtst 4, __ASM_Label_614, __D0main
-0	8	64	#line 8 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	9	64		strcat __strbufmain, __constStr0010
-0	8	68	#line 8 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	9	68		mov __fputs_7qG2_str_7qG2_000_inline_main, __strbufmain
-0	8	70	#line 8 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	8	70	#line 8 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	19398	70	#line 19398 "NXCDefs.h"
-0	19399	70	#pragma macro 8
-0	19399	70		mov __FWriteArgs.FileHandle, __main_7qG2_handle_7qG2_000
-0	19399	72		strtoarr __FWriteArgs.Buffer, __fputs_7qG2_str_7qG2_000_inline_main
-0	19399	75		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
-0	19399	78		syscall 4, __FWriteArgs
-0	19399	81		mov __D0fputs_inline_main, __FWriteArgs.Result
-0	19399	83		mov __fputs_7qG2_cnt_7qG2_000_inline_main, __FWriteArgs.Length
-0	6146	85	#line 6146 "NXCDefs.h"
-0	19398	85	#line 19398 "NXCDefs.h"
-0	19399	85		mov __signed_stack_001fputs_inline_main, __D0fputs_inline_main
-0	19399	87	#line 19399 "NXCDefs.h"
-0	19400	87		set __D0fputs_inline_main, 0
-0	19399	90	#line 19399 "NXCDefs.h"
-0	19400	90		cmp 4, __D0fputs_inline_main, __signed_stack_001fputs_inline_main, __D0fputs_inline_main
-0	19399	94	#line 19399 "NXCDefs.h"
-0	19400	94		brtst 4, __001__ASM_Label_325, __D0fputs_inline_main
-0	19400	97	#line 19400 "NXCDefs.h"
-0	19401	97		mov __D0fputs_inline_main, __fputs_7qG2_cnt_7qG2_000_inline_main
-0	19400	99	#line 19400 "NXCDefs.h"
-0	19401	99		jmp __ASM_Label_main_inline_fputs_001_end_lbl
-0	19400	101	#line 19400 "NXCDefs.h"
-0	19401	101	#line 19401 "NXCDefs.h"
-0	19402	101		jmp __001__ASM_Label_328
-0	19402	103	#line 19402 "NXCDefs.h"
-0	19403	103		mov __D0fputs_inline_main, __constValNeg1
-0	19402	105	#line 19402 "NXCDefs.h"
-0	19403	105		jmp __ASM_Label_main_inline_fputs_001_end_lbl
-0	19402	107	#line 19402 "NXCDefs.h"
-0	19402	107	#line 19402 "NXCDefs.h"
-0	9	107	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	10	107		mov __D0main, __D0fputs_inline_main
-0	9	109	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	9	109	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	9	109	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	19196	109	#line 19196 "NXCDefs.h"
-0	19197	109	#pragma macro 5
-0	19197	109		mov __FCArgs.FileHandle, __main_7qG2_handle_7qG2_000
-0	19197	111		syscall 5, __FCArgs
-0	19197	114		mov __D0main, __FCArgs.Result
-0	6192	116	#line 6192 "NXCDefs.h"
-0	19196	116	#line 19196 "NXCDefs.h"
-0	19196	116	#line 19196 "NXCDefs.h"
-0	19196	116	#line 19196 "NXCDefs.h"
-0	10	116	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	10	116	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	10	116	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	11	116		strcat __strbufmain, __constStr0009
-0	10	120	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	11	120		mov __fopen_7qG2_filename_7qG2_000, __strbufmain
-0	10	122	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	11	122		strcat __strbufmain, __constStr0006
-0	10	126	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	11	126		mov __fopen_7qG2_mode_7qG2_000, __strbufmain
-0	11	128	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	12	128		subcall fopen, __fopen_return
-0	11	130	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	12	130		mov __main_7qG2_handle_7qG2_000, __DU0fopen
-0	11	132	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	11	132	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	11	132	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	12	132		set __signed_stack_001main, 0
-0	11	135	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	11	135	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	12	135		set __signed_stack_002main, 48
-0	11	138	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	11	138	#line 11 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	12	138		mov __DU0main, __main_7qG2_handle_7qG2_000
-0	12	140	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	12	140	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	13	140		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	12	142	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	13	142		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	12	144	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	13	144		set __TextOutArgs.Options, 0
-0	12	147	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	13	147		numtostr __TextOutArgs.Text, __DU0main
-0	12	150	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	13	150		syscall 13, __TextOutArgs
-0	12	153	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	13	153		mov __D0main, __TextOutArgs.Result
-0	12	155	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	12	155	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	13	155	#line 13 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	13	155	#line 13 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	14	155		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
-0	13	158	#line 13 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	8551	158	#line 8551 "NXCDefs.h"
-0	8552	158		waitv __Wait_7qG2_ms_7qG2_000_inline_main
-0	8551	160	#line 8551 "NXCDefs.h"
-0	14	160	#line 14 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-0	15	160		exit -1, -1
+0	4	0	#line 4 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	9	2	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	10	2		set __main_7qG2_estado_7qG2_000, 42
+0	9	5	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	9	5	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	9	5	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	10	5		strcat __strbufmain, __constStr0009
+0	9	9	#line 9 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19206	9	#line 19206 "NXCDefs.h"
+0	19207	9	#pragma macro 5
+0	19207	9		mov __FDArgs.Filename, __strbufmain
+0	19207	11		syscall 8, __FDArgs
+0	19207	14		mov __D0main, __FDArgs.Result
+0	6060	16	#line 6060 "NXCDefs.h"
+0	19206	16	#line 19206 "NXCDefs.h"
+0	19206	16	#line 19206 "NXCDefs.h"
+0	19206	16	#line 19206 "NXCDefs.h"
+0	10	16	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	10	16	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	10	16	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	11	16		strcat __strbufmain, __constStr0009
+0	10	20	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	11	20		mov __fopen_7qG2_filename_7qG2_000, __strbufmain
+0	10	22	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	11	22		strcat __strbufmain, __constStr0007
+0	10	26	#line 10 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	11	26		mov __fopen_7qG2_mode_7qG2_000, __strbufmain
+0	12	28	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	13	28		subcall fopen, __fopen_return
+0	12	30	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	13	30		mov __main_7qG2_handle_7qG2_000, __DU0fopen
+0	12	32	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	12	32	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	12	32	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	13	32		mov __unsigned_stack_001main, __main_7qG2_handle_7qG2_000
+0	12	34	#line 12 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	13	34	#line 13 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	14	34		set __D0main, 0
+0	13	37	#line 13 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	14	37		cmp 5, __D0main, __unsigned_stack_001main, __D0main
+0	16	41	#line 16 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	17	41		brtst 4, __ASM_Label_610, __D0main
+0	18	44	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	44	#pragma macro 3
+0	18	44	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	44		strcat __strbufmain, __constStr0010
+0	18	48	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	48		mov __D0main, __main_7qG2_estado_7qG2_000
+0	18	50	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	50		fmtnum __strretvalmain, __strbufmain, __D0main
+0	18	54	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	54		strcat __strbufmain, __strretvalmain
+0	18	58	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	58		mov __fputs_7qG2_str_7qG2_000_inline_main, __strbufmain
+0	18	60	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	18	60	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19398	60	#line 19398 "NXCDefs.h"
+0	19399	60	#pragma macro 8
+0	19399	60		mov __FWriteArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	19399	62		strtoarr __FWriteArgs.Buffer, __fputs_7qG2_str_7qG2_000_inline_main
+0	19399	65		arrsize __FWriteArgs.Length, __FWriteArgs.Buffer
+0	19399	68		syscall 4, __FWriteArgs
+0	19399	71		mov __D0fputs_inline_main, __FWriteArgs.Result
+0	19399	73		mov __fputs_7qG2_cnt_7qG2_000_inline_main, __FWriteArgs.Length
+0	6140	75	#line 6140 "NXCDefs.h"
+0	19398	75	#line 19398 "NXCDefs.h"
+0	19399	75		mov __signed_stack_001fputs_inline_main, __D0fputs_inline_main
+0	19399	77	#line 19399 "NXCDefs.h"
+0	19400	77		set __D0fputs_inline_main, 0
+0	19399	80	#line 19399 "NXCDefs.h"
+0	19400	80		cmp 4, __D0fputs_inline_main, __signed_stack_001fputs_inline_main, __D0fputs_inline_main
+0	19399	84	#line 19399 "NXCDefs.h"
+0	19400	84		brtst 4, __001__ASM_Label_325, __D0fputs_inline_main
+0	19400	87	#line 19400 "NXCDefs.h"
+0	19401	87		mov __D0fputs_inline_main, __fputs_7qG2_cnt_7qG2_000_inline_main
+0	19400	89	#line 19400 "NXCDefs.h"
+0	19401	89		jmp __ASM_Label_main_inline_fputs_001_end_lbl
+0	19400	91	#line 19400 "NXCDefs.h"
+0	19401	91	#line 19401 "NXCDefs.h"
+0	19402	91		jmp __001__ASM_Label_328
+0	19402	93	#line 19402 "NXCDefs.h"
+0	19403	93		mov __D0fputs_inline_main, __constValNeg1
+0	19402	95	#line 19402 "NXCDefs.h"
+0	19403	95		jmp __ASM_Label_main_inline_fputs_001_end_lbl
+0	19402	97	#line 19402 "NXCDefs.h"
+0	19402	97	#line 19402 "NXCDefs.h"
+0	19	97	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	97	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	97	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	17	97	#line 17 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	16	97	#line 16 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	17	97	#line 17 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	18	97	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	17	97	#line 17 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	18	97	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	18	97	#line 18 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19196	97	#line 19196 "NXCDefs.h"
+0	19197	97	#pragma macro 5
+0	19197	97		mov __FCArgs.FileHandle, __main_7qG2_handle_7qG2_000
+0	19197	99		syscall 5, __FCArgs
+0	19197	102		mov __D0main, __FCArgs.Result
+0	6195	104	#line 6195 "NXCDefs.h"
+0	19196	104	#line 19196 "NXCDefs.h"
+0	19196	104	#line 19196 "NXCDefs.h"
+0	19196	104	#line 19196 "NXCDefs.h"
+0	19	104	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	104	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	19	104	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	104		strcat __strbufmain, __constStr0009
+0	19	108	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	108		mov __fopen_7qG2_filename_7qG2_000, __strbufmain
+0	19	110	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	110		strcat __strbufmain, __constStr0006
+0	19	114	#line 19 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	114		mov __fopen_7qG2_mode_7qG2_000, __strbufmain
+0	20	116	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	21	116		subcall fopen, __fopen_return
+0	20	118	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	21	118		mov __main_7qG2_handle_7qG2_000, __DU0fopen
+0	20	120	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	120	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	120	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	21	120		set __signed_stack_001main, 0
+0	20	123	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	123	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	21	123		set __signed_stack_002main, 48
+0	20	126	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	20	126	#line 20 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	21	126		strcat __strbufmain, __constStr0011
+0	21	130	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	21	130	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	22	130		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	21	132	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	22	132		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	21	134	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	22	134		set __TextOutArgs.Options, 0
+0	21	137	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	22	137		mov __TextOutArgs.Text, __strbufmain
+0	21	139	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	22	139		syscall 13, __TextOutArgs
+0	21	142	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	22	142		mov __D0main, __TextOutArgs.Result
+0	21	144	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	21	144	#line 21 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	22	144	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	22	144	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	23	144		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	22	147	#line 22 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	8551	147	#line 8551 "NXCDefs.h"
+0	8552	147		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	149	#line 8551 "NXCDefs.h"
+0	23	149	#line 23 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+0	24	149		exit -1, -1
 1	19305	0	#line 19305 "NXCDefs.h"
 1	19306	0		mov __fopen_7qG2_result_7qG2_000, __constVal37632
 1	19305	2	#line 19305 "NXCDefs.h"
@@ -310,10 +308,10 @@ Clump	Line	PC	Source
 1	19321	78	#line 19321 "NXCDefs.h"
 1	19330	78	#line 19330 "NXCDefs.h"
 1	19331	78		subret __fopen_return
-2	17	0	#line 17 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
-2	18	0		subret ____initialize_global_data_return
+2	26	0	#line 26 "C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc"
+2	27	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc
-1	fopen	163	NXCDefs.h
-2	__initialize_global_data	243	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc
+1	fopen	152	NXCDefs.h
+2	__initialize_global_data	232	C:\Users\luan\OneDrive\Droid\competicao_interna\Testes\escrita_arquivo.nxc

@@ -1,13 +1,23 @@
 task main()
 {
+  string msg;
+  int str_cont, strT, str_pot;
   byte handle;
-    handle = fopen("test.txt", "r");
-    NumOut(0, LCD_LINE2, handle);
+  int estado;
+    handle = fopen("estado.txt", "r");
+    //NumOut(0, LCD_LINE2, handle);
     if (handle != NULL)
     {
-      string msg;
-      fgets(msg, 7, handle);
-      TextOut(0, LCD_LINE3, msg);
+
+      fgets(msg, 10, handle);
+      TextOut(0, LCD_LINE1, msg);
+      for(str_cont = 0; msg[str_cont] != NULL; str_cont++){}
+      strT = str_cont;
+      for(str_pot = 0, estado = 0, str_cont = strT - 1; str_cont >= 0; str_cont--, str_pot++)
+      {
+        estado += (msg[str_cont]-48)*pow(10,str_pot);
+      }
+      //NumOut(0, LCD_LINE3, estado);
     }
-  Wait(SEC_5);
+  Wait(SEC_2);
 }
