@@ -162,7 +162,7 @@ int branco_d, preto_d, cinza_d, branco_e, preto_e, cinza_e, faixa_d, faixa_e;//v
 
 //auxiliares
 unsigned long time_temp;
-int temp_cor;
+int temp_cor, temp_cor_red;
 int temp_US;
 
 /*Declaração das funções*/
@@ -186,7 +186,7 @@ task  main()
  /*setando os sensores*/
  SetSensorLight(LSD);//sensor de luz direito
  SetSensorLight(LSE);//sensor de luz esquerdo
- SetSensorColorFull(RGB);//sensor de cor RGB
+ SetSensorColorGreen(RGB);//sensor de cor RGB
  SetSensorTouch(US);
 
  while(true)//void loop
@@ -492,7 +492,7 @@ task  main()
         Off(MDE);
    break;
    case emergencia:
-       if(ang2line(my_tc_d) >= 2000)
+       if(ang2line(my_tc_d) >= 1400)
        {
         //Off(MDE);
         //pote = 0;
@@ -511,39 +511,44 @@ task  main()
   /***************************/
   /***************************/
   /***************************/
+  //SetSensorColorFull(RGB);//sensor de cor RGB
+
+  //SetSensorColorRed(RGB);//sensor de cor RGB
+  //temp_cor_red = SensorRaw(RGB);
+
   temp_cor = SensorValue(RGB);
 
   if(!espera)
   {
-    if(temp_cor == 5)//VERMELHO
+    if((temp_cor ==  2) || (temp_cor == 5 ))//VERMELHO
+    {
+         //aceita
+         estado_braco = zerar;
+         subestado_braco_zerar =  inicia_movimento;
+
+    }
+    else if (0==1)//VERDE
     {
          //recusa
          estado_braco = recusar;
-         
+
          if(estado_rodas == linha)
          {
           estado_rodas = deboa;
          }
-         
+
          while(MotorTachoCount(MB)!=0)
          {
                ResetTachoCount(MB);
          }
          OnFwd(MB,80);
-
     }
-    else if (temp_cor == 253)//VERDE
-    {
-         //aceita
-         estado_braco = zerar;
-         subestado_braco_zerar =  inicia_movimento;
-    }
-    else if(temp_cor == 2)//AZUL
-    {
-         //aceita
-         estado_braco = zerar;
-         subestado_braco_zerar =  inicia_movimento;
-    }
+   // else if(temp_cor == 2)//AZUL
+   // {
+   //      //aceita
+   //      estado_braco = zerar;
+   //      subestado_braco_zerar =  inicia_movimento;
+   // }
   }
   
 

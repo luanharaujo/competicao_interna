@@ -1,4 +1,4 @@
-/*
+                                                          /*
   Código do robo para competição interna da droid
   Luan Haickel Araujo - 2016
   Competição: Seguir linhas
@@ -90,7 +90,8 @@ enum type_estado_rodas{                 //maquina de estado principal das rodas
      ir_centro,                         //função para ir para o centro o mais rápido possível
      linha,                             //estado para seguir a linha
      deboa,                              //estado adepito do diboísmo
-     emergencia
+     emergencia,
+     reto
 };
 enum type_estado_linha{                 //sub maquina de estado para seguir a linha
      fr, fr2,                           //frente
@@ -484,21 +485,30 @@ task  main()
                andar = andar_re;
               }
          break;
-         
+
         }
    break; //fim do estado
    case deboa:
         //faz nada, fica só de boa
         Off(MDE);
    break;
+   case reto:
+       andar = frente;  //"avisando" para o sistema de output que ele deve andar para frente
+       pote = -potmax;  //sentando as potências iniciais como as máximas
+       potd = -potmax;  //as potencias são negativas pois os motores estão invertidos
+   break;
    case emergencia:
-       if(ang2line(my_tc_d) >= 1400)
+       if(ang2line(my_tc_d) >= 11000)
        {
         //Off(MDE);
         //pote = 0;
         //potd = 0;
-        estado_rodas = deboa;
-        andar = nao;
+        estado_rodas = reto;
+        OnFwd(MD,POTMAX);
+        OnFwd(ME,-POTMAX);
+        Wait(1000);
+        
+        //andar = nao;
        }
    break;
   }
@@ -544,7 +554,7 @@ task  main()
          OnFwd(MB,80);
     }
   }
-  
+
 
   /*Maquina de estado do braço*/
   switch(estado_braco)
@@ -630,7 +640,7 @@ task  main()
    case parado:
         Off(MB);
    break;
-   
+
   }
 
   /*saida dos motores das braço*/

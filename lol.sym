@@ -1,0 +1,2206 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLight_inline_main	6	1	0	4	4
+1	__DU0SetSensorLight_inline_main	5	1	4	4	10
+2	__signed_stack_001ang2line	6	1	8	4	4
+3	__D0ang2line	6	1	12	4	8
+4	__D0main	6	1	16	4	303
+5	__DU0main	5	1	20	4	38
+6	__signed_stack_001main	6	1	24	4	173
+7	__signed_stack_005main	6	1	28	4	4
+8	__unsigned_stack_001main	5	1	32	4	16
+9	time_temp	5	1	36	4	5
+10	__signed_stack_002main	6	1	40	4	76
+11	__signed_stack_003main	6	1	44	4	46
+12	__signed_stack_004main	6	1	48	4	8
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	4
+14	preto_e	4	1	56	2	10
+15	faixa_d	4	1	58	2	3
+16	branco_e	4	1	60	2	9
+17	preto_d	4	1	62	2	10
+18	cinza_d	4	1	64	2	5
+19	__ang2line_7qG2_ang_7qG2_000	4	1	66	2	4
+20	__main_7qG2_i_7qG2_000	4	1	68	2	64
+21	temp_cor	4	1	70	2	3
+22	__main_7qG2_j_7qG2_000	4	1	72	2	7
+23	faixa_e	4	1	74	2	3
+24	my_tc_b	4	1	76	2	7
+25	espera	4	1	78	2	3
+26	my_tc_e	4	1	80	2	7
+27	my_tc_d	4	1	82	2	11
+28	subestado_braco_zerar	4	1	84	2	6
+29	flag_re	4	1	86	2	3
+30	my_old_tc_b	4	1	88	2	3
+31	branco_d	4	1	90	2	9
+32	potmax	4	0	92	2	15
+33	potd	4	1	94	2	11
+34	pote	4	1	96	2	11
+35	__constVal200	4	0	98	2	2
+36	__main_7qG2_i_preto_e_7qG2_000	4	1	100	2	3
+37	__main_7qG2_temp_preto_d_7qG2_000	4	1	102	2	5
+38	__main_7qG2_temp_preto_e_7qG2_000	4	1	104	2	5
+39	__main_7qG2_i_preto_d_7qG2_000	4	1	106	2	3
+40	__main_7qG2_temp_l_d_7qG2_000	4	1	108	2	6
+41	__main_7qG2_temp_angulo_7qG2_000	4	1	110	2	2
+42	__main_7qG2_temp_l_e_7qG2_000	4	1	112	2	6
+43	andar	1	1	114	1	14
+44	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	115	1	4
+45	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	116	1	4
+46	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	117	1	4
+47	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	118	1	10
+48	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	119	1	4
+49	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	120	1	4
+50	__constValNeg90	2	0	121	1	1
+51	__constVal63	2	0	122	1	17
+52	____initialize_global_data_return	1	1	123	1	3
+53	__constValNeg70	2	0	124	1	1
+54	__constVal96	2	0	125	1	17
+55	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	126	1	4
+56	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	127	1	2
+57	__ang2line_return	1	1	128	1	6
+58	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	129	1	4
+59	inicializar	1	1	130	1	1
+60	inicializar2	1	0	131	1	1
+61	__constVal7	2	0	132	1	1
+62	__constVal13	2	0	133	1	1
+63	__constVal8	2	0	134	1	10
+64	emergencia	1	0	135	1	1
+65	reto	1	0	136	1	1
+66	deboa	1	0	137	1	2
+67	calibrando	1	0	138	1	1
+68	linha	1	0	139	1	3
+69	__constVal2	2	0	140	1	19
+70	__constVal3	2	0	141	1	23
+71	__constVal6	2	0	142	1	3
+72	__constVal0	2	1	143	1	75
+73	__constVal32	2	0	144	1	52
+74	__constVal1	2	0	145	1	41
+75	__ResetSensorTmp	1	1	146	1	2
+76	____ResetSensorSubroutine_return	1	1	147	1	6
+77	__ResetSensorPort	1	1	148	1	6
+78	__constVal4	2	0	149	1	4
+79	__constVal5	2	0	150	1	3
+80	fr	1	1	151	1	2
+81	andar_re	1	0	152	1	2
+82	zerar	1	1	153	1	3
+83	esquerda_brusco	1	0	154	1	1
+84	esquerda_leve	1	0	155	1	1
+85	estado_braco	1	1	156	1	8
+86	estado_rodas	1	1	157	1	11
+87	estado_linha	1	1	158	1	9
+88	parado	1	0	159	1	2
+89	setar	1	0	160	1	1
+90	recusar	1	0	161	1	1
+91	direita_brusco	1	0	162	1	1
+92	db	1	0	163	1	1
+93	eb	1	0	164	1	1
+94	el	1	0	165	1	1
+95	fr2	1	0	166	1	2
+96	dl	1	0	167	1	1
+97	nao	1	1	168	1	2
+98	direita_leve	1	0	169	1	1
+99	frente	1	0	170	1	5
+100	__OUT_AC	7	0	172	4	1
+101	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+102	__vetor_calibragem1_2	7	0	174	4	2
+103	__vetor_calibragem1_2.__vetor_calibragem1_2_type	4	0	0	2	0
+104	__vetor_calibragem0_2	7	0	176	4	2
+105	__vetor_calibragem0_2.__vetor_calibragem0_2_type	4	0	0	2	0
+106	__ArrHelper__main_236_0	7	0	178	4	106
+107	__ArrHelper__main_236_0.__ArrHelper__main_236_0_type	4	0	0	2	0
+108	__ArrHelper__main_236_1	7	0	180	4	8
+109	__ArrHelper__main_236_1.__ArrHelper__main_236_1_type	4	0	0	2	0
+110	vetor_calibragem0	7	0	182	4	38
+111	vetor_calibragem0.vetor_calibragem0_type	7	0	0	4	0
+112	vetor_calibragem0.vetor_calibragem0_type.vetor_calibragem0_type_type	4	0	0	2	0
+113	vetor_calibragem1	7	0	184	4	38
+114	vetor_calibragem1.vetor_calibragem1_type	7	0	0	4	0
+115	vetor_calibragem1.vetor_calibragem1_type.vetor_calibragem1_type_type	4	0	0	2	0
+#SOURCES
+Clump	Line	PC	Source
+0	175	0	#line 175 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	176	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	175	2	#line 175 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	182	2	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	183	2		mov estado_rodas, inicializar
+0	182	4	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	182	4	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	183	4	#line 183 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	184	4		mov andar, nao
+0	183	6	#line 183 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	183	6	#line 183 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	184	6	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	185	6		mov estado_braco, parado
+0	184	8	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	184	8	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	187	8	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	188	8		set flag_re, 0
+0	187	11	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	187	11	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	187	11	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	188	11		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	187	14	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	188	14	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	189	14		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	16	#line 4313 "NXCDefs.h"
+0	4314	16		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	18	#line 4313 "NXCDefs.h"
+0	4313	18	#line 4313 "NXCDefs.h"
+0	4314	18		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	20	#line 4313 "NXCDefs.h"
+0	4314	20		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	23	#line 4313 "NXCDefs.h"
+0	4314	23		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	26	#line 4313 "NXCDefs.h"
+0	4314	26		set __DU0SetSensorLight_inline_main, 5
+0	4313	29	#line 4313 "NXCDefs.h"
+0	4313	29	#line 4313 "NXCDefs.h"
+0	4314	29		jmp __001__ASM_Label_5
+0	4313	31	#line 4313 "NXCDefs.h"
+0	4314	31		set __DU0SetSensorLight_inline_main, 6
+0	4313	34	#line 4313 "NXCDefs.h"
+0	4313	34	#line 4313 "NXCDefs.h"
+0	4314	34		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	36	#line 4247 "NXCDefs.h"
+0	4248	36		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	40	#line 4247 "NXCDefs.h"
+0	4314	40	#line 4314 "NXCDefs.h"
+0	4314	40	#line 4314 "NXCDefs.h"
+0	4315	40		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	42	#line 4314 "NXCDefs.h"
+0	4314	42	#line 4314 "NXCDefs.h"
+0	4315	42		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	45	#line 4314 "NXCDefs.h"
+0	4260	45	#line 4260 "NXCDefs.h"
+0	4261	45		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	49	#line 4260 "NXCDefs.h"
+0	4315	49	#line 4315 "NXCDefs.h"
+0	4315	49	#line 4315 "NXCDefs.h"
+0	4316	49		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	51	#line 4315 "NXCDefs.h"
+0	4278	51	#line 4278 "NXCDefs.h"
+0	4279	51	#pragma macro 4
+0	4279	51		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	53		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6499	55	#line 6499 "NXCDefs.h"
+0	4278	55	#line 4278 "NXCDefs.h"
+0	4316	55	#line 4316 "NXCDefs.h"
+0	188	55	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	188	55	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	189	55		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	188	58	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	189	58	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	190	58		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	60	#line 4313 "NXCDefs.h"
+0	4314	60		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	62	#line 4313 "NXCDefs.h"
+0	4313	62	#line 4313 "NXCDefs.h"
+0	4314	62		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	64	#line 4313 "NXCDefs.h"
+0	4314	64		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	67	#line 4313 "NXCDefs.h"
+0	4314	67		brtst 4, __002__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	70	#line 4313 "NXCDefs.h"
+0	4314	70		set __DU0SetSensorLight_inline_main, 5
+0	4313	73	#line 4313 "NXCDefs.h"
+0	4313	73	#line 4313 "NXCDefs.h"
+0	4314	73		jmp __002__ASM_Label_5
+0	4313	75	#line 4313 "NXCDefs.h"
+0	4314	75		set __DU0SetSensorLight_inline_main, 6
+0	4313	78	#line 4313 "NXCDefs.h"
+0	4313	78	#line 4313 "NXCDefs.h"
+0	4314	78		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	80	#line 4247 "NXCDefs.h"
+0	4248	80		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	84	#line 4247 "NXCDefs.h"
+0	4314	84	#line 4314 "NXCDefs.h"
+0	4314	84	#line 4314 "NXCDefs.h"
+0	4315	84		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	86	#line 4314 "NXCDefs.h"
+0	4314	86	#line 4314 "NXCDefs.h"
+0	4315	86		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	89	#line 4314 "NXCDefs.h"
+0	4260	89	#line 4260 "NXCDefs.h"
+0	4261	89		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	93	#line 4260 "NXCDefs.h"
+0	4315	93	#line 4315 "NXCDefs.h"
+0	4315	93	#line 4315 "NXCDefs.h"
+0	4316	93		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	95	#line 4315 "NXCDefs.h"
+0	4278	95	#line 4278 "NXCDefs.h"
+0	4279	95	#pragma macro 4
+0	4279	95		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	97		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6562	99	#line 6562 "NXCDefs.h"
+0	4278	99	#line 4278 "NXCDefs.h"
+0	4316	99	#line 4316 "NXCDefs.h"
+0	189	99	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	189	99	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	190	99		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	189	102	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	4386	102	#line 4386 "NXCDefs.h"
+0	4387	102	#pragma macro 6
+0	4387	102		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	4387	106		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	4387	110		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	4387	112		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6575	114	#line 6575 "NXCDefs.h"
+0	4386	114	#line 4386 "NXCDefs.h"
+0	190	114	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	190	114	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	191	114		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
+0	190	117	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	4302	117	#line 4302 "NXCDefs.h"
+0	4303	117	#pragma macro 6
+0	4303	117		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	4303	121		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	4303	125		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	4303	127		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6587	129	#line 6587 "NXCDefs.h"
+0	4302	129	#line 4302 "NXCDefs.h"
+0	192	129	#line 192 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	193	129	#line 193 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	194	129		set __D0main, 1
+0	197	132	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	198	132		tst 5, __D0main, __D0main
+0	197	135	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	198	135		brtst 4, __ASM_Label_621, __D0main
+0	197	138	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	198	138		getin __signed_stack_001main, __constVal3, 4
+0	197	142	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	198	142	#line 198 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	199	142		set __D0main, 1
+0	198	145	#line 198 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	199	145		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	199	149	#line 199 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	200	149		brtst 4, __ASM_Label_626, __D0main
+0	200	152	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	201	152		set my_tc_d, 0
+0	200	155	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	200	155	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	201	155	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	202	155		mov estado_rodas, emergencia
+0	201	157	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	201	157	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	202	157	#line 202 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	203	157		mov andar, andar_re
+0	202	159	#line 202 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	202	159	#line 202 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	206	159	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	207	159	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	208	159		mov __DU0main, estado_rodas
+0	211	161		brcmp 4, __ASM_Label_636, __constVal0, __DU0main
+0	212	165		brcmp 4, __ASM_Label_699, __constVal1, __DU0main
+0	213	169		brcmp 4, __ASM_Label_812, __constVal2, __DU0main
+0	214	173		brcmp 4, __ASM_Label_977, __constVal4, __DU0main
+0	215	177		brcmp 4, __ASM_Label_1065, __constVal5, __DU0main
+0	216	181		brcmp 4, __ASM_Label_1066, __constVal7, __DU0main
+0	217	185		brcmp 4, __ASM_Label_1073, __constVal6, __DU0main
+0	218	189		jmp __ASM_Label_635
+0	211	191	#line 211 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	213	191	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	214	191		mov andar, frente
+0	213	193	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	213	193	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	214	193	#line 214 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	215	193		set my_tc_d, 0
+0	214	196	#line 214 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	214	196	#line 214 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	216	196	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	217	196		set my_tc_e, 0
+0	216	199	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	216	199	#line 216 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	217	199	#line 217 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	218	199	#pragma macro 7
+0	218	199		setout __constVal2, 0, __constVal8
+0	6664	204	#line 6664 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	217	204	#line 217 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	219	204	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	220	204	#pragma macro 7
+0	220	204		setout __constVal0, 0, __constVal8
+0	6667	209	#line 6667 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	219	209	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	219	209	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	220	209		set __main_7qG2_i_7qG2_000, 0
+0	219	212	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	219	212	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	220	212		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	219	214	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	219	214	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	220	214		set __D0main, 200
+0	219	217	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	220	217		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	219	221	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	220	221		brtst 4, __ASM_Label_644, __D0main
+0	219	224	#line 219 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	220	224		jmp __ASM_Label_645
+0	220	226	#line 220 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	221	226		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	221	230	#line 221 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	222	230		jmp __ASM_Label_643
+0	221	232	#line 221 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	222	232		set __signed_stack_001main, 2
+0	221	235	#line 221 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	221	235	#line 221 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	222	235		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	221	239	#line 221 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	222	239		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	221	241	#line 221 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	222	241	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	223	241		set __D0main, 0
+0	222	244	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	223	244		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	222	249	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	223	249		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	222	254	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	222	254	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	223	254		set __signed_stack_001main, 2
+0	222	257	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	222	257	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	223	257		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	222	261	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	223	261		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	222	263	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	223	263	#line 223 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	224	263		set __D0main, 0
+0	223	266	#line 223 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	224	266		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	223	271	#line 223 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	224	271		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	223	276	#line 223 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	226	276	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	227	276		jmp __ASM_Label_646
+0	226	278	#line 226 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	230	278	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	278		set __main_7qG2_i_7qG2_000, 0
+0	230	281	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	230	281	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	230	281	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	281		set __signed_stack_001main, 0
+0	230	284	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	230	284	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	284		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	230	288	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	288		set __signed_stack_002main, 0
+0	230	291	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	291	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	291		set __D0main, 0
+0	231	294	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	294		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	231	299	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	299		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	231	304	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	304	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	304		set __signed_stack_001main, 1
+0	231	307	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	307	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	307		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	231	311	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	311		set __signed_stack_002main, 0
+0	231	314	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	314	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	314		getin __D0main, __constVal1, 4
+0	231	318	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	318		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	231	323	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	323		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	231	328	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	231	328	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	328	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	233	328		set __signed_stack_001main, 2
+0	232	331	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	331	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	233	331		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	232	335	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	233	335		set __signed_stack_002main, 0
+0	232	338	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	232	338	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	233	338		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	234	342	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	342		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	234	346	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	346		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	234	351	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	351		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	234	356	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	234	356	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	356		set __signed_stack_001main, 0
+0	234	359	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	234	359	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	359		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	234	363	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	363		set __signed_stack_002main, 0
+0	234	366	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	366	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	366		set __D0main, 0
+0	235	369	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	369		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	235	374	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	374		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	235	379	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	379	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	379		set __signed_stack_001main, 1
+0	235	382	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	382	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	382		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	235	386	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	386		set __signed_stack_002main, 0
+0	235	389	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	389	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	389		getin __D0main, __constVal2, 4
+0	235	393	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	393		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	235	398	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	398		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	235	403	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	235	403	#line 235 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	403	#line 236 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	237	403		set __signed_stack_001main, 2
+0	236	406	#line 236 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	406	#line 236 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	237	406		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	236	410	#line 236 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	237	410		set __signed_stack_002main, 0
+0	236	413	#line 236 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	236	413	#line 236 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	237	413		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	238	417	#line 238 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	239	417		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	238	421	#line 238 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	239	421		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	238	426	#line 238 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	239	426		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	238	431	#line 238 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	239	431	#line 239 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	240	431		mov estado_rodas, inicializar2
+0	239	433	#line 239 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	239	433	#line 239 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	240	433	#line 240 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	241	433		jmp __ASM_Label_635
+0	240	435	#line 240 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	242	435	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	243	435	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	244	435		mov andar, frente
+0	243	437	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	243	437	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	244	437	#line 244 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	245	437		getout __D0main, __constVal2, 4
+0	244	441	#line 244 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	245	441		add my_tc_d, my_tc_d, __D0main
+0	244	445	#line 244 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	245	445	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	246	445		getout __D0main, __constVal0, 4
+0	245	449	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	246	449		add my_tc_e, my_tc_e, __D0main
+0	245	453	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	246	453	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	247	453	#pragma macro 7
+0	247	453		setout __constVal2, 0, __constVal8
+0	6941	458	#line 6941 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	246	458	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	249	458	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	250	458	#pragma macro 7
+0	250	458		setout __constVal0, 0, __constVal8
+0	6944	463	#line 6944 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	249	463	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	249	463	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	250	463		set __signed_stack_001main, 0
+0	249	466	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	250	466	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	251	466		mov __D0main, my_tc_d
+0	250	468	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	251	468		sub __main_7qG2_temp_angulo_7qG2_000, __signed_stack_001main, __D0main
+0	250	472	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	250	472	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	250	472	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	251	472		getin __main_7qG2_temp_l_d_7qG2_000, __constVal1, 4
+0	250	476	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	250	476	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	250	476	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	251	476	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	252	476		getin __main_7qG2_temp_l_e_7qG2_000, __constVal2, 4
+0	251	480	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	251	480	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	251	480	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	254	480	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	255	480		mov __ang2line_7qG2_ang_7qG2_000, __main_7qG2_temp_angulo_7qG2_000
+0	254	482	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	254	482	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	255	482		subcall ang2line, __ang2line_return
+0	254	484	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	255	484		mov __signed_stack_001main, __D0ang2line
+0	254	486	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	254	486	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	255	486		set __signed_stack_002main, 5
+0	254	489	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	254	489	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	255	489		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	254	491	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	254	491	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	255	491		set __D0main, 1
+0	254	494	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	255	494		add __D0main, __signed_stack_003main, __D0main
+0	255	498	#line 255 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	256	498		mul __D0main, __signed_stack_002main, __D0main
+0	255	502	#line 255 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	256	502		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	257	506	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	258	506		brtst 4, __ASM_Label_718, __D0main
+0	257	509	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	258	509		set __signed_stack_001main, 1
+0	257	512	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	257	512	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	258	512		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	257	516	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	258	516		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	257	518	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	257	518	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	258	518		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	258	522	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	259	522		mov __D0main, __main_7qG2_temp_l_d_7qG2_000
+0	258	524	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	259	524		add __signed_stack_003main, __signed_stack_003main, __D0main
+0	258	528	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	259	528		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	258	533	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	259	533		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	258	538	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	258	538	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	259	538		set __signed_stack_001main, 2
+0	258	541	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	258	541	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	259	541		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	258	545	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	259	545		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	258	547	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	258	547	#line 258 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	259	547		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	260	551	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	551		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	260	555	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	555		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	260	560	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	560		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	260	565	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	260	565	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	565		set __signed_stack_001main, 1
+0	260	568	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	260	568	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	568		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	260	572	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	572		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	260	574	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	260	574	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	574		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	261	578	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	262	578		mov __D0main, __main_7qG2_temp_l_e_7qG2_000
+0	261	580	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	262	580		add __signed_stack_003main, __signed_stack_003main, __D0main
+0	261	584	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	262	584		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	261	589	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	262	589		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	261	594	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	594	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	262	594		set __signed_stack_001main, 2
+0	261	597	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	597	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	262	597		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	261	601	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	262	601		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	261	603	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	261	603	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	262	603		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	262	607	#line 262 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	263	607		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	262	611	#line 262 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	263	611		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	262	616	#line 262 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	263	616		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	262	621	#line 262 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	621	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	621		jmp __ASM_Label_739
+0	267	623	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	623		set __signed_stack_001main, 1
+0	267	626	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	626	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	626		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	267	630	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	630		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	267	632	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	632	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	632		set __signed_stack_003main, 1
+0	267	635	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	635	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	635		index __ArrHelper__main_236_1, vetor_calibragem0, __signed_stack_003main
+0	267	639	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	639		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	267	641	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	641	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	641		index __signed_stack_003main, __ArrHelper__main_236_1, __signed_stack_004main
+0	267	645	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	645	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	645	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	645		set __signed_stack_004main, 2
+0	267	648	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	648	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	648		index __ArrHelper__main_236_1, vetor_calibragem0, __signed_stack_004main
+0	267	652	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	652		mov __signed_stack_005main, __main_7qG2_i_7qG2_000
+0	267	654	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	267	654	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	268	654		index __D0main, __ArrHelper__main_236_1, __signed_stack_005main
+0	267	658	#line 267 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	658	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	658		div __D0main, __signed_stack_003main, __D0main
+0	270	662	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	662		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	270	667	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	667		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	270	672	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	672	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	672		set __signed_stack_001main, 1
+0	270	675	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	675	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	675		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	270	679	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	679		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	270	681	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	681	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	681		set __signed_stack_003main, 1
+0	270	684	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	684	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	684		index __ArrHelper__main_236_1, vetor_calibragem1, __signed_stack_003main
+0	270	688	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	688		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	270	690	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	690	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	690		index __signed_stack_003main, __ArrHelper__main_236_1, __signed_stack_004main
+0	270	694	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	694	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	694	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	694		set __signed_stack_004main, 2
+0	270	697	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	697	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	697		index __ArrHelper__main_236_1, vetor_calibragem1, __signed_stack_004main
+0	270	701	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	701		mov __signed_stack_005main, __main_7qG2_i_7qG2_000
+0	270	703	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	270	703	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	271	703		index __D0main, __ArrHelper__main_236_1, __signed_stack_005main
+0	270	707	#line 270 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	273	707	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	274	707		div __D0main, __signed_stack_003main, __D0main
+0	273	711	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	274	711		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	273	716	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	274	716		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	273	721	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	276	721	#line 276 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	277	721		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	276	725	#line 276 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	276	725	#line 276 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	277	725		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	276	727	#line 276 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	277	727	#line 277 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	278	727		set __D0main, 200
+0	277	730	#line 277 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	278	730		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	280	734	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	281	734		brtst 4, __ASM_Label_770, __D0main
+0	280	737	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	281	737		set __signed_stack_001main, 0
+0	280	740	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	280	740	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	281	740		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	280	744	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	281	744		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	280	746	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	280	746	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	281	746		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	280	748	#line 280 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	281	748	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	748		set __D0main, 5
+0	281	751	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	751		mul __D0main, __signed_stack_003main, __D0main
+0	281	755	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	755		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	281	760	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	760		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	281	765	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	281	765	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	765		set __signed_stack_001main, 1
+0	281	768	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	281	768	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	768		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	281	772	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	772		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	281	774	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	774	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	283	774		mov __D0main, __main_7qG2_temp_l_d_7qG2_000
+0	282	776	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	283	776		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	282	781	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	283	781		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	282	786	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	786	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	283	786		set __signed_stack_001main, 2
+0	282	789	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	282	789	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	283	789		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	282	793	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	283	793		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	282	795	#line 282 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	284	795	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	795		set __D0main, 1
+0	284	798	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	798		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	284	803	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	803		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	284	808	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	284	808	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	808		set __signed_stack_001main, 0
+0	284	811	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	284	811	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	811		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	284	815	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	815		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	284	817	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	284	817	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	817		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	284	819	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	819	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	819		set __D0main, 5
+0	285	822	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	822		mul __D0main, __signed_stack_003main, __D0main
+0	285	826	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	826		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	285	831	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	831		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	285	836	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	836	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	836		set __signed_stack_001main, 1
+0	285	839	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	285	839	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	839		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	285	843	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	843		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	285	845	#line 285 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	845	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	287	845		mov __D0main, __main_7qG2_temp_l_e_7qG2_000
+0	286	847	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	287	847		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	286	852	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	287	852		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	286	857	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	857	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	287	857		set __signed_stack_001main, 2
+0	286	860	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	286	860	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	287	860		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	286	864	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	287	864		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	286	866	#line 286 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	287	866	#line 287 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	288	866		set __D0main, 1
+0	287	869	#line 287 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	288	869		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	287	874	#line 287 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	288	874		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	287	879	#line 287 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	290	879	#line 290 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	291	879		jmp __ASM_Label_807
+0	291	881	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	292	881		mov andar, nao
+0	291	883	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	291	883	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	292	883	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	293	883		mov estado_rodas, calibrando
+0	292	885	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	292	885	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	294	885	#line 294 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	294	885	#line 294 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	296	885	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	297	885		jmp __ASM_Label_635
+0	296	887	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	299	887	#line 299 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	300	887	#line 300 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	301	887		mov estado_braco, zerar
+0	300	889	#line 300 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	300	889	#line 300 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	303	889	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	304	889		set subestado_braco_zerar, 0
+0	303	892	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	303	892	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	304	892	#line 304 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	305	892		set preto_d, 0
+0	304	895	#line 304 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	304	895	#line 304 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	306	895	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	307	895		set preto_e, 0
+0	306	898	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	306	898	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	306	898	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	307	898		set __main_7qG2_i_7qG2_000, 0
+0	306	901	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	306	901	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	307	901		set __main_7qG2_j_7qG2_000, 34
+0	306	904	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	306	904	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	307	904		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	306	906	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	306	906	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	307	906		mov __D0main, __main_7qG2_j_7qG2_000
+0	306	908	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	307	908		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	306	912	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	307	912		brtst 4, __ASM_Label_822, __D0main
+0	306	915	#line 306 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	307	915		jmp __ASM_Label_823
+0	307	917	#line 307 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	308	917		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	308	921	#line 308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	921		jmp __ASM_Label_821
+0	308	923	#line 308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	923		set __signed_stack_001main, 1
+0	308	926	#line 308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	308	926	#line 308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	926		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	308	930	#line 308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	930		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	308	932	#line 308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	308	932	#line 308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	932		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	308	936	#line 308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	936	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	310	936		add preto_d, preto_d, __D0main
+0	309	940	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	940	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	310	940		set __signed_stack_001main, 1
+0	309	943	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	943	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	310	943		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	309	947	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	310	947		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	309	949	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	309	949	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	310	949		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	309	953	#line 309 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	310	953	#line 310 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	311	953		add preto_e, preto_e, __D0main
+0	310	957	#line 310 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	312	957	#line 312 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	313	957		jmp __ASM_Label_824
+0	312	959	#line 312 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	313	959	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	314	959		set __main_7qG2_i_7qG2_000, 0
+0	313	962	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	313	962	#line 313 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	314	962	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	315	962		set __main_7qG2_i_preto_e_7qG2_000, 0
+0	314	965	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	314	965	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	315	965	#line 315 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	316	965		set __main_7qG2_i_preto_d_7qG2_000, 0
+0	315	968	#line 315 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	315	968	#line 315 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	316	968	#line 316 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	317	968		mov __main_7qG2_temp_preto_d_7qG2_000, preto_d
+0	316	970	#line 316 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	316	970	#line 316 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	318	970	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	319	970		mov __main_7qG2_temp_preto_e_7qG2_000, preto_e
+0	318	972	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	318	972	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	318	972	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	319	972		mov __signed_stack_001main, __main_7qG2_j_7qG2_000
+0	318	974	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	319	974	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	320	974		set __D0main, 200
+0	319	977	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	320	977		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	321	981	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	981		brtst 4, __ASM_Label_854, __D0main
+0	321	984	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	984		mov __signed_stack_001main, __main_7qG2_temp_preto_d_7qG2_000
+0	321	986	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	321	986	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	986		set __signed_stack_002main, 1
+0	321	989	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	321	989	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	989		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_002main
+0	321	993	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	993		mov __signed_stack_003main, __main_7qG2_j_7qG2_000
+0	321	995	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	321	995	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	995		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	321	999	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	321	999	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	999		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	321	1003	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	321	1003	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1003		set __signed_stack_002main, 1
+0	321	1006	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	321	1006	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1006		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_002main
+0	321	1010	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1010		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	321	1012	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	321	1012	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1012		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	321	1016	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1016	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1016		sub __main_7qG2_temp_preto_d_7qG2_000, __signed_stack_001main, __D0main
+0	322	1020	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1020	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1020	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1020		mov __signed_stack_001main, __main_7qG2_temp_preto_e_7qG2_000
+0	322	1022	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1022	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1022		set __signed_stack_002main, 1
+0	322	1025	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1025	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1025		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_002main
+0	322	1029	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1029		mov __signed_stack_003main, __main_7qG2_j_7qG2_000
+0	322	1031	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1031	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1031		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	322	1035	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1035	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1035		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	322	1039	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1039	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1039		set __signed_stack_002main, 1
+0	322	1042	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1042	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1042		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_002main
+0	322	1046	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1046		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	322	1048	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	322	1048	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	323	1048		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	322	1052	#line 322 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	324	1052	#line 324 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	325	1052		sub __main_7qG2_temp_preto_e_7qG2_000, __signed_stack_001main, __D0main
+0	324	1056	#line 324 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	324	1056	#line 324 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	324	1056	#line 324 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	325	1056		mov __signed_stack_001main, __main_7qG2_temp_preto_d_7qG2_000
+0	324	1058	#line 324 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	325	1058	#line 325 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	326	1058		mov __D0main, preto_d
+0	325	1060	#line 325 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	326	1060		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	326	1064	#line 326 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	327	1064		brtst 4, __ASM_Label_879, __D0main
+0	327	1067	#line 327 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	328	1067		mov preto_d, __main_7qG2_temp_preto_d_7qG2_000
+0	327	1069	#line 327 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	327	1069	#line 327 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	328	1069	#line 328 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	329	1069		mov __main_7qG2_i_preto_d_7qG2_000, __main_7qG2_i_7qG2_000
+0	328	1071	#line 328 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	328	1071	#line 328 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	330	1071	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	330	1071	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	331	1071		mov __signed_stack_001main, __main_7qG2_temp_preto_e_7qG2_000
+0	330	1073	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	331	1073	#line 331 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	332	1073		mov __D0main, preto_e
+0	331	1075	#line 331 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	332	1075		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	332	1079	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	333	1079		brtst 4, __ASM_Label_886, __D0main
+0	333	1082	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	334	1082		mov preto_e, __main_7qG2_temp_preto_e_7qG2_000
+0	333	1084	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	333	1084	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	334	1084	#line 334 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	335	1084		mov __main_7qG2_i_preto_e_7qG2_000, __main_7qG2_i_7qG2_000
+0	334	1086	#line 334 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	334	1086	#line 334 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	336	1086	#line 336 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	337	1086	#line 337 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	338	1086		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	337	1090	#line 337 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	338	1090	#line 338 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	339	1090		add __main_7qG2_j_7qG2_000, __main_7qG2_j_7qG2_000, __constVal1
+0	338	1094	#line 338 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	341	1094	#line 341 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	342	1094		jmp __ASM_Label_853
+0	341	1096	#line 341 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	342	1096	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	343	1096		set __D0main, 34
+0	342	1099	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	343	1099		div preto_d, preto_d, __D0main
+0	342	1103	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	347	1103	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1103		set __D0main, 34
+0	347	1106	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1106		div preto_e, preto_e, __D0main
+0	347	1110	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	347	1110	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1110		set __main_7qG2_i_7qG2_000, 0
+0	347	1113	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	347	1113	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1113		set branco_d, 0
+0	347	1116	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	347	1116	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1116		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	347	1118	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	347	1118	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1118		mov __D0main, __main_7qG2_i_preto_d_7qG2_000
+0	347	1120	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1120		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	347	1124	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1124		brtst 4, __ASM_Label_896, __D0main
+0	347	1127	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	348	1127		jmp __ASM_Label_897
+0	348	1129	#line 348 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	349	1129		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	349	1133	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	350	1133		jmp __ASM_Label_895
+0	349	1135	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	350	1135		set __signed_stack_001main, 1
+0	349	1138	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	349	1138	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	350	1138		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	349	1142	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	350	1142		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	349	1144	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	349	1144	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	350	1144		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	349	1148	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	350	1148	#line 350 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	351	1148		add branco_d, branco_d, __D0main
+0	350	1152	#line 350 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	351	1152	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	352	1152		jmp __ASM_Label_898
+0	351	1154	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	351	1154	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	352	1154		set __D0main, 34
+0	351	1157	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	352	1157		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __D0main
+0	351	1161	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	352	1161		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	351	1163	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	351	1163	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	352	1163		set __D0main, 200
+0	351	1166	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	352	1166		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	351	1170	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	352	1170		brtst 4, __ASM_Label_912, __D0main
+0	351	1173	#line 351 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	352	1173		jmp __ASM_Label_913
+0	352	1175	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	353	1175		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	353	1179	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	354	1179		jmp __ASM_Label_911
+0	353	1181	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	354	1181		set __signed_stack_001main, 1
+0	353	1184	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	353	1184	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	354	1184		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	353	1188	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	354	1188		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	353	1190	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	353	1190	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	354	1190		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	353	1194	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	354	1194	#line 354 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	355	1194		add branco_d, branco_d, __D0main
+0	354	1198	#line 354 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	357	1198	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	358	1198		jmp __ASM_Label_914
+0	357	1200	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	357	1200	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	358	1200		set __main_7qG2_i_7qG2_000, 0
+0	357	1203	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	357	1203	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	358	1203		set branco_e, 0
+0	357	1206	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	357	1206	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	358	1206		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	357	1208	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	357	1208	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	358	1208		mov __D0main, __main_7qG2_i_preto_e_7qG2_000
+0	357	1210	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	358	1210		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	357	1214	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	358	1214		brtst 4, __ASM_Label_926, __D0main
+0	357	1217	#line 357 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	358	1217		jmp __ASM_Label_927
+0	358	1219	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	359	1219		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	359	1223	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	360	1223		jmp __ASM_Label_925
+0	359	1225	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	360	1225		set __signed_stack_001main, 1
+0	359	1228	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	359	1228	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	360	1228		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	359	1232	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	360	1232		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	359	1234	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	359	1234	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	360	1234		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	359	1238	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	360	1238	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	361	1238		add branco_e, branco_e, __D0main
+0	360	1242	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	361	1242	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	362	1242		jmp __ASM_Label_928
+0	361	1244	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	361	1244	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	362	1244		set __D0main, 34
+0	361	1247	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	362	1247		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __D0main
+0	361	1251	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	362	1251		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	361	1253	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	361	1253	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	362	1253		set __D0main, 200
+0	361	1256	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	362	1256		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	361	1260	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	362	1260		brtst 4, __ASM_Label_942, __D0main
+0	361	1263	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	362	1263		jmp __ASM_Label_943
+0	362	1265	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	363	1265		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	363	1269	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	364	1269		jmp __ASM_Label_941
+0	363	1271	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	364	1271		set __signed_stack_001main, 1
+0	363	1274	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	363	1274	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	364	1274		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	363	1278	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	364	1278		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	363	1280	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	363	1280	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	364	1280		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	363	1284	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	364	1284	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	365	1284		add branco_e, branco_e, __D0main
+0	364	1288	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	367	1288	#line 367 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	368	1288		jmp __ASM_Label_944
+0	367	1290	#line 367 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	368	1290	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	369	1290		set __D0main, 166
+0	368	1293	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	369	1293		div branco_d, branco_d, __D0main
+0	368	1297	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	371	1297	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1297		set __D0main, 166
+0	371	1300	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1300		div branco_e, branco_e, __D0main
+0	371	1304	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	371	1304	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1304		mov __signed_stack_001main, preto_d
+0	371	1306	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	371	1306	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1306		mov __D0main, branco_d
+0	371	1308	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1308		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	371	1312	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1312	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	373	1312		set __D0main, 2
+0	372	1315	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	373	1315		div cinza_d, __signed_stack_001main, __D0main
+0	372	1319	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1319	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1319	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	373	1319		mov __signed_stack_001main, preto_e
+0	372	1321	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	372	1321	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	373	1321		mov __D0main, branco_e
+0	372	1323	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	373	1323		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	372	1327	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	375	1327	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	376	1327		set __D0main, 2
+0	375	1330	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	375	1330	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	375	1330	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	375	1330	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	376	1330		mov __signed_stack_001main, branco_d
+0	375	1332	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	375	1332	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	376	1332		mov __D0main, preto_d
+0	375	1334	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	376	1334		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	375	1338	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	376	1338	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	377	1338		set __D0main, 5
+0	376	1341	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	377	1341		div faixa_d, __signed_stack_001main, __D0main
+0	376	1345	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	376	1345	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	376	1345	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	377	1345		mov __signed_stack_001main, branco_e
+0	376	1347	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	376	1347	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	377	1347		mov __D0main, preto_e
+0	376	1349	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	377	1349		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	376	1353	#line 376 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	379	1353	#line 379 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	380	1353		set __D0main, 5
+0	379	1356	#line 379 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	380	1356		div faixa_e, __signed_stack_001main, __D0main
+0	379	1360	#line 379 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	379	1360	#line 379 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	381	1360	#line 381 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	382	1360		mov estado_rodas, linha
+0	381	1362	#line 381 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	381	1362	#line 381 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	383	1362	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	384	1362		jmp __ASM_Label_635
+0	383	1364	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	386	1364	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	388	1364	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	389	1364		set potmax, 85
+0	388	1367	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	388	1367	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	388	1367	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	389	1367		getin __main_7qG2_temp_l_d_7qG2_000, __constVal1, 4
+0	388	1371	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	388	1371	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	388	1371	#line 388 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	389	1371	#line 389 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	390	1371		getin __main_7qG2_temp_l_e_7qG2_000, __constVal2, 4
+0	389	1375	#line 389 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	389	1375	#line 389 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	389	1375	#line 389 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	404	1375	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	405	1375		mov __D0main, flag_re
+0	404	1377	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	405	1377		not __D0main, __D0main
+0	406	1380	#line 406 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	407	1380		tst 5, __D0main, __D0main
+0	406	1383	#line 406 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	407	1383		brtst 4, __ASM_Label_986, __D0main
+0	406	1386	#line 406 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	407	1386		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	406	1388	#line 406 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	406	1388	#line 406 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	407	1388		mov __signed_stack_002main, cinza_d
+0	406	1390	#line 406 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	407	1390	#line 407 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	408	1390		mov __D0main, faixa_d
+0	407	1392	#line 407 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	408	1392		add __D0main, __signed_stack_002main, __D0main
+0	407	1396	#line 407 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	408	1396		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	408	1400	#line 408 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	409	1400		brtst 4, __ASM_Label_989, __D0main
+0	408	1403	#line 408 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	409	1403		mov __signed_stack_001main, __main_7qG2_temp_l_e_7qG2_000
+0	408	1405	#line 408 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	408	1405	#line 408 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	409	1405		mov __signed_stack_002main, cinza_d
+0	408	1407	#line 408 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	409	1407	#line 409 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	410	1407		mov __D0main, faixa_e
+0	409	1409	#line 409 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	410	1409		add __D0main, __signed_stack_002main, __D0main
+0	409	1413	#line 409 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	410	1413		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	410	1417	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	411	1417		brtst 4, __ASM_Label_992, __D0main
+0	410	1420	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	411	1420		mov __unsigned_stack_001main, estado_linha
+0	410	1422	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	410	1422	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	411	1422		mov __DU0main, fr
+0	410	1424	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	411	1424		cmp 4, __D0main, __unsigned_stack_001main, __DU0main
+0	410	1428	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	411	1428		brtst 5, __ASM_Label_993, __D0main
+0	410	1431	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	411	1431		mov __unsigned_stack_001main, estado_linha
+0	410	1433	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	410	1433	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	411	1433		mov __DU0main, fr2
+0	410	1435	#line 410 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	411	1435		cmp 4, __D0main, __unsigned_stack_001main, __DU0main
+0	412	1439	#line 412 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	413	1439		brtst 4, __ASM_Label_1000, __D0main
+0	413	1442	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	414	1442		mov estado_linha, fr2
+0	413	1444	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	413	1444	#line 413 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	416	1444	#line 416 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	417	1444		jmp __ASM_Label_1003
+0	417	1446	#line 417 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	418	1446		mov estado_linha, fr
+0	417	1448	#line 417 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	417	1448	#line 417 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	419	1448	#line 419 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	421	1448	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	422	1448		jmp __ASM_Label_1006
+0	421	1450	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	422	1450		mov __signed_stack_001main, __main_7qG2_temp_l_e_7qG2_000
+0	421	1452	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	421	1452	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	422	1452		mov __signed_stack_002main, cinza_d
+0	421	1454	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	422	1454	#line 422 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	423	1454		mov __D0main, faixa_e
+0	422	1456	#line 422 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	423	1456		sub __D0main, __signed_stack_002main, __D0main
+0	422	1460	#line 422 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	423	1460		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	423	1464	#line 423 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	424	1464		brtst 4, __ASM_Label_1009, __D0main
+0	424	1467	#line 424 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	425	1467		mov estado_linha, db
+0	424	1469	#line 424 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	424	1469	#line 424 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	427	1469	#line 427 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	428	1469		jmp __ASM_Label_1012
+0	428	1471	#line 428 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	429	1471		mov estado_linha, dl
+0	428	1473	#line 428 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	428	1473	#line 428 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	430	1473	#line 430 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	431	1473	#line 431 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	433	1473	#line 433 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	434	1473		jmp __ASM_Label_1015
+0	433	1475	#line 433 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	434	1475		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	433	1477	#line 433 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	433	1477	#line 433 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	434	1477		mov __signed_stack_002main, cinza_d
+0	433	1479	#line 433 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	434	1479	#line 434 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	435	1479		mov __D0main, faixa_d
+0	434	1481	#line 434 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	435	1481		sub __D0main, __signed_stack_002main, __D0main
+0	434	1485	#line 434 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	435	1485		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	435	1489	#line 435 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	436	1489		brtst 4, __ASM_Label_1018, __D0main
+0	436	1492	#line 436 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	437	1492		mov estado_linha, eb
+0	436	1494	#line 436 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	436	1494	#line 436 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	439	1494	#line 439 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	440	1494		jmp __ASM_Label_1021
+0	440	1496	#line 440 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	441	1496		mov estado_linha, el
+0	440	1498	#line 440 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	440	1498	#line 440 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	442	1498	#line 442 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	443	1498	#line 443 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	446	1498	#line 446 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	447	1498		jmp __ASM_Label_1024
+0	448	1500	#line 448 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	449	1500	#line 449 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	450	1500		mov __DU0main, estado_linha
+0	453	1502		brcmp 4, __ASM_Label_1028, __constVal0, __DU0main
+0	454	1506		brcmp 4, __ASM_Label_1039, __constVal1, __DU0main
+0	455	1510		brcmp 4, __ASM_Label_1042, __constVal2, __DU0main
+0	456	1514		brcmp 4, __ASM_Label_1045, __constVal4, __DU0main
+0	457	1518		brcmp 4, __ASM_Label_1048, __constVal3, __DU0main
+0	458	1522		brcmp 4, __ASM_Label_1051, __constVal5, __DU0main
+0	459	1526		brcmp 4, __ASM_Label_1054, __constVal6, __DU0main
+0	460	1530		jmp __ASM_Label_1027
+0	452	1532	#line 452 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	453	1532	#line 453 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	454	1532		mov andar, frente
+0	453	1534	#line 453 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	453	1534	#line 453 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	453	1534	#line 453 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	454	1534		set __signed_stack_001main, 0
+0	453	1537	#line 453 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	454	1537	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	455	1537		mov __D0main, potmax
+0	454	1539	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	455	1539		sub pote, __signed_stack_001main, __D0main
+0	454	1543	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	454	1543	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	454	1543	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	455	1543		set __signed_stack_001main, 0
+0	454	1546	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	456	1546	#line 456 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	457	1546		mov __D0main, potmax
+0	456	1548	#line 456 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	457	1548		sub potd, __signed_stack_001main, __D0main
+0	456	1552	#line 456 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	456	1552	#line 456 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	457	1552	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	458	1552		set my_tc_d, 0
+0	457	1555	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	457	1555	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	458	1555	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	459	1555		set my_tc_e, 0
+0	458	1558	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	458	1558	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	459	1558	#line 459 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	460	1558	#pragma macro 7
+0	460	1558		setout __constVal2, 0, __constVal8
+0	8546	1563	#line 8546 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	459	1563	#line 459 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	461	1563	#line 461 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	462	1563	#pragma macro 7
+0	462	1563		setout __constVal0, 0, __constVal8
+0	8549	1568	#line 8549 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	461	1568	#line 461 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	462	1568	#line 462 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	463	1568		jmp __ASM_Label_1027
+0	462	1570	#line 462 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	463	1570	#line 463 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	464	1570	#line 464 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	465	1570		mov andar, frente
+0	464	1572	#line 464 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	464	1572	#line 464 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	465	1572	#line 465 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	466	1572		jmp __ASM_Label_1027
+0	465	1574	#line 465 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	466	1574	#line 466 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	467	1574	#line 467 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	468	1574		mov andar, direita_leve
+0	467	1576	#line 467 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	467	1576	#line 467 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	468	1576	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	469	1576		jmp __ASM_Label_1027
+0	468	1578	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	469	1578	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	470	1578	#line 470 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	471	1578		mov andar, direita_brusco
+0	470	1580	#line 470 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	470	1580	#line 470 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	471	1580	#line 471 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	472	1580		jmp __ASM_Label_1027
+0	471	1582	#line 471 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	472	1582	#line 472 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	473	1582	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	474	1582		mov andar, esquerda_leve
+0	473	1584	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	473	1584	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	474	1584	#line 474 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	475	1584		jmp __ASM_Label_1027
+0	474	1586	#line 474 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	475	1586	#line 475 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	476	1586	#line 476 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	477	1586		mov andar, esquerda_brusco
+0	476	1588	#line 476 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	476	1588	#line 476 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	477	1588	#line 477 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	478	1588		jmp __ASM_Label_1027
+0	477	1590	#line 477 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	478	1590	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	478	1590	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	479	1590		mov __ang2line_7qG2_ang_7qG2_000, my_tc_d
+0	478	1592	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	478	1592	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	479	1592		subcall ang2line, __ang2line_return
+0	478	1594	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	479	1594		mov __signed_stack_001main, __D0ang2line
+0	478	1596	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	479	1596	#line 479 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	480	1596		set __D0main, 500
+0	479	1599	#line 479 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	480	1599		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	480	1603	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	481	1603		brtst 4, __ASM_Label_1059, __D0main
+0	481	1606	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	482	1606		set flag_re, 0
+0	481	1609	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	481	1609	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	484	1609	#line 484 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	485	1609		jmp __ASM_Label_1062
+0	485	1611	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	486	1611		mov andar, andar_re
+0	485	1613	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	485	1613	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	486	1613	#line 486 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	488	1613	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	488	1613	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	489	1613	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	490	1613	#line 490 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	491	1613		jmp __ASM_Label_635
+0	490	1615	#line 490 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	492	1615	#line 492 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	493	1615	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	494	1615	#pragma macro 7
+0	494	1615		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8666	1638	#line 8666 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	493	1638	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	494	1638	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	495	1638		jmp __ASM_Label_635
+0	494	1640	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	495	1640	#line 495 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	496	1640	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	497	1640		mov andar, frente
+0	496	1642	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	496	1642	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	496	1642	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	497	1642		set __signed_stack_001main, 0
+0	496	1645	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	497	1645	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	498	1645		mov __D0main, potmax
+0	497	1647	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	498	1647		sub pote, __signed_stack_001main, __D0main
+0	497	1651	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	497	1651	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	497	1651	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	498	1651		set __signed_stack_001main, 0
+0	497	1654	#line 497 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	498	1654	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	499	1654		mov __D0main, potmax
+0	498	1656	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	499	1656		sub potd, __signed_stack_001main, __D0main
+0	498	1660	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	498	1660	#line 498 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	499	1660	#line 499 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	500	1660		jmp __ASM_Label_635
+0	499	1662	#line 499 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	500	1662	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	500	1662	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	501	1662		mov __ang2line_7qG2_ang_7qG2_000, my_tc_d
+0	500	1664	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	500	1664	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	501	1664		subcall ang2line, __ang2line_return
+0	500	1666	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	501	1666		mov __signed_stack_001main, __D0ang2line
+0	500	1668	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	501	1668	#line 501 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	502	1668		set __D0main, 1500
+0	501	1671	#line 501 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	502	1671		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	505	1675	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	506	1675		brtst 4, __ASM_Label_1078, __D0main
+0	506	1678	#line 506 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	507	1678		mov estado_rodas, reto
+0	506	1680	#line 506 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	506	1680	#line 506 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	506	1680	#line 506 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	507	1680		set __D0main, 90
+0	507	1683	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	508	1683	#pragma macro 7
+0	508	1683		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8747	1706	#line 8747 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	507	1706	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	507	1706	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	508	1706		mov __D0main, __constValNeg90
+0	508	1708	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	509	1708	#pragma macro 7
+0	509	1708		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8752	1731	#line 8752 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	508	1731	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	508	1731	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	509	1731		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	508	1734	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	8551	1734	#line 8551 "NXCDefs.h"
+0	8552	1734		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1736	#line 8551 "NXCDefs.h"
+0	511	1736	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	512	1736	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	513	1736	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	513	1736	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	528	1736	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	528	1736	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	529	1736		getin temp_cor, __constVal0, 4
+0	528	1740	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	528	1740	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	528	1740	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	531	1740	#line 531 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	532	1740		mov __D0main, espera
+0	531	1742	#line 531 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	532	1742		not __D0main, __D0main
+0	532	1745	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1745		tst 5, __D0main, __D0main
+0	532	1748	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1748		brtst 4, __ASM_Label_1091, __D0main
+0	532	1751	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1751		mov __signed_stack_001main, temp_cor
+0	532	1753	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	532	1753	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1753		set __D0main, 2
+0	532	1756	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1756		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	532	1760	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1760		brtst 5, __ASM_Label_1092, __D0main
+0	532	1763	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1763		mov __signed_stack_001main, temp_cor
+0	532	1765	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	532	1765	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1765		set __D0main, 5
+0	532	1768	#line 532 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	533	1768		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	535	1772	#line 535 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	536	1772		brtst 4, __ASM_Label_1099, __D0main
+0	536	1775	#line 536 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	537	1775		mov estado_braco, zerar
+0	536	1777	#line 536 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	536	1777	#line 536 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	538	1777	#line 538 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	539	1777		set subestado_braco_zerar, 0
+0	538	1780	#line 538 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	538	1780	#line 538 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	539	1780	#line 539 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	540	1780		jmp __ASM_Label_1104
+0	540	1782	#line 540 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	541	1782		set __D0main, 0
+0	542	1785	#line 542 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	543	1785		tst 5, __D0main, __D0main
+0	542	1788	#line 542 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	543	1788		brtst 4, __ASM_Label_1107, __D0main
+0	544	1791	#line 544 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	545	1791		mov estado_braco, recusar
+0	544	1793	#line 544 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	544	1793	#line 544 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	544	1793	#line 544 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	545	1793		mov __unsigned_stack_001main, estado_rodas
+0	544	1795	#line 544 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	545	1795	#line 545 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	546	1795		mov __DU0main, linha
+0	545	1797	#line 545 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	546	1797		cmp 4, __D0main, __unsigned_stack_001main, __DU0main
+0	546	1801	#line 546 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	547	1801		brtst 4, __ASM_Label_1112, __D0main
+0	547	1804	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	548	1804		mov estado_rodas, deboa
+0	547	1806	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	547	1806	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	549	1806	#line 549 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	549	1806	#line 549 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	550	1806		getout __signed_stack_001main, __constVal1, 4
+0	549	1810	#line 549 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	550	1810	#line 550 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	551	1810		set __D0main, 0
+0	550	1813	#line 550 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	551	1813		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	551	1817	#line 551 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	552	1817		brtst 4, __ASM_Label_1116, __D0main
+0	552	1820	#line 552 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	553	1820	#pragma macro 7
+0	553	1820		setout __constVal1, 0, __constVal8
+0	8889	1825	#line 8889 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	552	1825	#line 552 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	553	1825	#line 553 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	554	1825		jmp __ASM_Label_1115
+0	553	1827	#line 553 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	553	1827	#line 553 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	554	1827		set __D0main, 80
+0	554	1830	#line 554 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	555	1830	#pragma macro 7
+0	555	1830		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8898	1853	#line 8898 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	554	1853	#line 554 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	559	1853	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	559	1853	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	559	1853	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	560	1853	#line 560 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	561	1853		mov __DU0main, estado_braco
+0	564	1855		brcmp 4, __ASM_Label_1124, __constVal0, __DU0main
+0	565	1859		brcmp 4, __ASM_Label_1181, __constVal1, __DU0main
+0	566	1863		brcmp 4, __ASM_Label_1194, __constVal2, __DU0main
+0	567	1867		brcmp 4, __ASM_Label_1195, __constVal3, __DU0main
+0	568	1871		brcmp 4, __ASM_Label_1205, __constVal4, __DU0main
+0	569	1875		jmp __ASM_Label_1123
+0	562	1877	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	563	1877		jmp __ASM_Label_1123
+0	562	1879	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	563	1879	#line 563 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	565	1879	#line 565 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	566	1879		set espera, 1
+0	565	1882	#line 565 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	565	1882	#line 565 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	566	1882	#line 566 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	567	1882		mov __D0main, subestado_braco_zerar
+0	570	1884		brcmp 4, __ASM_Label_1130, __constVal0, __D0main
+0	571	1888		brcmp 4, __ASM_Label_1151, __constVal1, __D0main
+0	572	1892		brcmp 4, __ASM_Label_1171, __constVal2, __D0main
+0	573	1896		jmp __ASM_Label_1129
+0	568	1898	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	568	1898	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	569	1898		getout __signed_stack_001main, __constVal1, 4
+0	568	1902	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	569	1902	#line 569 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	570	1902		set __D0main, 0
+0	569	1905	#line 569 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	570	1905		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	570	1909	#line 570 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	571	1909		brtst 4, __ASM_Label_1132, __D0main
+0	571	1912	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	572	1912	#pragma macro 7
+0	572	1912		setout __constVal1, 0, __constVal8
+0	8952	1917	#line 8952 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	571	1917	#line 571 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	572	1917	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	573	1917		jmp __ASM_Label_1131
+0	572	1919	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	572	1919	#line 572 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	573	1919		mov __D0main, __constValNeg70
+0	573	1921	#line 573 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	574	1921	#pragma macro 7
+0	574	1921		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8961	1944	#line 8961 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	573	1944	#line 573 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	574	1944	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	575	1944		getout my_tc_b, __constVal1, 4
+0	574	1948	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	574	1948	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	574	1948	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	575	1948		mov __signed_stack_001main, my_tc_b
+0	574	1950	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	574	1950	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	575	1950		getout __D0main, __constVal1, 4
+0	574	1954	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	575	1954		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	574	1958	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	575	1958		brtst 4, __ASM_Label_1140, __D0main
+0	575	1961	#line 575 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	576	1961		jmp __ASM_Label_1139
+0	575	1963	#line 575 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	576	1963	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	577	1963		set subestado_braco_zerar, 1
+0	576	1966	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	576	1966	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	576	1966	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	577	1966		gettick time_temp
+0	576	1968	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	576	1968	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	576	1968	#line 576 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	578	1968	#line 578 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	579	1968		mov my_old_tc_b, my_tc_b
+0	578	1970	#line 578 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	578	1970	#line 578 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	579	1970	#line 579 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	580	1970		getout my_tc_b, __constVal1, 4
+0	579	1974	#line 579 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	579	1974	#line 579 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	580	1974	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	581	1974		jmp __ASM_Label_1129
+0	580	1976	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	581	1976	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	581	1976	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	582	1976		gettick __unsigned_stack_001main
+0	581	1978	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	581	1978	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	581	1978	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	582	1978		sub __unsigned_stack_001main, __unsigned_stack_001main, time_temp
+0	581	1982	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	582	1982	#line 582 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	583	1982		set __D0main, 50
+0	582	1985	#line 582 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	583	1985		cmp 1, __D0main, __unsigned_stack_001main, __D0main
+0	584	1989	#line 584 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	585	1989		brtst 4, __ASM_Label_1156, __D0main
+0	585	1992	#line 585 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	586	1992		mov my_old_tc_b, my_tc_b
+0	585	1994	#line 585 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	585	1994	#line 585 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	586	1994	#line 586 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	587	1994		getout my_tc_b, __constVal1, 4
+0	586	1998	#line 586 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	586	1998	#line 586 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	586	1998	#line 586 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	587	1998		mov __signed_stack_001main, my_old_tc_b
+0	586	2000	#line 586 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	587	2000	#line 587 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	588	2000		mov __D0main, my_tc_b
+0	587	2002	#line 587 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	588	2002		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	588	2006	#line 588 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	589	2006		brtst 4, __ASM_Label_1163, __D0main
+0	588	2009	#line 588 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	589	2009		gettick time_temp
+0	588	2011	#line 588 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	588	2011	#line 588 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	588	2011	#line 588 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	596	2011	#line 596 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	597	2011		jmp __ASM_Label_1166
+0	597	2013	#line 597 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	598	2013	#pragma macro 7
+0	598	2013		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9085	2036	#line 9085 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	597	2036	#line 597 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	598	2036	#line 598 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	599	2036		set subestado_braco_zerar, 2
+0	598	2039	#line 598 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	598	2039	#line 598 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	598	2039	#line 598 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	599	2039		gettick time_temp
+0	598	2041	#line 598 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	598	2041	#line 598 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	598	2041	#line 598 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	601	2041	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	601	2041	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	602	2041	#line 602 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	603	2041		jmp __ASM_Label_1129
+0	602	2043	#line 602 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	603	2043	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	603	2043	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	604	2043		gettick __unsigned_stack_001main
+0	603	2045	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	603	2045	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	603	2045	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	604	2045		sub __unsigned_stack_001main, __unsigned_stack_001main, time_temp
+0	603	2049	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	604	2049	#line 604 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	605	2049		set __D0main, 300
+0	604	2052	#line 604 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	605	2052		cmp 1, __D0main, __unsigned_stack_001main, __D0main
+0	610	2056	#line 610 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	611	2056		brtst 4, __ASM_Label_1176, __D0main
+0	610	2059	#line 610 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	611	2059		set __D0main, 70
+0	611	2062	#line 611 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	612	2062	#pragma macro 7
+0	612	2062		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9136	2085	#line 9136 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	611	2085	#line 611 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	612	2085	#line 612 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	613	2085		mov estado_braco, setar
+0	612	2087	#line 612 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	612	2087	#line 612 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	613	2087	#line 613 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	614	2087	#line 614 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	614	2087	#line 614 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	615	2087	#line 615 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	616	2087	#line 616 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	617	2087		jmp __ASM_Label_1123
+0	616	2089	#line 616 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	617	2089	#line 617 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	617	2089	#line 617 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	618	2089		getout __signed_stack_001main, __constVal1, 4
+0	617	2093	#line 617 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	618	2093	#line 618 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	619	2093		set __D0main, 29
+0	618	2096	#line 618 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	619	2096		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	619	2100	#line 619 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	620	2100		brtst 4, __ASM_Label_1184, __D0main
+0	620	2103	#line 620 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	621	2103	#pragma macro 7
+0	621	2103		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9172	2126	#line 9172 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	620	2126	#line 620 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	621	2126	#line 621 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	622	2126		mov estado_braco, parado
+0	621	2128	#line 621 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	621	2128	#line 621 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	622	2128	#line 622 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	623	2128		set espera, 0
+0	622	2131	#line 622 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	622	2131	#line 622 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	622	2131	#line 622 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	623	2131		mov __unsigned_stack_001main, estado_rodas
+0	622	2133	#line 622 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	623	2133	#line 623 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	624	2133		mov __DU0main, deboa
+0	623	2135	#line 623 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	624	2135		cmp 4, __D0main, __unsigned_stack_001main, __DU0main
+0	624	2139	#line 624 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	625	2139		brtst 4, __ASM_Label_1191, __D0main
+0	625	2142	#line 625 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	626	2142		mov estado_rodas, linha
+0	625	2144	#line 625 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	625	2144	#line 625 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	627	2144	#line 627 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	627	2144	#line 627 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	628	2144	#line 628 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	629	2144		jmp __ASM_Label_1123
+0	628	2146	#line 628 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	630	2146	#line 630 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	631	2146	#line 631 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	632	2146		jmp __ASM_Label_1123
+0	631	2148	#line 631 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	632	2148	#line 632 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	632	2148	#line 632 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	633	2148		getout __signed_stack_001main, __constVal1, 4
+0	632	2152	#line 632 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	633	2152	#line 633 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	634	2152		set __D0main, 30
+0	633	2155	#line 633 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	634	2155		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	634	2159	#line 634 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	635	2159		brtst 4, __ASM_Label_1198, __D0main
+0	635	2162	#line 635 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	636	2162		mov estado_braco, zerar
+0	635	2164	#line 635 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	635	2164	#line 635 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	636	2164	#line 636 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	637	2164		set subestado_braco_zerar, 0
+0	636	2167	#line 636 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	636	2167	#line 636 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	636	2167	#line 636 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	637	2167		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	636	2170	#line 636 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	8551	2170	#line 8551 "NXCDefs.h"
+0	8552	2170		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	2172	#line 8551 "NXCDefs.h"
+0	637	2172	#line 637 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	638	2172	#line 638 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	639	2172	#line 639 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	640	2172		jmp __ASM_Label_1123
+0	639	2174	#line 639 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	640	2174	#line 640 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	641	2174	#line 641 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	642	2174	#pragma macro 7
+0	642	2174		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9263	2197	#line 9263 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	641	2197	#line 641 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	643	2197	#line 643 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	643	2197	#line 643 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	649	2197	#line 649 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	650	2197	#line 650 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	651	2197		mov __DU0main, andar
+0	654	2199		brcmp 4, __ASM_Label_1209, __constVal0, __DU0main
+0	655	2203		brcmp 4, __ASM_Label_1218, __constVal1, __DU0main
+0	656	2207		brcmp 4, __ASM_Label_1223, __constVal2, __DU0main
+0	657	2211		brcmp 4, __ASM_Label_1228, __constVal3, __DU0main
+0	658	2215		brcmp 4, __ASM_Label_1233, __constVal4, __DU0main
+0	659	2219		brcmp 4, __ASM_Label_1238, __constVal5, __DU0main
+0	660	2223		brcmp 4, __ASM_Label_1243, __constVal6, __DU0main
+0	661	2227		jmp __ASM_Label_1208
+0	653	2229	#line 653 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	654	2229	#line 654 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	655	2229		set my_tc_d, 0
+0	654	2232	#line 654 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	654	2232	#line 654 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	655	2232	#line 655 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	656	2232		set my_tc_e, 0
+0	655	2235	#line 655 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	655	2235	#line 655 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	656	2235	#line 656 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	657	2235	#pragma macro 7
+0	657	2235		setout __constVal2, 0, __constVal8
+0	9295	2240	#line 9295 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	656	2240	#line 656 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	657	2240	#line 657 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	658	2240	#pragma macro 7
+0	658	2240		setout __constVal0, 0, __constVal8
+0	9298	2245	#line 9298 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	657	2245	#line 657 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	657	2245	#line 657 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	658	2245		set __D0main, 0
+0	658	2248	#line 658 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	659	2248	#pragma macro 7
+0	659	2248		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9303	2271	#line 9303 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	658	2271	#line 658 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	658	2271	#line 658 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	659	2271		set __D0main, 0
+0	659	2274	#line 659 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	660	2274	#pragma macro 7
+0	660	2274		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9308	2297	#line 9308 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	659	2297	#line 659 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	660	2297	#line 660 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	661	2297		jmp __ASM_Label_1208
+0	660	2299	#line 660 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	662	2299	#line 662 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	662	2299	#line 662 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	663	2299		set __signed_stack_001main, 0
+0	662	2302	#line 662 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	663	2302	#line 663 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	664	2302		mov __D0main, potmax
+0	663	2304	#line 663 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	664	2304		sub pote, __signed_stack_001main, __D0main
+0	663	2308	#line 663 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	663	2308	#line 663 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	663	2308	#line 663 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	664	2308		set __signed_stack_001main, 0
+0	663	2311	#line 663 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	664	2311	#line 664 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	665	2311		mov __D0main, potmax
+0	664	2313	#line 664 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	665	2313		sub potd, __signed_stack_001main, __D0main
+0	664	2317	#line 664 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	664	2317	#line 664 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	665	2317	#line 665 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	666	2317		jmp __ASM_Label_1208
+0	665	2319	#line 665 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	666	2319	#line 666 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	666	2319	#line 666 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	667	2319		set __signed_stack_001main, 0
+0	666	2322	#line 666 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	667	2322	#line 667 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	668	2322		mov __D0main, potmax
+0	667	2324	#line 667 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	668	2324		sub pote, __signed_stack_001main, __D0main
+0	667	2328	#line 667 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	667	2328	#line 667 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	668	2328	#line 668 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	669	2328		set potd, 0
+0	668	2331	#line 668 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	668	2331	#line 668 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	669	2331	#line 669 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	670	2331		jmp __ASM_Label_1208
+0	669	2333	#line 669 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	670	2333	#line 670 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	670	2333	#line 670 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	671	2333		set __signed_stack_001main, 0
+0	670	2336	#line 670 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	671	2336	#line 671 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	672	2336		mov __D0main, potmax
+0	671	2338	#line 671 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	672	2338		sub pote, __signed_stack_001main, __D0main
+0	671	2342	#line 671 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	671	2342	#line 671 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	672	2342	#line 672 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	673	2342		mov potd, potmax
+0	672	2344	#line 672 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	672	2344	#line 672 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	673	2344	#line 673 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	674	2344		jmp __ASM_Label_1208
+0	673	2346	#line 673 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	674	2346	#line 674 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	675	2346	#line 675 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	676	2346		set pote, 0
+0	675	2349	#line 675 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	675	2349	#line 675 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	675	2349	#line 675 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	676	2349		set __signed_stack_001main, 0
+0	675	2352	#line 675 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	676	2352	#line 676 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	677	2352		mov __D0main, potmax
+0	676	2354	#line 676 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	677	2354		sub potd, __signed_stack_001main, __D0main
+0	676	2358	#line 676 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	676	2358	#line 676 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	677	2358	#line 677 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	678	2358		jmp __ASM_Label_1208
+0	677	2360	#line 677 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	678	2360	#line 678 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	679	2360	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	680	2360		mov pote, potmax
+0	679	2362	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	679	2362	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	679	2362	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	680	2362		set __signed_stack_001main, 0
+0	679	2365	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	680	2365	#line 680 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	681	2365		mov __D0main, potmax
+0	680	2367	#line 680 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	681	2367		sub potd, __signed_stack_001main, __D0main
+0	680	2371	#line 680 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	680	2371	#line 680 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	681	2371	#line 681 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	682	2371		jmp __ASM_Label_1208
+0	681	2373	#line 681 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	682	2373	#line 682 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	682	2373	#line 682 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	683	2373		mov __signed_stack_001main, potmax
+0	682	2375	#line 682 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	683	2375	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	684	2375		set __D0main, 2
+0	683	2378	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	684	2378		div pote, __signed_stack_001main, __D0main
+0	683	2382	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	683	2382	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	683	2382	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	684	2382		mov __signed_stack_001main, potmax
+0	683	2384	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	684	2384	#line 684 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	685	2384		set __D0main, 2
+0	684	2387	#line 684 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	685	2387		div potd, __signed_stack_001main, __D0main
+0	684	2391	#line 684 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	684	2391	#line 684 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	685	2391	#line 685 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	685	2391	#line 685 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	689	2391	#line 689 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	690	2391	#line 690 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	691	2391		getout __D0main, __constVal2, 4
+0	690	2395	#line 690 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	691	2395		add my_tc_d, my_tc_d, __D0main
+0	690	2399	#line 690 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	692	2399	#line 692 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	693	2399		getout __D0main, __constVal0, 4
+0	692	2403	#line 692 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	693	2403		add my_tc_e, my_tc_e, __D0main
+0	692	2407	#line 692 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	692	2407	#line 692 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	693	2407		mov __D0main, pote
+0	693	2409	#line 693 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	694	2409	#pragma macro 7
+0	694	2409		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9508	2432	#line 9508 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	693	2432	#line 693 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	693	2432	#line 693 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	694	2432		mov __D0main, potd
+0	694	2434	#line 694 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	695	2434	#pragma macro 7
+0	695	2434		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9515	2457	#line 9515 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	694	2457	#line 694 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	694	2457	#line 694 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	695	2457		mov __D0main, pote
+0	695	2459	#line 695 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	696	2459	#pragma macro 7
+0	696	2459		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9522	2482	#line 9522 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	695	2482	#line 695 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	695	2482	#line 695 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	696	2482		mov __D0main, potd
+0	696	2484	#line 696 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	697	2484	#pragma macro 7
+0	697	2484		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9529	2507	#line 9529 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	696	2507	#line 696 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	696	2507	#line 696 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	697	2507		mov __D0main, pote
+0	697	2509	#line 697 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	698	2509	#pragma macro 7
+0	698	2509		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9536	2532	#line 9536 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	697	2532	#line 697 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	697	2532	#line 697 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	698	2532		mov __D0main, potd
+0	698	2534	#line 698 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	699	2534	#pragma macro 7
+0	699	2534		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9543	2557	#line 9543 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	698	2557	#line 698 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	702	2557	#line 702 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	703	2557		jmp __ASM_Label_620
+0	702	2559	#line 702 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+0	703	2559		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	704	0	#line 704 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	705	0		set __signed_stack_001ang2line, 1142
+2	704	3	#line 704 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	704	3	#line 704 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	705	3		mov __D0ang2line, __ang2line_7qG2_ang_7qG2_000
+2	704	5	#line 704 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	705	5		mul __signed_stack_001ang2line, __signed_stack_001ang2line, __D0ang2line
+2	704	9	#line 704 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	704	9	#line 704 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	705	9		set __D0ang2line, 360
+2	704	12	#line 704 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	705	12		div __D0ang2line, __signed_stack_001ang2line, __D0ang2line
+2	705	16	#line 705 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	706	16		subret __ang2line_return
+2	705	18	#line 705 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	708	18	#line 708 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+2	709	18		subret __ang2line_return
+3	709	0	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+3	709	0	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+3	710	0		arrinit __vetor_calibragem0_2, __constVal0, __constVal200
+3	709	4	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+3	710	4		arrinit vetor_calibragem0, __vetor_calibragem0_2, __constVal3
+3	709	8	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+3	709	8	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+3	710	8		arrinit __vetor_calibragem1_2, __constVal0, __constVal200
+3	709	12	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+3	710	12		arrinit vetor_calibragem1, __vetor_calibragem1_2, __constVal3
+3	709	16	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc"
+3	710	16		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc
+1	__ResetSensorSubroutine	2562	NXTDefs.h
+2	ang2line	2575	C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc
+3	__initialize_global_data	2595	C:\Users\luan\OneDrive\Droid\competicao_interna\lol.nxc

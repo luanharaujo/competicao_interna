@@ -1,0 +1,2259 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLight_inline_main	6	1	0	4	4
+1	__DU0SetSensorLight_inline_main	5	1	4	4	10
+2	__signed_stack_001ang2line	6	1	8	4	4
+3	__D0ang2line	6	1	12	4	8
+4	__D0main	6	1	16	4	313
+5	__DU0main	5	1	20	4	38
+6	__signed_stack_001main	6	1	24	4	175
+7	__signed_stack_005main	6	1	28	4	4
+8	__unsigned_stack_001main	5	1	32	4	16
+9	time_temp	5	1	36	4	5
+10	__signed_stack_002main	6	1	40	4	76
+11	__signed_stack_003main	6	1	44	4	46
+12	__signed_stack_004main	6	1	48	4	8
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	6
+14	preto_e	4	1	56	2	10
+15	branco_e	4	1	58	2	9
+16	preto_d	4	1	60	2	10
+17	cinza_d	4	1	62	2	5
+18	faixa_d	4	1	64	2	3
+19	__main_7qG2_i_7qG2_000	4	1	66	2	64
+20	__main_7qG2_j_7qG2_000	4	1	68	2	7
+21	__ang2line_7qG2_ang_7qG2_000	4	1	70	2	4
+22	faixa_e	4	1	72	2	3
+23	temp_cor	4	1	74	2	3
+24	my_tc_b	4	1	76	2	7
+25	espera	4	1	78	2	3
+26	subestado_braco_zerar	4	1	80	2	6
+27	my_tc_e	4	1	82	2	7
+28	my_tc_d	4	1	84	2	11
+29	flag_re	4	1	86	2	3
+30	my_old_tc_b	4	1	88	2	3
+31	branco_d	4	1	90	2	9
+32	potmax	4	0	92	2	15
+33	potd	4	1	94	2	11
+34	pote	4	1	96	2	11
+35	__constVal200	4	0	98	2	2
+36	__main_7qG2_i_preto_e_7qG2_000	4	1	100	2	3
+37	__main_7qG2_temp_preto_d_7qG2_000	4	1	102	2	5
+38	__main_7qG2_temp_preto_e_7qG2_000	4	1	104	2	5
+39	__main_7qG2_i_preto_d_7qG2_000	4	1	106	2	3
+40	__main_7qG2_temp_l_d_7qG2_000	4	1	108	2	8
+41	__main_7qG2_temp_angulo_7qG2_000	4	1	110	2	2
+42	__main_7qG2_temp_l_e_7qG2_000	4	1	112	2	8
+43	andar	1	1	114	1	13
+44	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	115	1	4
+45	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	116	1	4
+46	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	117	1	4
+47	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	118	1	10
+48	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	119	1	4
+49	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	120	1	4
+50	__constValNeg90	2	0	121	1	1
+51	__ang2line_return	1	1	122	1	6
+52	____initialize_global_data_return	1	1	123	1	3
+53	__constValNeg70	2	0	124	1	1
+54	__constVal63	2	0	125	1	19
+55	__SetSensorColorFull_7qG2_port_7qG2_000_inline_main	1	1	126	1	4
+56	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	127	1	2
+57	__constVal96	2	0	128	1	19
+58	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	129	1	4
+59	inicializar	1	1	130	1	1
+60	inicializar2	1	0	131	1	1
+61	__constVal7	2	0	132	1	1
+62	__constVal13	2	0	133	1	1
+63	__constVal8	2	0	134	1	10
+64	reto	1	0	135	1	1
+65	fr	1	1	136	1	2
+66	deboa	1	0	137	1	2
+67	calibrando	1	0	138	1	1
+68	linha	1	0	139	1	3
+69	__constVal2	2	0	140	1	21
+70	__constVal3	2	0	141	1	26
+71	__constVal6	2	0	142	1	3
+72	__constVal0	2	1	143	1	82
+73	__constVal32	2	0	144	1	58
+74	__constVal1	2	0	145	1	43
+75	__ResetSensorTmp	1	1	146	1	2
+76	____ResetSensorSubroutine_return	1	1	147	1	6
+77	__ResetSensorPort	1	1	148	1	6
+78	__constVal4	2	0	149	1	4
+79	__constVal5	2	0	150	1	3
+80	zerar	1	1	151	1	3
+81	setar	1	0	152	1	1
+82	andar_re	1	0	153	1	1
+83	esquerda_leve	1	0	154	1	1
+84	esquerda_brusco	1	0	155	1	1
+85	estado_linha	1	1	156	1	9
+86	estado_braco	1	1	157	1	8
+87	estado_rodas	1	1	158	1	10
+88	recusar	1	0	159	1	1
+89	parado	1	0	160	1	2
+90	direita_brusco	1	0	161	1	1
+91	db	1	0	162	1	1
+92	eb	1	0	163	1	1
+93	nao	1	1	164	1	2
+94	fr2	1	0	165	1	2
+95	dl	1	0	166	1	1
+96	el	1	0	167	1	1
+97	direita_leve	1	0	168	1	1
+98	frente	1	0	169	1	5
+99	__OUT_AC	7	0	170	4	3
+100	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+101	__vetor_calibragem1_2	7	0	172	4	2
+102	__vetor_calibragem1_2.__vetor_calibragem1_2_type	4	0	0	2	0
+103	__vetor_calibragem0_2	7	0	174	4	2
+104	__vetor_calibragem0_2.__vetor_calibragem0_2_type	4	0	0	2	0
+105	vetor_calibragem0	7	0	176	4	38
+106	vetor_calibragem0.vetor_calibragem0_type	7	0	0	4	0
+107	vetor_calibragem0.vetor_calibragem0_type.vetor_calibragem0_type_type	4	0	0	2	0
+108	__ArrHelper__main_236_1	7	0	178	4	8
+109	__ArrHelper__main_236_1.__ArrHelper__main_236_1_type	4	0	0	2	0
+110	__ArrHelper__main_236_0	7	0	180	4	106
+111	__ArrHelper__main_236_0.__ArrHelper__main_236_0_type	4	0	0	2	0
+112	vetor_calibragem1	7	0	182	4	38
+113	vetor_calibragem1.vetor_calibragem1_type	7	0	0	4	0
+114	vetor_calibragem1.vetor_calibragem1_type.vetor_calibragem1_type_type	4	0	0	2	0
+#SOURCES
+Clump	Line	PC	Source
+0	175	0	#line 175 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	176	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	175	2	#line 175 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	182	2	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	183	2		mov estado_rodas, inicializar
+0	182	4	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	182	4	#line 182 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	183	4	#line 183 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	184	4		mov andar, nao
+0	183	6	#line 183 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	183	6	#line 183 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	184	6	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	185	6		mov estado_braco, parado
+0	184	8	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	184	8	#line 184 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	187	8	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	188	8		set flag_re, 0
+0	187	11	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	187	11	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	187	11	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	188	11		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	187	14	#line 187 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	188	14	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	189	14		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	16	#line 4313 "NXCDefs.h"
+0	4314	16		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	18	#line 4313 "NXCDefs.h"
+0	4313	18	#line 4313 "NXCDefs.h"
+0	4314	18		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	20	#line 4313 "NXCDefs.h"
+0	4314	20		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	23	#line 4313 "NXCDefs.h"
+0	4314	23		brtst 4, __001__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	26	#line 4313 "NXCDefs.h"
+0	4314	26		set __DU0SetSensorLight_inline_main, 5
+0	4313	29	#line 4313 "NXCDefs.h"
+0	4313	29	#line 4313 "NXCDefs.h"
+0	4314	29		jmp __001__ASM_Label_5
+0	4313	31	#line 4313 "NXCDefs.h"
+0	4314	31		set __DU0SetSensorLight_inline_main, 6
+0	4313	34	#line 4313 "NXCDefs.h"
+0	4313	34	#line 4313 "NXCDefs.h"
+0	4314	34		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	36	#line 4247 "NXCDefs.h"
+0	4248	36		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	40	#line 4247 "NXCDefs.h"
+0	4314	40	#line 4314 "NXCDefs.h"
+0	4314	40	#line 4314 "NXCDefs.h"
+0	4315	40		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	42	#line 4314 "NXCDefs.h"
+0	4314	42	#line 4314 "NXCDefs.h"
+0	4315	42		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	45	#line 4314 "NXCDefs.h"
+0	4260	45	#line 4260 "NXCDefs.h"
+0	4261	45		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	49	#line 4260 "NXCDefs.h"
+0	4315	49	#line 4315 "NXCDefs.h"
+0	4315	49	#line 4315 "NXCDefs.h"
+0	4316	49		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	51	#line 4315 "NXCDefs.h"
+0	4278	51	#line 4278 "NXCDefs.h"
+0	4279	51	#pragma macro 4
+0	4279	51		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	53		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6499	55	#line 6499 "NXCDefs.h"
+0	4278	55	#line 4278 "NXCDefs.h"
+0	4316	55	#line 4316 "NXCDefs.h"
+0	188	55	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	188	55	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	189	55		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	188	58	#line 188 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	189	58	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	190	58		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	4313	60	#line 4313 "NXCDefs.h"
+0	4314	60		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4313	62	#line 4313 "NXCDefs.h"
+0	4313	62	#line 4313 "NXCDefs.h"
+0	4314	62		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	4313	64	#line 4313 "NXCDefs.h"
+0	4314	64		tst 5, __D0SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4313	67	#line 4313 "NXCDefs.h"
+0	4314	67		brtst 4, __002__ASM_Label_4, __D0SetSensorLight_inline_main
+0	4313	70	#line 4313 "NXCDefs.h"
+0	4314	70		set __DU0SetSensorLight_inline_main, 5
+0	4313	73	#line 4313 "NXCDefs.h"
+0	4313	73	#line 4313 "NXCDefs.h"
+0	4314	73		jmp __002__ASM_Label_5
+0	4313	75	#line 4313 "NXCDefs.h"
+0	4314	75		set __DU0SetSensorLight_inline_main, 6
+0	4313	78	#line 4313 "NXCDefs.h"
+0	4313	78	#line 4313 "NXCDefs.h"
+0	4314	78		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	4247	80	#line 4247 "NXCDefs.h"
+0	4248	80		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	4247	84	#line 4247 "NXCDefs.h"
+0	4314	84	#line 4314 "NXCDefs.h"
+0	4314	84	#line 4314 "NXCDefs.h"
+0	4315	84		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4314	86	#line 4314 "NXCDefs.h"
+0	4314	86	#line 4314 "NXCDefs.h"
+0	4315	86		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	4314	89	#line 4314 "NXCDefs.h"
+0	4260	89	#line 4260 "NXCDefs.h"
+0	4261	89		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	4260	93	#line 4260 "NXCDefs.h"
+0	4315	93	#line 4315 "NXCDefs.h"
+0	4315	93	#line 4315 "NXCDefs.h"
+0	4316	93		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4315	95	#line 4315 "NXCDefs.h"
+0	4278	95	#line 4278 "NXCDefs.h"
+0	4279	95	#pragma macro 4
+0	4279	95		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	4279	97		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6562	99	#line 6562 "NXCDefs.h"
+0	4278	99	#line 4278 "NXCDefs.h"
+0	4316	99	#line 4316 "NXCDefs.h"
+0	189	99	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	189	99	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	190	99		set __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	189	102	#line 189 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	4386	102	#line 4386 "NXCDefs.h"
+0	4387	102	#pragma macro 6
+0	4387	102		setin __constVal13, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 0
+0	4387	106		setin __constVal0, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main, 1
+0	4387	110		mov __ResetSensorPort, __SetSensorColorFull_7qG2_port_7qG2_000_inline_main
+0	4387	112		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6575	114	#line 6575 "NXCDefs.h"
+0	4386	114	#line 4386 "NXCDefs.h"
+0	190	114	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	190	114	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	191	114		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 3
+0	190	117	#line 190 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	4302	117	#line 4302 "NXCDefs.h"
+0	4303	117	#pragma macro 6
+0	4303	117		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	4303	121		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	4303	125		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	4303	127		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6587	129	#line 6587 "NXCDefs.h"
+0	4302	129	#line 4302 "NXCDefs.h"
+0	192	129	#line 192 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	193	129	#line 193 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	194	129		set __D0main, 1
+0	197	132	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	198	132		tst 5, __D0main, __D0main
+0	197	135	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	198	135		brtst 4, __ASM_Label_621, __D0main
+0	197	138	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	198	138		getin __signed_stack_001main, __constVal3, 4
+0	197	142	#line 197 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	198	142	#line 198 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	199	142		set __D0main, 1
+0	198	145	#line 198 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	199	145		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	199	149	#line 199 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	200	149		brtst 4, __ASM_Label_626, __D0main
+0	200	152	#line 200 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	201	152	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	202	152		set my_tc_d, 0
+0	201	155	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	201	155	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	201	155	#line 201 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	202	155		set __D0main, 60
+0	202	158	#line 202 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	203	158	#pragma macro 7
+0	203	158		setout __OUT_AC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6621	181	#line 6621 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	202	181	#line 202 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	202	181	#line 202 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	203	181		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	202	184	#line 202 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	8551	184	#line 8551 "NXCDefs.h"
+0	8552	184		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	186	#line 8551 "NXCDefs.h"
+0	203	186	#line 203 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	204	186	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	205	186	#pragma macro 7
+0	205	186		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6636	209	#line 6636 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	204	209	#line 204 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	205	209	#line 205 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	206	209		set __D0main, 1
+0	206	212	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	207	212		tst 5, __D0main, __D0main
+0	206	215	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	207	215		brtst 4, __ASM_Label_634, __D0main
+0	206	218	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	207	218		getin __signed_stack_001main, __constVal3, 4
+0	206	222	#line 206 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	207	222	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	208	222		set __D0main, 1
+0	207	225	#line 207 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	208	225		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	208	229	#line 208 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	209	229		brtst 4, __ASM_Label_639, __D0main
+0	208	232	#line 208 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	209	232		jmp nao_desisto
+0	209	234	#line 209 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	213	234	#line 213 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	217	234	#line 217 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	218	234		jmp __ASM_Label_633
+0	217	236	#line 217 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	217	236	#line 217 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	218	236	#line 218 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	219	236		mov __DU0main, estado_rodas
+0	222	238		brcmp 4, __ASM_Label_643, __constVal0, __DU0main
+0	223	242		brcmp 4, __ASM_Label_706, __constVal1, __DU0main
+0	224	246		brcmp 4, __ASM_Label_819, __constVal2, __DU0main
+0	225	250		brcmp 4, __ASM_Label_984, __constVal4, __DU0main
+0	226	254		brcmp 4, __ASM_Label_1080, __constVal5, __DU0main
+0	227	258		brcmp 4, __ASM_Label_1081, __constVal7, __DU0main
+0	228	262		brcmp 4, __ASM_Label_1088, __constVal6, __DU0main
+0	229	266		jmp __ASM_Label_642
+0	222	268	#line 222 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	224	268	#line 224 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	225	268		mov andar, frente
+0	224	270	#line 224 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	224	270	#line 224 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	225	270	#line 225 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	226	270		set my_tc_d, 0
+0	225	273	#line 225 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	225	273	#line 225 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	227	273	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	228	273		set my_tc_e, 0
+0	227	276	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	227	276	#line 227 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	228	276	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	229	276	#pragma macro 7
+0	229	276		setout __constVal2, 0, __constVal8
+0	6702	281	#line 6702 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	228	281	#line 228 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	230	281	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	231	281	#pragma macro 7
+0	231	281		setout __constVal0, 0, __constVal8
+0	6705	286	#line 6705 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	230	286	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	230	286	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	231	286		set __main_7qG2_i_7qG2_000, 0
+0	230	289	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	230	289	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	231	289		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	230	291	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	230	291	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	231	291		set __D0main, 200
+0	230	294	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	231	294		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	230	298	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	231	298		brtst 4, __ASM_Label_651, __D0main
+0	230	301	#line 230 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	231	301		jmp __ASM_Label_652
+0	231	303	#line 231 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	232	303		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	232	307	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	233	307		jmp __ASM_Label_650
+0	232	309	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	233	309		set __signed_stack_001main, 2
+0	232	312	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	232	312	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	233	312		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	232	316	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	233	316		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	232	318	#line 232 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	233	318	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	234	318		set __D0main, 0
+0	233	321	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	234	321		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	233	326	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	234	326		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	233	331	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	233	331	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	234	331		set __signed_stack_001main, 2
+0	233	334	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	233	334	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	234	334		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	233	338	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	234	338		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	233	340	#line 233 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	234	340	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	235	340		set __D0main, 0
+0	234	343	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	235	343		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	234	348	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	235	348		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	234	353	#line 234 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	237	353	#line 237 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	238	353		jmp __ASM_Label_653
+0	237	355	#line 237 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	241	355	#line 241 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	355		set __main_7qG2_i_7qG2_000, 0
+0	241	358	#line 241 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	241	358	#line 241 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	241	358	#line 241 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	358		set __signed_stack_001main, 0
+0	241	361	#line 241 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	241	361	#line 241 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	361		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	241	365	#line 241 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	365		set __signed_stack_002main, 0
+0	241	368	#line 241 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	368	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	368		set __D0main, 0
+0	242	371	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	371		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	242	376	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	376		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	242	381	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	381	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	381		set __signed_stack_001main, 1
+0	242	384	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	384	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	384		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	242	388	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	388		set __signed_stack_002main, 0
+0	242	391	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	391	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	391		getin __D0main, __constVal1, 4
+0	242	395	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	395		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	242	400	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	400		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	242	405	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	242	405	#line 242 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	405	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	244	405		set __signed_stack_001main, 2
+0	243	408	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	408	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	244	408		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	243	412	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	244	412		set __signed_stack_002main, 0
+0	243	415	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	243	415	#line 243 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	244	415		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	245	419	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	419		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	245	423	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	423		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	245	428	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	428		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	245	433	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	245	433	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	433		set __signed_stack_001main, 0
+0	245	436	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	245	436	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	436		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	245	440	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	440		set __signed_stack_002main, 0
+0	245	443	#line 245 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	443	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	443		set __D0main, 0
+0	246	446	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	446		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	246	451	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	451		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	246	456	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	456	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	456		set __signed_stack_001main, 1
+0	246	459	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	459	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	459		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	246	463	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	463		set __signed_stack_002main, 0
+0	246	466	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	466	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	466		getin __D0main, __constVal2, 4
+0	246	470	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	470		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	246	475	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	475		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	246	480	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	246	480	#line 246 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	480	#line 247 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	248	480		set __signed_stack_001main, 2
+0	247	483	#line 247 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	483	#line 247 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	248	483		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	247	487	#line 247 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	248	487		set __signed_stack_002main, 0
+0	247	490	#line 247 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	247	490	#line 247 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	248	490		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	249	494	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	250	494		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	249	498	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	250	498		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	249	503	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	250	503		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	249	508	#line 249 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	250	508	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	251	508		mov estado_rodas, inicializar2
+0	250	510	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	250	510	#line 250 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	251	510	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	252	510		jmp __ASM_Label_642
+0	251	512	#line 251 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	253	512	#line 253 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	254	512	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	255	512		mov andar, frente
+0	254	514	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	254	514	#line 254 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	255	514	#line 255 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	256	514		getout __D0main, __constVal2, 4
+0	255	518	#line 255 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	256	518		add my_tc_d, my_tc_d, __D0main
+0	255	522	#line 255 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	256	522	#line 256 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	257	522		getout __D0main, __constVal0, 4
+0	256	526	#line 256 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	257	526		add my_tc_e, my_tc_e, __D0main
+0	256	530	#line 256 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	257	530	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	258	530	#pragma macro 7
+0	258	530		setout __constVal2, 0, __constVal8
+0	6979	535	#line 6979 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	257	535	#line 257 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	260	535	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	261	535	#pragma macro 7
+0	261	535		setout __constVal0, 0, __constVal8
+0	6982	540	#line 6982 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	260	540	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	260	540	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	261	540		set __signed_stack_001main, 0
+0	260	543	#line 260 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	261	543	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	262	543		mov __D0main, my_tc_d
+0	261	545	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	262	545		sub __main_7qG2_temp_angulo_7qG2_000, __signed_stack_001main, __D0main
+0	261	549	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	261	549	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	261	549	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	262	549		getin __main_7qG2_temp_l_d_7qG2_000, __constVal1, 4
+0	261	553	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	261	553	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	261	553	#line 261 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	262	553	#line 262 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	263	553		getin __main_7qG2_temp_l_e_7qG2_000, __constVal2, 4
+0	262	557	#line 262 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	262	557	#line 262 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	262	557	#line 262 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	265	557	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	266	557		mov __ang2line_7qG2_ang_7qG2_000, __main_7qG2_temp_angulo_7qG2_000
+0	265	559	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	265	559	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	266	559		subcall ang2line, __ang2line_return
+0	265	561	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	266	561		mov __signed_stack_001main, __D0ang2line
+0	265	563	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	265	563	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	266	563		set __signed_stack_002main, 5
+0	265	566	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	265	566	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	266	566		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	265	568	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	265	568	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	266	568		set __D0main, 1
+0	265	571	#line 265 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	266	571		add __D0main, __signed_stack_003main, __D0main
+0	266	575	#line 266 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	267	575		mul __D0main, __signed_stack_002main, __D0main
+0	266	579	#line 266 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	267	579		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	268	583	#line 268 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	269	583		brtst 4, __ASM_Label_725, __D0main
+0	268	586	#line 268 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	269	586		set __signed_stack_001main, 1
+0	268	589	#line 268 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	268	589	#line 268 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	269	589		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	268	593	#line 268 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	269	593		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	268	595	#line 268 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	268	595	#line 268 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	269	595		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	269	599	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	270	599		mov __D0main, __main_7qG2_temp_l_d_7qG2_000
+0	269	601	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	270	601		add __signed_stack_003main, __signed_stack_003main, __D0main
+0	269	605	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	270	605		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	269	610	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	270	610		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	269	615	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	269	615	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	270	615		set __signed_stack_001main, 2
+0	269	618	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	269	618	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	270	618		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	269	622	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	270	622		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	269	624	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	269	624	#line 269 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	270	624		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	271	628	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	628		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	271	632	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	632		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	271	637	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	637		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	271	642	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	271	642	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	642		set __signed_stack_001main, 1
+0	271	645	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	271	645	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	645		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	271	649	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	649		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	271	651	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	271	651	#line 271 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	651		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	272	655	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	273	655		mov __D0main, __main_7qG2_temp_l_e_7qG2_000
+0	272	657	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	273	657		add __signed_stack_003main, __signed_stack_003main, __D0main
+0	272	661	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	273	661		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	272	666	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	273	666		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	272	671	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	671	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	273	671		set __signed_stack_001main, 2
+0	272	674	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	674	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	273	674		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	272	678	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	273	678		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	272	680	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	272	680	#line 272 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	273	680		index __signed_stack_003main, __ArrHelper__main_236_0, __signed_stack_002main
+0	273	684	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	274	684		add __signed_stack_003main, __signed_stack_003main, __constVal1
+0	273	688	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	274	688		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __signed_stack_003main
+0	273	693	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	274	693		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	273	698	#line 273 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	698	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	698		jmp __ASM_Label_746
+0	278	700	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	700		set __signed_stack_001main, 1
+0	278	703	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	703	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	703		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	278	707	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	707		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	278	709	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	709	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	709		set __signed_stack_003main, 1
+0	278	712	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	712	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	712		index __ArrHelper__main_236_1, vetor_calibragem0, __signed_stack_003main
+0	278	716	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	716		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	278	718	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	718	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	718		index __signed_stack_003main, __ArrHelper__main_236_1, __signed_stack_004main
+0	278	722	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	722	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	722	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	722		set __signed_stack_004main, 2
+0	278	725	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	725	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	725		index __ArrHelper__main_236_1, vetor_calibragem0, __signed_stack_004main
+0	278	729	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	729		mov __signed_stack_005main, __main_7qG2_i_7qG2_000
+0	278	731	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	278	731	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	279	731		index __D0main, __ArrHelper__main_236_1, __signed_stack_005main
+0	278	735	#line 278 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	735	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	735		div __D0main, __signed_stack_003main, __D0main
+0	281	739	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	739		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	281	744	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	744		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	281	749	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	749	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	749		set __signed_stack_001main, 1
+0	281	752	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	752	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	752		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	281	756	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	756		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	281	758	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	758	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	758		set __signed_stack_003main, 1
+0	281	761	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	761	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	761		index __ArrHelper__main_236_1, vetor_calibragem1, __signed_stack_003main
+0	281	765	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	765		mov __signed_stack_004main, __main_7qG2_i_7qG2_000
+0	281	767	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	767	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	767		index __signed_stack_003main, __ArrHelper__main_236_1, __signed_stack_004main
+0	281	771	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	771	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	771	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	771		set __signed_stack_004main, 2
+0	281	774	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	774	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	774		index __ArrHelper__main_236_1, vetor_calibragem1, __signed_stack_004main
+0	281	778	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	778		mov __signed_stack_005main, __main_7qG2_i_7qG2_000
+0	281	780	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	281	780	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	282	780		index __D0main, __ArrHelper__main_236_1, __signed_stack_005main
+0	281	784	#line 281 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	284	784	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	285	784		div __D0main, __signed_stack_003main, __D0main
+0	284	788	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	285	788		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	284	793	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	285	793		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	284	798	#line 284 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	287	798	#line 287 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	288	798		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	287	802	#line 287 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	287	802	#line 287 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	288	802		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	287	804	#line 287 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	288	804	#line 288 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	289	804		set __D0main, 200
+0	288	807	#line 288 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	289	807		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	291	811	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	292	811		brtst 4, __ASM_Label_777, __D0main
+0	291	814	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	292	814		set __signed_stack_001main, 0
+0	291	817	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	291	817	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	292	817		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	291	821	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	292	821		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	291	823	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	291	823	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	292	823		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	291	825	#line 291 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	292	825	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	825		set __D0main, 5
+0	292	828	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	828		mul __D0main, __signed_stack_003main, __D0main
+0	292	832	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	832		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	292	837	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	837		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	292	842	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	292	842	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	842		set __signed_stack_001main, 1
+0	292	845	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	292	845	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	845		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	292	849	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	849		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	292	851	#line 292 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	851	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	294	851		mov __D0main, __main_7qG2_temp_l_d_7qG2_000
+0	293	853	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	294	853		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	293	858	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	294	858		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	293	863	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	863	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	294	863		set __signed_stack_001main, 2
+0	293	866	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	293	866	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	294	866		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	293	870	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	294	870		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	293	872	#line 293 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	295	872	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	872		set __D0main, 1
+0	295	875	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	875		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	295	880	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	880		replace vetor_calibragem0, vetor_calibragem0, __signed_stack_001main, __ArrHelper__main_236_0
+0	295	885	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	295	885	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	885		set __signed_stack_001main, 0
+0	295	888	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	295	888	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	888		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	295	892	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	892		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	295	894	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	295	894	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	894		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	295	896	#line 295 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	896	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	896		set __D0main, 5
+0	296	899	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	899		mul __D0main, __signed_stack_003main, __D0main
+0	296	903	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	903		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	296	908	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	908		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	296	913	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	913	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	913		set __signed_stack_001main, 1
+0	296	916	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	296	916	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	916		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	296	920	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	920		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	296	922	#line 296 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	922	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	298	922		mov __D0main, __main_7qG2_temp_l_e_7qG2_000
+0	297	924	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	298	924		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	297	929	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	298	929		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	297	934	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	934	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	298	934		set __signed_stack_001main, 2
+0	297	937	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	297	937	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	298	937		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	297	941	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	298	941		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	297	943	#line 297 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	298	943	#line 298 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	299	943		set __D0main, 1
+0	298	946	#line 298 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	299	946		replace __ArrHelper__main_236_0, __ArrHelper__main_236_0, __signed_stack_002main, __D0main
+0	298	951	#line 298 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	299	951		replace vetor_calibragem1, vetor_calibragem1, __signed_stack_001main, __ArrHelper__main_236_0
+0	298	956	#line 298 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	301	956	#line 301 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	302	956		jmp __ASM_Label_814
+0	302	958	#line 302 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	303	958		mov andar, nao
+0	302	960	#line 302 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	302	960	#line 302 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	303	960	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	304	960		mov estado_rodas, calibrando
+0	303	962	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	303	962	#line 303 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	305	962	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	305	962	#line 305 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	307	962	#line 307 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	308	962		jmp __ASM_Label_642
+0	307	964	#line 307 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	310	964	#line 310 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	311	964	#line 311 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	312	964		mov estado_braco, zerar
+0	311	966	#line 311 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	311	966	#line 311 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	314	966	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	315	966		set subestado_braco_zerar, 0
+0	314	969	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	314	969	#line 314 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	315	969	#line 315 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	316	969		set preto_d, 0
+0	315	972	#line 315 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	315	972	#line 315 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	317	972	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	318	972		set preto_e, 0
+0	317	975	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	317	975	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	317	975	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	318	975		set __main_7qG2_i_7qG2_000, 0
+0	317	978	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	317	978	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	318	978		set __main_7qG2_j_7qG2_000, 34
+0	317	981	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	317	981	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	318	981		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	317	983	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	317	983	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	318	983		mov __D0main, __main_7qG2_j_7qG2_000
+0	317	985	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	318	985		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	317	989	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	318	989		brtst 4, __ASM_Label_829, __D0main
+0	317	992	#line 317 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	318	992		jmp __ASM_Label_830
+0	318	994	#line 318 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	319	994		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	319	998	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	998		jmp __ASM_Label_828
+0	319	1000	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	1000		set __signed_stack_001main, 1
+0	319	1003	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	319	1003	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	1003		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	319	1007	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	1007		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	319	1009	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	319	1009	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	1009		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	319	1013	#line 319 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	1013	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	321	1013		add preto_d, preto_d, __D0main
+0	320	1017	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	1017	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	321	1017		set __signed_stack_001main, 1
+0	320	1020	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	1020	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	321	1020		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	320	1024	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	321	1024		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	320	1026	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	320	1026	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	321	1026		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	320	1030	#line 320 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	321	1030	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	322	1030		add preto_e, preto_e, __D0main
+0	321	1034	#line 321 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	323	1034	#line 323 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	324	1034		jmp __ASM_Label_831
+0	323	1036	#line 323 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	324	1036	#line 324 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	325	1036		set __main_7qG2_i_7qG2_000, 0
+0	324	1039	#line 324 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	324	1039	#line 324 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	325	1039	#line 325 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	326	1039		set __main_7qG2_i_preto_e_7qG2_000, 0
+0	325	1042	#line 325 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	325	1042	#line 325 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	326	1042	#line 326 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	327	1042		set __main_7qG2_i_preto_d_7qG2_000, 0
+0	326	1045	#line 326 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	326	1045	#line 326 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	327	1045	#line 327 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	328	1045		mov __main_7qG2_temp_preto_d_7qG2_000, preto_d
+0	327	1047	#line 327 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	327	1047	#line 327 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	329	1047	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	330	1047		mov __main_7qG2_temp_preto_e_7qG2_000, preto_e
+0	329	1049	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	329	1049	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	329	1049	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	330	1049		mov __signed_stack_001main, __main_7qG2_j_7qG2_000
+0	329	1051	#line 329 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	330	1051	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	331	1051		set __D0main, 200
+0	330	1054	#line 330 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	331	1054		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	332	1058	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1058		brtst 4, __ASM_Label_861, __D0main
+0	332	1061	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1061		mov __signed_stack_001main, __main_7qG2_temp_preto_d_7qG2_000
+0	332	1063	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	332	1063	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1063		set __signed_stack_002main, 1
+0	332	1066	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	332	1066	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1066		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_002main
+0	332	1070	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1070		mov __signed_stack_003main, __main_7qG2_j_7qG2_000
+0	332	1072	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	332	1072	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1072		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	332	1076	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	332	1076	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1076		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	332	1080	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	332	1080	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1080		set __signed_stack_002main, 1
+0	332	1083	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	332	1083	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1083		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_002main
+0	332	1087	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1087		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	332	1089	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	332	1089	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1089		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	332	1093	#line 332 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1093	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1093		sub __main_7qG2_temp_preto_d_7qG2_000, __signed_stack_001main, __D0main
+0	333	1097	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1097	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1097	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1097		mov __signed_stack_001main, __main_7qG2_temp_preto_e_7qG2_000
+0	333	1099	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1099	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1099		set __signed_stack_002main, 1
+0	333	1102	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1102	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1102		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_002main
+0	333	1106	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1106		mov __signed_stack_003main, __main_7qG2_j_7qG2_000
+0	333	1108	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1108	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1108		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	333	1112	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1112	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1112		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	333	1116	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1116	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1116		set __signed_stack_002main, 1
+0	333	1119	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1119	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1119		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_002main
+0	333	1123	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1123		mov __signed_stack_003main, __main_7qG2_i_7qG2_000
+0	333	1125	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	333	1125	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	334	1125		index __D0main, __ArrHelper__main_236_0, __signed_stack_003main
+0	333	1129	#line 333 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	335	1129	#line 335 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	336	1129		sub __main_7qG2_temp_preto_e_7qG2_000, __signed_stack_001main, __D0main
+0	335	1133	#line 335 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	335	1133	#line 335 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	335	1133	#line 335 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	336	1133		mov __signed_stack_001main, __main_7qG2_temp_preto_d_7qG2_000
+0	335	1135	#line 335 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	336	1135	#line 336 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	337	1135		mov __D0main, preto_d
+0	336	1137	#line 336 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	337	1137		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	337	1141	#line 337 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	338	1141		brtst 4, __ASM_Label_886, __D0main
+0	338	1144	#line 338 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	339	1144		mov preto_d, __main_7qG2_temp_preto_d_7qG2_000
+0	338	1146	#line 338 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	338	1146	#line 338 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	339	1146	#line 339 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	340	1146		mov __main_7qG2_i_preto_d_7qG2_000, __main_7qG2_i_7qG2_000
+0	339	1148	#line 339 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	339	1148	#line 339 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	341	1148	#line 341 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	341	1148	#line 341 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	342	1148		mov __signed_stack_001main, __main_7qG2_temp_preto_e_7qG2_000
+0	341	1150	#line 341 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	342	1150	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	343	1150		mov __D0main, preto_e
+0	342	1152	#line 342 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	343	1152		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	343	1156	#line 343 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	344	1156		brtst 4, __ASM_Label_893, __D0main
+0	344	1159	#line 344 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	345	1159		mov preto_e, __main_7qG2_temp_preto_e_7qG2_000
+0	344	1161	#line 344 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	344	1161	#line 344 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	345	1161	#line 345 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	346	1161		mov __main_7qG2_i_preto_e_7qG2_000, __main_7qG2_i_7qG2_000
+0	345	1163	#line 345 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	345	1163	#line 345 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	347	1163	#line 347 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	348	1163	#line 348 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	349	1163		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	348	1167	#line 348 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	349	1167	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	350	1167		add __main_7qG2_j_7qG2_000, __main_7qG2_j_7qG2_000, __constVal1
+0	349	1171	#line 349 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	352	1171	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	353	1171		jmp __ASM_Label_860
+0	352	1173	#line 352 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	353	1173	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	354	1173		set __D0main, 34
+0	353	1176	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	354	1176		div preto_d, preto_d, __D0main
+0	353	1180	#line 353 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	358	1180	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1180		set __D0main, 34
+0	358	1183	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1183		div preto_e, preto_e, __D0main
+0	358	1187	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	358	1187	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1187		set __main_7qG2_i_7qG2_000, 0
+0	358	1190	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	358	1190	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1190		set branco_d, 0
+0	358	1193	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	358	1193	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1193		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	358	1195	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	358	1195	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1195		mov __D0main, __main_7qG2_i_preto_d_7qG2_000
+0	358	1197	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1197		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	358	1201	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1201		brtst 4, __ASM_Label_903, __D0main
+0	358	1204	#line 358 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	359	1204		jmp __ASM_Label_904
+0	359	1206	#line 359 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	360	1206		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	360	1210	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	361	1210		jmp __ASM_Label_902
+0	360	1212	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	361	1212		set __signed_stack_001main, 1
+0	360	1215	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	360	1215	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	361	1215		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	360	1219	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	361	1219		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	360	1221	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	360	1221	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	361	1221		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	360	1225	#line 360 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	361	1225	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	362	1225		add branco_d, branco_d, __D0main
+0	361	1229	#line 361 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	362	1229	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	363	1229		jmp __ASM_Label_905
+0	362	1231	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	362	1231	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	363	1231		set __D0main, 34
+0	362	1234	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	363	1234		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __D0main
+0	362	1238	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	363	1238		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	362	1240	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	362	1240	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	363	1240		set __D0main, 200
+0	362	1243	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	363	1243		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	362	1247	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	363	1247		brtst 4, __ASM_Label_919, __D0main
+0	362	1250	#line 362 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	363	1250		jmp __ASM_Label_920
+0	363	1252	#line 363 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	364	1252		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	364	1256	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	365	1256		jmp __ASM_Label_918
+0	364	1258	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	365	1258		set __signed_stack_001main, 1
+0	364	1261	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	364	1261	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	365	1261		index __ArrHelper__main_236_0, vetor_calibragem0, __signed_stack_001main
+0	364	1265	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	365	1265		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	364	1267	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	364	1267	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	365	1267		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	364	1271	#line 364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	365	1271	#line 365 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	366	1271		add branco_d, branco_d, __D0main
+0	365	1275	#line 365 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	368	1275	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	369	1275		jmp __ASM_Label_921
+0	368	1277	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	368	1277	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	369	1277		set __main_7qG2_i_7qG2_000, 0
+0	368	1280	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	368	1280	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	369	1280		set branco_e, 0
+0	368	1283	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	368	1283	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	369	1283		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	368	1285	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	368	1285	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	369	1285		mov __D0main, __main_7qG2_i_preto_e_7qG2_000
+0	368	1287	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	369	1287		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	368	1291	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	369	1291		brtst 4, __ASM_Label_933, __D0main
+0	368	1294	#line 368 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	369	1294		jmp __ASM_Label_934
+0	369	1296	#line 369 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	370	1296		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	370	1300	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	371	1300		jmp __ASM_Label_932
+0	370	1302	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	371	1302		set __signed_stack_001main, 1
+0	370	1305	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	370	1305	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	371	1305		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	370	1309	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	371	1309		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	370	1311	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	370	1311	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	371	1311		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	370	1315	#line 370 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	371	1315	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	372	1315		add branco_e, branco_e, __D0main
+0	371	1319	#line 371 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	372	1319	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	373	1319		jmp __ASM_Label_935
+0	372	1321	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	372	1321	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	373	1321		set __D0main, 34
+0	372	1324	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	373	1324		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __D0main
+0	372	1328	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	373	1328		mov __signed_stack_001main, __main_7qG2_i_7qG2_000
+0	372	1330	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	372	1330	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	373	1330		set __D0main, 200
+0	372	1333	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	373	1333		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	372	1337	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	373	1337		brtst 4, __ASM_Label_949, __D0main
+0	372	1340	#line 372 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	373	1340		jmp __ASM_Label_950
+0	373	1342	#line 373 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	374	1342		add __main_7qG2_i_7qG2_000, __main_7qG2_i_7qG2_000, __constVal1
+0	374	1346	#line 374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	375	1346		jmp __ASM_Label_948
+0	374	1348	#line 374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	375	1348		set __signed_stack_001main, 1
+0	374	1351	#line 374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	374	1351	#line 374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	375	1351		index __ArrHelper__main_236_0, vetor_calibragem1, __signed_stack_001main
+0	374	1355	#line 374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	375	1355		mov __signed_stack_002main, __main_7qG2_i_7qG2_000
+0	374	1357	#line 374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	374	1357	#line 374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	375	1357		index __D0main, __ArrHelper__main_236_0, __signed_stack_002main
+0	374	1361	#line 374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	375	1361	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	376	1361		add branco_e, branco_e, __D0main
+0	375	1365	#line 375 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	378	1365	#line 378 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	379	1365		jmp __ASM_Label_951
+0	378	1367	#line 378 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	379	1367	#line 379 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	380	1367		set __D0main, 166
+0	379	1370	#line 379 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	380	1370		div branco_d, branco_d, __D0main
+0	379	1374	#line 379 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	382	1374	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1374		set __D0main, 166
+0	382	1377	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1377		div branco_e, branco_e, __D0main
+0	382	1381	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	382	1381	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1381		mov __signed_stack_001main, preto_d
+0	382	1383	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	382	1383	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1383		mov __D0main, branco_d
+0	382	1385	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1385		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	382	1389	#line 382 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1389	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	384	1389		set __D0main, 2
+0	383	1392	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	384	1392		div cinza_d, __signed_stack_001main, __D0main
+0	383	1396	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1396	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1396	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	384	1396		mov __signed_stack_001main, preto_e
+0	383	1398	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	383	1398	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	384	1398		mov __D0main, branco_e
+0	383	1400	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	384	1400		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	383	1404	#line 383 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	386	1404	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	387	1404		set __D0main, 2
+0	386	1407	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	386	1407	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	386	1407	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	386	1407	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	387	1407		mov __signed_stack_001main, branco_d
+0	386	1409	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	386	1409	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	387	1409		mov __D0main, preto_d
+0	386	1411	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	387	1411		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	386	1415	#line 386 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	387	1415	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	388	1415		set __D0main, 3
+0	387	1418	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	388	1418		div faixa_d, __signed_stack_001main, __D0main
+0	387	1422	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	387	1422	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	387	1422	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	388	1422		mov __signed_stack_001main, branco_e
+0	387	1424	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	387	1424	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	388	1424		mov __D0main, preto_e
+0	387	1426	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	388	1426		sub __signed_stack_001main, __signed_stack_001main, __D0main
+0	387	1430	#line 387 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	390	1430	#line 390 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	391	1430		set __D0main, 3
+0	390	1433	#line 390 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	391	1433		div faixa_e, __signed_stack_001main, __D0main
+0	390	1437	#line 390 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	390	1437	#line 390 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	392	1437	#line 392 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	393	1437		mov estado_rodas, linha
+0	392	1439	#line 392 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	392	1439	#line 392 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	394	1439	#line 394 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	395	1439		jmp __ASM_Label_642
+0	394	1441	#line 394 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	397	1441	#line 397 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	399	1441	#line 399 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	400	1441		set potmax, 85
+0	399	1444	#line 399 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	399	1444	#line 399 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	399	1444	#line 399 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	400	1444		getin __main_7qG2_temp_l_d_7qG2_000, __constVal1, 4
+0	399	1448	#line 399 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	399	1448	#line 399 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	399	1448	#line 399 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	400	1448	#line 400 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	401	1448		getin __main_7qG2_temp_l_e_7qG2_000, __constVal2, 4
+0	400	1452	#line 400 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	400	1452	#line 400 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	400	1452	#line 400 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	401	1452	#line 401 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	402	1452		getin __main_7qG2_temp_l_d_7qG2_000, __constVal1, 4
+0	401	1456	#line 401 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	401	1456	#line 401 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	401	1456	#line 401 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	402	1456	#line 402 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	403	1456		getin __main_7qG2_temp_l_e_7qG2_000, __constVal2, 4
+0	402	1460	#line 402 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	402	1460	#line 402 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	402	1460	#line 402 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	403	1460	#line 403 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	404	1460		getin __main_7qG2_temp_l_d_7qG2_000, __constVal1, 4
+0	403	1464	#line 403 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	403	1464	#line 403 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	403	1464	#line 403 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	404	1464	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	405	1464		getin __main_7qG2_temp_l_e_7qG2_000, __constVal2, 4
+0	404	1468	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	404	1468	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	404	1468	#line 404 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	419	1468	#line 419 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	420	1468		mov __D0main, flag_re
+0	419	1470	#line 419 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	420	1470		not __D0main, __D0main
+0	421	1473	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	422	1473		tst 5, __D0main, __D0main
+0	421	1476	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	422	1476		brtst 4, __ASM_Label_1001, __D0main
+0	421	1479	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	422	1479		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	421	1481	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	421	1481	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	422	1481		mov __signed_stack_002main, cinza_d
+0	421	1483	#line 421 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	422	1483	#line 422 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	423	1483		mov __D0main, faixa_d
+0	422	1485	#line 422 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	423	1485		add __D0main, __signed_stack_002main, __D0main
+0	422	1489	#line 422 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	423	1489		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	423	1493	#line 423 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	424	1493		brtst 4, __ASM_Label_1004, __D0main
+0	423	1496	#line 423 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	424	1496		mov __signed_stack_001main, __main_7qG2_temp_l_e_7qG2_000
+0	423	1498	#line 423 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	423	1498	#line 423 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	424	1498		mov __signed_stack_002main, cinza_d
+0	423	1500	#line 423 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	424	1500	#line 424 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	425	1500		mov __D0main, faixa_e
+0	424	1502	#line 424 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	425	1502		add __D0main, __signed_stack_002main, __D0main
+0	424	1506	#line 424 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	425	1506		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	425	1510	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	426	1510		brtst 4, __ASM_Label_1007, __D0main
+0	425	1513	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	426	1513		mov __unsigned_stack_001main, estado_linha
+0	425	1515	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	425	1515	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	426	1515		mov __DU0main, fr
+0	425	1517	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	426	1517		cmp 4, __D0main, __unsigned_stack_001main, __DU0main
+0	425	1521	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	426	1521		brtst 5, __ASM_Label_1008, __D0main
+0	425	1524	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	426	1524		mov __unsigned_stack_001main, estado_linha
+0	425	1526	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	425	1526	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	426	1526		mov __DU0main, fr2
+0	425	1528	#line 425 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	426	1528		cmp 4, __D0main, __unsigned_stack_001main, __DU0main
+0	427	1532	#line 427 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	428	1532		brtst 4, __ASM_Label_1015, __D0main
+0	428	1535	#line 428 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	429	1535		mov estado_linha, fr2
+0	428	1537	#line 428 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	428	1537	#line 428 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	431	1537	#line 431 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	432	1537		jmp __ASM_Label_1018
+0	432	1539	#line 432 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	433	1539		mov estado_linha, fr
+0	432	1541	#line 432 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	432	1541	#line 432 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	434	1541	#line 434 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	436	1541	#line 436 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	437	1541		jmp __ASM_Label_1021
+0	436	1543	#line 436 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	437	1543		mov __signed_stack_001main, __main_7qG2_temp_l_e_7qG2_000
+0	436	1545	#line 436 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	436	1545	#line 436 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	437	1545		mov __signed_stack_002main, cinza_d
+0	436	1547	#line 436 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	437	1547	#line 437 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	438	1547		mov __D0main, faixa_e
+0	437	1549	#line 437 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	438	1549		sub __D0main, __signed_stack_002main, __D0main
+0	437	1553	#line 437 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	438	1553		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	438	1557	#line 438 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	439	1557		brtst 4, __ASM_Label_1024, __D0main
+0	439	1560	#line 439 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	440	1560		mov estado_linha, db
+0	439	1562	#line 439 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	439	1562	#line 439 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	442	1562	#line 442 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	443	1562		jmp __ASM_Label_1027
+0	443	1564	#line 443 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	444	1564		mov estado_linha, dl
+0	443	1566	#line 443 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	443	1566	#line 443 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	445	1566	#line 445 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	446	1566	#line 446 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	448	1566	#line 448 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	449	1566		jmp __ASM_Label_1030
+0	448	1568	#line 448 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	449	1568		mov __signed_stack_001main, __main_7qG2_temp_l_d_7qG2_000
+0	448	1570	#line 448 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	448	1570	#line 448 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	449	1570		mov __signed_stack_002main, cinza_d
+0	448	1572	#line 448 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	449	1572	#line 449 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	450	1572		mov __D0main, faixa_d
+0	449	1574	#line 449 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	450	1574		sub __D0main, __signed_stack_002main, __D0main
+0	449	1578	#line 449 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	450	1578		cmp 0, __D0main, __signed_stack_001main, __D0main
+0	450	1582	#line 450 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	451	1582		brtst 4, __ASM_Label_1033, __D0main
+0	451	1585	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	452	1585		mov estado_linha, eb
+0	451	1587	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	451	1587	#line 451 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	454	1587	#line 454 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	455	1587		jmp __ASM_Label_1036
+0	455	1589	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	456	1589		mov estado_linha, el
+0	455	1591	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	455	1591	#line 455 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	457	1591	#line 457 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	458	1591	#line 458 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	461	1591	#line 461 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	462	1591		jmp __ASM_Label_1039
+0	463	1593	#line 463 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	464	1593	#line 464 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	465	1593		mov __DU0main, estado_linha
+0	468	1595		brcmp 4, __ASM_Label_1043, __constVal0, __DU0main
+0	469	1599		brcmp 4, __ASM_Label_1054, __constVal1, __DU0main
+0	470	1603		brcmp 4, __ASM_Label_1057, __constVal2, __DU0main
+0	471	1607		brcmp 4, __ASM_Label_1060, __constVal4, __DU0main
+0	472	1611		brcmp 4, __ASM_Label_1063, __constVal3, __DU0main
+0	473	1615		brcmp 4, __ASM_Label_1066, __constVal5, __DU0main
+0	474	1619		brcmp 4, __ASM_Label_1069, __constVal6, __DU0main
+0	475	1623		jmp __ASM_Label_1042
+0	467	1625	#line 467 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	468	1625	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	469	1625		mov andar, frente
+0	468	1627	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	468	1627	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	468	1627	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	469	1627		set __signed_stack_001main, 0
+0	468	1630	#line 468 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	469	1630	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	470	1630		mov __D0main, potmax
+0	469	1632	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	470	1632		sub pote, __signed_stack_001main, __D0main
+0	469	1636	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	469	1636	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	469	1636	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	470	1636		set __signed_stack_001main, 0
+0	469	1639	#line 469 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	471	1639	#line 471 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	472	1639		mov __D0main, potmax
+0	471	1641	#line 471 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	472	1641		sub potd, __signed_stack_001main, __D0main
+0	471	1645	#line 471 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	471	1645	#line 471 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	472	1645	#line 472 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	473	1645		set my_tc_d, 0
+0	472	1648	#line 472 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	472	1648	#line 472 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	473	1648	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	474	1648		set my_tc_e, 0
+0	473	1651	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	473	1651	#line 473 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	474	1651	#line 474 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	475	1651	#pragma macro 7
+0	475	1651		setout __constVal2, 0, __constVal8
+0	8616	1656	#line 8616 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	474	1656	#line 474 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	476	1656	#line 476 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	477	1656	#pragma macro 7
+0	477	1656		setout __constVal0, 0, __constVal8
+0	8619	1661	#line 8619 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	476	1661	#line 476 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	477	1661	#line 477 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	478	1661		jmp __ASM_Label_1042
+0	477	1663	#line 477 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	478	1663	#line 478 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	479	1663	#line 479 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	480	1663		mov andar, frente
+0	479	1665	#line 479 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	479	1665	#line 479 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	480	1665	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	481	1665		jmp __ASM_Label_1042
+0	480	1667	#line 480 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	481	1667	#line 481 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	482	1667	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	483	1667		mov andar, direita_leve
+0	482	1669	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	482	1669	#line 482 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	483	1669	#line 483 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	484	1669		jmp __ASM_Label_1042
+0	483	1671	#line 483 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	484	1671	#line 484 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	485	1671	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	486	1671		mov andar, direita_brusco
+0	485	1673	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	485	1673	#line 485 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	486	1673	#line 486 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	487	1673		jmp __ASM_Label_1042
+0	486	1675	#line 486 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	487	1675	#line 487 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	488	1675	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	489	1675		mov andar, esquerda_leve
+0	488	1677	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	488	1677	#line 488 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	489	1677	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	490	1677		jmp __ASM_Label_1042
+0	489	1679	#line 489 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	490	1679	#line 490 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	491	1679	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	492	1679		mov andar, esquerda_brusco
+0	491	1681	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	491	1681	#line 491 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	492	1681	#line 492 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	493	1681		jmp __ASM_Label_1042
+0	492	1683	#line 492 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	493	1683	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	493	1683	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	494	1683		mov __ang2line_7qG2_ang_7qG2_000, my_tc_d
+0	493	1685	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	493	1685	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	494	1685		subcall ang2line, __ang2line_return
+0	493	1687	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	494	1687		mov __signed_stack_001main, __D0ang2line
+0	493	1689	#line 493 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	494	1689	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	495	1689		set __D0main, 500
+0	494	1692	#line 494 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	495	1692		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	495	1696	#line 495 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	496	1696		brtst 4, __ASM_Label_1074, __D0main
+0	496	1699	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	497	1699		set flag_re, 0
+0	496	1702	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	496	1702	#line 496 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	499	1702	#line 499 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	500	1702		jmp __ASM_Label_1077
+0	500	1704	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	501	1704		mov andar, andar_re
+0	500	1706	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	500	1706	#line 500 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	501	1706	#line 501 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	503	1706	#line 503 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	503	1706	#line 503 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	504	1706	#line 504 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	505	1706	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	506	1706		jmp __ASM_Label_642
+0	505	1708	#line 505 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	507	1708	#line 507 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	508	1708	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	509	1708	#pragma macro 7
+0	509	1708		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8736	1731	#line 8736 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	508	1731	#line 508 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	509	1731	#line 509 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	510	1731		jmp __ASM_Label_642
+0	509	1733	#line 509 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	510	1733	#line 510 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	511	1733	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	512	1733		mov andar, frente
+0	511	1735	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	511	1735	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	511	1735	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	512	1735		set __signed_stack_001main, 0
+0	511	1738	#line 511 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	512	1738	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	513	1738		mov __D0main, potmax
+0	512	1740	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	513	1740		sub pote, __signed_stack_001main, __D0main
+0	512	1744	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	512	1744	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	512	1744	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	513	1744		set __signed_stack_001main, 0
+0	512	1747	#line 512 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	513	1747	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	514	1747		mov __D0main, potmax
+0	513	1749	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	514	1749		sub potd, __signed_stack_001main, __D0main
+0	513	1753	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	513	1753	#line 513 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	514	1753	#line 514 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	515	1753		jmp __ASM_Label_642
+0	514	1755	#line 514 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	515	1755	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	515	1755	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	516	1755		mov __ang2line_7qG2_ang_7qG2_000, my_tc_d
+0	515	1757	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	515	1757	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	516	1757		subcall ang2line, __ang2line_return
+0	515	1759	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	516	1759		mov __signed_stack_001main, __D0ang2line
+0	515	1761	#line 515 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	516	1761	#line 516 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	517	1761		set __D0main, 1500
+0	516	1764	#line 516 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	517	1764		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	520	1768	#line 520 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	521	1768		brtst 4, __ASM_Label_1093, __D0main
+0	521	1771	#line 521 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	522	1771		mov estado_rodas, reto
+0	521	1773	#line 521 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	521	1773	#line 521 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	521	1773	#line 521 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	522	1773		set __D0main, 90
+0	522	1776	#line 522 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	523	1776	#pragma macro 7
+0	523	1776		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8817	1799	#line 8817 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	522	1799	#line 522 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	522	1799	#line 522 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	523	1799		mov __D0main, __constValNeg90
+0	523	1801	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	524	1801	#pragma macro 7
+0	524	1801		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8822	1824	#line 8822 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	523	1824	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	523	1824	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	524	1824		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	523	1827	#line 523 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	8551	1827	#line 8551 "NXCDefs.h"
+0	8552	1827		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	1829	#line 8551 "NXCDefs.h"
+0	526	1829	#line 526 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	527	1829	#line 527 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	528	1829	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	528	1829	#line 528 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	543	1829	#line 543 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	543	1829	#line 543 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	544	1829		getin temp_cor, __constVal0, 4
+0	543	1833	#line 543 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	543	1833	#line 543 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	543	1833	#line 543 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	546	1833	#line 546 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	547	1833		mov __D0main, espera
+0	546	1835	#line 546 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	547	1835		not __D0main, __D0main
+0	547	1838	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1838		tst 5, __D0main, __D0main
+0	547	1841	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1841		brtst 4, __ASM_Label_1106, __D0main
+0	547	1844	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1844		mov __signed_stack_001main, temp_cor
+0	547	1846	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	547	1846	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1846		set __D0main, 2
+0	547	1849	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1849		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	547	1853	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1853		brtst 5, __ASM_Label_1107, __D0main
+0	547	1856	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1856		mov __signed_stack_001main, temp_cor
+0	547	1858	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	547	1858	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1858		set __D0main, 5
+0	547	1861	#line 547 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	548	1861		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	550	1865	#line 550 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	551	1865		brtst 4, __ASM_Label_1114, __D0main
+0	551	1868	#line 551 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	552	1868		mov estado_braco, zerar
+0	551	1870	#line 551 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	551	1870	#line 551 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	553	1870	#line 553 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	554	1870		set subestado_braco_zerar, 0
+0	553	1873	#line 553 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	553	1873	#line 553 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	554	1873	#line 554 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	555	1873		jmp __ASM_Label_1119
+0	555	1875	#line 555 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	556	1875		set __D0main, 0
+0	557	1878	#line 557 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	558	1878		tst 5, __D0main, __D0main
+0	557	1881	#line 557 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	558	1881		brtst 4, __ASM_Label_1122, __D0main
+0	559	1884	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	560	1884		mov estado_braco, recusar
+0	559	1886	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	559	1886	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	559	1886	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	560	1886		mov __unsigned_stack_001main, estado_rodas
+0	559	1888	#line 559 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	560	1888	#line 560 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	561	1888		mov __DU0main, linha
+0	560	1890	#line 560 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	561	1890		cmp 4, __D0main, __unsigned_stack_001main, __DU0main
+0	561	1894	#line 561 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	562	1894		brtst 4, __ASM_Label_1127, __D0main
+0	562	1897	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	563	1897		mov estado_rodas, deboa
+0	562	1899	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	562	1899	#line 562 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	564	1899	#line 564 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	564	1899	#line 564 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	565	1899		getout __signed_stack_001main, __constVal1, 4
+0	564	1903	#line 564 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	565	1903	#line 565 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	566	1903		set __D0main, 0
+0	565	1906	#line 565 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	566	1906		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	566	1910	#line 566 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	567	1910		brtst 4, __ASM_Label_1131, __D0main
+0	567	1913	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	568	1913	#pragma macro 7
+0	568	1913		setout __constVal1, 0, __constVal8
+0	8955	1918	#line 8955 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	567	1918	#line 567 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	568	1918	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	569	1918		jmp __ASM_Label_1130
+0	568	1920	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	568	1920	#line 568 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	569	1920		set __D0main, 80
+0	569	1923	#line 569 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	570	1923	#pragma macro 7
+0	570	1923		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8964	1946	#line 8964 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	569	1946	#line 569 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	574	1946	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	574	1946	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	574	1946	#line 574 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	575	1946	#line 575 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	576	1946		mov __DU0main, estado_braco
+0	579	1948		brcmp 4, __ASM_Label_1139, __constVal0, __DU0main
+0	580	1952		brcmp 4, __ASM_Label_1196, __constVal1, __DU0main
+0	581	1956		brcmp 4, __ASM_Label_1209, __constVal2, __DU0main
+0	582	1960		brcmp 4, __ASM_Label_1210, __constVal3, __DU0main
+0	583	1964		brcmp 4, __ASM_Label_1220, __constVal4, __DU0main
+0	584	1968		jmp __ASM_Label_1138
+0	577	1970	#line 577 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	578	1970		jmp __ASM_Label_1138
+0	577	1972	#line 577 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	578	1972	#line 578 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	580	1972	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	581	1972		set espera, 1
+0	580	1975	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	580	1975	#line 580 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	581	1975	#line 581 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	582	1975		mov __D0main, subestado_braco_zerar
+0	585	1977		brcmp 4, __ASM_Label_1145, __constVal0, __D0main
+0	586	1981		brcmp 4, __ASM_Label_1166, __constVal1, __D0main
+0	587	1985		brcmp 4, __ASM_Label_1186, __constVal2, __D0main
+0	588	1989		jmp __ASM_Label_1144
+0	583	1991	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	583	1991	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	584	1991		getout __signed_stack_001main, __constVal1, 4
+0	583	1995	#line 583 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	584	1995	#line 584 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	585	1995		set __D0main, 0
+0	584	1998	#line 584 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	585	1998		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	585	2002	#line 585 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	586	2002		brtst 4, __ASM_Label_1147, __D0main
+0	586	2005	#line 586 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	587	2005	#pragma macro 7
+0	587	2005		setout __constVal1, 0, __constVal8
+0	9018	2010	#line 9018 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	586	2010	#line 586 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	587	2010	#line 587 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	588	2010		jmp __ASM_Label_1146
+0	587	2012	#line 587 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	587	2012	#line 587 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	588	2012		mov __D0main, __constValNeg70
+0	588	2014	#line 588 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	589	2014	#pragma macro 7
+0	589	2014		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9027	2037	#line 9027 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	588	2037	#line 588 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	589	2037	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	590	2037		getout my_tc_b, __constVal1, 4
+0	589	2041	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	589	2041	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	589	2041	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	590	2041		mov __signed_stack_001main, my_tc_b
+0	589	2043	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	589	2043	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	590	2043		getout __D0main, __constVal1, 4
+0	589	2047	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	590	2047		cmp 4, __D0main, __signed_stack_001main, __D0main
+0	589	2051	#line 589 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	590	2051		brtst 4, __ASM_Label_1155, __D0main
+0	590	2054	#line 590 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	591	2054		jmp __ASM_Label_1154
+0	590	2056	#line 590 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	591	2056	#line 591 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	592	2056		set subestado_braco_zerar, 1
+0	591	2059	#line 591 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	591	2059	#line 591 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	591	2059	#line 591 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	592	2059		gettick time_temp
+0	591	2061	#line 591 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	591	2061	#line 591 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	591	2061	#line 591 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	593	2061	#line 593 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	594	2061		mov my_old_tc_b, my_tc_b
+0	593	2063	#line 593 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	593	2063	#line 593 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	594	2063	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	595	2063		getout my_tc_b, __constVal1, 4
+0	594	2067	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	594	2067	#line 594 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	595	2067	#line 595 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	596	2067		jmp __ASM_Label_1144
+0	595	2069	#line 595 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	596	2069	#line 596 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	596	2069	#line 596 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	597	2069		gettick __unsigned_stack_001main
+0	596	2071	#line 596 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	596	2071	#line 596 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	596	2071	#line 596 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	597	2071		sub __unsigned_stack_001main, __unsigned_stack_001main, time_temp
+0	596	2075	#line 596 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	597	2075	#line 597 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	598	2075		set __D0main, 50
+0	597	2078	#line 597 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	598	2078		cmp 1, __D0main, __unsigned_stack_001main, __D0main
+0	599	2082	#line 599 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	600	2082		brtst 4, __ASM_Label_1171, __D0main
+0	600	2085	#line 600 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	601	2085		mov my_old_tc_b, my_tc_b
+0	600	2087	#line 600 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	600	2087	#line 600 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	601	2087	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	602	2087		getout my_tc_b, __constVal1, 4
+0	601	2091	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	601	2091	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	601	2091	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	602	2091		mov __signed_stack_001main, my_old_tc_b
+0	601	2093	#line 601 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	602	2093	#line 602 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	603	2093		mov __D0main, my_tc_b
+0	602	2095	#line 602 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	603	2095		cmp 5, __D0main, __signed_stack_001main, __D0main
+0	603	2099	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	604	2099		brtst 4, __ASM_Label_1178, __D0main
+0	603	2102	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	604	2102		gettick time_temp
+0	603	2104	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	603	2104	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	603	2104	#line 603 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	611	2104	#line 611 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	612	2104		jmp __ASM_Label_1181
+0	612	2106	#line 612 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	613	2106	#pragma macro 7
+0	613	2106		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9151	2129	#line 9151 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	612	2129	#line 612 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	613	2129	#line 613 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	614	2129		set subestado_braco_zerar, 2
+0	613	2132	#line 613 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	613	2132	#line 613 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	613	2132	#line 613 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	614	2132		gettick time_temp
+0	613	2134	#line 613 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	613	2134	#line 613 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	613	2134	#line 613 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	616	2134	#line 616 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	616	2134	#line 616 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	617	2134	#line 617 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	618	2134		jmp __ASM_Label_1144
+0	617	2136	#line 617 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	618	2136	#line 618 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	618	2136	#line 618 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	619	2136		gettick __unsigned_stack_001main
+0	618	2138	#line 618 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	618	2138	#line 618 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	618	2138	#line 618 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	619	2138		sub __unsigned_stack_001main, __unsigned_stack_001main, time_temp
+0	618	2142	#line 618 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	619	2142	#line 619 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	620	2142		set __D0main, 300
+0	619	2145	#line 619 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	620	2145		cmp 1, __D0main, __unsigned_stack_001main, __D0main
+0	625	2149	#line 625 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	626	2149		brtst 4, __ASM_Label_1191, __D0main
+0	625	2152	#line 625 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	626	2152		set __D0main, 70
+0	626	2155	#line 626 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	627	2155	#pragma macro 7
+0	627	2155		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9202	2178	#line 9202 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	626	2178	#line 626 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	627	2178	#line 627 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	628	2178		mov estado_braco, setar
+0	627	2180	#line 627 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	627	2180	#line 627 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	628	2180	#line 628 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	629	2180	#line 629 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	629	2180	#line 629 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	630	2180	#line 630 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	631	2180	#line 631 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	632	2180		jmp __ASM_Label_1138
+0	631	2182	#line 631 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	632	2182	#line 632 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	632	2182	#line 632 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	633	2182		getout __signed_stack_001main, __constVal1, 4
+0	632	2186	#line 632 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	633	2186	#line 633 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	634	2186		set __D0main, 29
+0	633	2189	#line 633 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	634	2189		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	634	2193	#line 634 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	635	2193		brtst 4, __ASM_Label_1199, __D0main
+0	635	2196	#line 635 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	636	2196	#pragma macro 7
+0	636	2196		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9238	2219	#line 9238 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	635	2219	#line 635 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	636	2219	#line 636 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	637	2219		mov estado_braco, parado
+0	636	2221	#line 636 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	636	2221	#line 636 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	637	2221	#line 637 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	638	2221		set espera, 0
+0	637	2224	#line 637 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	637	2224	#line 637 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	637	2224	#line 637 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	638	2224		mov __unsigned_stack_001main, estado_rodas
+0	637	2226	#line 637 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	638	2226	#line 638 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	639	2226		mov __DU0main, deboa
+0	638	2228	#line 638 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	639	2228		cmp 4, __D0main, __unsigned_stack_001main, __DU0main
+0	639	2232	#line 639 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	640	2232		brtst 4, __ASM_Label_1206, __D0main
+0	640	2235	#line 640 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	641	2235		mov estado_rodas, linha
+0	640	2237	#line 640 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	640	2237	#line 640 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	642	2237	#line 642 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	642	2237	#line 642 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	643	2237	#line 643 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	644	2237		jmp __ASM_Label_1138
+0	643	2239	#line 643 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	645	2239	#line 645 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	646	2239	#line 646 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	647	2239		jmp __ASM_Label_1138
+0	646	2241	#line 646 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	647	2241	#line 647 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	647	2241	#line 647 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	648	2241		getout __signed_stack_001main, __constVal1, 4
+0	647	2245	#line 647 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	648	2245	#line 648 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	649	2245		set __D0main, 30
+0	648	2248	#line 648 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	649	2248		cmp 3, __D0main, __signed_stack_001main, __D0main
+0	649	2252	#line 649 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	650	2252		brtst 4, __ASM_Label_1213, __D0main
+0	650	2255	#line 650 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	651	2255		mov estado_braco, zerar
+0	650	2257	#line 650 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	650	2257	#line 650 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	651	2257	#line 651 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	652	2257		set subestado_braco_zerar, 0
+0	651	2260	#line 651 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	651	2260	#line 651 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	651	2260	#line 651 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	652	2260		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	651	2263	#line 651 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	8551	2263	#line 8551 "NXCDefs.h"
+0	8552	2263		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8551	2265	#line 8551 "NXCDefs.h"
+0	652	2265	#line 652 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	653	2265	#line 653 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	654	2265	#line 654 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	655	2265		jmp __ASM_Label_1138
+0	654	2267	#line 654 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	655	2267	#line 655 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	656	2267	#line 656 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	657	2267	#pragma macro 7
+0	657	2267		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9329	2290	#line 9329 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	656	2290	#line 656 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	658	2290	#line 658 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	658	2290	#line 658 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	664	2290	#line 664 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	665	2290	#line 665 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	666	2290		mov __DU0main, andar
+0	669	2292		brcmp 4, __ASM_Label_1224, __constVal0, __DU0main
+0	670	2296		brcmp 4, __ASM_Label_1233, __constVal1, __DU0main
+0	671	2300		brcmp 4, __ASM_Label_1238, __constVal2, __DU0main
+0	672	2304		brcmp 4, __ASM_Label_1243, __constVal3, __DU0main
+0	673	2308		brcmp 4, __ASM_Label_1248, __constVal4, __DU0main
+0	674	2312		brcmp 4, __ASM_Label_1253, __constVal5, __DU0main
+0	675	2316		brcmp 4, __ASM_Label_1258, __constVal6, __DU0main
+0	676	2320		jmp __ASM_Label_1223
+0	668	2322	#line 668 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	669	2322	#line 669 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	670	2322		set my_tc_d, 0
+0	669	2325	#line 669 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	669	2325	#line 669 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	670	2325	#line 670 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	671	2325		set my_tc_e, 0
+0	670	2328	#line 670 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	670	2328	#line 670 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	671	2328	#line 671 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	672	2328	#pragma macro 7
+0	672	2328		setout __constVal2, 0, __constVal8
+0	9361	2333	#line 9361 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	671	2333	#line 671 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	672	2333	#line 672 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	673	2333	#pragma macro 7
+0	673	2333		setout __constVal0, 0, __constVal8
+0	9364	2338	#line 9364 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	672	2338	#line 672 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	672	2338	#line 672 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	673	2338		set __D0main, 0
+0	673	2341	#line 673 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	674	2341	#pragma macro 7
+0	674	2341		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9369	2364	#line 9369 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	673	2364	#line 673 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	673	2364	#line 673 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	674	2364		set __D0main, 0
+0	674	2367	#line 674 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	675	2367	#pragma macro 7
+0	675	2367		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9374	2390	#line 9374 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	674	2390	#line 674 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	675	2390	#line 675 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	676	2390		jmp __ASM_Label_1223
+0	675	2392	#line 675 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	677	2392	#line 677 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	677	2392	#line 677 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	678	2392		set __signed_stack_001main, 0
+0	677	2395	#line 677 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	678	2395	#line 678 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	679	2395		mov __D0main, potmax
+0	678	2397	#line 678 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	679	2397		sub pote, __signed_stack_001main, __D0main
+0	678	2401	#line 678 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	678	2401	#line 678 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	678	2401	#line 678 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	679	2401		set __signed_stack_001main, 0
+0	678	2404	#line 678 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	679	2404	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	680	2404		mov __D0main, potmax
+0	679	2406	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	680	2406		sub potd, __signed_stack_001main, __D0main
+0	679	2410	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	679	2410	#line 679 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	680	2410	#line 680 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	681	2410		jmp __ASM_Label_1223
+0	680	2412	#line 680 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	681	2412	#line 681 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	681	2412	#line 681 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	682	2412		set __signed_stack_001main, 0
+0	681	2415	#line 681 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	682	2415	#line 682 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	683	2415		mov __D0main, potmax
+0	682	2417	#line 682 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	683	2417		sub pote, __signed_stack_001main, __D0main
+0	682	2421	#line 682 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	682	2421	#line 682 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	683	2421	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	684	2421		set potd, 0
+0	683	2424	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	683	2424	#line 683 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	684	2424	#line 684 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	685	2424		jmp __ASM_Label_1223
+0	684	2426	#line 684 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	685	2426	#line 685 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	685	2426	#line 685 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	686	2426		set __signed_stack_001main, 0
+0	685	2429	#line 685 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	686	2429	#line 686 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	687	2429		mov __D0main, potmax
+0	686	2431	#line 686 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	687	2431		sub pote, __signed_stack_001main, __D0main
+0	686	2435	#line 686 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	686	2435	#line 686 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	687	2435	#line 687 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	688	2435		mov potd, potmax
+0	687	2437	#line 687 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	687	2437	#line 687 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	688	2437	#line 688 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	689	2437		jmp __ASM_Label_1223
+0	688	2439	#line 688 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	689	2439	#line 689 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	690	2439	#line 690 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	691	2439		set pote, 0
+0	690	2442	#line 690 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	690	2442	#line 690 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	690	2442	#line 690 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	691	2442		set __signed_stack_001main, 0
+0	690	2445	#line 690 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	691	2445	#line 691 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	692	2445		mov __D0main, potmax
+0	691	2447	#line 691 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	692	2447		sub potd, __signed_stack_001main, __D0main
+0	691	2451	#line 691 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	691	2451	#line 691 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	692	2451	#line 692 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	693	2451		jmp __ASM_Label_1223
+0	692	2453	#line 692 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	693	2453	#line 693 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	694	2453	#line 694 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	695	2453		mov pote, potmax
+0	694	2455	#line 694 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	694	2455	#line 694 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	694	2455	#line 694 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	695	2455		set __signed_stack_001main, 0
+0	694	2458	#line 694 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	695	2458	#line 695 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	696	2458		mov __D0main, potmax
+0	695	2460	#line 695 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	696	2460		sub potd, __signed_stack_001main, __D0main
+0	695	2464	#line 695 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	695	2464	#line 695 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	696	2464	#line 696 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	697	2464		jmp __ASM_Label_1223
+0	696	2466	#line 696 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	697	2466	#line 697 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	697	2466	#line 697 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	698	2466		mov __signed_stack_001main, potmax
+0	697	2468	#line 697 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	698	2468	#line 698 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	699	2468		set __D0main, 2
+0	698	2471	#line 698 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	699	2471		div pote, __signed_stack_001main, __D0main
+0	698	2475	#line 698 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	698	2475	#line 698 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	698	2475	#line 698 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	699	2475		mov __signed_stack_001main, potmax
+0	698	2477	#line 698 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	699	2477	#line 699 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	700	2477		set __D0main, 2
+0	699	2480	#line 699 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	700	2480		div potd, __signed_stack_001main, __D0main
+0	699	2484	#line 699 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	699	2484	#line 699 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	700	2484	#line 700 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	700	2484	#line 700 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	704	2484	#line 704 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	705	2484	#line 705 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	706	2484		getout __D0main, __constVal2, 4
+0	705	2488	#line 705 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	706	2488		add my_tc_d, my_tc_d, __D0main
+0	705	2492	#line 705 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	707	2492	#line 707 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	708	2492		getout __D0main, __constVal0, 4
+0	707	2496	#line 707 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	708	2496		add my_tc_e, my_tc_e, __D0main
+0	707	2500	#line 707 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	707	2500	#line 707 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	708	2500		mov __D0main, pote
+0	708	2502	#line 708 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	709	2502	#pragma macro 7
+0	709	2502		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9574	2525	#line 9574 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	708	2525	#line 708 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	708	2525	#line 708 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	709	2525		mov __D0main, potd
+0	709	2527	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	710	2527	#pragma macro 7
+0	710	2527		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9581	2550	#line 9581 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	709	2550	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	709	2550	#line 709 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	710	2550		mov __D0main, pote
+0	710	2552	#line 710 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	711	2552	#pragma macro 7
+0	711	2552		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9588	2575	#line 9588 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	710	2575	#line 710 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	710	2575	#line 710 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	711	2575		mov __D0main, potd
+0	711	2577	#line 711 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	712	2577	#pragma macro 7
+0	712	2577		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9595	2600	#line 9595 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	711	2600	#line 711 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	711	2600	#line 711 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	712	2600		mov __D0main, pote
+0	712	2602	#line 712 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	713	2602	#pragma macro 7
+0	713	2602		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9602	2625	#line 9602 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	712	2625	#line 712 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	712	2625	#line 712 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	713	2625		mov __D0main, potd
+0	713	2627	#line 713 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	714	2627	#pragma macro 7
+0	714	2627		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	9609	2650	#line 9609 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	713	2650	#line 713 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	717	2650	#line 717 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	718	2650		jmp __ASM_Label_620
+0	717	2652	#line 717 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+0	718	2652		exit -1, -1
+1	5476	0		setin __constVal1, __ResetSensorPort, 5
+1	5478	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5479	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5480	11		subret ____ResetSensorSubroutine_return
+2	719	0	#line 719 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	720	0		set __signed_stack_001ang2line, 1142
+2	719	3	#line 719 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	719	3	#line 719 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	720	3		mov __D0ang2line, __ang2line_7qG2_ang_7qG2_000
+2	719	5	#line 719 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	720	5		mul __signed_stack_001ang2line, __signed_stack_001ang2line, __D0ang2line
+2	719	9	#line 719 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	719	9	#line 719 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	720	9		set __D0ang2line, 360
+2	719	12	#line 719 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	720	12		div __D0ang2line, __signed_stack_001ang2line, __D0ang2line
+2	720	16	#line 720 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	721	16		subret __ang2line_return
+2	720	18	#line 720 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	723	18	#line 723 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+2	724	18		subret __ang2line_return
+3	724	0	#line 724 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+3	724	0	#line 724 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+3	725	0		arrinit __vetor_calibragem0_2, __constVal0, __constVal200
+3	724	4	#line 724 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+3	725	4		arrinit vetor_calibragem0, __vetor_calibragem0_2, __constVal3
+3	724	8	#line 724 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+3	724	8	#line 724 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+3	725	8		arrinit __vetor_calibragem1_2, __constVal0, __constVal200
+3	724	12	#line 724 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+3	725	12		arrinit vetor_calibragem1, __vetor_calibragem1_2, __constVal3
+3	724	16	#line 724 "C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc"
+3	725	16		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc
+1	__ResetSensorSubroutine	2655	NXTDefs.h
+2	ang2line	2668	C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc
+3	__initialize_global_data	2688	C:\Users\luan\OneDrive\Droid\competicao_interna\esperanca.nxc
