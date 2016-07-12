@@ -89,7 +89,8 @@ enum type_estado_rodas{                 //maquina de estado principal das rodas
      calibrando,                        //estado para calibrar os valores dos sensores
      ir_centro,                         //função para ir para o centro o mais rápido possível
      linha,                             //estado para seguir a linha
-     deboa                              //estado adepito do diboísmo
+     deboa,                              //estado adepito do diboísmo
+     emergencia
 };
 enum type_estado_linha{                 //sub maquina de estado para seguir a linha
      fr, fr2,                           //frente
@@ -140,6 +141,7 @@ int my_tc_e;
 int my_tc_b;
 int espera = 0;
 int flag_re;
+int cont_emergencia;
 
 //****************************************************************************************************************
 int debug = 0;
@@ -161,6 +163,7 @@ int branco_d, preto_d, cinza_d, branco_e, preto_e, cinza_e, faixa_d, faixa_e;//v
 //auxiliares
 unsigned long time_temp;
 int temp_cor;
+int temp_US;
 
 /*Declaração das funções*/
 int ang2line(int ang);//função que recebe uma variação angular das rodas e retornar a distancia percorrida em unidades de 10^(-7) metros
@@ -184,9 +187,20 @@ task  main()
  SetSensorLight(LSD);//sensor de luz direito
  SetSensorLight(LSE);//sensor de luz esquerdo
  SetSensorColorFull(RGB);//sensor de cor RGB
+ SetSensorTouch(US);
 
  while(true)//void loop
  {
+
+  ///SEGURANÇA PARA ECONTRO COM OUTRO ROBO
+
+  if(SENSOR_4 == 1)
+  {
+   my_tc_d = 0;
+   estado_rodas = emergencia;
+   andar = andar_re;
+  }
+
 
   /*maquina estado do bloco de locamoção*/
   switch(estado_rodas) //switch da máquina de estados principal
@@ -374,7 +388,7 @@ task  main()
         temp_l_d =  Sensor(LSD);
         temp_l_e =  Sensor(LSE);
 
-        if((temp_l_d < cinza_d - faixa_d) && (temp_l_e < cinza_e - faixa_e))
+        if((temp_l_d < cinza_d + faixa_d) && (temp_l_e < cinza_e + faixa_e))
           {
              estado_linha = re;   //ESTOU MEXENDO AQUI##############################ESTOU MEXENDO AQUI##############################ESTOU MEXENDO AQUI##############################
              flag_re = 1;
@@ -476,6 +490,16 @@ task  main()
    case deboa:
         //faz nada, fica só de boa
         Off(MDE);
+   break;
+   case emergencia:
+       if(ang2line(my_tc_d) >= 2000)
+       {
+        //Off(MDE);
+        //pote = 0;
+        //potd = 0;
+        estado_rodas = deboa;
+        andar = nao;
+       }
    break;
   }
   /*checando a cor da bolinha*/
